@@ -50,11 +50,11 @@ The short version: you'll have direct exposure to the people in this community, 
 
 Your sponsorship enables us to set fair ticket prices and support attendees travelling long distances or those with other needs requiring support. Our community is diverse and inclusive - sponsorship funding directly empowers us to help others.
 
-The longer version: check out our Sponsors page [here](/sponsor/).
+The longer version: check out our [Sponsors page](/sponsor/).
 
 ### Who runs FOSS4G SotM Oceania?
 
-In line with the ethos of the OSGeo and OpenStreetMap communities, the conference is organised by a group of passionate volunteers all who are experienced geospatial practitioners and community mappers committed to the goals of both their respective international foundations. See our Committee and Contributors page [here](/team/).
+In line with the ethos of the OSGeo and OpenStreetMap communities, the conference is organised by a group of passionate volunteers all who are experienced geospatial practitioners and community mappers committed to the goals of both their respective international foundations. See our [Committee and Contributors page](/team/).
 
 ### What else is there to know?
 
