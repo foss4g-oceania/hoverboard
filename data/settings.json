@@ -63,58 +63,58 @@
       "title": "Blog",
       "metaDescription": "Read stories from our team",
       "background": {
-        "color": "#EF4B39"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#EEE2DD"
     },
     "speakers": {
       "title": "Speakers",
       "metaDescription": "Check back often as more speakers are confirmed.",
       "description": "Check back often as more speakers are confirmed.",
       "background": {
-        "color": "#F2DEDE"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#EEE2DD"
     },
     "previousSpeakers": {
       "title": "Previous Speakers",
       "metaDescription": "Check out who was with us last year",
       "background": {
-        "color": "#F2DEDE"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#EEE2DD"
     },
     "schedule": {
       "title": "Schedule",
       "metaDescription": "Pick the sessions you're interested in",
       "background": {
-        "color": "#FFF"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#EEE2DD"
     },
     "team": {
-      "title": "Team",
+      "title": "Organisers & Contributors",
       "metaDescription": "Get more info about the organisers",
       "background": {
-        "color": "#5AAFE1"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#EEE2DD"
     },
     "attend": {
       "title": "Attend",
       "metaDescription": "Information about attending the conference",
       "background": {
-        "color": "#884F9A"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#EEE2DD"
     },
     "faq": {
       "title": "FAQs",
       "metaDescription": "Questions? We got answers.",
       "background": {
-        "color": "#F2DEDE"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#EEE2DD"
     },
     "cod": {
       "title": "Code Of Conduct",
@@ -145,9 +145,9 @@
       "title": "Sponsorship Prospectus",
       "metaDescription": "Learn more about the benefits of sponsoring this conference",
       "background": {
-        "color": "#F7B5C1"
+        "color": "#414141"
       },
-      "fontColor": "#424242",
+      "fontColor": "#EEE2DD",
       "deck_url": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing"
     }
   },
