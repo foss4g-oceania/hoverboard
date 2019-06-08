@@ -100,7 +100,8 @@
       "featuredSessions": {
         "description": "In 2018, Oceania's open-source geospatial experts gathered in Melbourne for four days of workshops, presentations, a Community Day, and social events.",
         "label": "Explore the presentations",
-        "link": "https://www.youtube.com/channel/UCbqmnF77HxLCmO9d7LrEbpg/videos"
+        "link": "https://www.youtube.com/channel/UCbqmnF77HxLCmO9d7LrEbpg/videos",
+        "newTab": true
       },
       "howItWas": {
         "description": "We had great lightning talks on a variety of topics.",
@@ -166,7 +167,8 @@
     "title": "FOSS4G SotM Oceania 2018 videos",
     "callToAction": {
       "label": "Go to the channel",
-      "link": "https://www.youtube.com/channel/UCbqmnF77HxLCmO9d7LrEbpg/videos"
+      "link": "https://www.youtube.com/channel/UCbqmnF77HxLCmO9d7LrEbpg/videos",
+      "newTab": true
     }
   },
   "blog": {
@@ -196,7 +198,8 @@
     "title": "Previous speakers",
     "callToAction": {
       "label": "View all",
-      "link": "https://2018.foss4g-oceania.org/program/presentations.html"
+      "link": "https://2018.foss4g-oceania.org/program/presentations.html",
+      "newTab": true
     }
   },
   "galleryBlock": {
@@ -204,7 +207,8 @@
     "description": "Last year's gathering built lots of excitement. Check out photos from featured talks, our Community Day, and socialising.",
     "callToAction": {
       "label": "See submitted photos",
-      "link": "https://2018.foss4g-oceania.org/photos.html"
+      "link": "https://2018.foss4g-oceania.org/photos.html",
+      "newTab": true
     }
   },
   "mapBlock": {
