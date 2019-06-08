@@ -127,6 +127,22 @@
       }
     }
   },
+  "importantLinksBlock": {
+    "title": "Here's the latest...",
+    "callToAction": {
+      "newsItemOne": {
+        "description": "We've announced our Travel Grant Program! If you need financial assistance, apply now.",
+        "label": "Full details",
+        "link": "/tgp"
+      },
+      "newsItemTwo": {
+        "description": "We're looking for sponsors - please get in touch if you'd like to support us.",
+        "label": "Our sponsorship prospectus",
+        "link": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing",
+        "newTab": true
+      }
+    }
+  },
   "ticketsBlock": {
     "title": "Tickets",
     "ticketsDetails": "Tickets grant access to all conference sections, and include nibbles. Accommodation is NOT included in the ticket price and is your responsibility. Availability dates and ticket types are preliminary, and may be subject to change.",
