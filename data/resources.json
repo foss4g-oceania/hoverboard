@@ -259,6 +259,42 @@
       "title": "Open"
     }
   },
+  "tgpStubBlock": {
+    "blocks": [
+      {
+        "title": "Travel Grant Program",
+        "description": "If you need financial assistance to get to the conference...",
+        "callToAction": {
+          "label": "Find out more",
+          "link": "/tgp"
+        }
+      }
+    ]
+  },
+  "childFriendlyStubBlock": {
+    "blocks": [
+      {
+        "title": "We're a child friendly conference",
+        "description": "We have a child-friendly policy...",
+        "callToAction": {
+          "label": "Our child-friendly policy",
+          "link": "/child-friendly"
+        }
+      }
+    ]
+  },
+  "codeOfConductStubBlock": {
+    "blocks": [
+      {
+        "title": "Code of Conduct",
+        "description": "We have a code of conduct...",
+        "callToAction": {
+          "label": "Our code of conduct",
+          "link": "/cod"
+        }
+      }
+    ]
+  },
   "aboutVenuesBlock": {
     "image": "https://images.ctfassets.net/n3p1o4aq7k6m/4PIT895ktkxEqN9yO7T07o/18d11a5484f9607f0b9b74da0a35c7b8/tiakiwai-auditorium-facing-stage.jpg",
     "blocks": [
