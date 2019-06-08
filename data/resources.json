@@ -243,23 +243,24 @@
       "title": "Open"
     }
   },
-  "aboutOrganizerBlock": {
-    "image": "/images/team.jpg",
+  "aboutVenuesBlock": {
+    "image": "https://images.ctfassets.net/n3p1o4aq7k6m/4PIT895ktkxEqN9yO7T07o/18d11a5484f9607f0b9b74da0a35c7b8/tiakiwai-auditorium-facing-stage.jpg",
     "blocks": [
       {
-        "title": "Organiser",
-        "description": "OSGeo Oceania is a recently-created non-profit organisation, and the proud organiser of the FOSS4G SotM Oceania conference series.",
+        "title": "Tiakiwai Conference Centre",
+        "description": "Our conference venue is an event destination cloaked in history, knowledge, and cultural significance. Featuring contemporary design, cutting-edge technology and multipurpose spaces, it's a great place to host our next edition of FOSS4G SotM Oceania.",
         "callToAction": {
-          "label": "Open team page",
-          "link": "/team"
+          "label": "The National Library of New Zealand",
+          "link": "https://natlib.govt.nz/",
+          "newTab": true
         }
       },
       {
-        "title": "What are FOSS4G, SotM and OSGeo?",
-        "description": "Free and Open Source Software for Geospatial (FOSS4G), is an annual global event hosted by the Open Source Geospatial Foundation (OSGeo) since 2006, with the origins going back to the GRASS and MapServer communities. OSGeo is a not-for-profit organization whose mission is to support and promote the collaborative development of open geospatial technologies and data.<br/><br/>State of the Map (SotM) is the annual international conference of OpenStreetMap, organised by the OpenStreetMap Foundation. Our regional SotM is organised separately.",
+        "title": "Rutherford House",
+        "description": "Rutherford House is part of Victoria University of Wellington's Pipitea Campus. Our workshop and community day rooms are modern teaching spaces in an annexe built in 2017, with a large mezzanine for breaks and networking.",
         "callToAction": {
-          "label": "Read more about OSGeo",
-          "link": "http://www.osgeo.org/about/",
+          "label": "VUW Pipitea Campus",
+          "link": "https://www.victoria.ac.nz/about/explore-victoria/campuses/pipitea",
           "newTab": true
         }
       }

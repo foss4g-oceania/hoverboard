@@ -8,7 +8,7 @@
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="hoverboard-icons.html">
 
-<dom-module id="about-organizer-block">
+<dom-module id="about-venues-block">
   <template>
     <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
 
@@ -60,7 +60,7 @@
         >
           <plastic-image
             class="organizers-photo card"
-            srcset="{$ aboutOrganizerBlock.image $}"
+            srcset="{$ aboutVenuesBlock.image $}"
             sizing="cover"
             lazy-load preload fade
           ></plastic-image>
@@ -68,7 +68,7 @@
       </div>
 
       <div class="description-block" flex>
-        {% for block in aboutOrganizerBlock.blocks %}
+        {% for block in aboutVenuesBlock.blocks %}
         <div class="block">
           <h2>{$ block.title $}</h2>
 
@@ -93,9 +93,9 @@
   </template>
 
   <script>
-    class AboutOrganizerBlock extends ReduxMixin(Polymer.Element) {
+    class AboutVenuesBlock extends ReduxMixin(Polymer.Element) {
       static get is() {
-        return 'about-organizer-block';
+        return 'about-venues-block';
       }
 
       static get properties() {
@@ -108,6 +108,6 @@
       }
     }
 
-    customElements.define(AboutOrganizerBlock.is, AboutOrganizerBlock);
+    customElements.define(AboutVenuesBlock.is, AboutVenuesBlock);
   </script>
 </dom-module>
