@@ -267,7 +267,7 @@
     "blocks": [
       {
         "title": "Travel Grant Program",
-        "description": "We're pleased to announce our Travel Grant Program for 2019! Applications are open until 30 June. If you (or someone you know) live in Oceania and require financial assistance to attend the conference, please check out our Travel Grant Program page for more details.\n\n\nAlso, if you or your organisation wish to contribute to this important initiative, please get in touch at tgp@foss4g-oceania.org. The program is built on financial support from OSGeo and conference sponsors and attendees, and 100% of your contribution will go directly to assisting people from around our region to attend.",
+        "description": "<p>We're pleased to announce our Travel Grant Program for 2019! Applications are open until 30 June. If you (or someone you know) live in Oceania and require financial assistance to attend the conference, please check out our <a href='/tgp'>Travel Grant Program page</a> for more details.</p><p>Also, if you or your organisation wish to contribute to this important initiative, please get in touch at tgp@foss4g-oceania.org. The program is built on financial support from OSGeo and conference sponsors and attendees, and 100% of your contribution will go directly to assisting people from around our region to attend.</p>",
         "callToAction": {
           "label": "Find out more",
           "link": "/tgp"
