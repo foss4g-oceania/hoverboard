@@ -1,4 +1,4 @@
-FOSS4G SotM Oceania offers a Travel Grant Program (similar to the [OSGeo TGP](https://www.osgeo.org/initiatives/foss4g-travel-grant-program/)) aimed at increasing the diversity, accessibility, and reach of the conference. We want to support worthy recipients who are interested in gaining in-depth insight into development and application of open-source geospatial software and are committed to making an impact in their home country, given the opportunity provided.
+FOSS4G SotM Oceania offers a Travel Grant Program (similar to the [OSGeo TGP](https://www.osgeo.org/initiatives/foss4g-travel-grant-program/)) aimed at increasing the diversity, accessibility, and reach of the conference. We want to support worthy recipients who are interested in gaining in-depth insight into development and application of open source geospatial software and are committed to making an impact in their home country, given the opportunity provided.
 
 ### What we are looking for:
 
