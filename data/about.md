@@ -61,4 +61,4 @@ See our Committee and Contributors page [here](/team/).
 ### What else is there to know?
 
 - Our conference aims to be **child friendly**. Are you a parent or caregiver and interested in what we will do to support your attendance? Then read more about this [**here**](/child-friendly/).
-- We have a **travel assistance** programme. Are you worried that Wellington is too far (too expensive) to attend, but still have a burning desire to be there? Then read on [**here**](/tgp/).
+- We have a **travel assistance** program. Are you worried that Wellington is too far (too expensive) to attend, but still have a burning desire to be there? Then read on [**here**](/tgp/).
