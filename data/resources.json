@@ -100,13 +100,14 @@
       "featuredSessions": {
         "description": "In 2018, Oceania's open-source geospatial experts gathered in Melbourne for four days of workshops, presentations, a Community Day, and social events.",
         "label": "Explore the presentations",
-        "link": "https://www.youtube.com/channel/UCbqmnF77HxLCmO9d7LrEbpg/videos",
+        "link": "https://2018.foss4g-oceania.org/program/presentations.html",
         "newTab": true
       },
       "howItWas": {
-        "description": "We had great lightning talks on a variety of topics.",
-        "label": "Watch it here",
-        "youtubeId": "WPJC0VDceMk"
+        "description": "We had great half day workshops on a variety of topics.",
+        "label": "See last years workshops",
+        "link": "https://2018.foss4g-oceania.org/program/workshops.html",
+        "newTab": true
       }
     },
     "statisticsBlock": {
@@ -230,6 +231,14 @@
     "close": "Close",
     "generalError": "Some error has occured. Please try again later.",
     "toast": "Successfully subscribed!"
+  },
+  "prospectusLinksBlock": {
+    "callToAction": {
+      "description": "View our prospectus as a slide deck",
+      "label": "View our prospectus as a slide deck",
+      "link": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing",
+      "newTab": true
+    }
   },
   "team": {
     "description": "In line with the ethos of the OSGeo and OpenStreetMap communities, the FOSS4G SotM Oceania 2019 organising committee is made up of experienced geospatial enthusiasts from scientific, business, humanitarian, and government sectors."
