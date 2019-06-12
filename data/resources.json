@@ -1,6 +1,6 @@
 {
   "title": "FOSS4G SotM Oceania 2019",
-  "description": "Free and Open Source Software for Geospatial",
+  "description": "Free and Open Source Software for Geospatial / State of the Map Oceania 2019",
   "image": "images/social-share.jpg",
   "keywords": "event, gis, openstreetmap, open-source, geospatial, software, developers",
   "dates": "November 12-15, 2019.",
@@ -41,7 +41,7 @@
       "title": "About",
       "links": [
         {
-          "name": "Open Source Geospatial Foundation (OSGEO)",
+          "name": "Open Source Geospatial Foundation (OSGeo)",
           "url": "https://www.osgeo.org/",
           "newTab": true
         },
@@ -159,7 +159,7 @@
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Sponsors",
+    "title": "Our sponsors",
     "button": "Become a sponsor",
     "email": "mailto:sponsorship@foss4g-oceania.org?subject=Sponsorship%20proposition",
     "form": {
@@ -185,8 +185,8 @@
   "latestPostsBlock": {
     "title": "The latest news",
     "callToAction": {
-      "label": "Read the blog",
-      "link": "/blog/"
+      "label": "Read the latest news",
+      "link": "/news/"
     }
   },
   "speakers": {
