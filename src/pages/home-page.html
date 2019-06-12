@@ -1,5 +1,4 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
-
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
 
 <link rel="import" href="../elements/important-links-block.html">
@@ -157,11 +156,11 @@
         <div class="action-buttons" layout horizontal center-justified wrap>
           <paper-button
             class="watch-video"
-            on-tap="_playVideo"
+            on-tap="_scrollToHighlights"
             ga-on="click"
-            ga-event-category="video"
-            ga-event-action="watch"
-            ga-event-label="hero block - view highlights"
+            ga-event-category="highlights"
+            ga-event-action="scroll"
+            ga-event-label="hero block - scroll to highlights"
           >
             <iron-icon icon="hoverboard:movie"></iron-icon>
             {$ viewHighlights $}
@@ -230,6 +229,15 @@
           disableControls: true,
           opened: true,
         });
+      }
+
+      _scrollToHighlights() {
+        // eslint-disable-next-line no-undef
+        const toolbarHeight = HOVERBOARD.Elements.HeaderToolbar.getBoundingClientRect().height - 1;
+        // eslint-disable-next-line no-undef
+        const ticketsBlockPositionY = HOVERBOARD.Elements.Highlights.getBoundingClientRect().top
+          - toolbarHeight;
+        this.scrollToY(ticketsBlockPositionY, 600, 'easeInOutSine');
       }
 
       _scrollToTickets() {
