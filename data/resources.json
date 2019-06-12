@@ -28,6 +28,7 @@
   "tgp": "/data/travel.md",
   "child": "/data/child.md",
   "prospectus": "data/sponsorship-prospectus.md",
+  "attendIntro": "data/attend.md",
   "footer": {
     "blog": "Blog"
   },
@@ -275,7 +276,7 @@
   "tgpStubBlock": {
     "blocks": [
       {
-        "title": "Travel Grant Program",
+        "title": "Do you need financial assistance?",
         "description": "<p>We're pleased to announce our Travel Grant Program for 2019! Applications are open until 30 June. If you (or someone you know) live in Oceania and require financial assistance to attend the conference, please check out our <a href='/tgp'>Travel Grant Program page</a> for more details.</p><p>Also, if you or your organisation wish to contribute to this important initiative, please get in touch at tgp@foss4g-oceania.org. The program is built on financial support from OSGeo and conference sponsors and attendees, and 100% of your contribution will go directly to assisting people from around our region to attend.</p>",
         "callToAction": {
           "label": "Find out more",
@@ -288,9 +289,9 @@
     "blocks": [
       {
         "title": "We're a child friendly conference",
-        "description": "We have a child-friendly policy...",
+        "description": "FOSS4G SotM Oceania is a child-friendly conference. This means we encourage parents to bring their children (still young enough to require minding) to the event, and for those children to be able to integrate with the community.",
         "callToAction": {
-          "label": "Our child-friendly policy",
+          "label": "Our child-friendly policy and information for parents",
           "link": "/child-friendly"
         }
       }
@@ -299,10 +300,10 @@
   "codeOfConductStubBlock": {
     "blocks": [
       {
-        "title": "Code of Conduct",
-        "description": "We have a code of conduct...",
+        "title": "Our code of conduct",
+        "description": "<p>FOSS4G SotM Oceania is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organisers.</p><p>The Code of Conduct applies at all official and unofficial events. Unofficial events include any location where attendees may be congregating.</p>",
         "callToAction": {
-          "label": "Our code of conduct",
+          "label": "The longer version",
           "link": "/cod"
         }
       }
@@ -312,8 +313,8 @@
     "image": "https://images.ctfassets.net/n3p1o4aq7k6m/4PIT895ktkxEqN9yO7T07o/18d11a5484f9607f0b9b74da0a35c7b8/tiakiwai-auditorium-facing-stage.jpg",
     "blocks": [
       {
-        "title": "Tiakiwai Conference Centre",
-        "description": "Our conference venue is an event destination cloaked in history, knowledge, and cultural significance. Featuring contemporary design, cutting-edge technology and multipurpose spaces, it's a great place to host our next edition of FOSS4G SotM Oceania.",
+        "title": "Our conference venue",
+        "description": "<b>Tiakiwai Conference Centre</b> is an event destination cloaked in history, knowledge, and cultural significance. Featuring contemporary design, cutting-edge technology and multipurpose spaces, it's a great place to host our next edition of FOSS4G SotM Oceania.",
         "callToAction": {
           "label": "The National Library of New Zealand",
           "link": "https://natlib.govt.nz/",
@@ -321,8 +322,8 @@
         }
       },
       {
-        "title": "Rutherford House",
-        "description": "Rutherford House is part of Victoria University of Wellington's Pipitea Campus. Our workshop and community day rooms are modern teaching spaces in an annexe built in 2017, with a large mezzanine for breaks and networking.",
+        "title": "Our workshop and community day venue",
+        "description": "<b>Rutherford House</b> is part of Victoria University of Wellington's Pipitea Campus. Our workshop and community day rooms are modern teaching spaces in an annexe built in 2017, with a large mezzanine for breaks and networking.",
         "callToAction": {
           "label": "VUW Pipitea Campus",
           "link": "https://www.victoria.ac.nz/about/explore-victoria/campuses/pipitea",
