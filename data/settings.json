@@ -148,7 +148,11 @@
         "color": "#F7B5C1"
       },
       "fontColor": "#424242",
-      "deck_url": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing"
+      "callToAction": {
+        "label": "Prospectus Slide Deck",
+        "link": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing",
+        "newTab": true
+      }
     }
   },
   "location": {
