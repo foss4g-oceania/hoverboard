@@ -1,6 +1,6 @@
 {
   "organizer": {
-    "name": "FOSS4G Oceania",
+    "name": "OSGeo Oceania",
     "twitter": "foss4g_oceania",
     "blog": "/blog/",
     "url": "/"
@@ -47,7 +47,7 @@
     {
       "route": "blog",
       "permalink": "/blog/",
-      "label": "Blog"
+      "label": "News"
     }
   ],
   "heroSettings": {
@@ -57,15 +57,15 @@
         "color": "#F6E9E2",
         "image": "/images/backgrounds/home.png"
       },
-      "fontColor": "#FFF"
+      "fontColor": "#F6EAE4"
     },
     "blog": {
-      "title": "Blog",
+      "title": "News",
       "metaDescription": "Read stories from our team",
       "background": {
-        "color": "#EF4B39"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#F6EAE4"
     },
     "speakers": {
       "title": "Speakers",
@@ -74,7 +74,7 @@
       "background": {
         "color": "#F2DEDE"
       },
-      "fontColor": "#424242"
+      "fontColor": "#F6EAE4"
     },
     "previousSpeakers": {
       "title": "Previous Speakers",
@@ -82,73 +82,77 @@
       "background": {
         "color": "#F2DEDE"
       },
-      "fontColor": "#424242"
+      "fontColor": "#F6EAE4"
     },
     "schedule": {
       "title": "Schedule",
       "metaDescription": "Pick the sessions you're interested in",
       "background": {
-        "color": "#FFF"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#F6EAE4"
     },
     "team": {
-      "title": "Team",
+      "title": "Organisers & Contributors",
       "metaDescription": "Get more info about the organisers",
       "background": {
-        "color": "#5AAFE1"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#F6EAE4"
     },
     "attend": {
       "title": "Attend",
       "metaDescription": "Information about attending the conference",
       "background": {
-        "color": "#884F9A"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#F6EAE4"
     },
     "faq": {
       "title": "FAQs",
       "metaDescription": "Questions? We got answers.",
       "background": {
-        "color": "#F2DEDE"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#F6EAE4"
     },
     "cod": {
       "title": "Code Of Conduct",
       "metaDescription": "Learn more about our expectations for all those who participate in our community",
       "background": {
-        "color": "#F2DEDE"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#F6EAE4"
     },
     "tgp": {
       "title": "Travel Grant Program",
       "metaDescription": "Learn more about the possibilities of having your attendance paid for by others",
       "background": {
-        "color": "#F2DEDE"
+        "color": "#414141"
       },
-      "fontColor": "#424242",
+      "fontColor": "#F6EAE4",
       "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSc_d_m1jkLITTMfvDuTetnbGKodI4RvfPp3yt7reHw9_t7ufg/viewform"
     },
     "child": {
       "title": "A Child-Friendly Conference",
       "metaDescription": "Learn about how this conference aims to be child-friendly",
       "background": {
-        "color": "#F2DEDE"
+        "color": "#414141"
       },
-      "fontColor": "#424242"
+      "fontColor": "#F6EAE4"
     },
     "prospectus": {
       "title": "Sponsorship Prospectus",
       "metaDescription": "Learn more about the benefits of sponsoring this conference",
       "background": {
-        "color": "#F7B5C1"
+        "color": "#414141"
       },
-      "fontColor": "#424242",
-      "deck_url": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing"
+      "fontColor": "#F6EAE4",
+      "callToAction": {
+        "label": "Prospectus Slide Deck",
+        "link": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing",
+        "newTab": true
+      }
     }
   },
   "location": {

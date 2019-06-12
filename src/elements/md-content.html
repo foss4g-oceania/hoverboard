@@ -50,7 +50,7 @@
 
       h3 {
         font-size: 150%;
-        padding-top: 60px;
+        padding-top: 32px;
         font-weight: 700;
       }
 
@@ -125,13 +125,15 @@
 
         [slot="markdown-html"] h3 {
           line-height: 1.5;
+          font-weight: normal;
+          color: var(--primary-text-color);
         }
 
-        [slot="markdown-html"] h3,
         [slot="markdown-html"] h4,
         [slot="markdown-html"] p,
         [slot="markdown-html"] ul {
           /* margin-left: 40%; */
+          color: var(--secondary-text-color);
         }
 
         [slot="markdown-html"] h3::after {
@@ -146,7 +148,7 @@
       @media (min-width: 812px) {
         .content,
         .markdown-text {
-          padding: 0 40px;
+          padding: 0 0px;
         }
       }
     </style>
@@ -177,7 +179,7 @@
           mdSource: String,
           noLinksHeader: {
             type: Boolean,
-            value: false,
+            value: true,
           },
           toolbarOffset: {
             type: Number,

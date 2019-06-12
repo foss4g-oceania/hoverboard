@@ -1,43 +1,21 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../elements/polymer-helmet.html">
 <link rel="import" href="../elements/hero-block.html">
-<link rel="import" href="../elements/footer-block.html">
+<link rel="import" href="../elements/prospectus-link-block.html">
 <link rel="import" href="../elements/md-content.html">
+<link rel="import" href="../elements/footer-block.html">
 
 <dom-module id="prospectus-page">
   <template>
-    <style>
+    <style is="custom-style" include="shared-styles flex flex-alignment positioning">
       :host {
         display: block;
       }
 
-      form {
-        display: flex;
-        justify-content: center;
-      }
-      form button {
-        -moz-box-shadow:inset 0px 0px 0px 0px #bee2f9;
-        -webkit-box-shadow:inset 0px 0px 0px 0px #bee2f9;
-        box-shadow:inset 0px 0px 0px 0px #bee2f9;
-        background-color:#63b8ee;
-        -moz-border-radius:15px;
-        -webkit-border-radius:15px;
-        border-radius:15px;
-        border:1px solid #3866a3;
-        display:inline-block;
-        cursor:pointer;
-        color:#fff;
-        font-family:Arial;
-        font-size:19px;
-        font-weight:bold;
-        padding:8px 24px;
-        text-decoration:none;
-        text-shadow:0px 0px 0px #7cacde;
-      }
-      form button:hover {
-        background-color:#80add6;
-        position:relative;
-        top:1px;
+      paper-button {
+        margin: 0;
       }
     </style>
 
@@ -56,17 +34,8 @@
       <div class="hero-title highlight-font">{$ heroSettings.prospectus.title $}</div>
       <p class="hero-description">{$ heroSettings.prospectus.description $}</p>
     </hero-block>
-
-    <br/>
-
-    <form>
-      <button formtarget="_blank" formaction="{$ heroSettings.prospectus.deck_url $}">
-        Prospectus Slide Deck
-      </button>
-    </form>
-
+    <prospectus-link-block></prospectus-link-block>
     <md-content md-source="[[source]]"></md-content>
-
     <footer-block></footer-block>
   </template>
 

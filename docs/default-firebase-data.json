@@ -998,13 +998,13 @@
 			"available": false,
 			"currency": "$",
 			"inDemand": false,
-			"info": "Hakuna matata",
+			"info": "Check back soon!",
 			"name": "Community Contributor",
 			"price": 150,
 			"regular": false,
 			"soldOut": false,
-			"starts": "July 1",
-			"ends": "Oct 29",
+			"starts": false,
+			"ends": false,
 			"url": "https://ti.to"
 		},
 		{
@@ -1027,7 +1027,7 @@
 			"name": "Regular",
 			"price": 450,
 			"soldOut": false,
-			"starts": "July 1",
+			"starts": "July 29",
 			"ends": "Oct 29",
 			"url": "https://ti.to"
 		}

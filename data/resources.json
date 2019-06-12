@@ -1,6 +1,6 @@
 {
   "title": "FOSS4G SotM Oceania 2019",
-  "description": "Free and Open Source Software for Geospatial",
+  "description": "Free and Open Source Software for Geospatial / State of the Map Oceania 2019",
   "image": "images/social-share.jpg",
   "keywords": "event, gis, openstreetmap, open-source, geospatial, software, developers",
   "dates": "November 12-15, 2019.",
@@ -28,8 +28,9 @@
   "tgp": "/data/travel.md",
   "child": "/data/child.md",
   "prospectus": "data/sponsorship-prospectus.md",
+  "attendIntro": "data/attend.md",
   "footer": {
-    "blog": "Blog"
+    "blog": "News"
   },
   "mySchedule": {
     "title": "My Schedule",
@@ -40,7 +41,7 @@
       "title": "About",
       "links": [
         {
-          "name": "Open Source Geospatial Foundation (OSGEO)",
+          "name": "Open Source Geospatial Foundation (OSGeo)",
           "url": "https://www.osgeo.org/",
           "newTab": true
         },
@@ -85,6 +86,11 @@
           "newTab": false
         },
         {
+          "name": "Child Friendly Policy",
+          "url": "/child-friendly/",
+          "newTab": false
+        },
+        {
           "name": "FAQs",
           "url": "/faq/",
           "newTab": false
@@ -100,12 +106,14 @@
       "featuredSessions": {
         "description": "In 2018, Oceania's open-source geospatial experts gathered in Melbourne for four days of workshops, presentations, a Community Day, and social events.",
         "label": "Explore the presentations",
-        "link": "https://www.youtube.com/channel/UCbqmnF77HxLCmO9d7LrEbpg/videos"
+        "link": "https://2018.foss4g-oceania.org/program/presentations.html",
+        "newTab": true
       },
       "howItWas": {
-        "description": "We had great lightning talks on a variety of topics.",
-        "label": "Watch it here",
-        "youtubeId": "WPJC0VDceMk"
+        "description": "We had great half day workshops on a variety of topics.",
+        "label": "See last years workshops",
+        "link": "https://2018.foss4g-oceania.org/program/workshops.html",
+        "newTab": true
       }
     },
     "statisticsBlock": {
@@ -127,6 +135,22 @@
       }
     }
   },
+  "importantLinksBlock": {
+    "title": "Here's the latest...",
+    "callToAction": {
+      "newsItemOne": {
+        "description": "We've announced our Travel Grant Program! If you need financial assistance, apply now.",
+        "label": "Full details",
+        "link": "/tgp"
+      },
+      "newsItemTwo": {
+        "description": "We're looking for sponsors - please get in touch if you'd like to support us.",
+        "label": "Our sponsorship prospectus",
+        "link": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing",
+        "newTab": true
+      }
+    }
+  },
   "ticketsBlock": {
     "title": "Tickets",
     "ticketsDetails": "Tickets grant access to all conference sections, and include nibbles. Accommodation is NOT included in the ticket price and is your responsibility. Availability dates and ticket types are preliminary, and may be subject to change.",
@@ -135,7 +159,7 @@
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Sponsors",
+    "title": "Our sponsors",
     "button": "Become a sponsor",
     "email": "mailto:sponsorship@foss4g-oceania.org?subject=Sponsorship%20proposition",
     "form": {
@@ -150,7 +174,8 @@
     "title": "FOSS4G SotM Oceania 2018 videos",
     "callToAction": {
       "label": "Go to the channel",
-      "link": "https://www.youtube.com/channel/UCbqmnF77HxLCmO9d7LrEbpg/videos"
+      "link": "https://www.youtube.com/channel/UCbqmnF77HxLCmO9d7LrEbpg/videos",
+      "newTab": true
     }
   },
   "blog": {
@@ -160,8 +185,8 @@
   "latestPostsBlock": {
     "title": "The latest news",
     "callToAction": {
-      "label": "Read the blog",
-      "link": "/blog/"
+      "label": "Read the latest news",
+      "link": "/news/"
     }
   },
   "speakers": {
@@ -180,7 +205,8 @@
     "title": "Previous speakers",
     "callToAction": {
       "label": "View all",
-      "link": "https://2018.foss4g-oceania.org/program/presentations.html"
+      "link": "https://2018.foss4g-oceania.org/program/presentations.html",
+      "newTab": true
     }
   },
   "galleryBlock": {
@@ -188,7 +214,8 @@
     "description": "Last year's gathering built lots of excitement. Check out photos from featured talks, our Community Day, and socialising.",
     "callToAction": {
       "label": "See submitted photos",
-      "link": "https://2018.foss4g-oceania.org/photos.html"
+      "link": "https://2018.foss4g-oceania.org/photos.html",
+      "newTab": true
     }
   },
   "mapBlock": {
@@ -210,6 +237,14 @@
     "close": "Close",
     "generalError": "Some error has occured. Please try again later.",
     "toast": "Successfully subscribed!"
+  },
+  "prospectusLinksBlock": {
+    "callToAction": {
+      "description": "View our prospectus as a slide deck",
+      "label": "View our prospectus as a slide deck",
+      "link": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing",
+      "newTab": true
+    }
   },
   "team": {
     "description": "The FOSS4G SotM Oceania 2019 organising committee is made up of geospatial enthusiasts from scientific, business, humanitarian, and government sectors."
@@ -243,23 +278,60 @@
       "title": "Open"
     }
   },
-  "aboutOrganizerBlock": {
-    "image": "/images/team.jpg",
+  "tgpStubBlock": {
     "blocks": [
       {
-        "title": "Organiser",
-        "description": "OSGeo Oceania is a recently-created non-profit organisation, and the proud organiser of the FOSS4G SotM Oceania conference series.",
+        "title": "Do you need financial assistance?",
+        "description": "<p>We're pleased to announce our Travel Grant Program for 2019! Applications are open until 30 June. If you (or someone you know) live in Oceania and require financial assistance to attend the conference, please check out our <a href='/tgp'>Travel Grant Program page</a> for more details.</p><p>Also, if you or your organisation wish to contribute to this important initiative, please get in touch at tgp@foss4g-oceania.org. The program is built on financial support from OSGeo and conference sponsors and attendees, and 100% of your contribution will go directly to assisting people from around our region to attend.</p>",
         "callToAction": {
-          "label": "Open team page",
-          "link": "/team"
+          "label": "Find out more",
+          "link": "/tgp"
+        }
+      }
+    ]
+  },
+  "childFriendlyStubBlock": {
+    "blocks": [
+      {
+        "title": "We're a child friendly conference",
+        "description": "FOSS4G SotM Oceania is a child-friendly conference. This means we encourage parents to bring their children (still young enough to require minding) to the event, and for those children to be able to integrate with the community.",
+        "callToAction": {
+          "label": "Our child-friendly policy and information for parents",
+          "link": "/child-friendly"
+        }
+      }
+    ]
+  },
+  "codeOfConductStubBlock": {
+    "blocks": [
+      {
+        "title": "Our code of conduct",
+        "description": "<p>FOSS4G SotM Oceania is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organisers.</p><p>The Code of Conduct applies at all official and unofficial events. Unofficial events include any location where attendees may be congregating.</p>",
+        "callToAction": {
+          "label": "The longer version",
+          "link": "/cod"
+        }
+      }
+    ]
+  },
+  "aboutVenuesBlock": {
+    "image": "https://images.ctfassets.net/n3p1o4aq7k6m/4PIT895ktkxEqN9yO7T07o/18d11a5484f9607f0b9b74da0a35c7b8/tiakiwai-auditorium-facing-stage.jpg",
+    "blocks": [
+      {
+        "title": "Our conference venue",
+        "description": "<b>Tiakiwai Conference Centre</b> is an event destination cloaked in history, knowledge, and cultural significance. Featuring contemporary design, cutting-edge technology and multipurpose spaces, it's a great place to host our next edition of FOSS4G SotM Oceania.",
+        "callToAction": {
+          "label": "The National Library of New Zealand",
+          "link": "https://natlib.govt.nz/",
+          "newTab": true
         }
       },
       {
-        "title": "What are FOSS4G, SotM and OSGeo?",
-        "description": "Free and Open Source Software for Geospatial (FOSS4G), is an annual global event hosted by the Open Source Geospatial Foundation (OSGeo) since 2006, with the origins going back to the GRASS and MapServer communities. OSGeo is a not-for-profit organization whose mission is to support and promote the collaborative development of open geospatial technologies and data.<br/><br/>State of the Map (SotM) is the annual international conference of OpenStreetMap, organised by the OpenStreetMap Foundation. Our regional SotM is organised separately.",
+        "title": "Our workshop and community day venue",
+        "description": "<b>Rutherford House</b> is part of Victoria University of Wellington's Pipitea Campus. Our workshop and community day rooms are modern teaching spaces in an annexe built in 2017, with a large mezzanine for breaks and networking.",
         "callToAction": {
-          "label": "Read more about OSGeo",
-          "link": "http://www.osgeo.org/about/",
+          "label": "VUW Pipitea Campus",
+          "link": "https://www.victoria.ac.nz/about/explore-victoria/campuses/pipitea",
           "newTab": true
         }
       }

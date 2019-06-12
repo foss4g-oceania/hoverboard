@@ -13,21 +13,21 @@
         --iron-icon-fill-color: currentColor;
         display: block;
         z-index: 1;
-        border-bottom: 1px solid var(--divider-color);
-        background-color: var(--primary-background-color);
+        border-bottom: 1px solid var(--primary-background-color);
+        background-color: var(--primary-text-color);
         transition: background-color var(--animation), border-bottom-color var(--animation), color var(--animation);
-        color: var(--primary-text-color);
+        color: var(--primary-background-color);
       }
 
       :host([transparent]) {
-        --iron-icon-fill-color: var(--hero-font-color, '#fff');
+        --iron-icon-fill-color: var(--primary-background-color, '#fff');
         background-color: transparent;
         border-bottom-color: transparent;
-        color: var(--hero-font-color, '#fff');
+        color: var(--primary-background-color, '#fff');
       }
 
       :host([transparent]) .toolbar-logo {
-        background-color: var(--hero-logo-color);
+        background-color: var(--primary-background-color);
         opacity: var(--hero-logo-opacity, 1);
       }
 
@@ -42,13 +42,13 @@
         display: block;
         width: 150px;
         height: 32px;
-        background-color: var(--default-primary-color);
+        background-color: var(--primary-background-color);
         transition: background-color var(--animation);
         -webkit-mask: url('/images/logo-monochrome.svg') no-repeat;
       }
 
       .nav-items {
-        --paper-tabs-selection-bar-color: var(--default-primary-color);
+        --paper-tabs-selection-bar-color: var(--paper-tab-underline-color);
         --paper-tabs: {
           height: 64px;
         };

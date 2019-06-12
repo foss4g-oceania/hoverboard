@@ -1,5 +1,3 @@
-## A child-friendly FOSS4G SotM event
-
 FOSS4G SotM Oceania is a child-friendly conference. This means we encourage parents to bring their children (still young enough to require minding) to the event, and for those children to be able to integrate with the community.
 
 ### How does this work?
