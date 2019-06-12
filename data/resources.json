@@ -86,6 +86,11 @@
           "newTab": false
         },
         {
+          "name": "Child Friendly Policy",
+          "url": "/child-friendly/",
+          "newTab": false
+        },
+        {
           "name": "FAQs",
           "url": "/faq/",
           "newTab": false
