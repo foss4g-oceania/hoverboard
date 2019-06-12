@@ -1,7 +1,7 @@
 {
   "basepath": "/",
   "url": "https://foss4g-oceania-c8ffd.firebaseapp.com/",
-  "analytics": "",
+  "analytics": "UA-116592039-1",
   "prefix": "/",
   "firebase": {
     "apiKey": "AIzaSyCaU0l3LvRWE_WPLcfDu7VW60FYVvF7zAM",
