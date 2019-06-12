@@ -23,11 +23,11 @@
         font-size: 24px;
         line-height: 1.5;
         margin: 0 0 8px;
+        text-align: center;
       }
 
       paper-button {
         color: #fff;
-        text-align: center;
       }
 
       paper-button[disabled] {
@@ -50,28 +50,37 @@
           margin: 0 0 24px;
           text-align: center;
         }
+
+        .cta-button {
+          text-align: center;
+        }
+
       }
 
     </style>
 
     <div class="container" layout vertical center$="[[viewport.isTabletPlus]]">
-      <div class="container-title"> {$ importantLinksBlock.title $}</div>
+      <!-- <div class="container-title"> {$ importantLinksBlock.title $}</div> -->
 
       <div class="description"> {$ importantLinksBlock.callToAction.newsItemOne.description $}</div>
-      <a href="{$ importantLinksBlock.callToAction.newsItemOne.link $}">
-        <paper-button class="cta-button animated icon-right">
-          <span>{$ importantLinksBlock.callToAction.newsItemOne.label $}</span>
-          <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-        </paper-button>
-      </a>
+      <div class="cta-button">
+        <a href="{$ importantLinksBlock.callToAction.newsItemOne.link $}">
+          <paper-button class="cta-button animated icon-right">
+            <span>{$ importantLinksBlock.callToAction.newsItemOne.label $}</span>
+            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+          </paper-button>
+        </a>
+      </div>
 
-      <div class="description"> {$ importantLinksBlock.callToAction.newsItemTwo.description $}</div>
-      <a href="{$ importantLinksBlock.callToAction.newsItemTwo.link $}">
-        <paper-button class="cta-button animated icon-right">
-          <span>{$ importantLinksBlock.callToAction.newsItemTwo.label $}</span>
-          <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-        </paper-button>
-      </a>
+<!--       <div class="description"> {$ importantLinksBlock.callToAction.newsItemTwo.description $}</div>
+      <div class="cta-button">
+        <a href="{$ importantLinksBlock.callToAction.newsItemTwo.link $}">
+          <paper-button class="cta-button animated icon-right">
+            <span>{$ importantLinksBlock.callToAction.newsItemTwo.label $}</span>
+            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+          </paper-button>
+        </a>
+      </div> -->
         
     </div>
 
