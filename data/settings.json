@@ -47,7 +47,7 @@
     {
       "route": "blog",
       "permalink": "/blog/",
-      "label": "Blog"
+      "label": "News"
     }
   ],
   "heroSettings": {
@@ -60,7 +60,7 @@
       "fontColor": "#FFF"
     },
     "blog": {
-      "title": "Blog",
+      "title": "News",
       "metaDescription": "Read stories from our team",
       "background": {
         "color": "#EF4B39"
@@ -93,7 +93,7 @@
       "fontColor": "#424242"
     },
     "team": {
-      "title": "Team",
+      "title": "Organisers & Contributors",
       "metaDescription": "Get more info about the organisers",
       "background": {
         "color": "#5AAFE1"
