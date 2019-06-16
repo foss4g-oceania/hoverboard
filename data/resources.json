@@ -247,7 +247,8 @@
     }
   },
   "team": {
-    "description": "The FOSS4G SotM Oceania 2019 organising committee is made up of geospatial enthusiasts from scientific, business, humanitarian, and government sectors."
+    "description": "The FOSS4G SotM Oceania 2019 organising committee is made up of geospatial enthusiasts and community mappers from scientific, business, humanitarian, and government sectors.",
+    "organisation": "This conference series is administered by [OSGeo Oceania](https://wiki.osgeo.org/wiki/Oceania), a non-profit organisation managed by a board of directors. Its purpose is to foster the growth of the geospatial open source & open data community in the Oceania region, including the oversight and stewardship of a FOSS4G / State of the Map conference series."
   },
   "attend": {
     "description": "Find out why you might like to attend the conference."

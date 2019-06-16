@@ -805,8 +805,8 @@
 			},
 			{
 				"name": "Tania Hibbard-Nitz",
-				"photo": null,
-				"photoUrl": null,
+				"photo": "/images/team/th.PNG",
+				"photoUrl": "/images/team/th.PNG",
 				"socials": [
 				],
 				"order": 4,
@@ -908,8 +908,8 @@
 			},
 			{
 				"name": "Greg Lauer",
-				"photo": null,
-				"photoUrl": null,
+				"photo": "/images/team/gl.jpeg",
+				"photoUrl": "/images/team/gl.jpeg",
 				"socials": [
 					{
 						"icon": "linkedin",
@@ -972,10 +972,24 @@
 	{
 		"members": [{
 				"name": "Tim Denee",
-				"photo": null,
-				"photoUrl": null,
+				"photo": "/images/team/td.jpg",
+				"photoUrl": "/images/team/td.jpg",
 				"socials": [
-
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/tim-denee-b5743a36/",
+						"name": "LinkedIn"
+					},
+					{
+						"icon": "twitter",
+						"link": "https://twitter.com/timdenee",
+						"name": "Twitter"
+					},
+					{
+						"icon": "website",
+						"link": "https://www.timdenee.com/",
+						"name": "Website"
+					}
 				],
 				"order": 1,
 				"title": "Logo Designer"

@@ -3,6 +3,7 @@
 <link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
 
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="../elements/shared-styles.html">
@@ -83,6 +84,10 @@
         transform: scale(1.1);
       }
 
+      paper-button {
+        margin: 0;
+      }
+
       @media (min-width: 640px) {
         .team-block {
           grid-template-columns: repeat(2, 1fr);
@@ -130,10 +135,18 @@
     </hero-block>
 
     <div class="description-wrapper">
-      <div class="container" layout horizontal justified>
+      <div class="container">
         <marked-element class="description" markdown="{$ team.description $}">
           <div slot="markdown-html"></div>
         </marked-element>
+        <a
+          href="mailto:{$ mailto $}"
+        >
+          <paper-button class="cta-button animated icon-right">
+            <span>{$ emailUs $}</span>
+            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+          </paper-button>
+        </a>
       </div>
     </div>
 
@@ -166,6 +179,14 @@
           </template>
         </div>
       </template>
+    </div>
+
+    <div class="description-wrapper">
+      <div class="container">
+        <div class="team-title">OSGeo Oceania</div>
+        <marked-element class="description" markdown="{$ team.organisation $}">
+          <div slot="markdown-html"></div>
+      </div>
     </div>
 
     <footer-block></footer-block>
