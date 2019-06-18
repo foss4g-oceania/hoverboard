@@ -161,15 +161,23 @@
     "city": "Wellington",
     "short": "Wellington, New Zealand",
     "address": "Cnr Aitken and Molesworth Streets, Wellington",
-    "pointer": {
-      "latitude": -41.276596,
-      "longitude": 174.778410,
-      "zoom": 16,
-      "noScrollWheelZoom": true
-    },
+    "pointers": [
+      {
+        "latitude": -41.276596,
+        "longitude": 174.778410,
+        "label": "Tiakiwai Conference Centre"
+      },
+      {
+        "latitude": -41.278894,
+        "longitude": 174.778951,
+        "label": "Victoria University of Wellington School of Business"
+      }
+    ],
     "mapCenter": {
       "latitude": -41.2770037,
-      "longitude": 174.7777053
+      "longitude": 174.7777053,
+      "zoom": 16,
+      "noScrollWheelZoom": true
     },
     "description": "The Tiakiwai Conference Centre at the National Library is a unique conference and events venue in the centre of Wellington."
   },

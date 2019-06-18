@@ -1,4 +1,5 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">
 
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 
@@ -72,15 +73,30 @@
     <template is="dom-if" if="[[viewport.isTabletPlus]]">
       <leaflet-map
         id="map"
-        latitude="{$ location.mapCenter.latitude $}"
-        longitude="{$ location.mapCenter.longitude $}"
-        zoom={$ location.pointer.zoom $}
-        noScrollWheelZoom="{$ location.pointer.noScrollWheelZoom $}"
+        latitude={$ location.mapCenter.latitude $}
+        longitude={$ location.mapCenter.longitude $}
+        zoom={$ location.mapCenter.zoom $}
+        noScrollWheelZoom={$ location.mapCenter.noScrollWheelZoom $}
       >
         <leaflet-marker
-          latitude="{$ location.pointer.latitude $}"
-          longitude="{$ location.pointer.longitude $}"
-          title="{$ location.name $}"
+          latitude="{$ location.pointers[0].latitude $}"
+          longitude="{$ location.pointers[0].longitude $}"
+          title="{$ location.pointers[0].label $}"
+          icon="myicon"
+        >
+        </leaflet-marker>
+        <leaflet-marker
+          latitude="{$ location.pointers[1].latitude $}"
+          longitude="{$ location.pointers[1].longitude $}"
+          title="{$ location.pointers[1].label $}"
+          icon='{
+            "iconUrl": "https://unpkg.com/leaflet@0.7.7/dist/images/marker-icon.png",
+            "iconSize": [20, 32],
+            "iconAnchor": [13, 25],
+            "shadowSize": [20, 20],
+            "shadowAnchor": [10, 10],
+            "shadowUrl": "https://unpkg.com/leaflet@0.7.7/dist/images/marker-shadow.png"
+          }'
         >
         </leaflet-marker>
         <leaflet-scale-control metric position="bottomright">
@@ -97,7 +113,7 @@
         <div class="bottom-info" layout horizontal justified center>
           <span class="address">{$ location.address $}</span>
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination={$ location.pointer.latitude $},{$ location.pointer.longitude $}"
+            href="https://www.google.com/maps/dir/?api=1&destination={$ location.pointers[0].latitude $},{$ location.pointers[0].longitude $}"
             target="_blank"
             rel="noopener noreferrer"
           >
