@@ -898,10 +898,19 @@
 			},
 			{
 				"name": "Emma Hain",
-				"photo": null,
-				"photoUrl": null,
+				"photo": "/images/team/eh.jpg",
+				"photoUrl": "/images/team/eh.jpg",
 				"socials": [
-
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/emma-hain-9a47b12a/",
+						"name": "LinkedIn"
+					},
+					{
+						"icon": "twitter",
+						"link": "https://twitter.com/e8sm8",
+						"name": "Twitter"
+					}
 				],
 				"order": 10,
 				"title": "Committee Member"
@@ -958,10 +967,24 @@
 			},
 			{
 				"name": "Dr Adam Steer",
-				"photo": null,
-				"photoUrl": null,
+				"photo": "https://www.spatialised.net/wp-content/uploads/2019/02/0.jpeg",
+				"photoUrl": "https://www.spatialised.net/wp-content/uploads/2019/02/0.jpeg",
 				"socials": [
-
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/adamsteer",
+						"name": "LinkedIn"
+					},
+					{
+						"icon": "twitter",
+						"link": "https://twitter.com/adamdsteer",
+						"name": "Twitter"
+					},
+					{
+						"icon": "website",
+						"link": "https://spatialised.net",
+						"name": "Website"
+					}
 				],
 				"order": 14,
 				"title": "Committee Member"
