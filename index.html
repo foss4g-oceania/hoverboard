@@ -108,7 +108,7 @@
         });
 
         const firestore = firebase.firestore();
-        firestore.settings({ timestampsInSnapshots: true });
+        firestore.settings({});
         firebase.firestore()
           .enablePersistence({ experimentalTabSynchronization: true })
           .catch(() => {
