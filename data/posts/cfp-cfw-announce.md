@@ -15,7 +15,7 @@ We are aiming to offer a diverse range of workshops for a variety of skill level
 
 All applications must be received by midnight 17th August 2019 (NZ Standard Time).
 
-## <div style="text-align:center;"><button onclick="window.location.href='https://submit-workshops.foss4g-oceania.org/fso2019w/cfp'">Submit Workshops</button></div>
+<div style="text-align:center;"><button onclick="window.open('https://submit-workshops.foss4g-oceania.org/fso2019w/cfp')">Submit Workshops</button></div>
 
 ### Presentation submissions:
 
@@ -25,4 +25,4 @@ Time slots come in 18 minute conference presentation or 5 minute lightning talks
 
 All applications must be received by midnight 31th August 2019 (NZ Standard Time).
 
-## <div style="text-align:center;"><button onclick="window.location.href='https://submit-talks.foss4g-oceania.org/fso2019/cfp'">Submit Talks</button></div>
+<div style="text-align:center;"><button onclick="window.open('https://submit-talks.foss4g-oceania.org/fso2019/cfp')">Submit Talks</button></div>
