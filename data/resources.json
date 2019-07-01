@@ -76,6 +76,14 @@
       "title": "Event Resources",
       "links": [
         {
+          "name": "Call for Presentations",
+          "url": "https://submit-talks.foss4g-oceania.org/fso2019/cfp",
+          "newTab": true
+        },{
+          "name": "Call for Workshops",
+          "url": "https://submit-workshops.foss4g-oceania.org/fso2019w/cfp",
+          "newTab": true
+        },{
           "name": "Sponsorship Prospectus",
           "url": "/sponsor/",
           "newTab": false
@@ -139,14 +147,15 @@
     "title": "Here's the latest...",
     "callToAction": {
       "newsItemOne": {
-        "description": "We've announced our Travel Grant Program! If you need financial assistance, apply now.",
-        "label": "Full details",
-        "link": "/tgp"
+        "description": "Our call for presentations and call for workshops are now open!",
+        "label": "Call for presentations",
+        "link": "https://submit-talks.foss4g-oceania.org/fso2019/cfp",
+        "newTab": true
       },
       "newsItemTwo": {
-        "description": "We're looking for sponsors - please get in touch if you'd like to support us.",
-        "label": "Our sponsorship prospectus",
-        "link": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing",
+        "description": "We're accepting half day workshops, 18min general stream talks or 5min lightning talks. Submit your workshop proposal by August 17 or your talk proposal by August 31.",
+        "label": "Call for workshops",
+        "link": "https://submit-workshops.foss4g-oceania.org/fso2019w/cfp",
         "newTab": true
       }
     }
@@ -283,13 +292,17 @@
     "blocks": [
       {
         "title": "Do you need financial assistance?",
-        "description": "<p>We're pleased to announce our Travel Grant Program for 2019! Applications are open until 30 June. If you (or someone you know) live in Oceania and require financial assistance to attend the conference, please check out our <a href='/tgp'>Travel Grant Program page</a> for more details.</p><p>Also, if you or your organisation wish to contribute to this important initiative, please get in touch at tgp@foss4g-oceania.org. The program is built on financial support from OSGeo and conference sponsors and attendees, and 100% of your contribution will go directly to assisting people from around our region to attend.</p>",
+        "description": "<p>Our Travel Grant Program helps those that require financial assistance to attend from within Oceania. Applications closed on June 30 and applicants will hear from us by July 12. If you've missed our deadline, please subscribe to our mailing list to ensure you don't miss future opportunities. See our <a href='/tgp'>Travel Grant Program page</a> for more details.</p><p>If you or your organisation wish to contribute to this important initiative, please get in touch at tgp@foss4g-oceania.org. The program is built on financial support from OSGeo and conference sponsors and attendees, and 100% of your contribution will go directly to assisting people from around our region to attend.</p>",
         "callToAction": {
           "label": "Find out more",
           "link": "/tgp"
         }
       }
     ]
+  },
+  "tgpMessageBlock": {
+    "description": "Applications closed on June 30 and applicants will hear from us by July 12.",
+    "descriptionTwo": "If you've missed our deadline, please subscribe to our mailing list to ensure you don't miss future opportunities."
   },
   "childFriendlyStubBlock": {
     "blocks": [
@@ -333,6 +346,31 @@
         "callToAction": {
           "label": "VUW Pipitea Campus",
           "link": "https://www.victoria.ac.nz/about/explore-victoria/campuses/pipitea",
+          "newTab": true
+        }
+      }
+    ]
+  },
+  "presentBlock": {
+    "blocks": [
+      {
+        "description": "Proposals for workshops and presentations follow two separate processes, please read on for more details about submitting for each stream."
+      },
+      {
+        "title": "Call for Workshops",
+        "description": "If you're passionate about a topic and you're skillful at conveying your hands-on knowledge and experience to others, this is for you! The workshops are half day (3.5hr) morning or afternoon time slots and have a capacity of 18-32 participants.<br><br>We are aiming to offer a diverse range of workshops for a variety of skill levels. For more information visit the workshop proposal page at the link below.<br><br>All applications must be received by midnight 17th August 2019 (NZ Standard Time).",
+        "callToAction": {
+          "label": "Submit Workshop Proposals",
+          "link": "https://submit-workshops.foss4g-oceania.org/fso2019w/cfp",
+          "newTab": true
+        }
+      },
+      {
+        "title": "Call for Presentations",
+        "description": "We want you to share your fascinating stories about open source geospatial, open data, and open street map in Oceania.  We're looking for a diverse range of presenters including: women, people from a variety of ethnic backgrounds, young and old, urban and rural.  To achieve this goal we need you to accept the challenge and put yourself forward, the community can't wait to hear what you have to say!<br><br>Time slots come in 18 minute conference presentation or 5 minute lightning talks. Visit the presentation information page at the link below for more details on what we're looking for and how we can support you in developing your topic.<br><br>All applications must be received by midnight 31th August 2019 (NZ Standard Time).",
+        "callToAction": {
+          "label": "Submit Presentation Proposals",
+          "link": "https://submit-talks.foss4g-oceania.org/fso2019/cfp",
           "newTab": true
         }
       }

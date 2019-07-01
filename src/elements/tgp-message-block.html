@@ -5,7 +5,7 @@
 <link rel="import" href="shared-animations.html">
 <link rel="import" href="hoverboard-icons.html">
 
-<dom-module id="important-links-block">
+<dom-module id="tgp-message-block">
   <template>
     <style is="custom-style" include="shared-styles flex flex-alignment flex-reverse"></style>
 
@@ -61,46 +61,20 @@
 
     <div class="container" layout vertical center$="[[viewport.isTabletPlus]]">
 
-      <div class="description"> {$ importantLinksBlock.callToAction.newsItemOne.description $}</div>
-      <div class="description"> {$ importantLinksBlock.callToAction.newsItemTwo.description $}</div>
-      <div class="cta-button">
-        <a
-          href="{$ importantLinksBlock.callToAction.newsItemOne.link $}"
-          {% if importantLinksBlock.callToAction.newsItemOne.newTab %}
-          target="_blank" rel="noopener noreferrer"
-          {% endif %}
-        >
-          <paper-button class="cta-button animated icon-right">
-            <span>{$ importantLinksBlock.callToAction.newsItemOne.label $}</span>
-            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-          </paper-button>
-        </a>
-      </div>
-      <div class="cta-button">
-        <a
-          href="{$ importantLinksBlock.callToAction.newsItemTwo.link $}"
-          {% if importantLinksBlock.callToAction.newsItemTwo.newTab %}
-          target="_blank" rel="noopener noreferrer"
-          {% endif %}
-        >
-          <paper-button class="cta-button animated icon-right">
-            <span>{$ importantLinksBlock.callToAction.newsItemTwo.label $}</span>
-            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-          </paper-button>
-        </a>
-      </div>
+      <div class="description"> {$ tgpMessageBlock.description $}</div>
+      <div class="description"> {$ tgpMessageBlock.descriptionTwo $}</div>
         
     </div>
 
   </template>
 
   <script>
-    class importantLinksBlock extends ReduxMixin(Polymer.Element) {
+    class TGPMessageBlock extends ReduxMixin(Polymer.Element) {
       static get is() {
-        return 'important-links-block';
+        return 'tgp-message-block';
       }
     }
 
-    window.customElements.define(importantLinksBlock.is, importantLinksBlock);
+    window.customElements.define(TGPMessageBlock.is, TGPMessageBlock);
   </script>
 </dom-module>

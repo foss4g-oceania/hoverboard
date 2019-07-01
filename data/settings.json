@@ -30,6 +30,11 @@
       "label": "Attend"
     },
     {
+      "route": "present",
+      "permalink": "/present/",
+      "label": "Present"
+    },
+    {
       "route": "sponsor",
       "permalink": "/sponsor/",
       "label": "Sponsor"
@@ -152,6 +157,15 @@
         "label": "Prospectus Slide Deck",
         "link": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing",
         "newTab": true
+      }
+    },
+    "present": {
+      "title": "Present",
+      "metaDescription": "Find out how you can present at this conference",
+      "background": {
+        "color": "#414141"
+      },
+      "fontColor": "#F6EAE4"
       }
     }
   },

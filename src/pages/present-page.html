@@ -1,0 +1,62 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../elements/polymer-helmet.html">
+<link rel="import" href="../elements/hero-block.html">
+<link rel="import" href="../elements/present-block.html">
+<link rel="import" href="../elements/footer-block.html">
+
+<dom-module id="present-page">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment positioning">
+      :host {
+        display: block;
+      }
+
+      paper-button {
+        margin: 0;
+      }
+    </style>
+
+    <polymer-helmet
+      title="{$ heroSettings.present.title $} | {$ title $}"
+      description="{$ heroSettings.present.metaDescription $}"
+      active="[[active]]"
+    ></polymer-helmet>
+
+    <hero-block
+      background-image="{$ heroSettings.present.background.image $}"
+      background-color="{$ heroSettings.present.background.color $}"
+      font-color="{$ heroSettings.present.fontColor $}"
+      active="[[active]]"
+    >
+      <div class="hero-title highlight-font">{$ heroSettings.present.title $}</div>
+      <p class="hero-description">{$ heroSettings.present.description $}</p>
+    </hero-block>
+
+    <present-block></present-block>
+    <footer-block></footer-block>
+  </template>
+
+  <script>
+
+    // eslint-disable-next-line no-undef
+    class PresentPage extends Polymer.Element {
+      static get is() {
+        return 'present-page';
+      }
+
+      static get properties() {
+        return {
+          active: Boolean,
+          source: {
+            type: String,
+            value: '{$ present $}',
+          },
+        };
+      }
+    }
+
+    window.customElements.define(PresentPage.is, PresentPage);
+  </script>
+</dom-module>
