@@ -4,10 +4,19 @@
 			"backgroundColor": "#3647a5",
 			"brief": "We have just launched our conference website",
 			"content": "This is ignored, use a Markdown source file",
-			"image": "/images/manifest/icon-512.png",
+			"image": null,
 			"published": "2019-05-05",
 			"source": "/data/posts/website-announce.md",
 			"title": "New website!"
+		},
+		"cfp": {
+			"backgroundColor": "#3647a5",
+			"brief": "Workshop proposals and talk submissions are now live!",
+			"content": "This is ignored, use a Markdown source file",
+			"image": "/images/manifest/icon-512.png",
+			"published": "2019-07-01",
+			"source": "/data/posts/cfp-cfw-announce.md",
+			"title": "Call for Presentations and Workshops"
 		}
 	},
 	"gallery": [
