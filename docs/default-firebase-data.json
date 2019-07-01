@@ -756,9 +756,15 @@
 			},
 			{
 				"name": "Matthew Fry",
-				"photo": null,
-				"photoUrl": null,
-				"socials": [],
+				"photo": "/images/team/mf.png",
+				"photoUrl": "/images/team/mf.png",
+				"socials": [
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/matthew-fry-90291a10/",
+						"name": "LinkedIn"
+					}
+				],
 				"order": 2,
 				"title": "Program Lead"
 			},
@@ -858,9 +864,25 @@
 			},
 			{
 				"name": "David Garcia",
-				"photo": null,
-				"photoUrl": null,
-				"socials": [],
+				"photo": "/images/team/dg.jpg",
+				"photoUrl": "/images/team/dg.jpg",
+				"socials":  [
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/mapmakerdavid/",
+						"name": "LinkedIn"
+					},
+					{
+						"icon": "twitter",
+						"link": "https://twitter.com/mapmakerdavid",
+						"name": "Twitter"
+					},
+					{
+						"icon": "website",
+						"link": "https://www.mapmakerdavid.com/",
+						"name": "Website"
+					}
+				],
 				"order": 9,
 				"title": "Committee Member"
 			},
