@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en" itemscope itemtype="http://schema.org/Event">
+<html lang="en" itemscope prefix="og: http://ogp.me/ns#"
+>
 
 <head>
   <base href="{$ basepath $}">
@@ -43,14 +44,7 @@
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="msapplication-tap-highlight" content="no">
 
-  <!-- G+ sharing meta data -->
-  <meta itemprop="name" content="{$ title $}">
-  <meta itemprop="description" content="{$ description $}">
-  <meta itemprop="image" content="{$ image if image.startsWith('http') else (url + image) $}">
-  <meta itemprop="startDate" content="{$ startDate $}">
-  <meta itemprop="endDate" content="{$ endDate $}">
-
-  <!-- Facebook sharing meta data -->
+  <!-- OpenGraph metadata -->
   <meta property="og:title" content="{$ title $}">
   <meta property="og:site_name" content="{$ title $}">
   <meta property="og:type" content="website">
@@ -60,12 +54,9 @@
   <meta property="og:image" content="{$ image if image.startsWith('http') else (url + image) $}">
   <meta property="og:image:type" content="image/jpeg"/>
 
-  <!-- Twitter meta data -->
+  <!-- Twitter Card metadata -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@{$ organizer.twitter $}">
-  <meta name="twitter:title" content="{$ title $}">
-  <meta name="twitter:description" content="{$ description $}">
-  <meta name="twitter:image" content="{$ image if image.startsWith('http') else (url + image) $}">
   <meta name="twitter:label1" value="{$ location.label $}">
   <meta name="twitter:data1" value="{$ location.name $}">
   <meta name="twitter:label2" value="">
