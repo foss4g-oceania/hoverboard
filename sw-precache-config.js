@@ -1,6 +1,7 @@
 module.exports = {
   staticFileGlobs: [
     '/index.html',
+    '/404.html',
     '/manifest.json',
     '/bower_components/webcomponentsjs/*.js',
     '/bower_components/firebase/firebase.js',

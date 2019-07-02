@@ -149,6 +149,7 @@ function lint() {
     `scripts/**/*.js`,
     `src/**/*.{html,js}`,
     'index.html',
+    '404.html'
   ])
     .pipe(eslint())
     .pipe(eslint.format(friendlyFormatter))

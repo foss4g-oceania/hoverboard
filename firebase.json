@@ -8,11 +8,6 @@
   },
   "hosting": {
     "public": "./build",
-    "redirects": [{
-      "source": "/index.html",
-      "destination": "/",
-      "type" : 301
-    }],
     "rewrites": [{
       "source": "**",
       "function": "prerender"
@@ -43,6 +38,15 @@
           {
             "key": "Referrer-Policy",
             "value": "same-origin"
+          }
+        ]
+      },
+      {
+        "source": "404.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=300"
           }
         ]
       }
