@@ -14,7 +14,7 @@
 
   <title>{$ title $}</title>
 
-  <link rel="canonical" href="{$ url $}">
+  <link rel="canonical" href="https://2019.foss4g-oceania.org/">
 
   <link rel="icon" href="images/favicon.ico">
 
@@ -48,10 +48,10 @@
   <meta property="og:title" content="{$ title $}">
   <meta property="og:site_name" content="{$ title $}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{$ url $}">
+  <meta property="og:url" content="https://2019.foss4g-oceania.org/">
   <meta property="og:description" content="{$ description $}">
   <meta property="og:type" content="Event">
-  <meta property="og:image" content="{$ image if image.startsWith('http') else (url + image) $}">
+  <meta property="og:image" content="{$ image if image.startsWith('http') else ('https://2019.foss4g-oceania.org/' + image) $}">
   <meta property="og:image:type" content="image/jpeg"/>
 
   <!-- Twitter Card metadata -->
@@ -180,7 +180,7 @@
     "@context": "https://www.schema.org",
     "@type": "Event",
     "name": "FOSS4G-SotM Oceania 2019",
-    "url": "{$ url $}",
+    "url": "https://2019.foss4g-oceania.org/",
     "description": "FOSS4G Oceania Conference",
     "startDate": "2019-11-12T09:00:00+12:00",
     "endDate": "2019-11-15T17:00:00+12:00",
