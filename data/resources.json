@@ -162,13 +162,13 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, and include nibbles. Accommodation is NOT included in the ticket price and is your responsibility. Availability dates and ticket types are preliminary, and may be subject to change.",
+    "ticketsDetails": "Add-ons: Conference Dinner ($80), FOSS4G SotM Oceania 2019 T-shirt ($30). All '2 Day Conference' tickets include our Icebreaker event as well as morning tea, lunch and afternoon tea during the conference, but do not include attendance at workshops. Workshop tickets must be purchased separately. Prices are in NZD.",
     "soldOut": "We've sold out!",
     "notAvailableYet": "Not yet available",
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Our sponsors",
+    "title": "Our sponsors and partners",
     "button": "Become a sponsor",
     "email": "mailto:sponsorship@foss4g-oceania.org?subject=Sponsorship%20proposition",
     "form": {
@@ -346,6 +346,20 @@
         "callToAction": {
           "label": "VUW Pipitea Campus",
           "link": "https://www.victoria.ac.nz/about/explore-victoria/campuses/pipitea",
+          "newTab": true
+        }
+      }
+    ]
+  },
+  "aboutSocialBlock": {
+    "image": "https://www.thistleinn.co.nz/sites/default/files/styles/services/public/A59P2065.jpg?itok=EShCqAma",
+    "blocks": [
+      {
+        "title": "Our conference dinner venue",
+        "description": "At <b>The Thistle Inn</b>, you'll dine amongst walls of history that ooze character and charm, and enjoy an array of succulent gastro fare. To experience unrivalled service with food to match, add the Conference Dinner ($80) to your ticket package.",
+        "callToAction": {
+          "label": "The Thistle Inn",
+          "link": "https://www.thistleinn.co.nz/thistle-inn/",
           "newTab": true
         }
       }
