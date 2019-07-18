@@ -1030,52 +1030,64 @@
 		],
 		"title": "Contributors"
 	}],
-	"tickets": [{
-			"available": false,
-			"currency": "$",
-			"info": "Available by application",
-			"name": "Student",
-			"price": 100,
-			"soldOut": false,
-			"starts": "Sep 1",
-			"ends": "Sep 30",
-			"url": "https://ti.to"
-		},
+	"tickets": [
 		{
 			"available": false,
 			"currency": "$",
+			"info": "Half Day Workshops",
+			"name": "Workshops",
+			"price": 100,
+			"soldOut": false,
+			"starts": "Sep 8",
+			"ends": "Oct 29",
+			"url": "http://workshops.foss4g-oceania.org"
+		},
+		{
+			"available": true,
+			"currency": "$",
 			"inDemand": false,
-			"info": "Check back soon!",
+			"info": "2 Day Conference (recognising your OSM / OSGeo contributions)",
 			"name": "Community Contributor",
 			"price": 150,
 			"regular": false,
 			"soldOut": false,
 			"starts": false,
 			"ends": false,
-			"url": "https://ti.to"
+			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/8kry6eblc-a,6re1gfebio8"
 		},
 		{
-			"available": false,
+			"available": true,
 			"currency": "$",
 			"inDemand": true,
-			"info": "Check back soon!",
+			"info": "2 Day Conference (limited quantity at a special price)",
 			"name": "Early Bird",
 			"price": 350,
 			"regular": false,
 			"soldOut": false,
 			"starts": false,
 			"ends": false,
-			"url": "https://ti.to"
+			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/n7xktld2f68,6re1gfebio8"
+		},
+		{
+			"available": true,
+			"currency": "$",
+			"info": "2 Day Conference",
+			"name": "Regular",
+			"price": 450,
+			"soldOut": false,
+			"starts": false,
+			"ends": false,
+			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/qmf9qbjqkos,6re1gfebio8"
 		},
 		{
 			"available": false,
 			"currency": "$",
-			"info": "Regular attendee",
-			"name": "Regular",
-			"price": 450,
+			"info": "2 Day Conference (available by application)",
+			"name": "Student",
+			"price": 100,
 			"soldOut": false,
-			"starts": "July 29",
-			"ends": "Oct 29",
+			"starts": "Sep 1",
+			"ends": "Sep 30",
 			"url": "https://ti.to"
 		}
 	],
