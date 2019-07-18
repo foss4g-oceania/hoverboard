@@ -168,7 +168,7 @@
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Our sponsors",
+    "title": "Our sponsors and partners",
     "button": "Become a sponsor",
     "email": "mailto:sponsorship@foss4g-oceania.org?subject=Sponsorship%20proposition",
     "form": {

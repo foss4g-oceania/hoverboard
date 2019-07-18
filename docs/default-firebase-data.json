@@ -86,8 +86,19 @@
 		{
 			"logos": [{
 					"order": 0,
+					"logoUrl": "/images/partners/vuw.png",
+					"name": "Victoria University of Wellington",
+					"url": "https://www.victoria.ac.nz/explore/study-areas/geography/study?subject=geographical-information-systems-and-science&subject=geographical-information-science"
+				}
+			],
+			"order": 1,
+			"title": "Workshop and Community Day Host"
+		},
+		{
+			"logos": [{
+					"order": 0,
 					"logoUrl": "/images/partners/s+snz.png",
-					"name": "Spatial + Survey NZ",
+					"name": "Survey and Spatial New Zealand",
 					"url": "https://www.surveyspatialnz.org/about/our_groups/spatial_stream"
 				}
 			],
