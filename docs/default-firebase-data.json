@@ -82,6 +82,17 @@
 			],
 			"order": 0,
 			"title": "Sponsors"
+		},
+		{
+			"logos": [{
+					"order": 0,
+					"logoUrl": "/images/partners/s+snz.png",
+					"name": "Spatial + Survey NZ",
+					"url": "https://www.surveyspatialnz.org/about/our_groups/spatial_stream"
+				}
+			],
+			"order": 1,
+			"title": "Industry Partner"
 		}
 	],
 	"schedule": {
