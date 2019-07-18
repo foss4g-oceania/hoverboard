@@ -1,0 +1,98 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/marked-element/marked-element.html">
+<link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
+
+<link rel="import" href="../mixins/redux-mixin.html">
+<link rel="import" href="hoverboard-icons.html">
+
+<dom-module id="about-social-block">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
+
+    <style>
+      :host {
+        display: block;
+      }
+
+      .block:not(:last-of-type) {
+        margin-bottom: 32px;
+      }
+
+      .team-icon {
+        --iron-icon-height: 160px;
+        --iron-icon-width: 160px;
+        --iron-icon-fill-color: var(--default-primary-color);
+        max-width: 50%;
+      }
+
+      .social-photo {
+        width: 80%;
+        height: 80%;
+      }
+
+      .description {
+        color: var(--secondary-text-color);
+      }
+
+      paper-button {
+        margin: 0;
+      }
+    </style>
+
+    <div class="container" layout horizontal>
+      <div layout horizontal center-center flex hidden$="[[viewport.isPhone]]">
+        <plastic-image
+          class="social-photo card"
+          srcset="{$ aboutSocialBlock.image $}"
+          sizing="cover"
+          lazy-load preload fade
+        ></plastic-image>
+      </div>
+
+      <div class="description-block" flex>
+        {% for block in aboutSocialBlock.blocks %}
+        <div class="block">
+          <h2>{$ block.title $}</h2>
+
+          <marked-element class="description" markdown="{$ block.description $}">
+            <div slot="markdown-html"></div>
+          </marked-element>
+          <a
+            href="{$ block.callToAction.link $}"
+            {% if block.callToAction.newTab %}
+            target="_blank" rel="noopener noreferrer"
+            {% endif %}
+          >
+            <paper-button class="cta-button animated icon-right">
+              <span>{$ block.callToAction.label $}</span>
+              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+            </paper-button>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </template>
+
+  <script>
+    class AboutSocialBlock extends ReduxMixin(Polymer.Element) {
+      static get is() {
+        return 'about-social-block';
+      }
+
+      static get properties() {
+        return {
+          viewport: {
+            type: Object,
+            statePath: 'ui.viewport',
+          },
+        };
+      }
+    }
+
+    customElements.define(AboutSocialBlock.is, AboutSocialBlock);
+  </script>
+</dom-module>
