@@ -1,7 +1,8 @@
 {
 	"blog": {
 		"website": {
-			"backgroundColor": "#3647a5",
+			"backgroundColor": "#1B1142",
+			"primaryColor": "#1B1142",
 			"brief": "We have just launched our conference website",
 			"content": "This is ignored, use a Markdown source file",
 			"image": null,
@@ -10,13 +11,24 @@
 			"title": "New website!"
 		},
 		"cfp": {
-			"backgroundColor": "#3647a5",
+			"backgroundColor": "#1B1142",
+			"primaryColor": "#1B1142",
 			"brief": "Workshop proposals and talk submissions are now live!",
 			"content": "This is ignored, use a Markdown source file",
-			"image": "/images/manifest/icon-512.png",
+			"image": null,
 			"published": "2019-07-01",
 			"source": "/data/posts/cfp-cfw-announce.md",
 			"title": "Call for Presentations and Workshops"
+		},
+		"registrations": {
+			"backgroundColor": "#1B1142",
+			"primaryColor": "#1B1142",
+			"brief": "Limited early bird registrations are now available",
+			"content": "This is ignored, use a Markdown source file",
+			"image": "/images/manifest/icon-512.png",
+			"published": "2019-07-19",
+			"source": "/data/posts/registrations-announce.md",
+			"title": "Conference tickets - on sale now!"
 		}
 	},
 	"gallery": [
@@ -75,13 +87,25 @@
 	"partners": [{
 			"logos": [{
 					"order": 0,
-					"logoUrl": "/images/token-brand.jpg",
-					"name": "Your Company Here",
-					"url": "/prospectus/"
+					"logoUrl": "/images/partners/pinpoint-geospatial-solutions.png",
+					"name": "Pinpoint Geospatial Solutions",
+					"url": "https://www.pinpointgeospatial.co.nz/"
+				},
+				{
+					"order": 1,
+					"logoUrl": "/images/partners/mapillary.png",
+					"name": "Mapillary",
+					"url": "https://www.mapillary.com/"
+				},
+				{
+					"order": 2,
+					"logoUrl": "/images/partners/koordinates.png",
+					"name": "Koordinates",
+					"url": "https://koordinates.com/about/"
 				}
 			],
 			"order": 0,
-			"title": "Sponsors"
+			"title": "Gold Sponsors"
 		},
 		{
 			"logos": [{
@@ -730,20 +754,26 @@
 		}
 	},
 	"speakers": {
-		"Mystery Person": {
-			"bio": "Perhaps it's you?",
-			"company": "Some Company",
+		"Edwin Liava'a": {
+			"bio": "Edwin has a personal philosophy - \"I innovate and provide solutions, not problems\".<br><br>With over 20 years of experience working in the Pacific Islands region providing contextualized solutions and capacity building in ICT, his passion is driven by harnessing inter-cultural competencies. These competencies go well beyond technical knowledge and leadership qualities, because each Pacific Island has its own unique local context. Also important is the ability to possess a high level of cultural flexibility and tolerance to be neutral when it comes to discussions that might overlap from being politically correct to being in-correct.<br><br>Edwin believes that \"The best idea should always win and we hire smart people to tell us what to do, not for us to tell them what to do.\"",
+			"company": "Tonga Cable",
 			"companyLogo": null,
 			"companyLogoUrl": null,
-			"country": "From Somewhere in the World",
+			"country": "Tonga",
 			"featured": true,
-			"name": "Mystery Person",
-			"photo": null,
-			"photoUrl": null,
-			"shortBio": "Do you want to present, or run a workshop? Get involved!",
-			"socials": [],
+			"name": "Edwin Liava'a",
+			"photo": "/images/speakers/edwin.jpeg",
+			"photoUrl": "/images/speakers/edwin.jpeg",
+			"shortBio": "Edwin has over 20 years of experience working in the Pacific Islands region providing contextualized solutions and capacity building in ICT.",
+			"socials": [
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/edwin-liava-a-23150447/",
+						"name": "LinkedIn"
+					}
+			],
 			"order": 0,
-			"title": "Someone Who Knows Things"
+			"title": "CEO"
 		}
 	},
 	"team": [{

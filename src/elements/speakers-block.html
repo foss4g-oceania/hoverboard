@@ -35,7 +35,6 @@
       .photo {
         width: 72px;
         height: 72px;
-        background-color: var(--accent-color);
         border-radius: 50%;
         overflow: hidden;
         transform: translateZ(0);
@@ -190,7 +189,7 @@
                 <h3 class="name">[[speaker.name]]</h3>
               </text-truncate>
               <text-truncate lines="1">
-                <div class="origin">[[speaker.country]]</div>
+                <div class="origin">[[speaker.title]], [[speaker.company]]</div>
               </text-truncate>
             </div>
 
@@ -198,12 +197,12 @@
         </template>
       </div>
 
-      <a href="{$ speakersBlock.callToAction.link $}">
+<!--       <a href="{$ speakersBlock.callToAction.link $}">
         <paper-button class="cta-button animated icon-right">
           <span>{$ speakersBlock.callToAction.label $}</span>
           <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
         </paper-button>
-      </a>
+      </a> -->
 
     </div>
 
