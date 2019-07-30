@@ -84,11 +84,26 @@
         })));
     }
 
-    function loadHoverboardApp() {
+    function callOnCompleteLoad(func) {
+      document.addEventListener('DOMContentLoaded', () => {
+        func();
+      });
+    }
+
+    function appendApp() {
       requestAnimationFrame(() => {
         const app = document.createElement('hoverboard-app');
         document.body.appendChild(app);
       });
+    }
+
+    function loadHoverboardApp() {
+      const readyState = document.readyState;
+      if (readyState === 'interactive') {
+        appendApp();
+      } else {
+        callOnCompleteLoad(appendApp);
+      }
     }
 
     loadFirebaseModules([
