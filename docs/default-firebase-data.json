@@ -112,6 +112,12 @@
 					"logoUrl": "/images/partners/koordinates.png",
 					"name": "Koordinates",
 					"url": "https://koordinates.com/about/"
+				},
+				{
+					"order": 3,
+					"logoUrl": "/images/partners/catalyst.png",
+					"name": "Catalyst",
+					"url": "https://catalyst.net.nz/"
 				}
 			],
 			"order": 0,
