@@ -25,10 +25,20 @@
 			"primaryColor": "#1B1142",
 			"brief": "Limited early bird registrations are now available",
 			"content": "This is ignored, use a Markdown source file",
-			"image": "/images/manifest/icon-512.png",
+			"image": null,
 			"published": "2019-07-19",
 			"source": "/data/posts/registrations-announce.md",
 			"title": "Conference tickets - on sale now!"
+		},
+		"tgp-results": {
+			"backgroundColor": "#1B1142",
+			"primaryColor": "#1B1142",
+			"brief": "Announcing the results of our Travel Grant Program",
+			"content": "This is ignored, use a Markdown source file",
+			"image": "/images/manifest/icon-512.png",
+			"published": "2019-08-01",
+			"source": "/data/posts/tgp-results.md",
+			"title": "Travel Grant Program results"
 		}
 	},
 	"gallery": [
@@ -102,6 +112,12 @@
 					"logoUrl": "/images/partners/koordinates.png",
 					"name": "Koordinates",
 					"url": "https://koordinates.com/about/"
+				},
+				{
+					"order": 3,
+					"logoUrl": "/images/partners/catalyst.png",
+					"name": "Catalyst",
+					"url": "https://catalyst.net.nz/"
 				}
 			],
 			"order": 0,
