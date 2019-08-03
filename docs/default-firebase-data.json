@@ -621,11 +621,11 @@
 			"title": "Lightning Talks"
 		},
 		"210": {
-			"description": "Posters presented for your reading pleasure",
+			"description": "Break for some damn fine coffee",
 			"tags": [
-				"Posters"
+				"Social"
 			],
-			"title": "Academic Poster Session (and afternoon tea)"
+			"title": "Coffee break"
 		},
 		"2111": {
 			"description": "An engaging talk about something",
@@ -790,6 +790,27 @@
 			],
 			"order": 0,
 			"title": "CEO"
+		},
+		"Dr. Kate Crawford": {
+			"bio": "After successful careers as a pharmacist, a teacher (K-12), an academic, international researcher and software developer, Kate is now the director of a consultancy company Eviva Pty Ltd, an Honorary Principle Research Fellow at the University of Wollongong and an advisor to the Spatial Industry Business Association in Australia. She has experience in cross cultural settings including as a founder of the ANTEP program at Ernabella, South Australia and in Indigenous business development and program development in collaboration with communities.<br><br>Major projects include national programs to engage students and their parents in emerging Citizen Science projects, Community programs to connect older people with their community via digital technologies (Living Connect) in Illawarra region, Research with the University of Wollongong and Defence Science and Technology Organisation  to enable more independent self-directed collaboration in the field (ARC Discovery Program).  After much experience in early IT design and development, networked interactive communication technologies and related social innovation and problem solving, her current interest is the use of spatial technologies as tools in different cultures and to enable more sustainable practices for land and water management.",
+			"company": "Eviva",
+			"companyLogo": null,
+			"companyLogoUrl": null,
+			"country": "Australia",
+			"featured": true,
+			"name": "Dr. Kate Crawford",
+			"photo": "/images/speakers/kate.GIF",
+			"photoUrl": "/images/speakers/kate.GIF",
+			"shortBio": "After much experience in early IT design and development, networked interactive communication technologies and related social innovation and problem solving, her current interest is the use of spatial technologies as tools in different cultures and to enable more sustainable practices for land and water management.",
+			"socials": [
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/katecrawford/",
+						"name": "LinkedIn"
+					}
+			],
+			"order": 1,
+			"title": "Owner Director"
 		}
 	},
 	"team": [{
@@ -811,25 +832,6 @@
 				],
 				"order": 0,
 				"title": "Conference Chair"
-			},
-			{
-				"name": "Kim Fitter",
-				"photo": "/images/team/kf.PNG",
-				"photoUrl": "/images/team/kf.PNG",
-				"socials": [
-					{
-						"icon": "linkedin",
-						"link": "https://www.linkedin.com/in/kim-fitter-nz/",
-						"name": "LinkedIn"
-					},
-					{
-						"icon": "twitter",
-						"link": "https://twitter.com/kim_fitter",
-						"name": "Twitter"
-					}
-				],
-				"order": 1,
-				"title": "Community Lead"
 			},
 			{
 				"name": "Matthew Fry",
@@ -1060,7 +1062,27 @@
 		"title": "Organising Committee"
 	},
 	{
-		"members": [{
+		"members": [
+			{
+				"name": "Kim Fitter",
+				"photo": "/images/team/kf.PNG",
+				"photoUrl": "/images/team/kf.PNG",
+				"socials": [
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/kim-fitter-nz/",
+						"name": "LinkedIn"
+					},
+					{
+						"icon": "twitter",
+						"link": "https://twitter.com/kim_fitter",
+						"name": "Twitter"
+					}
+				],
+				"order": 0,
+				"title": "TGP Working Group"
+			},
+			{
 				"name": "Tim Denee",
 				"photo": "/images/team/td.jpg",
 				"photoUrl": "/images/team/td.jpg",
