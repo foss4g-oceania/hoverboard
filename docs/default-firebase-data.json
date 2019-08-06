@@ -118,6 +118,12 @@
 					"logoUrl": "/images/partners/catalyst.png",
 					"name": "Catalyst",
 					"url": "https://catalyst.net.nz/"
+				},
+				{
+					"order": 4,
+					"logoUrl": "/images/partners/terria.svg",
+					"name": "TerriaJS",
+					"url": "https://terria.io/"
 				}
 			],
 			"order": 0,
