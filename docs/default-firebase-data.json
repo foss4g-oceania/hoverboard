@@ -215,7 +215,7 @@
 						{
 							"items": []
 						},
-						{	
+						{
 							"items": []
 						},
 						{
@@ -779,8 +779,8 @@
 		"Edwin Liava'a": {
 			"bio": "Edwin has a personal philosophy - \"I innovate and provide solutions, not problems\".<br><br>With over 20 years of experience working in the Pacific Islands region providing contextualized solutions and capacity building in ICT, his passion is driven by harnessing inter-cultural competencies. These competencies go well beyond technical knowledge and leadership qualities, because each Pacific Island has its own unique local context. Also important is the ability to possess a high level of cultural flexibility and tolerance to be neutral when it comes to discussions that might overlap from being politically correct to being in-correct.<br><br>Edwin believes that \"The best idea should always win and we hire smart people to tell us what to do, not for us to tell them what to do.\"",
 			"company": "Tonga Cable",
-			"companyLogo": null,
-			"companyLogoUrl": null,
+			"companyLogo": "/images/partners/speakers/tonga-cable.jpg",
+			"companyLogoUrl": "http://www.tongacable.to/",
 			"country": "Tonga",
 			"featured": true,
 			"name": "Edwin Liava'a",
@@ -800,8 +800,8 @@
 		"Dr. Kate Crawford": {
 			"bio": "After successful careers as a pharmacist, a teacher (K-12), an academic, international researcher and software developer, Kate is now the director of a consultancy company Eviva Pty Ltd, an Honorary Principle Research Fellow at the University of Wollongong and an advisor to the Spatial Industry Business Association in Australia. She has experience in cross cultural settings including as a founder of the ANTEP program at Ernabella, South Australia and in Indigenous business development and program development in collaboration with communities.<br><br>Major projects include national programs to engage students and their parents in emerging Citizen Science projects, Community programs to connect older people with their community via digital technologies (Living Connect) in Illawarra region, Research with the University of Wollongong and Defence Science and Technology Organisation  to enable more independent self-directed collaboration in the field (ARC Discovery Program).  After much experience in early IT design and development, networked interactive communication technologies and related social innovation and problem solving, her current interest is the use of spatial technologies as tools in different cultures and to enable more sustainable practices for land and water management.",
 			"company": "Eviva",
-			"companyLogo": null,
-			"companyLogoUrl": null,
+			"companyLogo": "/images/partners/speakers/eviva.png",
+			"companyLogoUrl": "http://www.eviva.com.au/",
 			"country": "Australia",
 			"featured": true,
 			"name": "Dr. Kate Crawford",

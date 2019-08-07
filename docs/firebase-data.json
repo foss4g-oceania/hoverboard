@@ -1,0 +1,1513 @@
+{
+  "blog": {
+    "website": {
+      "backgroundColor": "#1B1142",
+      "primaryColor": "#1B1142",
+      "brief": "We have just launched our conference website",
+      "content": "This is ignored, use a Markdown source file",
+      "image": null,
+      "published": "2019-05-05",
+      "source": "/data/posts/website-announce.md",
+      "title": "New website!"
+    },
+    "cfp": {
+      "backgroundColor": "#1B1142",
+      "primaryColor": "#1B1142",
+      "brief": "Workshop proposals and talk submissions are now live!",
+      "content": "This is ignored, use a Markdown source file",
+      "image": null,
+      "published": "2019-07-01",
+      "source": "/data/posts/cfp-cfw-announce.md",
+      "title": "Call for Presentations and Workshops"
+    },
+    "registrations": {
+      "backgroundColor": "#1B1142",
+      "primaryColor": "#1B1142",
+      "brief": "Limited early bird registrations are now available",
+      "content": "This is ignored, use a Markdown source file",
+      "image": null,
+      "published": "2019-07-19",
+      "source": "/data/posts/registrations-announce.md",
+      "title": "Conference tickets - on sale now!"
+    },
+    "tgp-results": {
+      "backgroundColor": "#1B1142",
+      "primaryColor": "#1B1142",
+      "brief": "Announcing the results of our Travel Grant Program",
+      "content": "This is ignored, use a Markdown source file",
+      "image": "/images/manifest/icon-512.png",
+      "published": "2019-08-01",
+      "source": "/data/posts/tgp-results.md",
+      "title": "Travel Grant Program results"
+    }
+  },
+  "gallery": [
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/pano_20181121_091455.vr_4282.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/fullsizeoutput_d9aa74c.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_2241d798.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_223117cd.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_223098f5.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/20181120_195050dbab.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/20181121_15564257da.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181122_152335a3ee.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181122_1848342ae9.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181005_151304215a.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181120_1634491861.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181121_090703d18e.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181121_092713ba0a.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181121_120527d127.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181121_20264566c2.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181122_090549b764.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181120_1048429b3e.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181120_17144929bd.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_20181122_093732c85f.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_0434fb88.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_0436fe83.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_0443939a.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_0444fd97.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_04452440.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_04498421.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_0450d894.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_0452c52a.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_04559aa0.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/img_0459f728.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/tiles4afb.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/nyall2a50f.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/tgpwjohngregbfe8.jpg",
+    "https://2018.foss4g-oceania.org/sites/default/files/styles/scale_and_crop_photo/public/photos/paulkeynotecrowd8a07.jpg"
+  ],
+  "notifications": {
+    "config": {
+      "icon": "",
+      "timezone": "+12:00"
+    },
+    "messages": {},
+    "subscribers": {},
+    "test": {},
+    "users": {}
+  },
+  "partners": [
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "/images/partners/pinpoint-geospatial-solutions.png",
+          "name": "Pinpoint Geospatial Solutions",
+          "url": "https://www.pinpointgeospatial.co.nz/"
+        },
+        {
+          "order": 1,
+          "logoUrl": "/images/partners/mapillary.png",
+          "name": "Mapillary",
+          "url": "https://www.mapillary.com/"
+        },
+        {
+          "order": 2,
+          "logoUrl": "/images/partners/koordinates.png",
+          "name": "Koordinates",
+          "url": "https://koordinates.com/about/"
+        },
+        {
+          "order": 3,
+          "logoUrl": "/images/partners/catalyst.png",
+          "name": "Catalyst",
+          "url": "https://catalyst.net.nz/"
+        },
+        {
+          "order": 4,
+          "logoUrl": "/images/partners/terria.svg",
+          "name": "TerriaJS",
+          "url": "https://terria.io/"
+        }
+      ],
+      "order": 0,
+      "title": "Gold Sponsors"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "/images/partners/vuw.png",
+          "name": "Victoria University of Wellington",
+          "url": "https://www.victoria.ac.nz/explore/study-areas/geography/study?subject=geographical-information-systems-and-science&subject=geographical-information-science"
+        }
+      ],
+      "order": 1,
+      "title": "Workshop and Community Day Host"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "/images/partners/s+snz.png",
+          "name": "Survey and Spatial New Zealand",
+          "url": "https://www.surveyspatialnz.org/about/our_groups/spatial_stream"
+        }
+      ],
+      "order": 1,
+      "title": "Industry Partner"
+    }
+  ],
+  "schedule": {
+    "2019-11-12": {
+      "dateReadable": "Tues Nov 12",
+      "timeslots": [
+        {
+          "startTime": "08:00",
+          "endTime": "09:00",
+          "sessions": [
+            {
+              "items": [
+                101
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "09:00",
+          "endTime": "12:30",
+          "sessions": [
+            {
+              "items": [
+                102
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "12:30",
+          "endTime": "13:30",
+          "sessions": [
+            {
+              "items": [
+                105
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "13:30",
+          "endTime": "17:00",
+          "sessions": [
+            {
+              "items": [
+                106
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "18:00",
+          "endTime": "20:00",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                109
+              ]
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Rutherford House, Victoria University of Wellington"
+        },
+        {
+          "title": "Venue TBA"
+        }
+      ]
+    },
+    "2019-11-13": {
+      "dateReadable": "Wed Nov 13",
+      "timeslots": [
+        {
+          "startTime": "07:00",
+          "endTime": "08:30",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": [
+                201
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "08:30",
+          "endTime": "09:00",
+          "sessions": [
+            {
+              "items": [
+                202
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "09:00",
+          "endTime": "09:20",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                203
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "09:20",
+          "endTime": "09:50",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                204
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "09:50",
+          "endTime": "10:20",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                205
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "10:20",
+          "endTime": "10:50",
+          "sessions": [
+            {
+              "items": [
+                206
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "10:50",
+          "endTime": "12:30",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                2071
+              ]
+            },
+            {
+              "items": [
+                2072
+              ]
+            },
+            {
+              "items": [
+                2073
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "12:30",
+          "endTime": "13:30",
+          "sessions": [
+            {
+              "items": [
+                208
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "13:30",
+          "endTime": "15:10",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                209
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "15:10",
+          "endTime": "15:30",
+          "sessions": [
+            {
+              "items": [
+                210
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "15:30",
+          "endTime": "16:55",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                2111
+              ]
+            },
+            {
+              "items": [
+                2112
+              ]
+            },
+            {
+              "items": [
+                2113
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "18:30",
+          "endTime": "22:00",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": [
+                212
+              ]
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Tiakiwai Foyer (Lower Ground Floor)"
+        },
+        {
+          "title": "Auditorium (Taiwhanga Kauhau)"
+        },
+        {
+          "title": "Seminar Rooms (Lower Ground Floor)"
+        },
+        {
+          "title": "Programme Rooms (Ground Floor)"
+        },
+        {
+          "title": "Venue TBA"
+        }
+      ]
+    },
+    "2019-11-14": {
+      "dateReadable": "Thurs Nov 14",
+      "timeslots": [
+        {
+          "startTime": "07:00",
+          "endTime": "08:30",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": [
+                301
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "08:30",
+          "endTime": "09:00",
+          "sessions": [
+            {
+              "items": [
+                302
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                3031
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "09:30",
+          "endTime": "10:20",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                3032
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "10:20",
+          "endTime": "10:50",
+          "sessions": [
+            {
+              "items": [
+                304
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "10:50",
+          "endTime": "12:30",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                3051
+              ]
+            },
+            {
+              "items": [
+                3052
+              ]
+            },
+            {
+              "items": [
+                3053
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "12:30",
+          "endTime": "13:30",
+          "sessions": [
+            {
+              "items": [
+                306
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "13:30",
+          "endTime": "15:10",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                3071
+              ]
+            },
+            {
+              "items": [
+                3072
+              ]
+            },
+            {
+              "items": [
+                3073
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "15:10",
+          "endTime": "15:40",
+          "sessions": [
+            {
+              "items": [
+                308
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "15:40",
+          "endTime": "16:10",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                309
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "16:10",
+          "endTime": "16:55",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": [
+                310
+              ]
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Tiakiwai Foyer (Lower Ground Floor)"
+        },
+        {
+          "title": "Auditorium (Taiwhanga Kauhau)"
+        },
+        {
+          "title": "Seminar Rooms (Lower Ground Floor)"
+        },
+        {
+          "title": "Programme Rooms (Ground Floor)"
+        },
+        {
+          "title": "Venue TBA"
+        }
+      ]
+    },
+    "2019-11-15": {
+      "dateReadable": "Fri Nov 15",
+      "timeslots": [
+        {
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "sessions": [
+            {
+              "items": [
+                400
+              ]
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Rutherford House, Victoria University of Wellington"
+        }
+      ]
+    }
+  },
+  "sessions": {
+    "101": {
+      "description": "Conference registration opens at 8, and is actually available all day. This is for early-birds to jump the queue before the first day of conference presentations begins.",
+      "tags": [
+        "Registration"
+      ],
+      "title": "Registration"
+    },
+    "102": {
+      "description": "Details to come.",
+      "tags": [
+        "Workshop"
+      ],
+      "speakers": [
+        "Mystery Person"
+      ],
+      "title": "Morning Workshops"
+    },
+    "105": {
+      "title": "Lunch",
+      "tags": [
+        "Social"
+      ],
+      "description": "Break for lunch"
+    },
+    "106": {
+      "description": "Details to come.",
+      "tags": [
+        "Workshop"
+      ],
+      "speakers": [
+        "Mystery Person"
+      ],
+      "title": "Afternoon Workshops"
+    },
+    "109": {
+      "description": "Come and meet your fellow attendees before the conference kicks off.",
+      "tags": [
+        "Social"
+      ],
+      "title": "Conference icebreaker"
+    },
+    "201": {
+      "description": "Breakfast(s)",
+      "tags": [
+        "Social"
+      ],
+      "title": "Conference Breakfast"
+    },
+    "202": {
+      "description": "Registration opens when the doors do",
+      "tags": [
+        "Registration"
+      ],
+      "title": "Registration"
+    },
+    "203": {
+      "description": "Introduction to the conference, including housekeeping and emergency evacuation notes",
+      "tags": [
+        "Conference"
+      ],
+      "title": "Welcome and Conference Introduction"
+    },
+    "204": {
+      "description": "First keynote presentation",
+      "tags": [
+        "Keynote"
+      ],
+      "title": "Keynote I"
+    },
+    "205": {
+      "description": "Second keynote presentation",
+      "tags": [
+        "Keynote"
+      ],
+      "title": "Keynote II"
+    },
+    "206": {
+      "description": "Break for some damn fine coffee",
+      "tags": [
+        "Social"
+      ],
+      "title": "Coffee break"
+    },
+    "208": {
+      "description": "Break for lunch",
+      "tags": [
+        "Social"
+      ],
+      "title": "Lunch"
+    },
+    "209": {
+      "description": "Very short talk about lots of things",
+      "tags": [
+        "Lightning Talk"
+      ],
+      "title": "Lightning Talks"
+    },
+    "210": {
+      "description": "Break for some damn fine coffee",
+      "tags": [
+        "Social"
+      ],
+      "title": "Coffee break"
+    },
+    "212": {
+      "description": "Conference dinner for those who have tickets",
+      "tags": [
+        "Social"
+      ],
+      "title": "Conference Dinner"
+    },
+    "301": {
+      "description": "Breakfast(s)",
+      "tags": [
+        "Social"
+      ],
+      "title": "Conference Breakfast"
+    },
+    "302": {
+      "description": "Registration opens when the doors do",
+      "tags": [
+        "Registration"
+      ],
+      "title": "Registration"
+    },
+    "304": {
+      "description": "Break for some damn fine coffee",
+      "tags": [
+        "Social"
+      ],
+      "title": "Coffee break"
+    },
+    "306": {
+      "description": "Break for lunch",
+      "tags": [
+        "Social"
+      ],
+      "title": "Lunch"
+    },
+    "308": {
+      "description": "Break for some damn fine coffee",
+      "tags": [
+        "Social"
+      ],
+      "title": "Coffee break"
+    },
+    "309": {
+      "description": "Fourth keynote presentation",
+      "tags": [
+        "Keynote"
+      ],
+      "title": "Keynote IV"
+    },
+    "310": {
+      "description": "Community day pitches and a thank you to all involved",
+      "tags": [
+        "Conference"
+      ],
+      "title": "Conference Closing"
+    },
+    "400": {
+      "description": "Community Day / Code Sprint",
+      "tags": [
+        "Social",
+        "Code Sprint"
+      ],
+      "title": "Community Day / Code Sprint"
+    },
+    "2071": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "2072": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "2073": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "2111": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "2112": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "2113": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "3031": {
+      "description": "Third keynote presentation",
+      "tags": [
+        "Keynote"
+      ],
+      "title": "Keynote III"
+    },
+    "3032": {
+      "description": "Watch this space",
+      "tags": [
+        "Conference"
+      ],
+      "title": "Unconfirmed Activity"
+    },
+    "3051": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "3052": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "3053": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "3071": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "3072": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "3073": {
+      "description": "An engaging talk about something",
+      "tags": [
+        "Stream"
+      ],
+      "title": "Stream Talks"
+    },
+    "AUNRDL": {
+      "description": "This is a full day workshop on collecting, processing and analysing data collected from small RPA (remotely piloted aircraft) using open source tools.\r\n\r\nWeather permitting, the morning session will be a practical session using sub-2kg aircraft to collect imagery and hacking together ground control points using phones and corner store supplies. This session will be run by certified RPA pilots and operate in accordance with CAANZ’s Part 101 regulations. It will cover flight planning for different data collection goals, and walk through some different flight scenarios\r\n\r\nIn the afternoon, we’ll crunch numbers. This  session will walk users through OpenDroneMap, and we’ll discuss and demonstrate other useful tools - QGIS, CloudCompare, PDAL, and Entwine. \r\n\r\nThis is aimed at an intermediate audience - covering a broad range of topics rather than a deep dive into a specific technology. Attendees need to be comfortable with command line (bash) applications, and understand",
+      "tags": [],
+      "language": "English",
+      "title": "A hands on introduction to small multirotor RPA data collection, processing and analysis with open tools",
+      "speakers": [
+        "UJHNXU"
+      ],
+      "complexity": "Attendees should be comfortable with:\r\n- geospatial concepts (GNSS, ground control points, rasters, points, vectors)\r\n- command line applications\r\n- QGIS\r\n- chaos\r\n\r\nBasic python skills help also."
+    },
+    "QSBVAQ": {
+      "description": "The graphical modeller is a powerful component that we can use to define a workflow and run a chain of algorithms (a processing model).\r\n\r\nA normal session with the processing framework tools includes more than running a single algorithm. Usually several of them are run to obtain a result, and the outputs of some of those algorithms are used as input for some of the other ones.\r\n\r\nUsing the graphical modeller, that workflow can be put into a processing model, which will run all the necessary algorithms in a single run, thus simplifying the whole process and automating it.",
+      "tags": [],
+      "language": "English",
+      "title": "QGIS Processing Models and the Graphical Modeller",
+      "speakers": [
+        "RE3QB8"
+      ],
+      "complexity": "Intermediate level QGIS minimum"
+    },
+    "YNMLTW": {
+      "description": "Humanity groveling in abject terror which natural disasters occur. Liquefaction induced by tectonism is lethal and deadly which summons the need for forward risks reduction planning. It is one of the geohazards associated with seismic ground shaking or tremor which result in collapsing of buildings, loss of human lives and environmental disturbances. Numerous procedures were employed to identify potential liquefaction zones. The present study aims at assessing the site-soil geology of Viti Levu Island using the GIS and remote sensing techniques. Site-soil geology, geomorphology and SRTM DEM data were the main sources of layers used to carry out analysis using the Saaty’s Analytical Hierarchical Process (AHP) and ArcGIS Multi-Criteria Analysis (MCA).In the ArcGIS 10.5 spatial analyst tool, the raster calculator, reclassify and weightage overlay tools were mainly employed in the study. The final output of LPZ indicates the ‘low’, ‘moderate’, ‘high’ and ‘very high’ zones for spatial planners and decision makers to formulate policies. Thus, enhancing the preventative measures in order to pro-active rather been re-active in spatial physical planning.",
+      "tags": [],
+      "language": "English",
+      "title": "Liquefaction Potential Mico Zonation in Fiji Islands: A Case Study of Fiji Islands",
+      "speakers": [
+        "X9FFRH"
+      ],
+      "complexity": "This need to have experience with ArcGIS and python as well."
+    },
+    "7V8QGE": {
+      "description": "Geospatial shares the opportunities and the challenges of both high performance computing and big data. With applications from visualising IoT data through to ingesting drone footage, it brings with it increasingly large data sizes, complicated data pipelines, HPC-level transformation demands, and often massive traffic from public users. From Smart Cities through to location-based marketing, rapid analysis of large volumes of geospatial data is becoming increasingly important. In this session you will hear how AWS customers build powerful, flexible, secure, and future-proof geospatial platforms. These systems deliver more business value from location-based data while minimising both compute costs and management overhead.",
+      "tags": [
+        "Cloud Computing"
+      ],
+      "language": "English",
+      "title": "Running Geospatial Workloads on AWS",
+      "speakers": [
+        "CG8GRE"
+      ],
+      "complexity": null
+    },
+    "9US7CS": {
+      "description": "This presentation will provide examples of what the present-day geologist/mineral explorer is doing with QGIS. I have been running QGIS workshops for geologists in association with the Australian Institute of Geoscientists since 2016 and I will highlight the QGIS features most valued by geologists. Geologists require the ability to assess multiple data sets and QGIS gives them the ability to do this. Being able to bring satellite imagery directly into your map window has been a major advance in the interpretation of geological data. Plugins allow for remote sensing data to be sourced, processed and presented as required by the user. Other plugins allow drill holes to be plotted in plan and in cross section. The use of free open source symbols and patterns has extended the capabilities of geologist to produce presentation quality maps. Many geologists work as individual consultants or contractors and the open source world is a fantastic resource of software to allow them to do their work without the constricting licensing conditions or software costs.",
+      "tags": [
+        "QGIS"
+      ],
+      "language": "English",
+      "title": "Geoscience applications of QGIS - a bold new world in mineral exploration",
+      "speakers": [
+        "RU9YHK"
+      ],
+      "complexity": null
+    },
+    "YHT8JT": {
+      "description": "Publicly accessible open source geospatial solutions now underpin Otorohanga, Wairoa and Whanganui District Councils GIS initiatives...\r\n* https://data.otodc.govt.nz\r\n* https://wairoadc.govt.nz\r\n* http://data.whanganui.govt.nz  \r\n\r\nUtilising mature well supported open source projects, any NZ Council can now have a viable cost effective geospatial solution stack to allow open access to Geospatial datasets and maps.  \r\n\r\nAs well as a modern geospatial data portal and standards based geospatial web services, the solution stack also provides effective online web mapping and state of the art spatial database capabilities – all without the overhead of traditional vendor-based licensing costs.\r\n\r\nThe stack includes the following open source projects\r\n* GeoNode - Open data portal catalogue\r\n* GeoServer - Geospatial Web Services\r\n* Mapstore - Modern web mapping framework\r\n* PostGIS - Gepspatial Database\r\n* QGIS - Desktop Mapping\r\n* QField - Mobile field data collection",
+      "tags": [
+        "FOSS4G"
+      ],
+      "language": "English",
+      "title": "Implementing a full Open Source Geospatial Stack",
+      "speakers": [
+        "RE3QB8"
+      ],
+      "complexity": null
+    },
+    "AXRSVG": {
+      "description": "Under the Sendai Framework for Disaster Risk Reduction, the National Disaster Management Office (NDMO_ in Fiji identify a Signiant role that SBT and ICT to reduce vulnerability and improve resilience. By integrating SBT and ICT tool, with national disaster risk management architecture, timely and accurate information can be delivered to relevant communities, individual, rescuers and decision makers to save lives and properties at risk. The project was funded by Japan Fund for Poverty Reduction, with technical assistance from the Japan aerospace exploration agency, Asia Institute of Technology – Geomatics Centre, Asian Disaster Reduction Centre, Remote Sensing technology centre and Geothings.  Work carried out was divided into 5 sections\r\n1.\tLocal communities digitised building and infrastructure in Open Street Map\r\n2.\tLocal communities with assistance from mobile app developer design a base map to fit the purpose of the project. These include building attributes, conditions, height and materials. \r\n3.\tRecording capacities – Using geoBinAn App, disaster capacities and vulnerability are identified and mapped out in real time. Communities’ hazard maps were generated out of this work. \r\n4.\tRecording - During disaster users can record information including disaster situation, building damage, and needs assessments.  This information is sent to the operation centre for assistance - all these in real time. \r\n5.\tEmergency Observation - Using satellite data, and community base map – it was possible to estimate damage extents. \r\nLocal communities were trained to use the tools to record vulnerability and capacities in village related to floods, and cyclone. All these tools and reports are updated on the website monitored by the NDMO Operation centre. Two critical maps came out of this work: 1. Community-based hazard map and 2. Evacuation map.   These are the base map used for the village to seek shelter and identify hazard areas and planning.",
+      "tags": [
+        "Web Mapping"
+      ],
+      "language": "English",
+      "title": "Applying Space-Based Technology and Information and Communication Technology to Strengthen Disaster Resilience, Nadi - Fiji",
+      "speakers": [
+        "ETJ8VW"
+      ],
+      "complexity": null
+    },
+    "UZFMN8": {
+      "description": "Geoscience Australia (GA) is the custodian of a significant collection of national aerial photography, curated by GA and its predecessor agencies. The data extends over 70 years, from the 1920s through to the mid-1990s. This archive represents an important resource for understanding Australia’s changing landscape as the majority of the collection predates high resolution satellite imagery.\r\n\r\nDigitisation of this archive is an ongoing priority as some of the original negatives are now very old and starting to degrade; but the approximately 280,000 images digitised so far are currently difficult to discover and access.\r\n\r\nSimilar but smaller archives of aerial photography are maintained by various state government agencies, and some are quite mature in their adoption of digital discovery and access, however each agency has implemented their own system, generally locked to a proprietary platform with little capacity for federating data across agencies.\r\n\r\nGA has therefore partnered with Data-61 under the Platforms for Open Data (PfOD) program to design and build a canonical metadata repository for images in the collection, and an open API for discovering and eventually accessing these images.  The project has a strong focus on open source and standards based solutions, with the hope that state government agencies will come on board, facilitating federated discovery of imagery across state and federally managed archives.\r\n\r\nThe project is a fascinating example of old technology meeting new, dealing with metadata sourced from nearly century-old hand-written documents on the one hand, and the latest cloud deployment technologies and emerging API standards for geospatial data discovery on the other.",
+      "tags": [
+        "Open Data"
+      ],
+      "language": "English",
+      "title": "Opening a treasure trove: The Historical Aerial Photography project",
+      "speakers": [
+        "93J83Q"
+      ],
+      "complexity": null
+    },
+    "AQXDV7": {
+      "description": "AWS Ground Station is a fully managed service that lets you control satellite communications, downlink and process satellite data, and scale your satellite operations quickly, easily and cost-effectively without having to worry about building or managing your own ground station infrastructure. Ground stations are at the core of global satellite networks, which are facilities that provide communications between the ground and the satellites by using antennas to receive data and control systems to send radio signals to command and control the satellite. Today, you must either build your own ground stations and antennas, or obtain long-term leases with ground station providers, often in multiple countries to provide enough opportunities to contact the satellites as they orbit the globe. Once all this data is downloaded, you need servers, storage, and networking in close proximity to the antennas to process, store, and transport the data from the satellites.\r\nAWS Ground Station eliminates these problems by delivering a global Ground Station as a Service. We provide direct access to AWS services and the AWS Global Infrastructure including our low-latency global fiber network right where your data is downloaded into our AWS Ground Station. This enables you to control satellite communications, ingest and process your satellite data, and integrate that data with your applications and services running in the AWS Cloud. For example, you can use Amazon S3 to store downloaded data, Amazon SageMaker for building custom machine learning applications, and Amazon EC2 to command and download data from satellites.",
+      "tags": [
+        "Cloud Computing"
+      ],
+      "language": "English",
+      "title": "Introduction to AWS Groundstation",
+      "speakers": [
+        "CG8GRE"
+      ],
+      "complexity": null
+    },
+    "ZB7HDM": {
+      "description": "The Fiji Geodetic Datum (FGD) 1986 on WGS 72 ellipsoid is the official datum and has been\r\nused to date. FGD 1986 later adopted the name Fiji Map Grid (FMG) 1986 (Hannah, J. and\r\nMaseyk, J, 1989). This is about to change with the recent installation of 8 continuously operating\r\nreference station (CORs) station that will generate a network Real Time Kinematic (RTK)\r\nsolution across the islands, which will lead to the definition of a new geodetic datum. These\r\nchanges will have an impact on geospatial datasets. GIS is an evolving science that is\r\nconstantly being challenged by new technologies. In particular, access to high precision\r\nnavigation and positioning is an important development that will impact GIS users. The recent\r\nannouncement for the development of a sovereign satellite-based augmentation system (SBAS)\r\nin Australia will allow access to centimetre (cm) precision for all users using any device. In Fiji,\r\nSpatial datasets are referenced to two main coordinate systems: WGS 84 UTM Zone 60s and\r\nFiji Map Grid 1986. With precision surveying becoming a reality, users’ will need to understand\r\nthat WGS 84 should not be considered a one size fit all datum (Qiao, 2014 and Brunner,F\r\n1998). Geoscience Australia (2017) stated that Australian are not able to achieve better\r\naccuracies as they cannot access WGS84 via a differential measurement directly to the DoD\r\nnetwork of stations. WGS84 coordinate accuracy is meaningless unless epoch metadata are\r\nprovided. This and others are the reason why Fiji is updating its national datum. Geoscience\r\nAustralia in 2005 conducted a GNSS survey for Fiji’s maritime boundary. The coordinates for all\r\nthese survey marks were transformed from FMG 1986 to ITRF 2005. Part of my research, I\r\nupdated the ITRF 2005 to the latest reference frame (ITRF 2014), adopted a set of codes from\r\nGeographic Information Systems Stack Exchange (2015) and transform the coordinates using\r\nHelmert transformation parameters in order to map movement that has occurred on the survey\r\nmark which will indicate movements in the tectonic plates. These movements are then \r\ncalculated and incorporated into a distortion model in QGIS.",
+      "tags": [
+        "Datums & Projections"
+      ],
+      "language": "English",
+      "title": "Updating Fiji’s Maritime Survey ITRF 2005 to ITRF 2014 and Mapping Movement in QGIS",
+      "speakers": [
+        "ETJ8VW"
+      ],
+      "complexity": null
+    }
+  },
+  "speakers": {
+    "Edwin Liava'a": {
+      "bio": "Edwin has a personal philosophy - \"I innovate and provide solutions, not problems\".<br><br>With over 20 years of experience working in the Pacific Islands region providing contextualized solutions and capacity building in ICT, his passion is driven by harnessing inter-cultural competencies. These competencies go well beyond technical knowledge and leadership qualities, because each Pacific Island has its own unique local context. Also important is the ability to possess a high level of cultural flexibility and tolerance to be neutral when it comes to discussions that might overlap from being politically correct to being in-correct.<br><br>Edwin believes that \"The best idea should always win and we hire smart people to tell us what to do, not for us to tell them what to do.\"",
+      "company": "Tonga Cable",
+      "companyLogo": "/images/partners/speakers/tonga-cable.jpg",
+      "companyLogoUrl": "http://www.tongacable.to/",
+      "country": "Tonga",
+      "featured": true,
+      "name": "Edwin Liava'a",
+      "photo": "/images/speakers/edwin.jpeg",
+      "photoUrl": "/images/speakers/edwin.jpeg",
+      "shortBio": "Edwin has over 20 years of experience working in the Pacific Islands region providing contextualized solutions and capacity building in ICT.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/edwin-liava-a-23150447/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 0,
+      "title": "CEO"
+    },
+    "Dr. Kate Crawford": {
+      "bio": "After successful careers as a pharmacist, a teacher (K-12), an academic, international researcher and software developer, Kate is now the director of a consultancy company Eviva Pty Ltd, an Honorary Principle Research Fellow at the University of Wollongong and an advisor to the Spatial Industry Business Association in Australia. She has experience in cross cultural settings including as a founder of the ANTEP program at Ernabella, South Australia and in Indigenous business development and program development in collaboration with communities.<br><br>Major projects include national programs to engage students and their parents in emerging Citizen Science projects, Community programs to connect older people with their community via digital technologies (Living Connect) in Illawarra region, Research with the University of Wollongong and Defence Science and Technology Organisation  to enable more independent self-directed collaboration in the field (ARC Discovery Program).  After much experience in early IT design and development, networked interactive communication technologies and related social innovation and problem solving, her current interest is the use of spatial technologies as tools in different cultures and to enable more sustainable practices for land and water management.",
+      "company": "Eviva",
+      "companyLogo": "/images/partners/speakers/eviva.png",
+      "companyLogoUrl": "http://www.eviva.com.au/",
+      "country": "Australia",
+      "featured": true,
+      "name": "Dr. Kate Crawford",
+      "photo": "/images/speakers/kate.GIF",
+      "photoUrl": "/images/speakers/kate.GIF",
+      "shortBio": "After much experience in early IT design and development, networked interactive communication technologies and related social innovation and problem solving, her current interest is the use of spatial technologies as tools in different cultures and to enable more sustainable practices for land and water management.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/katecrawford/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 1,
+      "title": "Owner Director"
+    },
+    "UJHNXU": {
+      "name": "Adam Steer",
+      "bio": "Dr Adam Steer has over a decade of experience working with airborne remote sensing data, starting his geospatial life with an aerial imagery program over Antarctic sea ice. This quickly progressed to airborne lidar, at which point geodesy, geomatics, flight planning, logistics and point clouds kind of took over everything. In turn, this led to a doctorate in surveying - using airborne lidar and structure-from-motion reconstructions to estimate sea ice thickness at sub-metre scales. In the last five years Adam has focussed on data management and delivery, at national research infrastructure scale and in lean, agile technology startups. He currently operates an independent geospatial consultancy with clients across industry, government and academia.\r\n\r\nAdam is a CASA-certified remote pilot for aircraft up to 25kg (as of 20 July), and works closely with the OpenDroneMap and PDAL communities, helping to demonstrate ways these tools can be deployed for solving real world problems from neighbourhood to continental scales.",
+      "shortBio": "Dr Adam Steer has over a decade of experience working with airborne remote sensing data, starting his geospatial life with an aerial imagery program over Antarctic sea ice. This quickly progressed to airborne lidar, at which point geodesy, geomatics, flight planning, logistics and point clouds kind of took over everything. In turn, this led to a doctorate in surveying - using airborne lidar and structure-from-motion reconstructions to estimate sea ice thickness at sub-metre scales. In the last five years Adam has focussed on data management and delivery, at national research infrastructure scale and in lean, agile technology startups. He currently operates an independent geospatial consultancy with clients across industry, government and academia.\r\n\r\nAdam is a CASA-certified remote pilot for aircraft up to 25kg (as of 20 July), and works closely with the OpenDroneMap and PDAL communities, helping to demonstrate ways these tools can be deployed for solving real world problems from neighbourhood to continental scales.",
+      "photoUrl": null
+    },
+    "RE3QB8": {
+      "name": "Simon Nitz",
+      "bio": "Simon part owned Digital Mapping Solutions Ltd which was sold in 2016. Simon then went on to set up an geospatial open source business called Pinpoint Geospatial Solutions Ltd (PGS) in 2018. \r\n\r\nSimon is highly regarded throughout New Zealand as a leader in his field and has also undertaken numerous work in Australia. He has provided over 30+ years of GIS consulting and training services to organisations, focusing on both desktop and web mapping systems. His core strengths are as a GIS System Implementer, GIS Application Developer, GIS Database Administrator, and GIS Project Manager. An acknowledged web mapping technology expert amongst his peers, Simon brings a vast knowledge of not only web mapping technology but also web platforms, desktop GIS Systems and GIS services in general.\r\n\r\nSimon regularly runs QGIS training, GeoServer training, PostGIS training, SQL Server training, GeoNode training, Python for GeoSpatial training and Intramaps training through his business Pinpoint Geospatial Solutions.",
+      "shortBio": "Simon part owned Digital Mapping Solutions Ltd which was sold in 2016. Simon then went on to set up an geospatial open source business called Pinpoint Geospatial Solutions Ltd (PGS) in 2018. \r\n\r\nSimon is highly regarded throughout New Zealand as a leader in his field and has also undertaken numerous work in Australia. He has provided over 30+ years of GIS consulting and training services to organisations, focusing on both desktop and web mapping systems. His core strengths are as a GIS System Implementer, GIS Application Developer, GIS Database Administrator, and GIS Project Manager. An acknowledged web mapping technology expert amongst his peers, Simon brings a vast knowledge of not only web mapping technology but also web platforms, desktop GIS Systems and GIS services in general.\r\n\r\nSimon regularly runs QGIS training, GeoServer training, PostGIS training, SQL Server training, GeoNode training, Python for GeoSpatial training and Intramaps training through his business Pinpoint Geospatial Solutions.",
+      "photoUrl": "https://pretalx.com/media/simon.png"
+    },
+    "X9FFRH": {
+      "name": "Joeli Varo",
+      "bio": "An urban and regional Planner in disaster risk reduction for Small Island Developing States especially for the Caribbean and the South Pacific. Currently completing my Ph. D in Geographic Information Science and Remote Sensing at the PNG UNITECH.",
+      "shortBio": "An urban and regional Planner in disaster risk reduction for Small Island Developing States especially for the Caribbean and the South Pacific. Currently completing my Ph. D in Geographic Information Science and Remote Sensing at the PNG UNITECH.",
+      "photoUrl": null
+    },
+    "93J83Q": {
+      "name": "Paul Haesler",
+      "bio": "Paul has been programming computers since his parents bought him a Commodore 64 in the early 1980s.  He has programmed professionally for over 20 years, engaging in his passion for open source whenever possible.  Paul is currently works as a Senior Software Engineer working at CSIRO-Data 61 in the Web-Geospatial team.  These days he is based in Canberra and is an award-winning home-brewer and is currently writing and recording a science fiction rock opera under the pen-name “Spaceman Paul”, which is also his github id.",
+      "shortBio": "Paul has been programming computers since his parents bought him a Commodore 64 in the early 1980s.  He has programmed professionally for over 20 years, engaging in his passion for open source whenever possible.  Paul is currently works as a Senior Software Engineer working at CSIRO-Data 61 in the Web-Geospatial team.  These days he is based in Canberra and is an award-winning home-brewer and is currently writing and recording a science fiction rock opera under the pen-name “Spaceman Paul”, which is also his github id.",
+      "photoUrl": "https://pretalx.com/media/avatar_jRXZ2Qm.jpg"
+    },
+    "RU9YHK": {
+      "name": "Grant Boxer",
+      "bio": "Grant Boxer (RPGeo, FAIG, MGSA) is a consultant geologist with over 40 years’ experience in exploration and mining geology. He was employed by CRA Exploration, Argyle Diamonds and Rio Tinto Exploration from 1978 until 1997 undertaking diamond exploration and evaluation activities. Ten years were spent at the Argyle diamond mine carrying out exploration and evaluation programs, feasibility studies and mine development studies for the Argyle and Ellendale diamond deposits and Argyle’s associated alluvial diamond deposits. \r\nFrom 1998 until 2008, Grant carried out project reviews, field visits, project management, drilling and sampling program supervision and project generation, primarily for diamonds in Australia, Brazil, China, India and Tanzania. Since 2008, he has been doing GIS data compilation and mineral exploration project generation work for a small exploration company in Perth, as well as a variety of diamond consulting assignments.\r\nGrant has a keen interest in GIS and remote sensing and was a user of MapInfo and Discover since the mid-1990’s. Grant discovered QGIS about 4 years ago and has been running QGIS courses for geologists for the past 3 years in association with the Australian Institute of Geoscientists.",
+      "shortBio": "Grant Boxer (RPGeo, FAIG, MGSA) is a consultant geologist with over 40 years’ experience in exploration and mining geology. He was employed by CRA Exploration, Argyle Diamonds and Rio Tinto Exploration from 1978 until 1997 undertaking diamond exploration and evaluation activities. Ten years were spent at the Argyle diamond mine carrying out exploration and evaluation programs, feasibility studies and mine development studies for the Argyle and Ellendale diamond deposits and Argyle’s associated alluvial diamond deposits. \r\nFrom 1998 until 2008, Grant carried out project reviews, field visits, project management, drilling and sampling program supervision and project generation, primarily for diamonds in Australia, Brazil, China, India and Tanzania. Since 2008, he has been doing GIS data compilation and mineral exploration project generation work for a small exploration company in Perth, as well as a variety of diamond consulting assignments.\r\nGrant has a keen interest in GIS and remote sensing and was a user of MapInfo and Discover since the mid-1990’s. Grant discovered QGIS about 4 years ago and has been running QGIS courses for geologists for the past 3 years in association with the Australian Institute of Geoscientists.",
+      "photoUrl": null
+    },
+    "ETJ8VW": {
+      "name": "Adi Vasiti Radinivuna Soko",
+      "bio": "Vasiti’s industry experience spans ten plus years in the highly technical field of geospatial science and surveying. She has assisted a number of significant projects while working for the Fijian Government including developing a disaster-integrated system for the Commissioner Western’s Office, the Asian Institute of Technology in Thailand, Fiji’s Native Land Trust Board, and the Department of Town and Country Planning.\r\nIn addition, during her stint with the Sugar Industry Tribunal as its GIS Manager Vasiti played a vital role in creating the first GIS web portal that not only linked Fiji’s four main sugarcane mills but also published live harvesting data during the crushing season.\r\nHer completed research will contribute to Fiji’s datum update where she focused on the impact of the new datum to local geospatial users and updated the transformation parameters for the country’s maritime boundary which was initially done by GeoScience Australia.\r\nRecognizing the unsung talent that women in the Pacific possess in the GIS industry, she developed an initiative to recognize these. She is currently working on publishing the first Pacific Women in GeoSpatial magazine (online). The magazine will focus on a total of 10 vibrant women in the Pacific who have been shortlisted from the abstract call. The magazine is in its final stages of production and is scheduled to be published by October 2019. Through this initiative, she champions the course of women in this Industry and this is one way of prompting the skills they have within the Pacific region.",
+      "shortBio": "Vasiti’s industry experience spans ten plus years in the highly technical field of geospatial science and surveying. She has assisted a number of significant projects while working for the Fijian Government including developing a disaster-integrated system for the Commissioner Western’s Office, the Asian Institute of Technology in Thailand, Fiji’s Native Land Trust Board, and the Department of Town and Country Planning.\r\nIn addition, during her stint with the Sugar Industry Tribunal as its GIS Manager Vasiti played a vital role in creating the first GIS web portal that not only linked Fiji’s four main sugarcane mills but also published live harvesting data during the crushing season.\r\nHer completed research will contribute to Fiji’s datum update where she focused on the impact of the new datum to local geospatial users and updated the transformation parameters for the country’s maritime boundary which was initially done by GeoScience Australia.\r\nRecognizing the unsung talent that women in the Pacific possess in the GIS industry, she developed an initiative to recognize these. She is currently working on publishing the first Pacific Women in GeoSpatial magazine (online). The magazine will focus on a total of 10 vibrant women in the Pacific who have been shortlisted from the abstract call. The magazine is in its final stages of production and is scheduled to be published by October 2019. Through this initiative, she champions the course of women in this Industry and this is one way of prompting the skills they have within the Pacific region.",
+      "photoUrl": "https://pretalx.com/media/VASITI.jpg"
+    },
+    "CG8GRE": {
+      "name": "John Hildebrandt",
+      "bio": "John has over 30 years’ experience in Information Technology and Research areas across a broad range of areas. John has extensive Public Sector, Defence and Intelligence experience including postings into Australian and US Intelligence agencies in integrated Military and Civilian teams.\r\nJohn worked in the Defence Science and Technology Organisation (DSTO) as a Senior Research Scientist leading teams undertaking cutting edge Image Analysis and Distributed Systems research.\r\nBefore joining AWS he had senior roles at Microsoft and IBM providing Architectural advice to Federal Government customers.\r\nJohn is currently employed as a Principal Solutions Architect with Amazon Web Services (AWS). He was the first employee for the ANZ Public Sector team and has been active in growing the team. John assists Public Sector customers and partners envisage and architect Cloud solutions using the AWS platform.",
+      "shortBio": "John has over 30 years’ experience in Information Technology and Research areas across a broad range of areas. John has extensive Public Sector, Defence and Intelligence experience including postings into Australian and US Intelligence agencies in integrated Military and Civilian teams.\r\nJohn worked in the Defence Science and Technology Organisation (DSTO) as a Senior Research Scientist leading teams undertaking cutting edge Image Analysis and Distributed Systems research.\r\nBefore joining AWS he had senior roles at Microsoft and IBM providing Architectural advice to Federal Government customers.\r\nJohn is currently employed as a Principal Solutions Architect with Amazon Web Services (AWS). He was the first employee for the ANZ Public Sector team and has been active in growing the team. John assists Public Sector customers and partners envisage and architect Cloud solutions using the AWS platform.",
+      "photoUrl": "https://pretalx.com/media/johnhild-200.jpg"
+    }
+  },
+  "team": [
+    {
+      "members": [
+        {
+          "name": "Daniel Silk",
+          "photo": "/images/team/ds.JPG",
+          "photoUrl": "/images/team/ds.JPG",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/daniel-silk-5524447a",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/influink",
+              "name": "Twitter"
+            }
+          ],
+          "order": 0,
+          "title": "Conference Chair"
+        },
+        {
+          "name": "Matthew Fry",
+          "photo": "/images/team/mf.png",
+          "photoUrl": "/images/team/mf.png",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/matthew-fry-90291a10/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 2,
+          "title": "Program Lead"
+        },
+        {
+          "name": "Dionne Hansen",
+          "photo": "/images/team/dh.jpg",
+          "photoUrl": "/images/team/dh.jpg",
+          "socials": [],
+          "order": 3,
+          "title": "Design & Communication Lead"
+        },
+        {
+          "name": "Tania Hibbard-Nitz",
+          "photo": "/images/team/th.PNG",
+          "photoUrl": "/images/team/th.PNG",
+          "socials": [],
+          "order": 4,
+          "title": "Local & Logistics Lead"
+        },
+        {
+          "name": "Edoardo Neerhut",
+          "photo": "/images/team/en.png",
+          "photoUrl": "/images/team/en.png",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/edoardoneerhut/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/eneerhut",
+              "name": "Twitter"
+            }
+          ],
+          "order": 5,
+          "title": "Sponsorship Lead"
+        },
+        {
+          "name": "John Bryant",
+          "photo": "/images/team/jb.jpg",
+          "photoUrl": "/images/team/jb.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/john-wesley-bryant",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/MammothMapping",
+              "name": "Twitter"
+            },
+            {
+              "icon": "website",
+              "link": "http://mammothgeospatial.com",
+              "name": "Website"
+            }
+          ],
+          "order": 6,
+          "title": "OSGeo Oceania President"
+        },
+        {
+          "name": "Dr Mairéad de Róiste",
+          "photo": "https://www.victoria.ac.nz/images/staffpics/mairead-deroiste.jpg",
+          "photoUrl": "https://www.victoria.ac.nz/images/staffpics/mairead-deroiste.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/mairead-de-roiste-9367ab1/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/GISTspace/",
+              "name": "Twitter"
+            }
+          ],
+          "order": 7,
+          "title": "Committee Member"
+        },
+        {
+          "name": "Jan Ducnuigeen",
+          "photo": "/images/team/jd.jpg",
+          "photoUrl": "/images/team/jd.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/janducnuigeen",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 8,
+          "title": "Committee Member"
+        },
+        {
+          "name": "David Garcia",
+          "photo": "/images/team/dg.jpg",
+          "photoUrl": "/images/team/dg.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/mapmakerdavid/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/mapmakerdavid",
+              "name": "Twitter"
+            },
+            {
+              "icon": "website",
+              "link": "https://www.mapmakerdavid.com/",
+              "name": "Website"
+            }
+          ],
+          "order": 9,
+          "title": "Committee Member"
+        },
+        {
+          "name": "Emma Hain",
+          "photo": "/images/team/eh.jpg",
+          "photoUrl": "/images/team/eh.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/emma-hain-9a47b12a/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/e8sm8",
+              "name": "Twitter"
+            }
+          ],
+          "order": 10,
+          "title": "Committee Member"
+        },
+        {
+          "name": "Greg Lauer",
+          "photo": "/images/team/gl.jpeg",
+          "photoUrl": "/images/team/gl.jpeg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/glauer1/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/flashkiwi",
+              "name": "Twitter"
+            }
+          ],
+          "order": 11,
+          "title": "OSGeo Oceania Secretary"
+        },
+        {
+          "name": "Richard Law",
+          "photo": "https://spatialparalysis.xyz/static/profile-632e3775ffa3d7f89e6b7e1fba57ebed.jpg",
+          "photoUrl": "https://spatialparalysis.xyz/static/profile-632e3775ffa3d7f89e6b7e1fba57ebed.jpg",
+          "socials": [
+            {
+              "icon": "website",
+              "link": "https://spatialparalysis.xyz/",
+              "name": "Website"
+            }
+          ],
+          "order": 12,
+          "title": "Committee Member"
+        },
+        {
+          "name": "Alex Leith",
+          "photo": "/images/team/al.jpeg",
+          "photoUrl": "/images/team/al.jpeg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/alex-leith/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/alexgleith",
+              "name": "Twitter"
+            }
+          ],
+          "order": 13,
+          "title": "OSGeo Oceania Treasurer"
+        },
+        {
+          "name": "Dr Adam Steer",
+          "photo": "https://www.spatialised.net/wp-content/uploads/2019/02/0.jpeg",
+          "photoUrl": "https://www.spatialised.net/wp-content/uploads/2019/02/0.jpeg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/adamsteer",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/adamdsteer",
+              "name": "Twitter"
+            },
+            {
+              "icon": "website",
+              "link": "https://spatialised.net",
+              "name": "Website"
+            }
+          ],
+          "order": 14,
+          "title": "Committee Member"
+        }
+      ],
+      "title": "Organising Committee"
+    },
+    {
+      "members": [
+        {
+          "name": "Kim Fitter",
+          "photo": "/images/team/kf.PNG",
+          "photoUrl": "/images/team/kf.PNG",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/kim-fitter-nz/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/kim_fitter",
+              "name": "Twitter"
+            }
+          ],
+          "order": 0,
+          "title": "TGP Working Group"
+        },
+        {
+          "name": "Tim Denee",
+          "photo": "/images/team/td.jpg",
+          "photoUrl": "/images/team/td.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/tim-denee-b5743a36/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/timdenee",
+              "name": "Twitter"
+            },
+            {
+              "icon": "website",
+              "link": "https://www.timdenee.com/",
+              "name": "Website"
+            }
+          ],
+          "order": 1,
+          "title": "Logo Designer"
+        }
+      ],
+      "title": "Contributors"
+    }
+  ],
+  "tickets": [
+    {
+      "available": false,
+      "currency": "$",
+      "info": "Half Day Workshops",
+      "name": "Workshops",
+      "price": 100,
+      "soldOut": false,
+      "starts": "Sep 8",
+      "ends": "Oct 29",
+      "url": "http://workshops.foss4g-oceania.org"
+    },
+    {
+      "available": true,
+      "currency": "$",
+      "inDemand": false,
+      "info": "2 Day Conference (recognising your OSM / OSGeo contributions)",
+      "name": "Community Contributor",
+      "price": 150,
+      "regular": false,
+      "soldOut": false,
+      "starts": false,
+      "ends": false,
+      "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/8kry6eblc-a,6re1gfebio8"
+    },
+    {
+      "available": true,
+      "currency": "$",
+      "inDemand": false,
+      "info": "2 Day Conference (limited quantity at a special price)",
+      "name": "Early Bird",
+      "price": 350,
+      "regular": false,
+      "soldOut": true,
+      "starts": false,
+      "ends": false,
+      "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/n7xktld2f68,6re1gfebio8"
+    },
+    {
+      "available": true,
+      "currency": "$",
+      "inDemand": true,
+      "info": "2 Day Conference",
+      "name": "Regular",
+      "price": 450,
+      "soldOut": false,
+      "starts": false,
+      "ends": false,
+      "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/qmf9qbjqkos,6re1gfebio8"
+    },
+    {
+      "available": false,
+      "currency": "$",
+      "info": "2 Day Conference (available by application)",
+      "name": "Student",
+      "price": 100,
+      "soldOut": false,
+      "starts": "Sep 1",
+      "ends": "Sep 30",
+      "url": "https://ti.to"
+    }
+  ],
+  "triggers": {
+    "images": false
+  },
+  "videos": [
+    {
+      "speakers": "Stephen Lead",
+      "thumbnail": "https://i.ytimg.com/vi/ubGyf1_aDdc/hqdefault.jpg",
+      "title": "Bootleaf, an open-source web-map",
+      "youtubeId": "ubGyf1_aDdc"
+    },
+    {
+      "speakers": "Various",
+      "thumbnail": "https://i.ytimg.com/vi/WPJC0VDceMk/hqdefault.jpg",
+      "title": "Lightning talks",
+      "youtubeId": "WPJC0VDceMk"
+    },
+    {
+      "speakers": "Hamish Campbell",
+      "thumbnail": "https://i.ytimg.com/vi/hcTPGE8dJ_k/hqdefault.jpg",
+      "title": "Who actually uses geospatial",
+      "youtubeId": "hcTPGE8dJ_k"
+    },
+    {
+      "speakers": "Anne Harper",
+      "thumbnail": "https://i.ytimg.com/vi/GFFdRgGvoIY/hqdefault.jpg",
+      "title": "The future of open data",
+      "youtubeId": "GFFdRgGvoIY"
+    }
+  ],
+  "previousSpeakers": {}
+}
