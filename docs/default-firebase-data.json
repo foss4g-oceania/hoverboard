@@ -817,6 +817,27 @@
 			],
 			"order": 1,
 			"title": "Owner Director"
+		},
+		"Miriam Gonzalez": {
+			"bio": "Miriam is co-founder of projects based in mobile applications and location intelligence technologies and the Geochicas initiative where she promotes more women participation and knowledge sharing in geospatial spaces.<br><br>For the past few years Miriam has been highly involved in promoting OpenStreetMap and Humanitarian OpenStreetMap (HOTOSM), increasing the participation of the community in Mexico and LatAm by giving workshops, conferences and coordinating efforts among key players in open data.<br><br>Currently she is involved in open data, autonomous vehicles, partnerships and data analysis initiatives.",
+			"company": "LatLong",
+			"companyLogo": null,
+			"companyLogoUrl": null,
+			"country": "Mexico",
+			"featured": true,
+			"name": "Miriam Gonzalez",
+			"photo": "/images/speakers/miriam.jpg",
+			"photoUrl": "/images/speakers/miriam.jpg",
+			"shortBio": "Miriam is co-founder of projects based in mobile applications and location intelligence technologies and the Geochicas initiative.",
+			"socials": [
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/miriamgonzalez2/",
+						"name": "LinkedIn"
+					}
+			],
+			"order": 2,
+			"title": "CEO / Co-Founder"
 		}
 	},
 	"team": [{
