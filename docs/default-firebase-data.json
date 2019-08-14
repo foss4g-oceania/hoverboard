@@ -94,8 +94,22 @@
 
 		}
 	},
-	"partners": [{
-			"logos": [{
+	"partners": [
+		{
+			"logos": [
+				{
+					"order": 0,
+					"logoUrl": "/images/partners/linz.png",
+					"name": "Land Information New Zealand",
+					"url": "https://www.linz.govt.nz/"
+				}
+			],
+			"order": 0,
+			"title": "Platinum Sponsors"
+		},
+		{
+			"logos": [
+				{
 					"order": 0,
 					"logoUrl": "/images/partners/pinpoint-geospatial-solutions.png",
 					"name": "Pinpoint Geospatial Solutions",
@@ -124,9 +138,21 @@
 					"logoUrl": "/images/partners/terria.svg",
 					"name": "TerriaJS",
 					"url": "https://terria.io/"
+				},
+				{
+					"order": 5,
+					"logoUrl": "/images/partners/geoplex.jpg",
+					"name": "Geoplex",
+					"url": "https://geoplex.com.au/"
+				},
+				{
+					"order": 6,
+					"logoUrl": "/images/partners/manaaki-whenua.jpg",
+					"name": "Manaaki Whenua - Landcare Research",
+					"url": "https://www.landcareresearch.co.nz/"
 				}
 			],
-			"order": 0,
+			"order": 1,
 			"title": "Gold Sponsors"
 		},
 		{
@@ -137,7 +163,7 @@
 					"url": "https://www.victoria.ac.nz/explore/study-areas/geography/study?subject=geographical-information-systems-and-science&subject=geographical-information-science"
 				}
 			],
-			"order": 1,
+			"order": 2,
 			"title": "Workshop and Community Day Host"
 		},
 		{
@@ -148,7 +174,7 @@
 					"url": "https://www.surveyspatialnz.org/about/our_groups/spatial_stream"
 				}
 			],
-			"order": 1,
+			"order": 3,
 			"title": "Industry Partner"
 		}
 	],
