@@ -864,6 +864,27 @@
 			],
 			"order": 2,
 			"title": "CEO / Co-Founder"
+		},
+		"Lyzi Diamond": {
+			"bio": "Lyzi Diamond is a geographer/teacher/programmer living in New York City. In 2013 she co-founded Maptime, an organization of 80+ location-based community groups across the world focused on teaching each other about maps and geospatial technology.<br><br>She is currently a Developer Advocate at Glitch, a platform for building full-stack web applications in the browser. She cares a lot about map projections and probably wants to talk to you about most cool things!",
+			"company": "Glitch",
+			"companyLogo": null,
+			"companyLogoUrl": null,
+			"country": "USA",
+			"featured": true,
+			"name": "Lyzi Diamond",
+			"photo": "/images/speakers/lyzi.jpeg",
+			"photoUrl": "/images/speakers/lyzi.jpeg",
+			"shortBio": "Lyzi Diamond is a geographer/teacher/programmer living in New York City. In 2013 she co-founded Maptime, an organization of 80+ location-based community groups across the world.",
+			"socials": [
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/lyzidiamond/",
+						"name": "LinkedIn"
+					}
+			],
+			"order": 3,
+			"title": "Developer Advocate"
 		}
 	},
 	"team": [{
