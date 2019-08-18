@@ -98,6 +98,7 @@
     <map-block></map-block>
     <child-friendly-stub-block></child-friendly-stub-block>
     <code-of-conduct-stub-block></code-of-conduct-stub-block>
+    <md-content md-source="[[plan]]"></md-content>
     <footer-block></footer-block>
   </template>
 
@@ -119,6 +120,10 @@
           source: {
             type: String,
             value: '{$ attendIntro $}',
+          },
+          plan: {
+            type: String,
+            value: '{$ planYourStay $}',
           },
         };
       }
