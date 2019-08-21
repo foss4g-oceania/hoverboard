@@ -16,11 +16,12 @@ const headers = {
   "Authorization": apikey
 };
 
-const defaultData = require('../docs/default-firebase-data.json')
-const targetData = {...defaultData}
+const targetData = require('../docs/default-firebase-data.json')
 const targetDataFile = './docs/firebase-data.json'
 
 const confirmedTalksOnly = false
+// TODO bit funky here: can we just use "talks" rather than the crafty logic with includedStatuses?
+const includeStatuses = ['accepted', 'confirmed', 'submitted']
 
 const eventsUriWorkshops = `${host}/api/events/${eventWorkshop}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
 const eventsUriMain = `${host}/api/events/${eventMain}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
@@ -32,6 +33,9 @@ const requestP = util.promisify(request)
 
 const categorisationQuestion = (question) => question.id === 180
 const complexityQuestion = (question) => question.id === 170
+const homeQuestion = (question) => question.id === 194
+const workplaceQuestion = (question) => question.id === 192
+const jobTitleQuestion = (question) => question.id === 193
 
 const transformTalk = (talk) => {
   return {[talk.code]: {
@@ -44,12 +48,20 @@ const transformTalk = (talk) => {
   }}
 }
 
+// Note: this returns all speakers; they are later filtered according to whether
+// they correspond to a confirmed session
 const transformSpeaker = (speaker) => {
+  const jobTitle = (_.find(speaker.answers, q => jobTitleQuestion(q.question)) || {}).answer
+  const workplace = (_.find(speaker.answers, q => workplaceQuestion(q.question)) || {}).answer
+  const home = (_.find(speaker.answers, q => homeQuestion(q.question)) || {}).answer
   return {[speaker.code]: {
     name: speaker.name,
     bio: speaker.biography,
     shortBio: speaker.biography,
-    photoUrl: speaker.avatar
+    photoUrl: speaker.avatar || undefined,
+    title: jobTitle || undefined,
+    company: workplace || undefined,
+    country: home || undefined
   }}
 }
 
@@ -58,8 +70,7 @@ const requestForTalks = (url) => {
   .then(res => res.body)
   .then(JSON.parse)
   .then(data => {
-    // TODO filter out unsucessful talks
-    const presentations = Object.assign(...data.results.map(transformTalk))
+    const presentations = Object.assign(...data.results.filter(t => includeStatuses.includes(t.state)).map(transformTalk))
     targetData.sessions = {...targetData.sessions, ...presentations}
   })
   .catch(error => {
@@ -86,6 +97,28 @@ const requestForSpeakers = (url) => {
     process.exit(1)
   })}
 
+const filterOutSpeakersWithoutConfirmedSession = () => {
+  // Filter out speakers without successful presentations/workshops
+  // CAUTION: we're mutating targetData
+  allSpeakers = Object.keys(targetData.speakers)
+  confirmedSessionSpeakers = _.uniq(Object.keys(targetData.sessions).reduce((acc, cur) => {
+    const speakers = targetData.sessions[cur].speakers || []
+    return [...acc, ...speakers]
+  }))
+  allSpeakers.forEach(speaker => {
+    if (targetData.speakers[speaker].featured) {
+      // Featured speakers are special cases (e.g. Keynote)
+      return
+    } else if (confirmedSessionSpeakers.includes(speaker)) {
+      // This speaker has a confimed talk
+      return
+    } else {
+      // Need to eliminate this speaker as they have no confirmed session
+      delete targetData.speakers[speaker];
+    }
+  })
+}
+
 const main = () => {
   // Mutates "targetData"
   Promise.all([
@@ -93,12 +126,13 @@ const main = () => {
     requestForTalks(eventsUriMain),
     requestForSpeakers(speakersUriWorkshops),
     requestForSpeakers(speakersUriMain)
-  ]).then(() => {
+  ]).then(filterOutSpeakersWithoutConfirmedSession)
+  .then(() => {
     fs.writeFileSync(targetDataFile, JSON.stringify(targetData, null, 2), 'utf8')
   }).catch(error => {
     console.error(error)
     process.exit(1)
-  }).finally(() => {
+  }).then(() => {
     process.exit(0)
   })
 }
