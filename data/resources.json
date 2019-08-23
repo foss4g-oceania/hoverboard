@@ -156,15 +156,9 @@
     "title": "Here's the latest...",
     "callToAction": {
       "newsItemOne": {
-        "description": "Our call for presentations and call for workshops are now open!",
+        "description": "Our call for presentations is closing soon! We're accepting 18min general stream talks or 5min lightning talks. Submit your talk proposal by August 31.",
         "label": "Call for presentations",
         "link": "https://submit-talks.foss4g-oceania.org/fso2019/cfp",
-        "newTab": true
-      },
-      "newsItemTwo": {
-        "description": "We're accepting half day workshops, 18min general stream talks or 5min lightning talks. Submit your workshop proposal by August 17 or your talk proposal by August 31.",
-        "label": "Call for workshops",
-        "link": "https://submit-workshops.foss4g-oceania.org/fso2019w/cfp",
         "newTab": true
       }
     }
@@ -381,12 +375,7 @@
       },
       {
         "title": "Call for Workshops",
-        "description": "If you're passionate about a topic and you're skillful at conveying your hands-on knowledge and experience to others, this is for you! The workshops are half day (3.5hr) morning or afternoon time slots and have a capacity of 18-32 participants.<br><br>We are aiming to offer a diverse range of workshops for a variety of skill levels. For more information visit the workshop proposal page at the link below.<br><br>All applications must be received by midnight 17th August 2019 (NZ Standard Time).",
-        "callToAction": {
-          "label": "Submit Workshop Proposals",
-          "link": "https://submit-workshops.foss4g-oceania.org/fso2019w/cfp",
-          "newTab": true
-        }
+        "description": "If you're passionate about a topic and you're skillful at conveying your hands-on knowledge and experience to others, this is for you! The workshops are half day (3.5hr) morning or afternoon time slots and have a capacity of 18-32 participants.<br><br>We are aiming to offer a diverse range of workshops for a variety of skill levels. For more information visit the workshop proposal page at the link below.<br><br><b>Applications closed on August 17th.</b>"
       },
       {
         "title": "Call for Presentations",
