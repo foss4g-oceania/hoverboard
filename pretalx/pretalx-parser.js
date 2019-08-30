@@ -20,28 +20,44 @@ const targetData = require('../docs/default-firebase-data.json')
 const targetDataFile = './docs/firebase-data.json'
 
 const confirmedTalksOnly = false
-// TODO bit funky here: can we just use "talks" rather than the crafty logic with includedStatuses?
-const includeStatuses = ['accepted', 'confirmed', 'submitted']
+const includeStatuses = ['accepted', 'confirmed']
 
-const eventsUriWorkshops = `${host}/api/events/${eventWorkshop}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
-const eventsUriMain = `${host}/api/events/${eventMain}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
+const talksUriWorkshops = `${host}/api/events/${eventWorkshop}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
+const talksUriMain = `${host}/api/events/${eventMain}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
 
 const speakersUriWorkshops = `${host}/api/events/${eventWorkshop}/speakers`
 const speakersUriMain = `${host}/api/events/${eventMain}/speakers`
 
 const requestP = util.promisify(request)
 
-const categorisationQuestion = (question) => question.id === 180
+const workshopSkillQuestion = (question) => question.id === 168
 const complexityQuestion = (question) => question.id === 170
+const stuffToBringQuestion = (question) => question.id === 176
+const categorisationQuestion = (question) => question.id === 180
 const homeQuestion = (question) => question.id === 194
 const workplaceQuestion = (question) => question.id === 192
 const jobTitleQuestion = (question) => question.id === 193
 
+
 const transformTalk = (talk) => {
+  const submissionType = (talk.submission_type || {}).en
+  const tags = [
+    (_.find(talk.answers, a => categorisationQuestion(a.question)) || {}).answer,
+    submissionType,
+    talk.track
+  ].filter(Boolean).map(String)
+  description = `${talk.abstract}\n\n## Details\n\n${talk.description}`
+  if (submissionType === 'Workshop') {
+    const skillLevel = (_.find(talk.answers, a => workshopSkillQuestion(a.question)) || {}).answer
+    const skillsInfo = (_.find(talk.answers, a => complexityQuestion(a.question)) || {}).answer
+    description += `\n\n### Skill level\n\n**${skillLevel}**\n\n${skillsInfo}`
+    const bringInfo = (_.find(talk.answers, a => stuffToBringQuestion(a.question)) || {}).answer
+    description += `\n\n### Things to bring and stuff to do beforehand\n\n${bringInfo}`
+  }
   return {[talk.code]: {
-    description: talk.abstract, // talk.description?
-    tags: [(_.find(talk.answers, q => categorisationQuestion(q.question)) || {}).answer].filter(Boolean).map(String),
-    language: "English",
+    description,
+    tags,
+    language: (talk.content_locale.startsWith('en') ? "English" : talk.content_locale) || "English",
     title: talk.title,
     speakers: talk.speakers.map(speaker => speaker.code),
     complexity: (_.find(talk.answers, q => complexityQuestion(q.question)) || {}).answer || null
@@ -51,9 +67,9 @@ const transformTalk = (talk) => {
 // Note: this returns all speakers; they are later filtered according to whether
 // they correspond to a confirmed session
 const transformSpeaker = (speaker) => {
-  const jobTitle = (_.find(speaker.answers, q => jobTitleQuestion(q.question)) || {}).answer
-  const workplace = (_.find(speaker.answers, q => workplaceQuestion(q.question)) || {}).answer
-  const home = (_.find(speaker.answers, q => homeQuestion(q.question)) || {}).answer
+  const jobTitle = (_.find(speaker.answers, a => jobTitleQuestion(a.question)) || {}).answer
+  const workplace = (_.find(speaker.answers, a => workplaceQuestion(a.question)) || {}).answer
+  const home = (_.find(speaker.answers, a => homeQuestion(a.question)) || {}).answer
   return {[speaker.code]: {
     name: speaker.name,
     bio: speaker.biography,
@@ -66,6 +82,7 @@ const transformSpeaker = (speaker) => {
 }
 
 const requestForTalks = (url) => {
+  console.log({url})
   return requestP({url, headers})
   .then(res => res.body)
   .then(JSON.parse)
@@ -122,10 +139,10 @@ const filterOutSpeakersWithoutConfirmedSession = () => {
 const main = () => {
   // Mutates "targetData"
   Promise.all([
-    requestForTalks(eventsUriWorkshops),
-    requestForTalks(eventsUriMain),
+    requestForTalks(talksUriWorkshops),
+    // requestForTalks(talksUriMain),
     requestForSpeakers(speakersUriWorkshops),
-    requestForSpeakers(speakersUriMain)
+    // requestForSpeakers(speakersUriMain)
   ]).then(filterOutSpeakersWithoutConfirmedSession)
   .then(() => {
     fs.writeFileSync(targetDataFile, JSON.stringify(targetData, null, 2), 'utf8')
