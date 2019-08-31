@@ -150,31 +150,51 @@
 					"logoUrl": "/images/partners/manaaki-whenua.jpg",
 					"name": "Manaaki Whenua - Landcare Research",
 					"url": "https://www.landcareresearch.co.nz/"
+				},
+				{
+					"order": 7,
+					"logoUrl": "/images/partners/dea.svg",
+					"name": "Digital Earth Australia",
+					"url": "https://www.ga.gov.au/dea"
 				}
 			],
 			"order": 1,
 			"title": "Gold Sponsors"
 		},
 		{
-			"logos": [{
+			"logos": [
+				{
+					"order": 0,
+					"logoUrl": "/images/partners/geosolutions.png",
+					"name": "GeoSolutions",
+					"url": "https://www.geo-solutions.it/"
+				}
+			],
+			"order": 2,
+			"title": "Bronze Sponsors"
+		},
+		{
+			"logos": [
+				{
 					"order": 0,
 					"logoUrl": "/images/partners/vuw.png",
 					"name": "Victoria University of Wellington",
 					"url": "https://www.victoria.ac.nz/explore/study-areas/geography/study?subject=geographical-information-systems-and-science&subject=geographical-information-science"
 				}
 			],
-			"order": 2,
+			"order": 3,
 			"title": "Workshop and Community Day Host"
 		},
 		{
-			"logos": [{
+			"logos": [
+				{
 					"order": 0,
 					"logoUrl": "/images/partners/s+snz.png",
 					"name": "Survey and Spatial New Zealand",
 					"url": "https://www.surveyspatialnz.org/about/our_groups/spatial_stream"
 				}
 			],
-			"order": 3,
+			"order": 4,
 			"title": "Industry Partner"
 		}
 	],
