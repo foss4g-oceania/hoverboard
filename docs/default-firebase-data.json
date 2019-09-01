@@ -1254,15 +1254,15 @@
 			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/qmf9qbjqkos,6re1gfebio8"
 		},
 		{
-			"available": false,
+			"available": true,
 			"currency": "$",
-			"info": "2 Day Conference (available by application)",
+			"info": "2 Day Conference (join the waiting list!)",
 			"name": "Student",
 			"price": 100,
 			"soldOut": false,
 			"starts": "Sep 1",
 			"ends": "Sep 30",
-			"url": "https://ti.to"
+			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/321lxz6kgci"
 		}
 	],
 	"triggers": {
