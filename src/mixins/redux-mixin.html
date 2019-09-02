@@ -74,6 +74,11 @@
       adding: false,
       addingError: false,
     },
+    software: {
+      fetching: false,
+      fetchingError: null,
+      list: [],
+    },
     previousSpeakers: {
       fetching: false,
       fetchingError: null,
@@ -127,6 +132,7 @@
       dialogs: dialogsReducer(state.dialogs, action),
       tickets: ticketsReducer(state.tickets, action),
       partners: partnersReducer(state.partners, action),
+      software: softwareReducer(state.software, action),
       videos: videosReducer(state.videos, action),
       blog: blogReducer(state.blog, action),
       speakers: speakersReducer(state.speakers, action),

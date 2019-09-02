@@ -114,6 +114,39 @@ const importPartners = () => {
     });
 };
 
+const importSoftware = () => {
+  const software = data.software;
+  if (!Object.keys(software).length) {
+    return false;
+  }
+  console.log('\tImporting software...');
+
+  const batch = firestore.batch();
+
+  Object.keys(software).forEach((docId) => {
+    batch.set(
+      firestore.collection('software').doc(docId),
+      {
+        title: software[docId].title,
+        order: software[docId].order
+      },
+    );
+
+    software[docId].logos.forEach((item, id) => {
+      batch.set(
+        firestore.collection('software').doc(`${docId}`).collection('items').doc(`${id}`.padStart(3, 0)),
+        item,
+      );
+    })
+  });
+
+  return batch.commit()
+    .then(results => {
+      console.log('\tImported data for', results.length, 'documents');
+      return results;
+    });
+};
+
 const importGallery = () => {
   const gallery = data.gallery;
   if (!Object.keys(gallery).length) {
@@ -287,6 +320,7 @@ initializeFirebase()
   .then(() => importGallery())
   .then(() => importNotificationsConfig())
   .then(() => importPartners())
+  .then(() => importSoftware())
   .then(() => importPreviousSpeakers())
   .then(() => importSchedule())
   .then(() => importSessions())

@@ -198,6 +198,74 @@
 			"title": "Industry Partner"
 		}
 	],
+	"software": [
+		{
+			"logos": [
+				{
+					"order": 0,
+					"logoUrl": "/images/software/qgis.png",
+					"name": "QGIS",
+					"url": "https://qgis.org/"
+				},
+				{
+					"order": 1,
+					"logoUrl": "/images/software/leaflet.png",
+					"name": "Leaflet",
+					"url": "https://leafletjs.com/"
+				},
+				{
+					"order": 2,
+					"logoUrl": "/images/software/postgis.png",
+					"name": "PostGIS",
+					"url": "https://postgis.net/"
+				},
+				{
+					"order": 3,
+					"logoUrl": "/images/software/gdal.png",
+					"name": "GDAL",
+					"url": "https://gdal.org/"
+				},
+				{
+					"order": 4,
+					"logoUrl": "/images/software/geoserver.png",
+					"name": "GeoServer",
+					"url": "http://geoserver.org/"
+				},
+				{
+					"order": 5,
+					"logoUrl": "/images/software/osm.png",
+					"name": "OpenStreetMap",
+					"url": "https://www.openstreetmap.org/#map=6/-41.129/173.705"
+				},
+				{
+					"order": 6,
+					"logoUrl": "/images/software/id.png",
+					"name": "iD Editor",
+					"url": "http://ideditor.com/"
+				},
+				{
+					"order": 7,
+					"logoUrl": "/images/software/overpass.png",
+					"name": "Overpass API",
+					"url": "https://wiki.openstreetmap.org/wiki/Overpass_API"
+				},
+				{
+					"order": 8,
+					"logoUrl": "/images/software/python.png",
+					"name": "Python",
+					"url": "https://www.python.org/"
+				},
+				{
+					"order": 9,
+					"logoUrl": "/images/software/r.png",
+					"name": "R",
+					"url": "https://www.r-project.org/"
+				}
+			],
+			"order": 0,
+			"title": "Software"
+		}
+	],
 	"schedule": {
 		"2019-11-12": {
 			"dateReadable": "Tues Nov 12",

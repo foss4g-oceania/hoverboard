@@ -182,6 +182,9 @@
     },
     "toast": "We will contact you soon!"
   },
+  "softwareBlock": {
+    "title": "Innovative geospatial technologies"
+  },
   "featuredVideos": {
     "title": "FOSS4G SotM Oceania 2018 videos",
     "callToAction": {
