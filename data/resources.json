@@ -156,7 +156,7 @@
     "title": "Here's the latest...",
     "callToAction": {
       "newsItemOne": {
-        "description": "Our call for presentations is closing soon! We're accepting 18min general stream talks or 5min lightning talks. Submit your talk proposal by August 31.",
+        "description": "Our call for presentations is closing soon! We're accepting 18min general stream talks or 5min lightning talks. Submit your talk proposal by midnight September 4th.",
         "label": "Call for presentations",
         "link": "https://submit-talks.foss4g-oceania.org/fso2019/cfp",
         "newTab": true
@@ -210,7 +210,7 @@
     "previousYear": "Year"
   },
   "speakersBlock": {
-    "title": "Keynote Speakers",
+    "title": "Keynote speakers",
     "callToAction": {
       "label": "View all speakers",
       "link": "/speakers/"
@@ -382,7 +382,7 @@
       },
       {
         "title": "Call for Presentations",
-        "description": "We want you to share your fascinating stories about open source geospatial, open data, and open street map in Oceania.  We're looking for a diverse range of presenters including: women, people from a variety of ethnic backgrounds, young and old, urban and rural.  To achieve this goal we need you to accept the challenge and put yourself forward, the community can't wait to hear what you have to say!<br><br>Time slots come in 18 minute conference presentation or 5 minute lightning talks. Visit the presentation information page at the link below for more details on what we're looking for and how we can support you in developing your topic.<br><br>All applications must be received by midnight 31th August 2019 (NZ Standard Time).",
+        "description": "We want you to share your fascinating stories about open source geospatial, open data, and open street map in Oceania.  We're looking for a diverse range of presenters including: women, people from a variety of ethnic backgrounds, young and old, urban and rural.  To achieve this goal we need you to accept the challenge and put yourself forward, the community can't wait to hear what you have to say!<br><br>Time slots come in 18 minute conference presentation or 5 minute lightning talks. Visit the presentation information page at the link below for more details on what we're looking for and how we can support you in developing your topic.<br><br>All applications must be received by midnight 4th September 2019 (NZ Standard Time).",
         "callToAction": {
           "label": "Submit Presentation Proposals",
           "link": "https://submit-talks.foss4g-oceania.org/fso2019/cfp",
