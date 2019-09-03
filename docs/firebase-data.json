@@ -168,8 +168,17 @@
           "endTime": "12:30",
           "sessions": [
             {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
               "items": [
-                102
+                "SPGUQV"
               ]
             }
           ]
@@ -190,8 +199,32 @@
           "endTime": "17:00",
           "sessions": [
             {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
               "items": [
-                106
+                "QSBVAQ"
+              ]
+            },
+            {
+              "items": []
+            },
+            {
+              "items": [
+                "WB99J8"
+              ]
+            },
+            {
+              "items": [
+                "RKAAHQ"
+              ]
+            },
+            {
+              "items": [
+                "7AHC8Q"
               ]
             }
           ]
@@ -216,7 +249,22 @@
           "title": "Rutherford House, Victoria University of Wellington"
         },
         {
-          "title": "Venue TBA"
+          "title": "Foxglove Bar & Kitchen"
+        },
+        {
+          "title": "RH206"
+        },
+        {
+          "title": "RH205"
+        },
+        {
+          "title": "RH107"
+        },
+        {
+          "title": "RH102"
+        },
+        {
+          "title": "RH103"
         }
       ]
     },
@@ -659,16 +707,6 @@
       ],
       "title": "Registration"
     },
-    "102": {
-      "description": "Details to come.",
-      "tags": [
-        "Workshop"
-      ],
-      "speakers": [
-        "Mystery Person"
-      ],
-      "title": "Morning Workshops"
-    },
     "105": {
       "title": "Lunch",
       "tags": [
@@ -676,18 +714,8 @@
       ],
       "description": "Break for lunch"
     },
-    "106": {
-      "description": "Details to come.",
-      "tags": [
-        "Workshop"
-      ],
-      "speakers": [
-        "Mystery Person"
-      ],
-      "title": "Afternoon Workshops"
-    },
     "109": {
-      "description": "Come and meet your fellow attendees before the conference kicks off.",
+      "description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Foxglove Bar and Kitchen](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780)",
       "tags": [
         "Social"
       ],
@@ -918,119 +946,65 @@
       ],
       "title": "Stream Talks"
     },
-    "AUNRDL": {
-      "description": "This is a full day workshop on collecting, processing and analysing data collected from small RPA (remotely piloted aircraft) using open source tools.\r\n\r\nWeather permitting, the morning session will be a practical session using sub-2kg aircraft to collect imagery and hacking together ground control points using phones and corner store supplies. This session will be run by certified RPA pilots and operate in accordance with CAANZ’s Part 101 regulations. It will cover flight planning for different data collection goals, and walk through some different flight scenarios\r\n\r\nIn the afternoon, we’ll crunch numbers. This  session will walk users through OpenDroneMap, and we’ll discuss and demonstrate other useful tools - QGIS, CloudCompare, PDAL, and Entwine. \r\n\r\nThis is aimed at an intermediate audience - covering a broad range of topics rather than a deep dive into a specific technology. Attendees need to be comfortable with command line (bash) applications, and understand",
-      "tags": [],
-      "language": "English",
-      "title": "A hands on introduction to small multirotor RPA data collection, processing and analysis with open tools",
-      "speakers": [
-        "UJHNXU"
-      ],
-      "complexity": "Attendees should be comfortable with:\r\n- geospatial concepts (GNSS, ground control points, rasters, points, vectors)\r\n- command line applications\r\n- QGIS\r\n- chaos\r\n\r\nBasic python skills help also."
-    },
     "QSBVAQ": {
-      "description": "The graphical modeller is a powerful component that we can use to define a workflow and run a chain of algorithms (a processing model).\r\n\r\nA normal session with the processing framework tools includes more than running a single algorithm. Usually several of them are run to obtain a result, and the outputs of some of those algorithms are used as input for some of the other ones.\r\n\r\nUsing the graphical modeller, that workflow can be put into a processing model, which will run all the necessary algorithms in a single run, thus simplifying the whole process and automating it.",
-      "tags": [],
+      "description": "The graphical modeller is a powerful component that we can use to define a workflow and run a chain of algorithms (a processing model).\r\n\r\nA normal session with the processing framework tools includes more than running a single algorithm. Usually several of them are run to obtain a result, and the outputs of some of those algorithms are used as input for some of the other ones.\r\n\r\nUsing the graphical modeller, that workflow can be put into a processing model, which will run all the necessary algorithms in a single run, thus simplifying the whole process and automating it.\n\n## Details\n\nIn this workshop we will create a processing model in the graphical modeller that displays buildings affected by some event within a distance from an event location.  \r\n\r\nThe affected buildings are determined by \r\n* Clicking a point on the map canvas to define an event location,\r\n* travelling a distance along the road network from the event location, \r\n* buffering the travel distance to intersect land parcels, \r\n* extracting building footprints that that intersect the land parcels.\r\n\r\nThe Inputs\r\n* Event location point chosen on the Map Canvas\r\n* Road network layer\r\n* Travel distance value\r\n* Travel distance buffer value\r\n* Land parcel layer\r\n* Building footprints layer\r\n\r\nThe outputs\r\n* Event location point layer\r\n* Affected road network line layer\r\n* Travel distance buffer polygon layer\r\n* Affected buildings polygon layer\n\n### Skill level\n\n**Advanced**\n\nIntermediate level QGIS minimum\n\n### Things to bring and stuff to do beforehand\n\nLaptop loaded with latest QGIS release.",
+      "tags": [
+        "Workshop"
+      ],
       "language": "English",
       "title": "QGIS Processing Models and the Graphical Modeller",
       "speakers": [
         "RE3QB8"
       ],
-      "complexity": "Intermediate level QGIS minimum"
+      "complexity": "Advanced"
     },
-    "YNMLTW": {
-      "description": "Humanity groveling in abject terror which natural disasters occur. Liquefaction induced by tectonism is lethal and deadly which summons the need for forward risks reduction planning. It is one of the geohazards associated with seismic ground shaking or tremor which result in collapsing of buildings, loss of human lives and environmental disturbances. Numerous procedures were employed to identify potential liquefaction zones. The present study aims at assessing the site-soil geology of Viti Levu Island using the GIS and remote sensing techniques. Site-soil geology, geomorphology and SRTM DEM data were the main sources of layers used to carry out analysis using the Saaty’s Analytical Hierarchical Process (AHP) and ArcGIS Multi-Criteria Analysis (MCA).In the ArcGIS 10.5 spatial analyst tool, the raster calculator, reclassify and weightage overlay tools were mainly employed in the study. The final output of LPZ indicates the ‘low’, ‘moderate’, ‘high’ and ‘very high’ zones for spatial planners and decision makers to formulate policies. Thus, enhancing the preventative measures in order to pro-active rather been re-active in spatial physical planning.",
-      "tags": [],
-      "language": "English",
-      "title": "Liquefaction Potential Mico Zonation in Fiji Islands: A Case Study of Fiji Islands",
-      "speakers": [
-        "X9FFRH"
-      ],
-      "complexity": "This need to have experience with ArcGIS and python as well."
-    },
-    "7V8QGE": {
-      "description": "Geospatial shares the opportunities and the challenges of both high performance computing and big data. With applications from visualising IoT data through to ingesting drone footage, it brings with it increasingly large data sizes, complicated data pipelines, HPC-level transformation demands, and often massive traffic from public users. From Smart Cities through to location-based marketing, rapid analysis of large volumes of geospatial data is becoming increasingly important. In this session you will hear how AWS customers build powerful, flexible, secure, and future-proof geospatial platforms. These systems deliver more business value from location-based data while minimising both compute costs and management overhead.",
+    "SPGUQV": {
+      "description": "This hands-on workshop covers the use of [PyGMT](https://github.com/GenericMappingTools/pygmt) to analyze geospatial data and produce publication quality figures and animations in an interactive [Jupyter](https://jupyter.org/) lab environment. After a quick guide to launching up PyGMT on your computer, we will start with the basics of making your first map with PyGMT and explore some different customizations such as fancy projection systems and colormaps. Next we will teach you how to load in CSV point and GeoTIFF/NetCDF grid datasets using [pandas](https://github.com/pandas-dev/pandas) and [xarray](https://github.com/pydata/xarray), and have PyGMT perform more advanced geoprocessing workflows such as sampling, filtering and interpolation on them. Finally, we will step you through making 3D perspective plots and animations of your final results!\n\n## Details\n\nFrom processing raster grids and vector data (points, lines, polygons) to creating visually appealing maps in different projection systems, the [Generic Mapping Tools (GMT)](https://github.com/GenericMappingTools/gmt/) is a swiss army knife collection of open source tools used by Earth, Ocean and Planetary scientists worldwide. [PyGMT](https://github.com/GenericMappingTools/pygmt) is a more user-friendly, Pythonic interface to GMT 6's modern execution mode that integrates well with the [PyData](https://pydata.org/) stack. This includes reading [numpy](https://github.com/numpy/numpy) arrays, [pandas](https://github.com/pandas-dev/pandas) tables and [xarray](https://github.com/pydata/xarray) grids, plus support for rich display in interactive [Jupyter](https://jupyter.org/) notebook environments. It is also a powerful library used for processing geospatial and geophysical datasets, including operations like sampling, filtering, interpolation and so on.\n\n### Skill level\n\n**Intermediate**\n\nThis workshop is intended for people with some previous Python programming/GMT experience. We invite students and geoscientists working on any geo related fields (e.g. Earth Observation, Geophysical, Marine, Magnetic, Gravity, Planetary, etc) to join. We also welcome seasoned GMT veterans who would like to find out how the Python interface works with GMT 6's modern execution mode and people from the geospatial industry with some Python programming experience that would like to get to know what PyGMT can do for parts of their geoprocessing workflow.\n\n### Things to bring and stuff to do beforehand\n\nA github repository containing jupyter notebooks for the workshop will be set up prior to the workshop. Users should only need to have a laptop with a modern browser that can launch an online [Pangeo Binder](https://binder.pangeo.io/) link/[Google Colaboratory](https://colab.research.google.com/) Jupyter computing environment. This should give everyone a relatively consistent experience.",
       "tags": [
-        "Cloud Computing"
+        "Workshop"
       ],
       "language": "English",
-      "title": "Running Geospatial Workloads on AWS",
+      "title": "PyGMT for geoscientists - A PyData compatible package for analyzing and plotting time-series and gridded data",
       "speakers": [
-        "CG8GRE"
+        "KB7F3Z"
       ],
-      "complexity": null
+      "complexity": "Intermediate"
     },
-    "9US7CS": {
-      "description": "This presentation will provide examples of what the present-day geologist/mineral explorer is doing with QGIS. I have been running QGIS workshops for geologists in association with the Australian Institute of Geoscientists since 2016 and I will highlight the QGIS features most valued by geologists. Geologists require the ability to assess multiple data sets and QGIS gives them the ability to do this. Being able to bring satellite imagery directly into your map window has been a major advance in the interpretation of geological data. Plugins allow for remote sensing data to be sourced, processed and presented as required by the user. Other plugins allow drill holes to be plotted in plan and in cross section. The use of free open source symbols and patterns has extended the capabilities of geologist to produce presentation quality maps. Many geologists work as individual consultants or contractors and the open source world is a fantastic resource of software to allow them to do their work without the constricting licensing conditions or software costs.",
+    "WB99J8": {
+      "description": "A series of OGC Interoperability Experiments (IEs) have been working on techniques and technologies for the problem of linking multi-disciplinary and multi-organisation environmental data _without_ transferring data custody or maintenance responsibilities. These IEs, such as the [Second Environmental Linked Features Interoperability Experiment](https://www.opengeospatial.org/projects/initiatives/selfie) (SELFIE), are firmly grounded in W3C and OGC [best practices for spatial data on the web](https://www.w3.org/TR/sdw-bp/). They involve organisations from New Zealand and around the world, trying to find solutions to problems such as: sharing data for transnational groundwater monitoring; linking descriptions of things to related things (e.g. boreholes to aquifers); using [popular vocabularies](https://schema.org/) to semantically describe the properties of things while avoiding misinterpretation; describing links between distributed records for things that change in nature over time and space; for data publishers to associate related information maintained by third parties to their own data; and maybe even the [HTTPRange-14 problem](https://en.wikipedia.org/wiki/HTTPRange-14). This workshop will first give an overview of **distributed and linked data** concepts: focusing on: why it matters for those responsible for publishing geospatial data; the advantages for those consuming geospatial data; and how search engines get involved. The SELF Interoperability Experiment will be discussed as an example. Then (and for most of the available time) we will work collaboratively to draft the publication of some spatial data using our laptops, taking advantage of these concepts in a way that will not alienate modern web developers or GIS practictioners, i.e. by using JSON-LD, semantic HTML, Web Components, and an implementation of the OGC WFS 3.0 specification for features.\n\n## Details\n\nThe best practices (bold ones will be emphasised):\r\n\r\n1. **Spatial data identifiers**\r\n2. **Indexable data**\r\n3. **Linking data**\r\n4. **Spatial data encoding**\r\n5. Geometries and coordinate reference systems\r\n6. **Relative positioning**\r\n7. **Spatial links**\r\n8. Spatial data versioning\r\n9. Spatial data access\r\n10. Spatial metadata\r\n\r\n**Additional notes**\r\n\r\nParticipants will be asked to optionally provide some sample data that may be suitable for publication using linked data concepts. Data from two domains that have a topological relationship are good candidates. If some interesting data are made available with sufficient time, the practical part of the workshop will be geared towards exploring that data. If not, some sample data will be used, at my (the presenter's) discretion.\r\n\r\nI do expect you to do some \"course reading\" to gain a some conceptual understanding. Reading is food for the brain. Here are some foundational documents, in priority order.\r\n\r\n- [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/), W3C Working Group Note\r\n- [Linked Data](https://www.w3.org/DesignIssues/LinkedData), Tim Berners-Lee\r\n- [Background to the (first) Environmental Linked Features Interoperability Experiment (ELFIE)](https://www.opengeospatial.org/projects/initiatives/elfie)\r\n- [Creating semantic sites with Web Components and JSON-LD](https://developers.google.com/web/updates/2015/03/creating-semantic-sites-with-web-components-and-jsonld)\r\n- [Building JSON-LD APIs: Best Practices](https://json-ld.org/spec/latest/json-ld-api-best-practices/), W3C Draft Community Group Report\r\n- [GraphDB: Introduction to the Semantic Web](http://graphdb.ontotext.com/documentation/standard/introduction-to-semantic-web.html) (Note: this is more advanced, and largely beyond the scope of the workshop. The intention is to get you thinking wide as well as narrow.)\r\n\r\nHowever, don't stress! There will be no test. If, after doing some reading, you still don't understand the point of any of it, that's fine. There will be plenty of opportunities for discussion.\r\n\r\nThere *was* (and, to some extent, *still is*) a lot of misplaced hype about Linked Data out there in the untamed wildernesses of the Internet. Don't worry, I haven't drunk of the Semantic Kool Aid. Although there are some unavoidable conceptual weeds, this workshop will be reined in to practical applications rather than pure aspiration. I also want you to come away thinking critically about these Linked Data ideas, perhaps seeded by some contrary opinions and writings by people who have/had their heads firmly screwed on:\r\n\r\n- [Two Bit History: Semantic Web](https://twobithistory.org/2018/05/27/semantic-web.html)\r\n- [Cory Doctorow: Metacrap](https://people.well.com/user/doctorow/metacrap.htm)\r\n- [Aaron Swartz: A Programmable Web](https://upload.wikimedia.org/wikipedia/commons/3/3f/) (Note: this is a longer read than the others, but lighter and very interesting.)\n\n### Skill level\n\n**Intermediate**\n\nParticipants need to understand web development principles and various technologies and standards underpinning the web. If you've done some web development, or if at least half of these terms are registering, then we're good to go: semantic HTML, linked data, JSON, REST, JavaScript, WFS 3.0, linked open vocabularies, SEO, Web Components.\n\n### Things to bring and stuff to do beforehand\n\nDetails will be sent out closer to the time, but the basics are:\r\n- A well oiled brain (i.e. please do some reading)\r\n- A laptop with a web browser (Chrome or Firefox preferred)\r\n- Ideally a running instance of https://github.com/geopython/pygeoapi (I'm willing to help you set this up in the days and weeks leading up to the workshop if necessary)",
       "tags": [
-        "QGIS"
+        "Workshop"
       ],
       "language": "English",
-      "title": "Geoscience applications of QGIS - a bold new world in mineral exploration",
+      "title": "An open data SELFIE: how we can improve open data for SEO, interoperability, and the web of data",
       "speakers": [
-        "RU9YHK"
+        "CV9GN9"
       ],
-      "complexity": null
+      "complexity": "Intermediate"
     },
-    "YHT8JT": {
-      "description": "Publicly accessible open source geospatial solutions now underpin Otorohanga, Wairoa and Whanganui District Councils GIS initiatives...\r\n* https://data.otodc.govt.nz\r\n* https://wairoadc.govt.nz\r\n* http://data.whanganui.govt.nz  \r\n\r\nUtilising mature well supported open source projects, any NZ Council can now have a viable cost effective geospatial solution stack to allow open access to Geospatial datasets and maps.  \r\n\r\nAs well as a modern geospatial data portal and standards based geospatial web services, the solution stack also provides effective online web mapping and state of the art spatial database capabilities – all without the overhead of traditional vendor-based licensing costs.\r\n\r\nThe stack includes the following open source projects\r\n* GeoNode - Open data portal catalogue\r\n* GeoServer - Geospatial Web Services\r\n* Mapstore - Modern web mapping framework\r\n* PostGIS - Gepspatial Database\r\n* QGIS - Desktop Mapping\r\n* QField - Mobile field data collection",
+    "RKAAHQ": {
+      "description": "Static or interactive maps can reveal useful patterns and insights. For example, layering accident locations on a basemap can highlight hotspots of poor road safety. These simple data overlays can be extended to an integrated analysis with the road network for deeper insight - like accident hotspots on road segments that bottleneck commuter flows. As denizens of a city we primarily interact with the built urban environment via its streets, roads and paths. Hence, intuitive questions of the 'Urban Experience' must involve the geospatial road network.\n\n## Details\n\nIn this workshop, we'll use Python and the packages, osmnx and pandana, to characterise Wellington: the cool little capital of New Zealand with a unique topography. Using omsnx, pandana and data of the built environment (from OpenStreetMap and Wellington City Council open data), we can quantify how Wellington functions as a city.\r\n\r\nFoundational topics include:\r\n\r\n- Handling geospatial data with geopandas\r\n- Getting street networks with osmnx\r\n- Routing with network algorithms\r\n- Calculating flows from routes\r\n\r\nUrban analysis topics include:\r\n\r\n- Analysing street morphology and topography with osmnx\r\n- Accessibility analysis with pandana\r\n- Catchment areas of amenities with pandana\n\n### Skill level\n\n**Intermediate**\n\nParticipants will need to have some experience with Python programming to finish the exercises. An early intermediate level will be sufficient as the analysis will not involve heavy programming.\n\n### Things to bring and stuff to do beforehand\n\nAttendees must bring their own laptops with Python 3, geopandas, osmnx and pandana installed. They will also need matlplotlib and basemap. A full list of packages will be provided closer to the workshop date. Attendees will also need a Google Elevation API key. Again, further details will be sent out later.",
       "tags": [
-        "FOSS4G"
+        "Workshop"
       ],
       "language": "English",
-      "title": "Implementing a full Open Source Geospatial Stack",
+      "title": "Analysing geospatial connectivity to understand a city",
       "speakers": [
-        "RE3QB8"
+        "BANWRY"
       ],
-      "complexity": null
+      "complexity": "Intermediate"
     },
-    "AXRSVG": {
-      "description": "Under the Sendai Framework for Disaster Risk Reduction, the National Disaster Management Office (NDMO_ in Fiji identify a Signiant role that SBT and ICT to reduce vulnerability and improve resilience. By integrating SBT and ICT tool, with national disaster risk management architecture, timely and accurate information can be delivered to relevant communities, individual, rescuers and decision makers to save lives and properties at risk. The project was funded by Japan Fund for Poverty Reduction, with technical assistance from the Japan aerospace exploration agency, Asia Institute of Technology – Geomatics Centre, Asian Disaster Reduction Centre, Remote Sensing technology centre and Geothings.  Work carried out was divided into 5 sections\r\n1.\tLocal communities digitised building and infrastructure in Open Street Map\r\n2.\tLocal communities with assistance from mobile app developer design a base map to fit the purpose of the project. These include building attributes, conditions, height and materials. \r\n3.\tRecording capacities – Using geoBinAn App, disaster capacities and vulnerability are identified and mapped out in real time. Communities’ hazard maps were generated out of this work. \r\n4.\tRecording - During disaster users can record information including disaster situation, building damage, and needs assessments.  This information is sent to the operation centre for assistance - all these in real time. \r\n5.\tEmergency Observation - Using satellite data, and community base map – it was possible to estimate damage extents. \r\nLocal communities were trained to use the tools to record vulnerability and capacities in village related to floods, and cyclone. All these tools and reports are updated on the website monitored by the NDMO Operation centre. Two critical maps came out of this work: 1. Community-based hazard map and 2. Evacuation map.   These are the base map used for the village to seek shelter and identify hazard areas and planning.",
+    "7AHC8Q": {
+      "description": "What does it look like to work in the core C++ _(and Python, and Perl, and even a little bit of raw C)_ logic of QGIS?  \r\nThis workshop will cover an intro into building, understanding, and navigating the core QGIS codebase.   \r\n\r\nThis workshop will be an attempt to help demystify the QGIS core codebase in order to help ease you into QGIS core development.   There is no requirement to leave the workshop understanding every bit of the QGIS codebase as there is a lot and even some of the current core developers don't understand it all :)\n\n## Details\n\nWhat does it look like to work in the core C++ _(and Python, and Perl, and even a little bit of raw C)_ logic of QGIS?  \r\nThis workshop will cover an intro into building, understanding, and navigating the core QGIS codebase.   \r\n\r\nThis workshop will be an attempt to help demystify the QGIS core codebase in order to help ease you into QGIS core development.   There is no requirement to leave the workshop understanding every bit of the QGIS codebase as there is a lot and even some of the current core developers don't understand it all :) \r\n\r\nThe main takeaways from this workshop is understanding the workflows core developers normally take in order to land a bug or feature into the next release.  Simply understanding where things are and how to navigate the code can lead to openings in fixing bugs or adding new features.  Starting simple and working your way up very much applies to QGIS.\r\n\r\nTopics we will try to cover in the workshop are:\r\n\r\n- Build setup\r\n- Qt Creator\r\n- Understanding where the code lives\r\n- Navigate the code\r\n- How the Python bindings are made (SIP - Here be dragons)\r\n- Unit tests\r\n- PR/Merge process (for features and bugs)\r\n- \r\nKnowing C++ will help you in advance but it's not a requirement of this workshop so don't be put off by that.  There is more to the QGIS code base then a pile of C++ and this workshop will give you exposer to those other areas as well.\n\n### Skill level\n\n**Intermediate**\n\nNo skill level is required however as this will deep dive into some of the core C++ code logic attendees should be at least be comfortable with knowing that is going to happen and not being able to understand what is going on 100% of the time.\r\n\r\nPast C++ experience will help but is not a requirement.\n\n### Things to bring and stuff to do beforehand\n\nLaptop",
       "tags": [
-        "Web Mapping"
+        "Workshop"
       ],
       "language": "English",
-      "title": "Applying Space-Based Technology and Information and Communication Technology to Strengthen Disaster Resilience, Nadi - Fiji",
+      "title": "Demystifying QGIS core development",
       "speakers": [
-        "ETJ8VW"
+        "RUKHTS"
       ],
-      "complexity": null
-    },
-    "UZFMN8": {
-      "description": "Geoscience Australia (GA) is the custodian of a significant collection of national aerial photography, curated by GA and its predecessor agencies. The data extends over 70 years, from the 1920s through to the mid-1990s. This archive represents an important resource for understanding Australia’s changing landscape as the majority of the collection predates high resolution satellite imagery.\r\n\r\nDigitisation of this archive is an ongoing priority as some of the original negatives are now very old and starting to degrade; but the approximately 280,000 images digitised so far are currently difficult to discover and access.\r\n\r\nSimilar but smaller archives of aerial photography are maintained by various state government agencies, and some are quite mature in their adoption of digital discovery and access, however each agency has implemented their own system, generally locked to a proprietary platform with little capacity for federating data across agencies.\r\n\r\nGA has therefore partnered with Data-61 under the Platforms for Open Data (PfOD) program to design and build a canonical metadata repository for images in the collection, and an open API for discovering and eventually accessing these images.  The project has a strong focus on open source and standards based solutions, with the hope that state government agencies will come on board, facilitating federated discovery of imagery across state and federally managed archives.\r\n\r\nThe project is a fascinating example of old technology meeting new, dealing with metadata sourced from nearly century-old hand-written documents on the one hand, and the latest cloud deployment technologies and emerging API standards for geospatial data discovery on the other.",
-      "tags": [
-        "Open Data"
-      ],
-      "language": "English",
-      "title": "Opening a treasure trove: The Historical Aerial Photography project",
-      "speakers": [
-        "93J83Q"
-      ],
-      "complexity": null
-    },
-    "AQXDV7": {
-      "description": "AWS Ground Station is a fully managed service that lets you control satellite communications, downlink and process satellite data, and scale your satellite operations quickly, easily and cost-effectively without having to worry about building or managing your own ground station infrastructure. Ground stations are at the core of global satellite networks, which are facilities that provide communications between the ground and the satellites by using antennas to receive data and control systems to send radio signals to command and control the satellite. Today, you must either build your own ground stations and antennas, or obtain long-term leases with ground station providers, often in multiple countries to provide enough opportunities to contact the satellites as they orbit the globe. Once all this data is downloaded, you need servers, storage, and networking in close proximity to the antennas to process, store, and transport the data from the satellites.\r\nAWS Ground Station eliminates these problems by delivering a global Ground Station as a Service. We provide direct access to AWS services and the AWS Global Infrastructure including our low-latency global fiber network right where your data is downloaded into our AWS Ground Station. This enables you to control satellite communications, ingest and process your satellite data, and integrate that data with your applications and services running in the AWS Cloud. For example, you can use Amazon S3 to store downloaded data, Amazon SageMaker for building custom machine learning applications, and Amazon EC2 to command and download data from satellites.",
-      "tags": [
-        "Cloud Computing"
-      ],
-      "language": "English",
-      "title": "Introduction to AWS Groundstation",
-      "speakers": [
-        "CG8GRE"
-      ],
-      "complexity": null
-    },
-    "ZB7HDM": {
-      "description": "The Fiji Geodetic Datum (FGD) 1986 on WGS 72 ellipsoid is the official datum and has been\r\nused to date. FGD 1986 later adopted the name Fiji Map Grid (FMG) 1986 (Hannah, J. and\r\nMaseyk, J, 1989). This is about to change with the recent installation of 8 continuously operating\r\nreference station (CORs) station that will generate a network Real Time Kinematic (RTK)\r\nsolution across the islands, which will lead to the definition of a new geodetic datum. These\r\nchanges will have an impact on geospatial datasets. GIS is an evolving science that is\r\nconstantly being challenged by new technologies. In particular, access to high precision\r\nnavigation and positioning is an important development that will impact GIS users. The recent\r\nannouncement for the development of a sovereign satellite-based augmentation system (SBAS)\r\nin Australia will allow access to centimetre (cm) precision for all users using any device. In Fiji,\r\nSpatial datasets are referenced to two main coordinate systems: WGS 84 UTM Zone 60s and\r\nFiji Map Grid 1986. With precision surveying becoming a reality, users’ will need to understand\r\nthat WGS 84 should not be considered a one size fit all datum (Qiao, 2014 and Brunner,F\r\n1998). Geoscience Australia (2017) stated that Australian are not able to achieve better\r\naccuracies as they cannot access WGS84 via a differential measurement directly to the DoD\r\nnetwork of stations. WGS84 coordinate accuracy is meaningless unless epoch metadata are\r\nprovided. This and others are the reason why Fiji is updating its national datum. Geoscience\r\nAustralia in 2005 conducted a GNSS survey for Fiji’s maritime boundary. The coordinates for all\r\nthese survey marks were transformed from FMG 1986 to ITRF 2005. Part of my research, I\r\nupdated the ITRF 2005 to the latest reference frame (ITRF 2014), adopted a set of codes from\r\nGeographic Information Systems Stack Exchange (2015) and transform the coordinates using\r\nHelmert transformation parameters in order to map movement that has occurred on the survey\r\nmark which will indicate movements in the tectonic plates. These movements are then \r\ncalculated and incorporated into a distortion model in QGIS.",
-      "tags": [
-        "Datums & Projections"
-      ],
-      "language": "English",
-      "title": "Updating Fiji’s Maritime Survey ITRF 2005 to ITRF 2014 and Mapping Movement in QGIS",
-      "speakers": [
-        "ETJ8VW"
-      ],
-      "complexity": null
+      "complexity": "Intermediate"
     }
   },
   "speakers": {
@@ -1076,47 +1050,45 @@
       "order": 1,
       "title": "Owner Director"
     },
-    "UJHNXU": {
-      "name": "Adam Steer",
-      "bio": "Dr Adam Steer has over a decade of experience working with airborne remote sensing data, starting his geospatial life with an aerial imagery program over Antarctic sea ice. This quickly progressed to airborne lidar, at which point geodesy, geomatics, flight planning, logistics and point clouds kind of took over everything. In turn, this led to a doctorate in surveying - using airborne lidar and structure-from-motion reconstructions to estimate sea ice thickness at sub-metre scales. In the last five years Adam has focussed on data management and delivery, at national research infrastructure scale and in lean, agile technology startups. He currently operates an independent geospatial consultancy with clients across industry, government and academia.\r\n\r\nAdam is a CASA-certified remote pilot for aircraft up to 25kg (as of 20 July), and works closely with the OpenDroneMap and PDAL communities, helping to demonstrate ways these tools can be deployed for solving real world problems from neighbourhood to continental scales.",
-      "shortBio": "Dr Adam Steer has over a decade of experience working with airborne remote sensing data, starting his geospatial life with an aerial imagery program over Antarctic sea ice. This quickly progressed to airborne lidar, at which point geodesy, geomatics, flight planning, logistics and point clouds kind of took over everything. In turn, this led to a doctorate in surveying - using airborne lidar and structure-from-motion reconstructions to estimate sea ice thickness at sub-metre scales. In the last five years Adam has focussed on data management and delivery, at national research infrastructure scale and in lean, agile technology startups. He currently operates an independent geospatial consultancy with clients across industry, government and academia.\r\n\r\nAdam is a CASA-certified remote pilot for aircraft up to 25kg (as of 20 July), and works closely with the OpenDroneMap and PDAL communities, helping to demonstrate ways these tools can be deployed for solving real world problems from neighbourhood to continental scales.",
-      "photoUrl": null
+    "RUKHTS": {
+      "name": "Nathan Woodrow",
+      "bio": "Nathan is a core QGIS developer and software developer for Chartis Technology. He has been involved as a developer in the QGIS project since 2011 (wow old), but still loves it the same if not more since he has seen to grow into what it is.",
+      "shortBio": "Nathan is a core QGIS developer and software developer for Chartis Technology. He has been involved as a developer in the QGIS project since 2011 (wow old), but still loves it the same if not more since he has seen to grow into what it is.",
+      "title": "Lead Software Developer",
+      "company": "Chartis Technology",
+      "country": "Gold Coast, Australia"
+    },
+    "BANWRY": {
+      "name": "Shrividya Ravi",
+      "bio": "I am a Data Scientist who has recently discovered a passion for urban analysis and development. I believe that open data and FOSS4G gives citizens an incredible opportunity to understand how their city works and investigate avenues / causes of particular interest to them.",
+      "shortBio": "I am a Data Scientist who has recently discovered a passion for urban analysis and development. I believe that open data and FOSS4G gives citizens an incredible opportunity to understand how their city works and investigate avenues / causes of particular interest to them.",
+      "photoUrl": "https://pretalx.com/media/me_and_pappi1.JPG",
+      "title": "Senior Data Analyst",
+      "company": "Ministry of Transport",
+      "country": "Wellington"
+    },
+    "KB7F3Z": {
+      "name": "Wei Ji Leong",
+      "bio": "Geospatial Data Scientist, PhD Student in Glaciology. Interested in earth observation data and deep learning.",
+      "shortBio": "Geospatial Data Scientist, PhD Student in Glaciology. Interested in earth observation data and deep learning.",
+      "title": "PhD Student",
+      "company": "Antarctic Research Centre",
+      "country": "Wellington"
+    },
+    "CV9GN9": {
+      "name": "Richard Law",
+      "bio": "I currently work for Landcare Research as a hornet-nest-poker and spatial analyst. Current areas of professional interest are structured data and reproducibility, but I also dabble in transportation and economics. I also do freelance web development as [spatialparalysis.xyz](https://spatialparalysis.xyz). I have worked as: a paper-boy for the Evening Post (made redundant age 12); a GIS tutor at Victoria University of Wellington (VUW); a Research Assistant for an economic/public policy think-tank; and, for a few years and until recently I was living in Raglan, working for MetOcean Solutions (now a MetService subsidiary) as a GIS & Web Developer. Now I'm a father and husband before all else. I have a Masters degree in GIS from VUW, and after having written all this I realise you can probably just [find me on LinkedIn](https://www.linkedin.com/in/richardmlaw/). What LinkedIn won't tell you is that I *really* love [a cup of good, hot, black coffee](https://www.youtube.com/watch?v=XjkVgc6gIqk).",
+      "shortBio": "I currently work for Landcare Research as a hornet-nest-poker and spatial analyst. Current areas of professional interest are structured data and reproducibility, but I also dabble in transportation and economics. I also do freelance web development as [spatialparalysis.xyz](https://spatialparalysis.xyz). I have worked as: a paper-boy for the Evening Post (made redundant age 12); a GIS tutor at Victoria University of Wellington (VUW); a Research Assistant for an economic/public policy think-tank; and, for a few years and until recently I was living in Raglan, working for MetOcean Solutions (now a MetService subsidiary) as a GIS & Web Developer. Now I'm a father and husband before all else. I have a Masters degree in GIS from VUW, and after having written all this I realise you can probably just [find me on LinkedIn](https://www.linkedin.com/in/richardmlaw/). What LinkedIn won't tell you is that I *really* love [a cup of good, hot, black coffee](https://www.youtube.com/watch?v=XjkVgc6gIqk).",
+      "photoUrl": "https://pretalx.com/media/profile-632e3775ffa3d7f89e6b7e1fba57ebed.jpg",
+      "title": "Spatial Analyst / Web Developer",
+      "company": "Landcare Research | Manaaki Whenua",
+      "country": "Palmerston North, NZ"
     },
     "RE3QB8": {
       "name": "Simon Nitz",
-      "bio": "Simon part owned Digital Mapping Solutions Ltd which was sold in 2016. Simon then went on to set up an geospatial open source business called Pinpoint Geospatial Solutions Ltd (PGS) in 2018. \r\n\r\nSimon is highly regarded throughout New Zealand as a leader in his field and has also undertaken numerous work in Australia. He has provided over 30+ years of GIS consulting and training services to organisations, focusing on both desktop and web mapping systems. His core strengths are as a GIS System Implementer, GIS Application Developer, GIS Database Administrator, and GIS Project Manager. An acknowledged web mapping technology expert amongst his peers, Simon brings a vast knowledge of not only web mapping technology but also web platforms, desktop GIS Systems and GIS services in general.\r\n\r\nSimon regularly runs QGIS training, GeoServer training, PostGIS training, SQL Server training, GeoNode training, Python for GeoSpatial training and Intramaps training through his business Pinpoint Geospatial Solutions.",
-      "shortBio": "Simon part owned Digital Mapping Solutions Ltd which was sold in 2016. Simon then went on to set up an geospatial open source business called Pinpoint Geospatial Solutions Ltd (PGS) in 2018. \r\n\r\nSimon is highly regarded throughout New Zealand as a leader in his field and has also undertaken numerous work in Australia. He has provided over 30+ years of GIS consulting and training services to organisations, focusing on both desktop and web mapping systems. His core strengths are as a GIS System Implementer, GIS Application Developer, GIS Database Administrator, and GIS Project Manager. An acknowledged web mapping technology expert amongst his peers, Simon brings a vast knowledge of not only web mapping technology but also web platforms, desktop GIS Systems and GIS services in general.\r\n\r\nSimon regularly runs QGIS training, GeoServer training, PostGIS training, SQL Server training, GeoNode training, Python for GeoSpatial training and Intramaps training through his business Pinpoint Geospatial Solutions.",
+      "bio": "Simon is highly regarded throughout New Zealand as a leader in his field and has also undertaken numerous work in Australia. He has provided over 30+ years of GIS consulting and training services to organisations, focusing on both desktop and web mapping systems. His core strengths are as a GIS System Implementer, GIS Application Developer, GIS Database Administrator, and GIS Project Manager. An acknowledged web mapping technology expert amongst his peers, Simon brings a vast knowledge of not only web mapping technology but also web platforms, desktop GIS Systems and GIS services in general.\r\nSimon regularly runs QGIS training, GeoServer training, PostGIS training, SQL Server training, GeoNode training, Python for GeoSpatial training and Intramaps training through his business Pinpoint Geospatial Solutions.",
+      "shortBio": "Simon is highly regarded throughout New Zealand as a leader in his field and has also undertaken numerous work in Australia. He has provided over 30+ years of GIS consulting and training services to organisations, focusing on both desktop and web mapping systems. His core strengths are as a GIS System Implementer, GIS Application Developer, GIS Database Administrator, and GIS Project Manager. An acknowledged web mapping technology expert amongst his peers, Simon brings a vast knowledge of not only web mapping technology but also web platforms, desktop GIS Systems and GIS services in general.\r\nSimon regularly runs QGIS training, GeoServer training, PostGIS training, SQL Server training, GeoNode training, Python for GeoSpatial training and Intramaps training through his business Pinpoint Geospatial Solutions.",
       "photoUrl": "https://pretalx.com/media/simon.png"
-    },
-    "X9FFRH": {
-      "name": "Joeli Varo",
-      "bio": "An urban and regional Planner in disaster risk reduction for Small Island Developing States especially for the Caribbean and the South Pacific. Currently completing my Ph. D in Geographic Information Science and Remote Sensing at the PNG UNITECH.",
-      "shortBio": "An urban and regional Planner in disaster risk reduction for Small Island Developing States especially for the Caribbean and the South Pacific. Currently completing my Ph. D in Geographic Information Science and Remote Sensing at the PNG UNITECH.",
-      "photoUrl": null
-    },
-    "93J83Q": {
-      "name": "Paul Haesler",
-      "bio": "Paul has been programming computers since his parents bought him a Commodore 64 in the early 1980s.  He has programmed professionally for over 20 years, engaging in his passion for open source whenever possible.  Paul is currently works as a Senior Software Engineer working at CSIRO-Data 61 in the Web-Geospatial team.  These days he is based in Canberra and is an award-winning home-brewer and is currently writing and recording a science fiction rock opera under the pen-name “Spaceman Paul”, which is also his github id.",
-      "shortBio": "Paul has been programming computers since his parents bought him a Commodore 64 in the early 1980s.  He has programmed professionally for over 20 years, engaging in his passion for open source whenever possible.  Paul is currently works as a Senior Software Engineer working at CSIRO-Data 61 in the Web-Geospatial team.  These days he is based in Canberra and is an award-winning home-brewer and is currently writing and recording a science fiction rock opera under the pen-name “Spaceman Paul”, which is also his github id.",
-      "photoUrl": "https://pretalx.com/media/avatar_jRXZ2Qm.jpg"
-    },
-    "RU9YHK": {
-      "name": "Grant Boxer",
-      "bio": "Grant Boxer (RPGeo, FAIG, MGSA) is a consultant geologist with over 40 years’ experience in exploration and mining geology. He was employed by CRA Exploration, Argyle Diamonds and Rio Tinto Exploration from 1978 until 1997 undertaking diamond exploration and evaluation activities. Ten years were spent at the Argyle diamond mine carrying out exploration and evaluation programs, feasibility studies and mine development studies for the Argyle and Ellendale diamond deposits and Argyle’s associated alluvial diamond deposits. \r\nFrom 1998 until 2008, Grant carried out project reviews, field visits, project management, drilling and sampling program supervision and project generation, primarily for diamonds in Australia, Brazil, China, India and Tanzania. Since 2008, he has been doing GIS data compilation and mineral exploration project generation work for a small exploration company in Perth, as well as a variety of diamond consulting assignments.\r\nGrant has a keen interest in GIS and remote sensing and was a user of MapInfo and Discover since the mid-1990’s. Grant discovered QGIS about 4 years ago and has been running QGIS courses for geologists for the past 3 years in association with the Australian Institute of Geoscientists.",
-      "shortBio": "Grant Boxer (RPGeo, FAIG, MGSA) is a consultant geologist with over 40 years’ experience in exploration and mining geology. He was employed by CRA Exploration, Argyle Diamonds and Rio Tinto Exploration from 1978 until 1997 undertaking diamond exploration and evaluation activities. Ten years were spent at the Argyle diamond mine carrying out exploration and evaluation programs, feasibility studies and mine development studies for the Argyle and Ellendale diamond deposits and Argyle’s associated alluvial diamond deposits. \r\nFrom 1998 until 2008, Grant carried out project reviews, field visits, project management, drilling and sampling program supervision and project generation, primarily for diamonds in Australia, Brazil, China, India and Tanzania. Since 2008, he has been doing GIS data compilation and mineral exploration project generation work for a small exploration company in Perth, as well as a variety of diamond consulting assignments.\r\nGrant has a keen interest in GIS and remote sensing and was a user of MapInfo and Discover since the mid-1990’s. Grant discovered QGIS about 4 years ago and has been running QGIS courses for geologists for the past 3 years in association with the Australian Institute of Geoscientists.",
-      "photoUrl": null
-    },
-    "ETJ8VW": {
-      "name": "Adi Vasiti Radinivuna Soko",
-      "bio": "Vasiti’s industry experience spans ten plus years in the highly technical field of geospatial science and surveying. She has assisted a number of significant projects while working for the Fijian Government including developing a disaster-integrated system for the Commissioner Western’s Office, the Asian Institute of Technology in Thailand, Fiji’s Native Land Trust Board, and the Department of Town and Country Planning.\r\nIn addition, during her stint with the Sugar Industry Tribunal as its GIS Manager Vasiti played a vital role in creating the first GIS web portal that not only linked Fiji’s four main sugarcane mills but also published live harvesting data during the crushing season.\r\nHer completed research will contribute to Fiji’s datum update where she focused on the impact of the new datum to local geospatial users and updated the transformation parameters for the country’s maritime boundary which was initially done by GeoScience Australia.\r\nRecognizing the unsung talent that women in the Pacific possess in the GIS industry, she developed an initiative to recognize these. She is currently working on publishing the first Pacific Women in GeoSpatial magazine (online). The magazine will focus on a total of 10 vibrant women in the Pacific who have been shortlisted from the abstract call. The magazine is in its final stages of production and is scheduled to be published by October 2019. Through this initiative, she champions the course of women in this Industry and this is one way of prompting the skills they have within the Pacific region.",
-      "shortBio": "Vasiti’s industry experience spans ten plus years in the highly technical field of geospatial science and surveying. She has assisted a number of significant projects while working for the Fijian Government including developing a disaster-integrated system for the Commissioner Western’s Office, the Asian Institute of Technology in Thailand, Fiji’s Native Land Trust Board, and the Department of Town and Country Planning.\r\nIn addition, during her stint with the Sugar Industry Tribunal as its GIS Manager Vasiti played a vital role in creating the first GIS web portal that not only linked Fiji’s four main sugarcane mills but also published live harvesting data during the crushing season.\r\nHer completed research will contribute to Fiji’s datum update where she focused on the impact of the new datum to local geospatial users and updated the transformation parameters for the country’s maritime boundary which was initially done by GeoScience Australia.\r\nRecognizing the unsung talent that women in the Pacific possess in the GIS industry, she developed an initiative to recognize these. She is currently working on publishing the first Pacific Women in GeoSpatial magazine (online). The magazine will focus on a total of 10 vibrant women in the Pacific who have been shortlisted from the abstract call. The magazine is in its final stages of production and is scheduled to be published by October 2019. Through this initiative, she champions the course of women in this Industry and this is one way of prompting the skills they have within the Pacific region.",
-      "photoUrl": "https://pretalx.com/media/VASITI.jpg"
-    },
-    "CG8GRE": {
-      "name": "John Hildebrandt",
-      "bio": "John has over 30 years’ experience in Information Technology and Research areas across a broad range of areas. John has extensive Public Sector, Defence and Intelligence experience including postings into Australian and US Intelligence agencies in integrated Military and Civilian teams.\r\nJohn worked in the Defence Science and Technology Organisation (DSTO) as a Senior Research Scientist leading teams undertaking cutting edge Image Analysis and Distributed Systems research.\r\nBefore joining AWS he had senior roles at Microsoft and IBM providing Architectural advice to Federal Government customers.\r\nJohn is currently employed as a Principal Solutions Architect with Amazon Web Services (AWS). He was the first employee for the ANZ Public Sector team and has been active in growing the team. John assists Public Sector customers and partners envisage and architect Cloud solutions using the AWS platform.",
-      "shortBio": "John has over 30 years’ experience in Information Technology and Research areas across a broad range of areas. John has extensive Public Sector, Defence and Intelligence experience including postings into Australian and US Intelligence agencies in integrated Military and Civilian teams.\r\nJohn worked in the Defence Science and Technology Organisation (DSTO) as a Senior Research Scientist leading teams undertaking cutting edge Image Analysis and Distributed Systems research.\r\nBefore joining AWS he had senior roles at Microsoft and IBM providing Architectural advice to Federal Government customers.\r\nJohn is currently employed as a Principal Solutions Architect with Amazon Web Services (AWS). He was the first employee for the ANZ Public Sector team and has been active in growing the team. John assists Public Sector customers and partners envisage and architect Cloud solutions using the AWS platform.",
-      "photoUrl": "https://pretalx.com/media/johnhild-200.jpg"
     }
   },
   "team": [

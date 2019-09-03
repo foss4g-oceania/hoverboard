@@ -163,24 +163,10 @@
 					}]
 				},
 				{
-					"startTime": "09:00",
-					"endTime": "12:30",
-					"sessions": [{
-						"items": [102]
-					}]
-				},
-				{
 					"startTime": "12:30",
 					"endTime": "13:30",
 					"sessions": [{
 						"items": [105]
-					}]
-				},
-				{
-					"startTime": "13:30",
-					"endTime": "17:00",
-					"sessions": [{
-						"items": [106]
 					}]
 				},
 				{
@@ -197,7 +183,7 @@
 					"title": "Rutherford House, Victoria University of Wellington"
 				},
 				{
-					"title": "Venue TBA"
+					"title": "Foxglove Bar & Kitchen"
 				}
 			]
 		},
@@ -515,16 +501,6 @@
 			],
 			"title": "Registration"
 		},
-		"102": {
-			"description": "Details to come.",
-			"tags": [
-				"Workshop"
-			],
-			"speakers": [
-				"Mystery Person"
-			],
-			"title": "Morning Workshops"
-		},
 		"105": {
 			"title": "Lunch",
 			"tags": [
@@ -532,18 +508,8 @@
 			],
 			"description": "Break for lunch"
 		},
-		"106": {
-			"description": "Details to come.",
-			"tags": [
-				"Workshop"
-			],
-			"speakers": [
-				"Mystery Person"
-			],
-			"title": "Afternoon Workshops"
-		},
 		"109": {
-			"description": "Come and meet your fellow attendees before the conference kicks off.",
+			"description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Foxglove Bar and Kitchen](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780).",
 			"tags": [
 				"Social"
 			],

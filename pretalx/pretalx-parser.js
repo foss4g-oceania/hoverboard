@@ -2,6 +2,7 @@ const request = require('request')
 const util = require('util')
 const _ = require('lodash')
 const fs = require('fs')
+const moment = require('moment-timezone')
 
 // TODO
 // - once confirmations are made: confirmedTalksOnly = true
@@ -19,7 +20,7 @@ const headers = {
 const targetData = require('../docs/default-firebase-data.json')
 const targetDataFile = './docs/firebase-data.json'
 
-const confirmedTalksOnly = false
+const confirmedTalksOnly = true
 const includeStatuses = ['accepted', 'confirmed']
 
 const talksUriWorkshops = `${host}/api/events/${eventWorkshop}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
@@ -40,6 +41,7 @@ const jobTitleQuestion = (question) => question.id === 193
 
 
 const transformTalk = (talk) => {
+  // console.log({talk, slot: talk.slot})
   const submissionType = (talk.submission_type || {}).en
   const tags = [
     (_.find(talk.answers, a => categorisationQuestion(a.question)) || {}).answer,
@@ -47,8 +49,9 @@ const transformTalk = (talk) => {
     talk.track
   ].filter(Boolean).map(String)
   description = `${talk.abstract}\n\n## Details\n\n${talk.description}`
+  let skillLevel
   if (submissionType === 'Workshop') {
-    const skillLevel = (_.find(talk.answers, a => workshopSkillQuestion(a.question)) || {}).answer
+    skillLevel = (_.find(talk.answers, a => workshopSkillQuestion(a.question)) || {}).answer
     const skillsInfo = (_.find(talk.answers, a => complexityQuestion(a.question)) || {}).answer
     description += `\n\n### Skill level\n\n**${skillLevel}**\n\n${skillsInfo}`
     const bringInfo = (_.find(talk.answers, a => stuffToBringQuestion(a.question)) || {}).answer
@@ -60,8 +63,26 @@ const transformTalk = (talk) => {
     language: (talk.content_locale.startsWith('en') ? "English" : talk.content_locale) || "English",
     title: talk.title,
     speakers: talk.speakers.map(speaker => speaker.code),
-    complexity: (_.find(talk.answers, q => complexityQuestion(q.question)) || {}).answer || null
+    complexity: skillLevel || null
   }}
+}
+
+const talkInSchedule = (talk) => {
+  const slot = talk.slot
+  const startTime = moment(slot.start)
+  // Assumes a session starts and ends on the same day...
+  const day = startTime.format('YYYY-MM-DD')
+  const dateReadable = startTime.format('ddd MMM do')
+  const timeslot = {
+    startTime: startTime.format('HH:mm'),
+    endTime: moment(slot.end).format('HH:mm'),
+    session: {"items": [talk.code]},
+    day
+  }
+  const track = {
+    "title": slot.room.en
+  }
+  return {timeslot, track}
 }
 
 // Note: this returns all speakers; they are later filtered according to whether
@@ -81,14 +102,52 @@ const transformSpeaker = (speaker) => {
   }}
 }
 
+transformTalkForSchedule = ({timeslot, track}) => {
+  // Note: forgive me Father for I have sinned...
+  // The Hoverboard schedule data structure is... unpleasant.
+  const scheduleDay = targetData.schedule[timeslot.day]
+  let tracks = scheduleDay['tracks']
+  const preDefinedTracks = tracks.length
+  let existingTimeslots = scheduleDay['timeslots']
+
+  // Handle track
+  const existingTrack = _.find(tracks, t => t.title === track.title)
+  if (!existingTrack) {
+    tracks.push(track)
+  }
+  const trackOrdinal = _.findIndex(tracks, t => t.title === track.title) || 0
+
+  // Handle timeslots
+  const existingTimeslot = _.find(existingTimeslots, slot => slot.startTime == timeslot.startTime && slot.endTime == timeslot.endTime)
+  if (existingTimeslot) {
+    existingTimeslot.sessions[trackOrdinal] = timeslot.session
+    existingTimeslot.sessions = Array.from(existingTimeslot.sessions, s => s == null ? ({"items": []}) : s)
+  } else {
+    let sessions = _.map(_.range(0, trackOrdinal), x => ({"items": []}))
+    sessions[trackOrdinal] = timeslot.session
+    sessions = sessions.map(s => s == null ? ({"items": []}) : s)
+    existingTimeslots.push({
+      startTime: timeslot.startTime,
+      endTime: timeslot.endTime,
+      sessions
+    })
+  }
+  // Keep timeslots sorted
+  targetData.schedule[timeslot.day].timeslots = _.sortBy([...existingTimeslots], 'startTime')
+}
+
 const requestForTalks = (url) => {
   console.log({url})
   return requestP({url, headers})
   .then(res => res.body)
   .then(JSON.parse)
   .then(data => {
-    const presentations = Object.assign(...data.results.filter(t => includeStatuses.includes(t.state)).map(transformTalk))
+    const filteredTalks = data.results.filter(t => includeStatuses.includes(t.state))
+    const presentations = Object.assign(...filteredTalks.map(transformTalk))
     targetData.sessions = {...targetData.sessions, ...presentations}
+
+    const scheduleData = filteredTalks.map(talkInSchedule)
+    scheduleData.forEach(transformTalkForSchedule)
   })
   .catch(error => {
     console.error(error)
