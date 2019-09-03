@@ -5,8 +5,7 @@ const fs = require('fs')
 const moment = require('moment-timezone')
 
 // TODO
-// - once confirmations are made: confirmedTalksOnly = true
-// - handle pagination
+// - handle pagination for main talks?
 
 const apikey = require('../serviceAccount.json').pretalx_api
 
@@ -41,7 +40,6 @@ const jobTitleQuestion = (question) => question.id === 193
 
 
 const transformTalk = (talk) => {
-  // console.log({talk, slot: talk.slot})
   const submissionType = (talk.submission_type || {}).en
   const tags = [
     (_.find(talk.answers, a => categorisationQuestion(a.question)) || {}).answer,
