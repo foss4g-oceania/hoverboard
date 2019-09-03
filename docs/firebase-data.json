@@ -91,6 +91,18 @@
       "logos": [
         {
           "order": 0,
+          "logoUrl": "/images/partners/linz.png",
+          "name": "Land Information New Zealand",
+          "url": "https://www.linz.govt.nz/"
+        }
+      ],
+      "order": 0,
+      "title": "Platinum Sponsors"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
           "logoUrl": "/images/partners/pinpoint-geospatial-solutions.png",
           "name": "Pinpoint Geospatial Solutions",
           "url": "https://www.pinpointgeospatial.co.nz/"
@@ -118,10 +130,40 @@
           "logoUrl": "/images/partners/terria.svg",
           "name": "TerriaJS",
           "url": "https://terria.io/"
+        },
+        {
+          "order": 5,
+          "logoUrl": "/images/partners/geoplex.jpg",
+          "name": "Geoplex",
+          "url": "https://geoplex.com.au/"
+        },
+        {
+          "order": 6,
+          "logoUrl": "/images/partners/manaaki-whenua.jpg",
+          "name": "Manaaki Whenua - Landcare Research",
+          "url": "https://www.landcareresearch.co.nz/"
+        },
+        {
+          "order": 7,
+          "logoUrl": "/images/partners/dea.svg",
+          "name": "Digital Earth Australia",
+          "url": "https://www.ga.gov.au/dea"
         }
       ],
-      "order": 0,
+      "order": 1,
       "title": "Gold Sponsors"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "/images/partners/geosolutions.png",
+          "name": "GeoSolutions",
+          "url": "https://www.geo-solutions.it/"
+        }
+      ],
+      "order": 2,
+      "title": "Bronze Sponsors"
     },
     {
       "logos": [
@@ -132,7 +174,7 @@
           "url": "https://www.victoria.ac.nz/explore/study-areas/geography/study?subject=geographical-information-systems-and-science&subject=geographical-information-science"
         }
       ],
-      "order": 1,
+      "order": 3,
       "title": "Workshop and Community Day Host"
     },
     {
@@ -144,8 +186,76 @@
           "url": "https://www.surveyspatialnz.org/about/our_groups/spatial_stream"
         }
       ],
-      "order": 1,
+      "order": 4,
       "title": "Industry Partner"
+    }
+  ],
+  "software": [
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "/images/software/qgis.png",
+          "name": "QGIS",
+          "url": "https://qgis.org/"
+        },
+        {
+          "order": 1,
+          "logoUrl": "/images/software/leaflet.png",
+          "name": "Leaflet",
+          "url": "https://leafletjs.com/"
+        },
+        {
+          "order": 2,
+          "logoUrl": "/images/software/postgis.png",
+          "name": "PostGIS",
+          "url": "https://postgis.net/"
+        },
+        {
+          "order": 3,
+          "logoUrl": "/images/software/gdal.png",
+          "name": "GDAL",
+          "url": "https://gdal.org/"
+        },
+        {
+          "order": 4,
+          "logoUrl": "/images/software/geoserver.png",
+          "name": "GeoServer",
+          "url": "http://geoserver.org/"
+        },
+        {
+          "order": 5,
+          "logoUrl": "/images/software/osm.png",
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/#map=6/-41.129/173.705"
+        },
+        {
+          "order": 6,
+          "logoUrl": "/images/software/id.png",
+          "name": "iD Editor",
+          "url": "http://ideditor.com/"
+        },
+        {
+          "order": 7,
+          "logoUrl": "/images/software/overpass.png",
+          "name": "Overpass API",
+          "url": "https://wiki.openstreetmap.org/wiki/Overpass_API"
+        },
+        {
+          "order": 8,
+          "logoUrl": "/images/software/python.png",
+          "name": "Python",
+          "url": "https://www.python.org/"
+        },
+        {
+          "order": 9,
+          "logoUrl": "/images/software/r.png",
+          "name": "R",
+          "url": "https://www.r-project.org/"
+        }
+      ],
+      "order": 0,
+      "title": "Software"
     }
   ],
   "schedule": {
@@ -705,21 +815,27 @@
       "tags": [
         "Registration"
       ],
-      "title": "Registration"
+      "title": "Registration",
+      "icon": "registration",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/EduWiki_Conference_2013_registration_table.JPG/800px-EduWiki_Conference_2013_registration_table.JPG"
     },
     "105": {
       "title": "Lunch",
       "tags": [
         "Social"
       ],
-      "description": "Break for lunch"
+      "description": "Break for lunch",
+      "icon": "lunch",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
     },
     "109": {
-      "description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Foxglove Bar and Kitchen](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780)",
+      "description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Foxglove Bar and Kitchen](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780).",
       "tags": [
         "Social"
       ],
-      "title": "Conference icebreaker"
+      "title": "Conference icebreaker",
+      "icon": "party",
+      "image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
     },
     "201": {
       "description": "Breakfast(s)",
@@ -956,7 +1072,8 @@
       "speakers": [
         "RE3QB8"
       ],
-      "complexity": "Advanced"
+      "complexity": "Advanced",
+      "image": "https://pretalx.com/media/fso2019w/images/QSBVAQ/FOSS4G2019_QGIS_Processing_Models_GwZ1CJD.png"
     },
     "SPGUQV": {
       "description": "This hands-on workshop covers the use of [PyGMT](https://github.com/GenericMappingTools/pygmt) to analyze geospatial data and produce publication quality figures and animations in an interactive [Jupyter](https://jupyter.org/) lab environment. After a quick guide to launching up PyGMT on your computer, we will start with the basics of making your first map with PyGMT and explore some different customizations such as fancy projection systems and colormaps. Next we will teach you how to load in CSV point and GeoTIFF/NetCDF grid datasets using [pandas](https://github.com/pandas-dev/pandas) and [xarray](https://github.com/pydata/xarray), and have PyGMT perform more advanced geoprocessing workflows such as sampling, filtering and interpolation on them. Finally, we will step you through making 3D perspective plots and animations of your final results!\n\n## Details\n\nFrom processing raster grids and vector data (points, lines, polygons) to creating visually appealing maps in different projection systems, the [Generic Mapping Tools (GMT)](https://github.com/GenericMappingTools/gmt/) is a swiss army knife collection of open source tools used by Earth, Ocean and Planetary scientists worldwide. [PyGMT](https://github.com/GenericMappingTools/pygmt) is a more user-friendly, Pythonic interface to GMT 6's modern execution mode that integrates well with the [PyData](https://pydata.org/) stack. This includes reading [numpy](https://github.com/numpy/numpy) arrays, [pandas](https://github.com/pandas-dev/pandas) tables and [xarray](https://github.com/pydata/xarray) grids, plus support for rich display in interactive [Jupyter](https://jupyter.org/) notebook environments. It is also a powerful library used for processing geospatial and geophysical datasets, including operations like sampling, filtering, interpolation and so on.\n\n### Skill level\n\n**Intermediate**\n\nThis workshop is intended for people with some previous Python programming/GMT experience. We invite students and geoscientists working on any geo related fields (e.g. Earth Observation, Geophysical, Marine, Magnetic, Gravity, Planetary, etc) to join. We also welcome seasoned GMT veterans who would like to find out how the Python interface works with GMT 6's modern execution mode and people from the geospatial industry with some Python programming experience that would like to get to know what PyGMT can do for parts of their geoprocessing workflow.\n\n### Things to bring and stuff to do beforehand\n\nA github repository containing jupyter notebooks for the workshop will be set up prior to the workshop. Users should only need to have a laptop with a modern browser that can launch an online [Pangeo Binder](https://binder.pangeo.io/) link/[Google Colaboratory](https://colab.research.google.com/) Jupyter computing environment. This should give everyone a relatively consistent experience.",
@@ -968,7 +1085,8 @@
       "speakers": [
         "KB7F3Z"
       ],
-      "complexity": "Intermediate"
+      "complexity": "Intermediate",
+      "image": null
     },
     "WB99J8": {
       "description": "A series of OGC Interoperability Experiments (IEs) have been working on techniques and technologies for the problem of linking multi-disciplinary and multi-organisation environmental data _without_ transferring data custody or maintenance responsibilities. These IEs, such as the [Second Environmental Linked Features Interoperability Experiment](https://www.opengeospatial.org/projects/initiatives/selfie) (SELFIE), are firmly grounded in W3C and OGC [best practices for spatial data on the web](https://www.w3.org/TR/sdw-bp/). They involve organisations from New Zealand and around the world, trying to find solutions to problems such as: sharing data for transnational groundwater monitoring; linking descriptions of things to related things (e.g. boreholes to aquifers); using [popular vocabularies](https://schema.org/) to semantically describe the properties of things while avoiding misinterpretation; describing links between distributed records for things that change in nature over time and space; for data publishers to associate related information maintained by third parties to their own data; and maybe even the [HTTPRange-14 problem](https://en.wikipedia.org/wiki/HTTPRange-14). This workshop will first give an overview of **distributed and linked data** concepts: focusing on: why it matters for those responsible for publishing geospatial data; the advantages for those consuming geospatial data; and how search engines get involved. The SELF Interoperability Experiment will be discussed as an example. Then (and for most of the available time) we will work collaboratively to draft the publication of some spatial data using our laptops, taking advantage of these concepts in a way that will not alienate modern web developers or GIS practictioners, i.e. by using JSON-LD, semantic HTML, Web Components, and an implementation of the OGC WFS 3.0 specification for features.\n\n## Details\n\nThe best practices (bold ones will be emphasised):\r\n\r\n1. **Spatial data identifiers**\r\n2. **Indexable data**\r\n3. **Linking data**\r\n4. **Spatial data encoding**\r\n5. Geometries and coordinate reference systems\r\n6. **Relative positioning**\r\n7. **Spatial links**\r\n8. Spatial data versioning\r\n9. Spatial data access\r\n10. Spatial metadata\r\n\r\n**Additional notes**\r\n\r\nParticipants will be asked to optionally provide some sample data that may be suitable for publication using linked data concepts. Data from two domains that have a topological relationship are good candidates. If some interesting data are made available with sufficient time, the practical part of the workshop will be geared towards exploring that data. If not, some sample data will be used, at my (the presenter's) discretion.\r\n\r\nI do expect you to do some \"course reading\" to gain a some conceptual understanding. Reading is food for the brain. Here are some foundational documents, in priority order.\r\n\r\n- [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/), W3C Working Group Note\r\n- [Linked Data](https://www.w3.org/DesignIssues/LinkedData), Tim Berners-Lee\r\n- [Background to the (first) Environmental Linked Features Interoperability Experiment (ELFIE)](https://www.opengeospatial.org/projects/initiatives/elfie)\r\n- [Creating semantic sites with Web Components and JSON-LD](https://developers.google.com/web/updates/2015/03/creating-semantic-sites-with-web-components-and-jsonld)\r\n- [Building JSON-LD APIs: Best Practices](https://json-ld.org/spec/latest/json-ld-api-best-practices/), W3C Draft Community Group Report\r\n- [GraphDB: Introduction to the Semantic Web](http://graphdb.ontotext.com/documentation/standard/introduction-to-semantic-web.html) (Note: this is more advanced, and largely beyond the scope of the workshop. The intention is to get you thinking wide as well as narrow.)\r\n\r\nHowever, don't stress! There will be no test. If, after doing some reading, you still don't understand the point of any of it, that's fine. There will be plenty of opportunities for discussion.\r\n\r\nThere *was* (and, to some extent, *still is*) a lot of misplaced hype about Linked Data out there in the untamed wildernesses of the Internet. Don't worry, I haven't drunk of the Semantic Kool Aid. Although there are some unavoidable conceptual weeds, this workshop will be reined in to practical applications rather than pure aspiration. I also want you to come away thinking critically about these Linked Data ideas, perhaps seeded by some contrary opinions and writings by people who have/had their heads firmly screwed on:\r\n\r\n- [Two Bit History: Semantic Web](https://twobithistory.org/2018/05/27/semantic-web.html)\r\n- [Cory Doctorow: Metacrap](https://people.well.com/user/doctorow/metacrap.htm)\r\n- [Aaron Swartz: A Programmable Web](https://upload.wikimedia.org/wikipedia/commons/3/3f/) (Note: this is a longer read than the others, but lighter and very interesting.)\n\n### Skill level\n\n**Intermediate**\n\nParticipants need to understand web development principles and various technologies and standards underpinning the web. If you've done some web development, or if at least half of these terms are registering, then we're good to go: semantic HTML, linked data, JSON, REST, JavaScript, WFS 3.0, linked open vocabularies, SEO, Web Components.\n\n### Things to bring and stuff to do beforehand\n\nDetails will be sent out closer to the time, but the basics are:\r\n- A well oiled brain (i.e. please do some reading)\r\n- A laptop with a web browser (Chrome or Firefox preferred)\r\n- Ideally a running instance of https://github.com/geopython/pygeoapi (I'm willing to help you set this up in the days and weeks leading up to the workshop if necessary)",
@@ -980,7 +1098,8 @@
       "speakers": [
         "CV9GN9"
       ],
-      "complexity": "Intermediate"
+      "complexity": "Intermediate",
+      "image": "https://pretalx.com/media/fso2019w/images/WB99J8/5-star_deployment_scheme_for_Open_Data_rUGK330.png"
     },
     "RKAAHQ": {
       "description": "Static or interactive maps can reveal useful patterns and insights. For example, layering accident locations on a basemap can highlight hotspots of poor road safety. These simple data overlays can be extended to an integrated analysis with the road network for deeper insight - like accident hotspots on road segments that bottleneck commuter flows. As denizens of a city we primarily interact with the built urban environment via its streets, roads and paths. Hence, intuitive questions of the 'Urban Experience' must involve the geospatial road network.\n\n## Details\n\nIn this workshop, we'll use Python and the packages, osmnx and pandana, to characterise Wellington: the cool little capital of New Zealand with a unique topography. Using omsnx, pandana and data of the built environment (from OpenStreetMap and Wellington City Council open data), we can quantify how Wellington functions as a city.\r\n\r\nFoundational topics include:\r\n\r\n- Handling geospatial data with geopandas\r\n- Getting street networks with osmnx\r\n- Routing with network algorithms\r\n- Calculating flows from routes\r\n\r\nUrban analysis topics include:\r\n\r\n- Analysing street morphology and topography with osmnx\r\n- Accessibility analysis with pandana\r\n- Catchment areas of amenities with pandana\n\n### Skill level\n\n**Intermediate**\n\nParticipants will need to have some experience with Python programming to finish the exercises. An early intermediate level will be sufficient as the analysis will not involve heavy programming.\n\n### Things to bring and stuff to do beforehand\n\nAttendees must bring their own laptops with Python 3, geopandas, osmnx and pandana installed. They will also need matlplotlib and basemap. A full list of packages will be provided closer to the workshop date. Attendees will also need a Google Elevation API key. Again, further details will be sent out later.",
@@ -992,7 +1111,8 @@
       "speakers": [
         "BANWRY"
       ],
-      "complexity": "Intermediate"
+      "complexity": "Intermediate",
+      "image": null
     },
     "7AHC8Q": {
       "description": "What does it look like to work in the core C++ _(and Python, and Perl, and even a little bit of raw C)_ logic of QGIS?  \r\nThis workshop will cover an intro into building, understanding, and navigating the core QGIS codebase.   \r\n\r\nThis workshop will be an attempt to help demystify the QGIS core codebase in order to help ease you into QGIS core development.   There is no requirement to leave the workshop understanding every bit of the QGIS codebase as there is a lot and even some of the current core developers don't understand it all :)\n\n## Details\n\nWhat does it look like to work in the core C++ _(and Python, and Perl, and even a little bit of raw C)_ logic of QGIS?  \r\nThis workshop will cover an intro into building, understanding, and navigating the core QGIS codebase.   \r\n\r\nThis workshop will be an attempt to help demystify the QGIS core codebase in order to help ease you into QGIS core development.   There is no requirement to leave the workshop understanding every bit of the QGIS codebase as there is a lot and even some of the current core developers don't understand it all :) \r\n\r\nThe main takeaways from this workshop is understanding the workflows core developers normally take in order to land a bug or feature into the next release.  Simply understanding where things are and how to navigate the code can lead to openings in fixing bugs or adding new features.  Starting simple and working your way up very much applies to QGIS.\r\n\r\nTopics we will try to cover in the workshop are:\r\n\r\n- Build setup\r\n- Qt Creator\r\n- Understanding where the code lives\r\n- Navigate the code\r\n- How the Python bindings are made (SIP - Here be dragons)\r\n- Unit tests\r\n- PR/Merge process (for features and bugs)\r\n- \r\nKnowing C++ will help you in advance but it's not a requirement of this workshop so don't be put off by that.  There is more to the QGIS code base then a pile of C++ and this workshop will give you exposer to those other areas as well.\n\n### Skill level\n\n**Intermediate**\n\nNo skill level is required however as this will deep dive into some of the core C++ code logic attendees should be at least be comfortable with knowing that is going to happen and not being able to understand what is going on 100% of the time.\r\n\r\nPast C++ experience will help but is not a requirement.\n\n### Things to bring and stuff to do beforehand\n\nLaptop",
@@ -1004,7 +1124,8 @@
       "speakers": [
         "RUKHTS"
       ],
-      "complexity": "Intermediate"
+      "complexity": "Intermediate",
+      "image": null
     }
   },
   "speakers": {
@@ -1049,6 +1170,48 @@
       ],
       "order": 1,
       "title": "Owner Director"
+    },
+    "Miriam Gonzalez": {
+      "bio": "Miriam is co-founder of projects based in mobile applications and location intelligence technologies and the Geochicas initiative where she promotes more women participation and knowledge sharing in geospatial spaces.<br><br>For the past few years Miriam has been highly involved in promoting OpenStreetMap and Humanitarian OpenStreetMap (HOTOSM), increasing the participation of the community in Mexico and LatAm by giving workshops, conferences and coordinating efforts among key players in open data.<br><br>Currently she is involved in open data, autonomous vehicles, partnerships and data analysis initiatives.",
+      "company": "LatLong",
+      "companyLogo": null,
+      "companyLogoUrl": null,
+      "country": "Mexico",
+      "featured": true,
+      "name": "Miriam Gonzalez",
+      "photo": "/images/speakers/miriam.jpg",
+      "photoUrl": "/images/speakers/miriam.jpg",
+      "shortBio": "Miriam is co-founder of projects based in mobile applications and location intelligence technologies and the Geochicas initiative.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/miriamgonzalez2/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 2,
+      "title": "CEO / Co-Founder"
+    },
+    "Lyzi Diamond": {
+      "bio": "Lyzi Diamond is a geographer/teacher/programmer living in New York City. In 2013 she co-founded Maptime, an organization of 80+ location-based community groups across the world focused on teaching each other about maps and geospatial technology.<br><br>She is currently a Developer Advocate at Glitch, a platform for building full-stack web applications in the browser. She cares a lot about map projections and probably wants to talk to you about most cool things!",
+      "company": "Glitch",
+      "companyLogo": null,
+      "companyLogoUrl": null,
+      "country": "USA",
+      "featured": true,
+      "name": "Lyzi Diamond",
+      "photo": "/images/speakers/lyzi.jpeg",
+      "photoUrl": "/images/speakers/lyzi.jpeg",
+      "shortBio": "Lyzi Diamond is a geographer/teacher/programmer living in New York City. In 2013 she co-founded Maptime, an organization of 80+ location-based community groups across the world.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/lyzidiamond/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Developer Advocate"
     },
     "RUKHTS": {
       "name": "Nathan Woodrow",
@@ -1441,15 +1604,15 @@
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/qmf9qbjqkos,6re1gfebio8"
     },
     {
-      "available": false,
+      "available": true,
       "currency": "$",
-      "info": "2 Day Conference (available by application)",
+      "info": "2 Day Conference (join the waiting list!)",
       "name": "Student",
       "price": 100,
       "soldOut": false,
       "starts": "Sep 1",
       "ends": "Sep 30",
-      "url": "https://ti.to"
+      "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/321lxz6kgci"
     }
   ],
   "triggers": {

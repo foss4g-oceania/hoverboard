@@ -61,7 +61,8 @@ const transformTalk = (talk) => {
     language: (talk.content_locale.startsWith('en') ? "English" : talk.content_locale) || "English",
     title: talk.title,
     speakers: talk.speakers.map(speaker => speaker.code),
-    complexity: skillLevel || null
+    complexity: skillLevel || null,
+    image: (talk.image || "").replace("http://", "https://") || null, // Avoid mixed content
   }}
 }
 

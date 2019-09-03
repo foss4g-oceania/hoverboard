@@ -613,21 +613,27 @@
 			"tags": [
 				"Registration"
 			],
-			"title": "Registration"
+			"title": "Registration",
+			"icon": "registration",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/EduWiki_Conference_2013_registration_table.JPG/800px-EduWiki_Conference_2013_registration_table.JPG"
 		},
 		"105": {
 			"title": "Lunch",
 			"tags": [
 				"Social"
 			],
-			"description": "Break for lunch"
+			"description": "Break for lunch",
+			"icon": "lunch",
+			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
 		},
 		"109": {
 			"description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Foxglove Bar and Kitchen](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780).",
 			"tags": [
 				"Social"
 			],
-			"title": "Conference icebreaker"
+			"title": "Conference icebreaker",
+			"icon": "party",
+			"image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
 		},
 		"201": {
 			"description": "Breakfast(s)",
