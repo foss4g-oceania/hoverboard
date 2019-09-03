@@ -201,6 +201,48 @@ const partnersActions = {
   },
 };
 
+const _getSoftwareItems = (groupId) => firebase.firestore()
+  .collection('software').doc(groupId).collection('items').orderBy('order', 'asc')
+  .get()
+  .then((snaps) => snaps.docs
+    .map((snap) => Object.assign({}, snap.data(), { id: snap.id }))
+  );
+
+const softwareActions = {
+  fetchSoftware: () => (dispatch) => {
+    dispatch({
+      type: FETCH_SOFTWARE,
+    });
+
+    firebase.firestore()
+      .collection('software')
+      .orderBy('order', 'asc')
+      .get()
+      .then((snaps) => Promise.all(
+        snaps.docs.map((snap) => Promise.all([
+          snap.data(),
+          snap.id,
+          _getSoftwareItems(snap.id),
+        ]))
+      ))
+      .then((groups) => groups.map(([group, id, items]) => Object.assign({}, group, { id, items })))
+      .then((list) => {
+        dispatch({
+          type: FETCH_SOFTWARE_SUCCESS,
+          payload: {
+            list,
+          },
+        });
+      })
+      .catch((error) => {
+        dispatch({
+          type: FETCH_SOFTWARE_FAILURE,
+          payload: { error },
+        });
+      });
+  },
+};
+
 const videosActions = {
   fetchVideos: () => (dispatch) => {
     dispatch({

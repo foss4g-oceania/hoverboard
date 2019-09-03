@@ -137,6 +137,32 @@ const partnersReducer = (state = initialState.partners, action) => {
   }
 };
 
+const softwareReducer = (state = initialState.software, action) => {
+  switch (action.type) {
+    case FETCH_SOFTWARE:
+      return Object.assign({}, state, {
+        fetching: true,
+        fetchingError: null,
+        list: [],
+      });
+
+    case FETCH_SOFTWARE_FAILURE:
+      return Object.assign({}, state, {
+        fetching: false,
+        fetchingError: action.payload.error,
+      });
+
+    case FETCH_SOFTWARE_SUCCESS:
+      return Object.assign({}, state, {
+        fetching: false,
+        list: action.payload.list,
+      });
+
+    default:
+      return state;
+  }
+};
+
 const videosReducer = (state = initialState.videos, action) => {
   switch (action.type) {
     case FETCH_VIDEOS:

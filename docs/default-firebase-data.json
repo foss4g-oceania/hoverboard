@@ -94,8 +94,22 @@
 
 		}
 	},
-	"partners": [{
-			"logos": [{
+	"partners": [
+		{
+			"logos": [
+				{
+					"order": 0,
+					"logoUrl": "/images/partners/linz.png",
+					"name": "Land Information New Zealand",
+					"url": "https://www.linz.govt.nz/"
+				}
+			],
+			"order": 0,
+			"title": "Platinum Sponsors"
+		},
+		{
+			"logos": [
+				{
 					"order": 0,
 					"logoUrl": "/images/partners/pinpoint-geospatial-solutions.png",
 					"name": "Pinpoint Geospatial Solutions",
@@ -124,32 +138,132 @@
 					"logoUrl": "/images/partners/terria.svg",
 					"name": "TerriaJS",
 					"url": "https://terria.io/"
+				},
+				{
+					"order": 5,
+					"logoUrl": "/images/partners/geoplex.jpg",
+					"name": "Geoplex",
+					"url": "https://geoplex.com.au/"
+				},
+				{
+					"order": 6,
+					"logoUrl": "/images/partners/manaaki-whenua.jpg",
+					"name": "Manaaki Whenua - Landcare Research",
+					"url": "https://www.landcareresearch.co.nz/"
+				},
+				{
+					"order": 7,
+					"logoUrl": "/images/partners/dea.svg",
+					"name": "Digital Earth Australia",
+					"url": "https://www.ga.gov.au/dea"
 				}
 			],
-			"order": 0,
+			"order": 1,
 			"title": "Gold Sponsors"
 		},
 		{
-			"logos": [{
+			"logos": [
+				{
+					"order": 0,
+					"logoUrl": "/images/partners/geosolutions.png",
+					"name": "GeoSolutions",
+					"url": "https://www.geo-solutions.it/"
+				}
+			],
+			"order": 2,
+			"title": "Bronze Sponsors"
+		},
+		{
+			"logos": [
+				{
 					"order": 0,
 					"logoUrl": "/images/partners/vuw.png",
 					"name": "Victoria University of Wellington",
 					"url": "https://www.victoria.ac.nz/explore/study-areas/geography/study?subject=geographical-information-systems-and-science&subject=geographical-information-science"
 				}
 			],
-			"order": 1,
+			"order": 3,
 			"title": "Workshop and Community Day Host"
 		},
 		{
-			"logos": [{
+			"logos": [
+				{
 					"order": 0,
 					"logoUrl": "/images/partners/s+snz.png",
 					"name": "Survey and Spatial New Zealand",
 					"url": "https://www.surveyspatialnz.org/about/our_groups/spatial_stream"
 				}
 			],
-			"order": 1,
+			"order": 4,
 			"title": "Industry Partner"
+		}
+	],
+	"software": [
+		{
+			"logos": [
+				{
+					"order": 0,
+					"logoUrl": "/images/software/qgis.png",
+					"name": "QGIS",
+					"url": "https://qgis.org/"
+				},
+				{
+					"order": 1,
+					"logoUrl": "/images/software/leaflet.png",
+					"name": "Leaflet",
+					"url": "https://leafletjs.com/"
+				},
+				{
+					"order": 2,
+					"logoUrl": "/images/software/postgis.png",
+					"name": "PostGIS",
+					"url": "https://postgis.net/"
+				},
+				{
+					"order": 3,
+					"logoUrl": "/images/software/gdal.png",
+					"name": "GDAL",
+					"url": "https://gdal.org/"
+				},
+				{
+					"order": 4,
+					"logoUrl": "/images/software/geoserver.png",
+					"name": "GeoServer",
+					"url": "http://geoserver.org/"
+				},
+				{
+					"order": 5,
+					"logoUrl": "/images/software/osm.png",
+					"name": "OpenStreetMap",
+					"url": "https://www.openstreetmap.org/#map=6/-41.129/173.705"
+				},
+				{
+					"order": 6,
+					"logoUrl": "/images/software/id.png",
+					"name": "iD Editor",
+					"url": "http://ideditor.com/"
+				},
+				{
+					"order": 7,
+					"logoUrl": "/images/software/overpass.png",
+					"name": "Overpass API",
+					"url": "https://wiki.openstreetmap.org/wiki/Overpass_API"
+				},
+				{
+					"order": 8,
+					"logoUrl": "/images/software/python.png",
+					"name": "Python",
+					"url": "https://www.python.org/"
+				},
+				{
+					"order": 9,
+					"logoUrl": "/images/software/r.png",
+					"name": "R",
+					"url": "https://www.r-project.org/"
+				}
+			],
+			"order": 0,
+			"title": "Software"
 		}
 	],
 	"schedule": {
@@ -783,6 +897,48 @@
 			],
 			"order": 1,
 			"title": "Owner Director"
+		},
+		"Miriam Gonzalez": {
+			"bio": "Miriam is co-founder of projects based in mobile applications and location intelligence technologies and the Geochicas initiative where she promotes more women participation and knowledge sharing in geospatial spaces.<br><br>For the past few years Miriam has been highly involved in promoting OpenStreetMap and Humanitarian OpenStreetMap (HOTOSM), increasing the participation of the community in Mexico and LatAm by giving workshops, conferences and coordinating efforts among key players in open data.<br><br>Currently she is involved in open data, autonomous vehicles, partnerships and data analysis initiatives.",
+			"company": "LatLong",
+			"companyLogo": null,
+			"companyLogoUrl": null,
+			"country": "Mexico",
+			"featured": true,
+			"name": "Miriam Gonzalez",
+			"photo": "/images/speakers/miriam.jpg",
+			"photoUrl": "/images/speakers/miriam.jpg",
+			"shortBio": "Miriam is co-founder of projects based in mobile applications and location intelligence technologies and the Geochicas initiative.",
+			"socials": [
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/miriamgonzalez2/",
+						"name": "LinkedIn"
+					}
+			],
+			"order": 2,
+			"title": "CEO / Co-Founder"
+		},
+		"Lyzi Diamond": {
+			"bio": "Lyzi Diamond is a geographer/teacher/programmer living in New York City. In 2013 she co-founded Maptime, an organization of 80+ location-based community groups across the world focused on teaching each other about maps and geospatial technology.<br><br>She is currently a Developer Advocate at Glitch, a platform for building full-stack web applications in the browser. She cares a lot about map projections and probably wants to talk to you about most cool things!",
+			"company": "Glitch",
+			"companyLogo": null,
+			"companyLogoUrl": null,
+			"country": "USA",
+			"featured": true,
+			"name": "Lyzi Diamond",
+			"photo": "/images/speakers/lyzi.jpeg",
+			"photoUrl": "/images/speakers/lyzi.jpeg",
+			"shortBio": "Lyzi Diamond is a geographer/teacher/programmer living in New York City. In 2013 she co-founded Maptime, an organization of 80+ location-based community groups across the world.",
+			"socials": [
+					{
+						"icon": "linkedin",
+						"link": "https://www.linkedin.com/in/lyzidiamond/",
+						"name": "LinkedIn"
+					}
+			],
+			"order": 3,
+			"title": "Developer Advocate"
 		}
 	},
 	"team": [{
@@ -1132,15 +1288,15 @@
 			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/qmf9qbjqkos,6re1gfebio8"
 		},
 		{
-			"available": false,
+			"available": true,
 			"currency": "$",
-			"info": "2 Day Conference (available by application)",
+			"info": "2 Day Conference (join the waiting list!)",
 			"name": "Student",
 			"price": 100,
 			"soldOut": false,
 			"starts": "Sep 1",
 			"ends": "Sep 30",
-			"url": "https://ti.to"
+			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/321lxz6kgci"
 		}
 	],
 	"triggers": {

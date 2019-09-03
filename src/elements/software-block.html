@@ -1,0 +1,111 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+
+<link rel="import" href="../mixins/redux-mixin.html">
+<link rel="import" href="./shared-styles.html">
+<link rel="import" href="./hoverboard-icons.html">
+
+<dom-module id="software-block">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
+
+    <style>
+      :host {
+        display: block;
+        background-color: var(--default-background-color);
+      }
+
+      .block-title {
+        margin: 24px 0 8px;
+      }
+
+      .logos-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 8px;
+      }
+
+      .logo-item {
+        padding: 24px;
+        background-color: var(--text-primary-color);
+      }
+
+      .logo-img {
+        height: 80px;
+        width: 100%;
+      }
+
+      .cta-button {
+        margin-top: 24px;
+        color: var(--default-primary-color);
+      }
+
+      @media (min-width: 640px) {
+        .logos-wrapper {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+
+      @media (min-width: 812px) {
+        .logos-wrapper {
+          grid-template-columns: repeat(5, 1fr);
+        }
+      }
+    </style>
+
+    <div class="container">
+      <h1 class="container-title">{$ softwareBlock.title $}</h1>
+
+      <template is="dom-repeat" items="[[software]]" as="block">
+        <div class="logos-wrapper">
+          <template is="dom-repeat" items="[[block.items]]" as="logo">
+            <a class="logo-item card" href$="[[logo.url]]" title$="[[logo.name]]" target="_blank"
+              rel="noopener noreferrer" layout horizontal center-center>
+              <plastic-image class="logo-img" srcset="[[logo.logoUrl]]" sizing="contain" lazy-load preload fade>
+              </plastic-image>
+            </a>
+          </template>
+        </div>
+      </template>
+    </div>
+
+  </template>
+
+  <script>
+
+    class SoftwareBlock extends ReduxMixin(Polymer.Element) {
+      static get is() {
+        return 'software-block';
+      }
+
+      static get properties() {
+        return {
+          software: {
+            type: Array,
+            statePath: 'software.list',
+          },
+          softwareFetching: {
+            type: Boolean,
+            statePath: 'software.fetching',
+          },
+          softwareFetchingError: {
+            type: Object,
+            statePath: 'software.fetchingError',
+          },
+        };
+      }
+
+      connectedCallback() {
+        super.connectedCallback();
+        if (!this.softwareFetching && (!this.software || !this.software.length)) {
+          this.dispatch(softwareActions.fetchSoftware());
+        }
+      }
+    }
+
+    window.customElements.define(SoftwareBlock.is, SoftwareBlock);
+  </script>
+</dom-module>

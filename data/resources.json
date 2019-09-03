@@ -29,6 +29,8 @@
   "child": "/data/child.md",
   "prospectus": "data/sponsorship-prospectus.md",
   "attendIntro": "data/attend.md",
+  "communityDay": "data/community-day.md",
+  "planYourStay": "data/plan-your-stay.md",
   "footer": {
     "blog": "News"
   },
@@ -79,11 +81,18 @@
           "name": "Call for Presentations",
           "url": "https://submit-talks.foss4g-oceania.org/fso2019/cfp",
           "newTab": true
-        },{
+        },
+        {
           "name": "Call for Workshops",
           "url": "https://submit-workshops.foss4g-oceania.org/fso2019w/cfp",
           "newTab": true
-        },{
+        },
+        {
+          "name": "Community Day",
+          "url": "/community-day/",
+          "newTab": false
+        },
+        {
           "name": "Sponsorship Prospectus",
           "url": "/sponsor/",
           "newTab": false
@@ -147,15 +156,9 @@
     "title": "Here's the latest...",
     "callToAction": {
       "newsItemOne": {
-        "description": "Our call for presentations and call for workshops are now open!",
+        "description": "Our call for presentations is closing soon! We're accepting 18min general stream talks or 5min lightning talks. Submit your talk proposal by midnight September 4th.",
         "label": "Call for presentations",
         "link": "https://submit-talks.foss4g-oceania.org/fso2019/cfp",
-        "newTab": true
-      },
-      "newsItemTwo": {
-        "description": "We're accepting half day workshops, 18min general stream talks or 5min lightning talks. Submit your workshop proposal by August 17 or your talk proposal by August 31.",
-        "label": "Call for workshops",
-        "link": "https://submit-workshops.foss4g-oceania.org/fso2019w/cfp",
         "newTab": true
       }
     }
@@ -178,6 +181,9 @@
       "companyName": "Company Name"
     },
     "toast": "We will contact you soon!"
+  },
+  "softwareBlock": {
+    "title": "Innovative geospatial technologies"
   },
   "featuredVideos": {
     "title": "FOSS4G SotM Oceania 2018 videos",
@@ -204,7 +210,7 @@
     "previousYear": "Year"
   },
   "speakersBlock": {
-    "title": "Keynote Speakers",
+    "title": "Keynote speakers",
     "callToAction": {
       "label": "View all speakers",
       "link": "/speakers/"
@@ -251,7 +257,7 @@
     "callToAction": {
       "description": "View our prospectus as a slide deck",
       "label": "View our prospectus as a slide deck",
-      "link": "https://drive.google.com/file/d/1f8DwUqxzGaBYAyoeLShRTwjvOWPjur6O/view?usp=sharing",
+      "link": "https://drive.google.com/file/d/1QeuNd2VJZIYCtjAc4Zs7UZk_pZTsm_sm/view?usp=sharing",
       "newTab": true
     }
   },
@@ -372,16 +378,11 @@
       },
       {
         "title": "Call for Workshops",
-        "description": "If you're passionate about a topic and you're skillful at conveying your hands-on knowledge and experience to others, this is for you! The workshops are half day (3.5hr) morning or afternoon time slots and have a capacity of 18-32 participants.<br><br>We are aiming to offer a diverse range of workshops for a variety of skill levels. For more information visit the workshop proposal page at the link below.<br><br>All applications must be received by midnight 17th August 2019 (NZ Standard Time).",
-        "callToAction": {
-          "label": "Submit Workshop Proposals",
-          "link": "https://submit-workshops.foss4g-oceania.org/fso2019w/cfp",
-          "newTab": true
-        }
+        "description": "If you're passionate about a topic and you're skillful at conveying your hands-on knowledge and experience to others, this is for you! The workshops are half day (3.5hr) morning or afternoon time slots and have a capacity of 18-32 participants.<br><br>We are aiming to offer a diverse range of workshops for a variety of skill levels. For more information visit the workshop proposal page at the link below.<br><br><b>Applications closed on August 17th.</b>"
       },
       {
         "title": "Call for Presentations",
-        "description": "We want you to share your fascinating stories about open source geospatial, open data, and open street map in Oceania.  We're looking for a diverse range of presenters including: women, people from a variety of ethnic backgrounds, young and old, urban and rural.  To achieve this goal we need you to accept the challenge and put yourself forward, the community can't wait to hear what you have to say!<br><br>Time slots come in 18 minute conference presentation or 5 minute lightning talks. Visit the presentation information page at the link below for more details on what we're looking for and how we can support you in developing your topic.<br><br>All applications must be received by midnight 31th August 2019 (NZ Standard Time).",
+        "description": "We want you to share your fascinating stories about open source geospatial, open data, and open street map in Oceania.  We're looking for a diverse range of presenters including: women, people from a variety of ethnic backgrounds, young and old, urban and rural.  To achieve this goal we need you to accept the challenge and put yourself forward, the community can't wait to hear what you have to say!<br><br>Time slots come in 18 minute conference presentation or 5 minute lightning talks. Visit the presentation information page at the link below for more details on what we're looking for and how we can support you in developing your topic.<br><br>All applications must be received by midnight 4th September 2019 (NZ Standard Time).",
         "callToAction": {
           "label": "Submit Presentation Proposals",
           "link": "https://submit-talks.foss4g-oceania.org/fso2019/cfp",

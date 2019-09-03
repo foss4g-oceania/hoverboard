@@ -171,6 +171,14 @@
         "color": "#414141"
       },
       "fontColor": "#F6EAE4"
+    },
+    "communityDay": {
+      "title": "Community Day",
+      "metaDescription": "Find out more about our Community Day",
+      "background": {
+        "color": "#414141"
+      },
+      "fontColor": "#F6EAE4"
     }
   },
   "location": {
