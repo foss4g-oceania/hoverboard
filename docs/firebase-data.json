@@ -284,11 +284,18 @@
               "items": []
             },
             {
-              "items": []
+              "items": [
+                "SPGUQV"
+              ]
             },
             {
               "items": [
-                "SPGUQV"
+                "NNWXKL"
+              ]
+            },
+            {
+              "items": [
+                "W8Y7UU"
               ]
             }
           ]
@@ -316,11 +323,13 @@
             },
             {
               "items": [
-                "QSBVAQ"
+                "EMXAWM"
               ]
             },
             {
-              "items": []
+              "items": [
+                "S7PXRA"
+              ]
             },
             {
               "items": [
@@ -330,6 +339,11 @@
             {
               "items": [
                 "RKAAHQ"
+              ]
+            },
+            {
+              "items": [
+                "QSBVAQ"
               ]
             },
             {
@@ -362,16 +376,19 @@
           "title": "Foxglove Bar & Kitchen"
         },
         {
-          "title": "RH206"
+          "title": "RH205"
         },
         {
-          "title": "RH205"
+          "title": "RH202"
         },
         {
           "title": "RH107"
         },
         {
           "title": "RH102"
+        },
+        {
+          "title": "RH206"
         },
         {
           "title": "RH103"
@@ -1062,6 +1079,86 @@
       ],
       "title": "Stream Talks"
     },
+    "EMXAWM": {
+      "description": "CesiumJS is an amazing library for geospatial visualization, but is very bare-metal and you have to build your UI around it. An easier approach is using TerriaJS as your UI to interact with CesiumJS. This workshop will show you how easy that is to do!\n\n## Details\n\nTerriaJS builds upon CesiumJS’ 3D web geospatial visualization, adding a UI for exploring and previewing layers in a catalog, charts and graphs, a “splitter” interactive comparison tool, shareable story building and many other features. In this workshop, you will learn how to build and deploy a rich and compelling TerriaJS application, without writing any code. You will also learn how to extend TerriaJS with custom functionality as your application’s needs grow.\n\n### Skill level\n\n**Beginner/Introductory**\n\nSome experience with JavaScript/NodeJS would be advantageous. Experienced people will not be bored as the sky is the limit.\n\n### Things to bring and stuff to do beforehand\n\nLaptop with a working NodeJS installation and a text editor.",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "Building your own CesiumJS map, made easy with TerriaJS",
+      "speakers": [
+        "ZBMGLH",
+        "ZMYEN8"
+      ],
+      "complexity": "Beginner/Introductory",
+      "image": "https://pretalx.com/media/fso2019w/images/EMXAWM/TerriaJS_NCkNgig.png"
+    },
+    "NNWXKL": {
+      "description": "The workshop will include a brief overview of SOS (the OGC's Sensor Observation Service), and NIWA's Sensor Observation Services, to provide context, followed by the hands on workshop.\r\n\r\nThe workshop will take you through accessing a SOS service (using NIWA's as an example) using R on your own laptop to request specified data from the service, and how you can develop a simple R Shiny web application based on this.\n\n## Details\n\nSOS is becoming the global standard API for sensor (time series) data sharing. NIWA has deployed SOS services providing free public access to monthly climate data summaries, hydrometric and water quality data. The 52 North open source SOS Server application has been used for this. Custom NIWA middleware sits between our underlying databases and the 52 North software, so the system sits alongside our existing databases, simply adding a new mechanism for accessing the data.\r\n\r\nNIWA has also developed client tools which users can use to access these services (yes, you can still use CURL if you choose). One is a custom QGIS plugin, which allows users to connect to a SOS service much as they can a WMS or WFS service. The sites of stations providing observations can be shown on the map, and available sensor data graphed and downloaded as required.\r\n\r\nThe second SOS client is a new SOS4R package, for the R statistical software program. This package provides two sets of capabilities: It can issue SOS requests and return data into local dataframes, but, and more usefully, it also supports a set of abstracted queries, built on top of the native SOS requests, which provides additional requests much more suited to how a user would want to interact with the service - a much more user friendly workflow. \r\n\r\nAn R user can use this package to access a SOS service to request data to analyse locally, or as the data access tool for an R Shiny web application allowing others to interact with the service.\r\n\r\nIn R you will learn how to:\r\n\r\nGet a list of sites (stations) which provide data (and which sites provide a specifies reading)\r\nGet a list of what datasets (instrument readings) are available (and filtered by site)\r\nFilter data requests by date/time\r\nRequest a dataset for a selected instrument from a site within a specified time period\r\nPlot these data  \r\n\r\nIn Shiny, you will build a simple web site allowing users to view stations on a map, select a station, a reading , a time extent and download/plot the data.\n\n### Skill level\n\n**Intermediate**\n\nYou will need to be very comfortable writing R scripts for all parts of the workshop. Ideally, use R Studio as the IDE, as this works well with R & Shiny and allows you to easily publish your Shiny application on the web on their Shiny server. \r\n\r\nFamiliarity with developing Shiny applications and using Leaflet for embedded maps will be useful for the Shiny part of the workshop.\n\n### Things to bring and stuff to do beforehand\n\nYour own laptop with R & RStudio set up for use.",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "Write your own SOS client for NIWA climate data with R Shiny",
+      "speakers": [
+        "SYCPXT",
+        "XPVGDM"
+      ],
+      "complexity": "Intermediate",
+      "image": null
+    },
+    "W8Y7UU": {
+      "description": "Pattern matters! What is the most efficient way of allocating a limited amount of water or fertiliser across several paddocks? What is the best spatial land-use configuration to minimise environmental impact in a catchment? More generally, what is the best way of allocating a set of potentially limited resources to a set of locations or areas to get the best bang for your buck? If you are grappling with these types of questions, this workshop is for you! We will guide you step by step through the process of structuring, solving, and mapping spatial optimisation problems using the free and open source spatial modelling and optimisation framework [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home). Apart from basic GIS skills, we only expect your enthusiasm! Note: Linux or Windows laptop required!\n\n## Details\n\n#### Workshop Content\r\nIn this half-day workshop (WS), we provide a practical introduction to spatial optimisation (SO). At the beginning (30 mins.), we will provide a short overview of \r\n\r\n* the types of SO problems you can solve with [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home)\r\n\r\n* what data you need to solve SO problems \r\n\r\n* and how to prepare and structure your data for solving SO problems with [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home).\r\n\r\nIn the remainder of the WS (3h), you will be working through the [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home) [OptimisationHowTo](https://bitbucket.org/landcareresearch/lumass/downloads/OptimisationHowTo_1.2.zip) to replicate the SO scenarios as published in [Herzig et al. (2018)](http://dx.doi.org/10.1016/j.envsoft.2018.05.005). You can either work completely by yourself and follow the document step by step and ask for assistance if required; or you can follow short demonstrations showing the next set of steps on the screen and then reproduce them on your laptop and then follow the demo of the next set of steps etc. There will be extra tasks for those who complete the [HowTo](https://bitbucket.org/landcareresearch/lumass/downloads/OptimisationHowTo_1.2.zip) before the end of the WS. \r\nIf you are a Linux user, please make sure to download the [source code](https://bitbucket.org/landcareresearch/lumass/src/master/) and [compile](https://bitbucket.org/landcareresearch/lumass/src/master/INSTALL) LUMASS on your machine prior to the workshop (don’t leave it to the last minute)! Please do [get in touch](https://groups.google.com/forum/#!forum/lumass-users), if you’re hitting trouble! \r\n\r\n#### Material and Links\r\n**Software & Data**\r\n\r\nLUMASS: [https://bitbucket.org/landcareresearch/lumass/wiki/Home](https://bitbucket.org/landcareresearch/lumass/wiki/Home) \r\n\r\nOptimistionHowTo: [https://bitbucket.org/landcareresearch/lumass/downloads/OptimisationHowTo_1.2.zip](https://bitbucket.org/landcareresearch/lumass/downloads/OptimisationHowTo_1.2.zip) \r\n\r\n**Background Literature** \r\n\r\nHerzig A, Ausseil A-GE, Dymond JR 2013a. Spatial optimisation of ecosystem services. In: Dymond JR ed. Ecosystem services in New Zealand - conditions and trends. Manaaki Whenua Press, Lincoln, New Zealand. Pp. 511–523. [http://goo.gl/koaEhR](http://goo.gl/koaEhR) \r\n\r\nHerzig A, Nguyen TT, Ausseil A-GE, Maharjan GR, Dymond JR, Arnhold S, Koellner T, Rutledge D, Tenhunen J 2018. Assessing Resource-Use Efficiency of Land Use. Environmental Modelling and Software 107: 34–49. [http://dx.doi.org/10.1016/j.envsoft.2018.05.005](http://dx.doi.org/10.1016/j.envsoft.2018.05.005) \r\n\r\nThere is more literature referenced in the OptimistionHowTo.\n\n### Skill level\n\n**Beginner/Introductory**\n\nBasic GIS skills required.\n\n### Things to bring and stuff to do beforehand\n\n- bring a 64bit Windows laptop (windows binaries available for download)\r\n- bring Linux laptop with LUMASS pre-installed, i.e. download and compilation by attendee required",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "Spatial Optimisation 101",
+      "speakers": [
+        "7CBZC8"
+      ],
+      "complexity": "Beginner/Introductory",
+      "image": "https://pretalx.com/media/fso2019w/images/W8Y7UU/landuse_opt_zB29rNj.png"
+    },
+    "WB99J8": {
+      "description": "A series of OGC Interoperability Experiments (IEs) have been working on techniques and technologies for the problem of linking multi-disciplinary and multi-organisation environmental data _without_ transferring data custody or maintenance responsibilities. These IEs, such as the [Second Environmental Linked Features Interoperability Experiment](https://www.opengeospatial.org/projects/initiatives/selfie) (SELFIE), are firmly grounded in W3C and OGC [best practices for spatial data on the web](https://www.w3.org/TR/sdw-bp/). They involve organisations from New Zealand and around the world, trying to find solutions to problems such as: sharing data for transnational groundwater monitoring; linking descriptions of things to related things (e.g. boreholes to aquifers); using [popular vocabularies](https://schema.org/) to semantically describe the properties of things while avoiding misinterpretation; describing links between distributed records for things that change in nature over time and space; for data publishers to associate related information maintained by third parties to their own data; and maybe even the [HTTPRange-14 problem](https://en.wikipedia.org/wiki/HTTPRange-14). This workshop will first give an overview of **distributed and linked data** concepts: focusing on: why it matters for those responsible for publishing geospatial data; the advantages for those consuming geospatial data; and how search engines get involved. The SELF Interoperability Experiment will be discussed as an example. Then (and for most of the available time) we will work collaboratively to draft the publication of some spatial data using our laptops, taking advantage of these concepts in a way that will not alienate modern web developers or GIS practictioners, i.e. by using JSON-LD, semantic HTML, Web Components, and an implementation of the OGC WFS 3.0 specification for features.\n\n## Details\n\n## Learning outcomes\r\n\r\n1. I understand what structured and linked data are.\r\n2. I understand some benefits of structured/linked data.\r\n3. I am aware of the OGC/W3C Best Practices for Spatial Data on the Web.\r\n4. I know how to implement some of the Best Practices.\r\n5. I understand, can re-state, and (perhaps) respond to some of the challenges, limitations, and c\r\n\r\n### Note\r\n\r\nParticipants will be asked to optionally provide some sample data that may be suitable for publication using linked data concepts. Data from two domains that have a topological relationship are good candidates. If some interesting data are made available with sufficient time, the practical part of the workshop will be geared towards exploring that data. If not, some sample data will be used, at my (the presenter's) discretion.\r\n\r\nI do expect you to do some \"course reading\" to gain a some conceptual understanding. Reading is food for the brain. Here are some foundational documents, in priority order.\r\n\r\n- [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/), W3C Working Group Note\r\n- [Linked Data](https://www.w3.org/DesignIssues/LinkedData), Tim Berners-Lee\r\n- [Background to the (first) Environmental Linked Features Interoperability Experiment (ELFIE)](https://www.opengeospatial.org/projects/initiatives/elfie)\r\n- [Creating semantic sites with Web Components and JSON-LD](https://developers.google.com/web/updates/2015/03/creating-semantic-sites-with-web-components-and-jsonld)\r\n- [Building JSON-LD APIs: Best Practices](https://json-ld.org/spec/latest/json-ld-api-best-practices/), W3C Draft Community Group Report\r\n- [GraphDB: Introduction to the Semantic Web](http://graphdb.ontotext.com/documentation/standard/introduction-to-semantic-web.html) (Note: this is more advanced, and largely beyond the scope of the workshop. The intention is to get you thinking wide as well as narrow.)\r\n\r\nHowever, don't stress! There will be no test. If, after doing some reading, you still don't understand the point of any of it, that's fine. There will be plenty of opportunities for discussion.\r\n\r\nThere *was* (and, to some extent, *still is*) a lot of misplaced hype about Linked Data out there in the untamed wildernesses of the Internet. Don't worry, I haven't drunk of the Semantic Kool Aid. This workshop will be reined in to practical applications rather than pure aspiration. You will come away thinking critically about these Linked Data ideas, perhaps seeded by some contrary opinions and writings by people who have/had their heads firmly screwed on:\r\n\r\n- [Two Bit History: Semantic Web](https://twobithistory.org/2018/05/27/semantic-web.html)\r\n- [Cory Doctorow: Metacrap](https://people.well.com/user/doctorow/metacrap.htm)\r\n- [Aaron Swartz: A Programmable Web](https://upload.wikimedia.org/wikipedia/commons/3/3f/) (Note: this is a longer read than the others, but lighter and very interesting.)\n\n### Skill level\n\n**Intermediate**\n\nParticipants need to understand web development principles and various technologies and standards underpinning the web. If you've done some web development, or if some of these terms are vaguely registering, then we're good to go:\r\n\r\n- Semantic HTML\r\n- Linked data, RDF\r\n- JSON (perhaps JSON-LD)\r\n- HTTP REST\r\n- OGC WFS 2 and/or 3\r\n- Vocabularies/ontologies\r\n- SEO\r\n- Web Components\n\n### Things to bring and stuff to do beforehand\n\nDetails will be sent out closer to the time, but the basics are:\r\n- A well oiled brain (i.e. please do some reading)\r\n- A laptop with a web browser (Chrome or Firefox preferred)\r\n- Ideally a running instance of https://github.com/geopython/pygeoapi (I'm willing to help you set this up in the days and weeks leading up to the workshop if necessary)",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "An open data SELFIE: how we can improve open data for SEO, interoperability, and the web of data",
+      "speakers": [
+        "CV9GN9"
+      ],
+      "complexity": "Intermediate",
+      "image": "https://pretalx.com/media/fso2019w/images/WB99J8/5-star_deployment_scheme_for_Open_Data_rUGK330.png"
+    },
+    "S7PXRA": {
+      "description": "Mapbox GL JS is a free and open source JavaScript library for interactive, customisable vector maps on the web.\n\n## Details\n\nThis workshop will teach you how to build your own interactive and customisable vector maps for the web.\r\n\r\nCovering core concepts of modern vector maps and building with Mapbox GL JS including:\r\n- Layers\r\n- Sources\r\n- Mapbox GL Style Spec\r\n- Controls\r\n- Markers\r\n- Popups\r\n- Expressions\r\n- Feature States\r\n- Custom Layers\r\n\r\nBeyond the core concepts you'll learn some useful tips and tricks to deal with common scenarios.\r\n\r\nIdeally participants would have at least basic JavaScript knowledge, but no prior mapping knowledge required.\n\n### Skill level\n\n**Intermediate**\n\nBasic or higher JavaScript knowledge is strongly recommended. If you know what variables, functions, JSON and HTML are you should be fine.\r\n\r\nNo prior Mapbox GL JS experience required, but even if you've done a little bit with Mapbox before you'll hopefully still get value from the depth of topics which we'll cover.\n\n### Things to bring and stuff to do beforehand\n\nA laptop",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "Mapbox GL JS",
+      "speakers": [
+        "8A7KCW"
+      ],
+      "complexity": "Intermediate",
+      "image": "https://pretalx.com/media/fso2019w/images/S7PXRA/logo_nl0NdlB.png"
+    },
+    "RKAAHQ": {
+      "description": "Static or interactive maps can reveal useful patterns and insights. For example, layering accident locations on a basemap can highlight hotspots of poor road safety. These simple data overlays can be extended to an integrated analysis with the road network for deeper insight - like accident hotspots on road segments that bottleneck commuter flows. As denizens of a city we primarily interact with the built urban environment via its streets, roads and paths. Hence, intuitive questions of the 'Urban Experience' must involve the geospatial road network.\n\n## Details\n\nIn this workshop, we'll use Python and the packages, osmnx and pandana, to characterise Wellington: the cool little capital of New Zealand with a unique topography. Using omsnx, pandana and data of the built environment (from OpenStreetMap and Wellington City Council open data), we can quantify how Wellington functions as a city.\r\n\r\nFoundational topics include:\r\n\r\n- Handling geospatial data with geopandas\r\n- Getting street networks with osmnx\r\n- Routing with network algorithms\r\n- Calculating flows from routes\r\n\r\nUrban analysis topics include:\r\n\r\n- Analysing street morphology and topography with osmnx\r\n- Accessibility analysis with pandana\r\n- Catchment areas of amenities with pandana\n\n### Skill level\n\n**Intermediate**\n\nParticipants will need to have some experience with Python programming to finish the exercises. An early intermediate level will be sufficient as the analysis will not involve heavy programming.\n\n### Things to bring and stuff to do beforehand\n\nAttendees must bring their own laptops with Python 3, geopandas, osmnx and pandana installed. They will also need matlplotlib and basemap. A full list of packages will be provided closer to the workshop date. Attendees will also need a Google Elevation API key. Again, further details will be sent out later.",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "Analysing geospatial connectivity to understand a city",
+      "speakers": [
+        "BANWRY"
+      ],
+      "complexity": "Intermediate",
+      "image": null
+    },
     "QSBVAQ": {
       "description": "The graphical modeller is a powerful component that we can use to define a workflow and run a chain of algorithms (a processing model).\r\n\r\nA normal session with the processing framework tools includes more than running a single algorithm. Usually several of them are run to obtain a result, and the outputs of some of those algorithms are used as input for some of the other ones.\r\n\r\nUsing the graphical modeller, that workflow can be put into a processing model, which will run all the necessary algorithms in a single run, thus simplifying the whole process and automating it.\n\n## Details\n\nIn this workshop we will create a processing model in the graphical modeller that displays buildings affected by some event within a distance from an event location.  \r\n\r\nThe affected buildings are determined by \r\n* Clicking a point on the map canvas to define an event location,\r\n* travelling a distance along the road network from the event location, \r\n* buffering the travel distance to intersect land parcels, \r\n* extracting building footprints that that intersect the land parcels.\r\n\r\nThe Inputs\r\n* Event location point chosen on the Map Canvas\r\n* Road network layer\r\n* Travel distance value\r\n* Travel distance buffer value\r\n* Land parcel layer\r\n* Building footprints layer\r\n\r\nThe outputs\r\n* Event location point layer\r\n* Affected road network line layer\r\n* Travel distance buffer polygon layer\r\n* Affected buildings polygon layer\n\n### Skill level\n\n**Advanced**\n\nIntermediate level QGIS minimum\n\n### Things to bring and stuff to do beforehand\n\nLaptop loaded with latest QGIS release.",
       "tags": [
@@ -1084,32 +1181,6 @@
       "title": "PyGMT for geoscientists - A PyData compatible package for analyzing and plotting time-series and gridded data",
       "speakers": [
         "KB7F3Z"
-      ],
-      "complexity": "Intermediate",
-      "image": null
-    },
-    "WB99J8": {
-      "description": "A series of OGC Interoperability Experiments (IEs) have been working on techniques and technologies for the problem of linking multi-disciplinary and multi-organisation environmental data _without_ transferring data custody or maintenance responsibilities. These IEs, such as the [Second Environmental Linked Features Interoperability Experiment](https://www.opengeospatial.org/projects/initiatives/selfie) (SELFIE), are firmly grounded in W3C and OGC [best practices for spatial data on the web](https://www.w3.org/TR/sdw-bp/). They involve organisations from New Zealand and around the world, trying to find solutions to problems such as: sharing data for transnational groundwater monitoring; linking descriptions of things to related things (e.g. boreholes to aquifers); using [popular vocabularies](https://schema.org/) to semantically describe the properties of things while avoiding misinterpretation; describing links between distributed records for things that change in nature over time and space; for data publishers to associate related information maintained by third parties to their own data; and maybe even the [HTTPRange-14 problem](https://en.wikipedia.org/wiki/HTTPRange-14). This workshop will first give an overview of **distributed and linked data** concepts: focusing on: why it matters for those responsible for publishing geospatial data; the advantages for those consuming geospatial data; and how search engines get involved. The SELF Interoperability Experiment will be discussed as an example. Then (and for most of the available time) we will work collaboratively to draft the publication of some spatial data using our laptops, taking advantage of these concepts in a way that will not alienate modern web developers or GIS practictioners, i.e. by using JSON-LD, semantic HTML, Web Components, and an implementation of the OGC WFS 3.0 specification for features.\n\n## Details\n\nThe best practices (bold ones will be emphasised):\r\n\r\n1. **Spatial data identifiers**\r\n2. **Indexable data**\r\n3. **Linking data**\r\n4. **Spatial data encoding**\r\n5. Geometries and coordinate reference systems\r\n6. **Relative positioning**\r\n7. **Spatial links**\r\n8. Spatial data versioning\r\n9. Spatial data access\r\n10. Spatial metadata\r\n\r\n**Additional notes**\r\n\r\nParticipants will be asked to optionally provide some sample data that may be suitable for publication using linked data concepts. Data from two domains that have a topological relationship are good candidates. If some interesting data are made available with sufficient time, the practical part of the workshop will be geared towards exploring that data. If not, some sample data will be used, at my (the presenter's) discretion.\r\n\r\nI do expect you to do some \"course reading\" to gain a some conceptual understanding. Reading is food for the brain. Here are some foundational documents, in priority order.\r\n\r\n- [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/), W3C Working Group Note\r\n- [Linked Data](https://www.w3.org/DesignIssues/LinkedData), Tim Berners-Lee\r\n- [Background to the (first) Environmental Linked Features Interoperability Experiment (ELFIE)](https://www.opengeospatial.org/projects/initiatives/elfie)\r\n- [Creating semantic sites with Web Components and JSON-LD](https://developers.google.com/web/updates/2015/03/creating-semantic-sites-with-web-components-and-jsonld)\r\n- [Building JSON-LD APIs: Best Practices](https://json-ld.org/spec/latest/json-ld-api-best-practices/), W3C Draft Community Group Report\r\n- [GraphDB: Introduction to the Semantic Web](http://graphdb.ontotext.com/documentation/standard/introduction-to-semantic-web.html) (Note: this is more advanced, and largely beyond the scope of the workshop. The intention is to get you thinking wide as well as narrow.)\r\n\r\nHowever, don't stress! There will be no test. If, after doing some reading, you still don't understand the point of any of it, that's fine. There will be plenty of opportunities for discussion.\r\n\r\nThere *was* (and, to some extent, *still is*) a lot of misplaced hype about Linked Data out there in the untamed wildernesses of the Internet. Don't worry, I haven't drunk of the Semantic Kool Aid. Although there are some unavoidable conceptual weeds, this workshop will be reined in to practical applications rather than pure aspiration. I also want you to come away thinking critically about these Linked Data ideas, perhaps seeded by some contrary opinions and writings by people who have/had their heads firmly screwed on:\r\n\r\n- [Two Bit History: Semantic Web](https://twobithistory.org/2018/05/27/semantic-web.html)\r\n- [Cory Doctorow: Metacrap](https://people.well.com/user/doctorow/metacrap.htm)\r\n- [Aaron Swartz: A Programmable Web](https://upload.wikimedia.org/wikipedia/commons/3/3f/) (Note: this is a longer read than the others, but lighter and very interesting.)\n\n### Skill level\n\n**Intermediate**\n\nParticipants need to understand web development principles and various technologies and standards underpinning the web. If you've done some web development, or if at least half of these terms are registering, then we're good to go: semantic HTML, linked data, JSON, REST, JavaScript, WFS 3.0, linked open vocabularies, SEO, Web Components.\n\n### Things to bring and stuff to do beforehand\n\nDetails will be sent out closer to the time, but the basics are:\r\n- A well oiled brain (i.e. please do some reading)\r\n- A laptop with a web browser (Chrome or Firefox preferred)\r\n- Ideally a running instance of https://github.com/geopython/pygeoapi (I'm willing to help you set this up in the days and weeks leading up to the workshop if necessary)",
-      "tags": [
-        "Workshop"
-      ],
-      "language": "English",
-      "title": "An open data SELFIE: how we can improve open data for SEO, interoperability, and the web of data",
-      "speakers": [
-        "CV9GN9"
-      ],
-      "complexity": "Intermediate",
-      "image": "https://pretalx.com/media/fso2019w/images/WB99J8/5-star_deployment_scheme_for_Open_Data_rUGK330.png"
-    },
-    "RKAAHQ": {
-      "description": "Static or interactive maps can reveal useful patterns and insights. For example, layering accident locations on a basemap can highlight hotspots of poor road safety. These simple data overlays can be extended to an integrated analysis with the road network for deeper insight - like accident hotspots on road segments that bottleneck commuter flows. As denizens of a city we primarily interact with the built urban environment via its streets, roads and paths. Hence, intuitive questions of the 'Urban Experience' must involve the geospatial road network.\n\n## Details\n\nIn this workshop, we'll use Python and the packages, osmnx and pandana, to characterise Wellington: the cool little capital of New Zealand with a unique topography. Using omsnx, pandana and data of the built environment (from OpenStreetMap and Wellington City Council open data), we can quantify how Wellington functions as a city.\r\n\r\nFoundational topics include:\r\n\r\n- Handling geospatial data with geopandas\r\n- Getting street networks with osmnx\r\n- Routing with network algorithms\r\n- Calculating flows from routes\r\n\r\nUrban analysis topics include:\r\n\r\n- Analysing street morphology and topography with osmnx\r\n- Accessibility analysis with pandana\r\n- Catchment areas of amenities with pandana\n\n### Skill level\n\n**Intermediate**\n\nParticipants will need to have some experience with Python programming to finish the exercises. An early intermediate level will be sufficient as the analysis will not involve heavy programming.\n\n### Things to bring and stuff to do beforehand\n\nAttendees must bring their own laptops with Python 3, geopandas, osmnx and pandana installed. They will also need matlplotlib and basemap. A full list of packages will be provided closer to the workshop date. Attendees will also need a Google Elevation API key. Again, further details will be sent out later.",
-      "tags": [
-        "Workshop"
-      ],
-      "language": "English",
-      "title": "Analysing geospatial connectivity to understand a city",
-      "speakers": [
-        "BANWRY"
       ],
       "complexity": "Intermediate",
       "image": null
@@ -1213,6 +1284,16 @@
       "order": 3,
       "title": "Developer Advocate"
     },
+    "ZMYEN8": {
+      "name": "Stephen Davies",
+      "bio": null,
+      "shortBio": null
+    },
+    "ZBMGLH": {
+      "name": "Emma Krantz",
+      "bio": null,
+      "shortBio": null
+    },
     "RUKHTS": {
       "name": "Nathan Woodrow",
       "bio": "Nathan is a core QGIS developer and software developer for Chartis Technology. He has been involved as a developer in the QGIS project since 2011 (wow old), but still loves it the same if not more since he has seen to grow into what it is.",
@@ -1236,6 +1317,36 @@
       "shortBio": "Geospatial Data Scientist, PhD Student in Glaciology. Interested in earth observation data and deep learning.",
       "title": "PhD Student",
       "company": "Antarctic Research Centre",
+      "country": "Wellington"
+    },
+    "7CBZC8": {
+      "name": "Alex Herzig",
+      "bio": "I am a [Geospatial Modeller](https://nz.linkedin.com/in/alexander-herzig-919a835) at [Manaaki Whenua](https://www.landcareresearch.co.nz/about/people/staff-details?id=aGVyemlnYQ==) and passionate about modelling and software. As part of my work, I am developing the free and open source spatial modelling and optimisation framework [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home). \r\nBefore I moved to New Zealand, I worked as a lecturer and research assistant in the Landscape Ecology and Geoinformation group at the Department of Geography at the Christian-Albrechts-Universitaet in Kiel, Germany.",
+      "shortBio": "I am a [Geospatial Modeller](https://nz.linkedin.com/in/alexander-herzig-919a835) at [Manaaki Whenua](https://www.landcareresearch.co.nz/about/people/staff-details?id=aGVyemlnYQ==) and passionate about modelling and software. As part of my work, I am developing the free and open source spatial modelling and optimisation framework [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home). \r\nBefore I moved to New Zealand, I worked as a lecturer and research assistant in the Landscape Ecology and Geoinformation group at the Department of Geography at the Christian-Albrechts-Universitaet in Kiel, Germany.",
+      "photoUrl": "https://pretalx.com/media/Alex_portrait_3_extr.jpg",
+      "title": "Geospatial Modeller",
+      "company": "Manaaki Whenua - Landcare Research",
+      "country": "New Zealand"
+    },
+    "8A7KCW": {
+      "name": "Andrew Harvey",
+      "bio": "Andrew runs a Sydney based geospatial consulting firm Alantgeo, building out Mapbox, Mapillary and OpenStreetMap solutions for commercial and government customers.\r\n\r\nA frequent contributor to the open source Mapbox GL JS project, heavy OpenStreetMap contributor and various other open source and open data projects.\r\n\r\nCo-creator of the bushwalking website beyondtracks.com.",
+      "shortBio": "Andrew runs a Sydney based geospatial consulting firm Alantgeo, building out Mapbox, Mapillary and OpenStreetMap solutions for commercial and government customers.\r\n\r\nA frequent contributor to the open source Mapbox GL JS project, heavy OpenStreetMap contributor and various other open source and open data projects.\r\n\r\nCo-creator of the bushwalking website beyondtracks.com.",
+      "title": "CEO",
+      "company": "Alantgeo",
+      "country": "Sydney"
+    },
+    "XPVGDM": {
+      "name": "Andy McKenzie",
+      "bio": "I work in the Population Modelling Group at NIWA (Wellington). In our work we use the R programming language extensively, and at the NIWA Wellington site I run the R users group.",
+      "shortBio": "I work in the Population Modelling Group at NIWA (Wellington). In our work we use the R programming language extensively, and at the NIWA Wellington site I run the R users group."
+    },
+    "SYCPXT": {
+      "name": "Brent Wood",
+      "bio": "I have worked at NIWA (or its predecessors) for over 40 years. I have been an enthusiastic user of open source and supporter of open standards and open data since the 1980's. Starting computing with CPM/80 on 4Mhz Z80 cpu's, I have seen a few changes over the years! I was a founder of the Wellington Amstrad User Group and WellyLUG, ran a public FIDOnet & USEnet BBS before the internet came along, and was an NZOSS council member for several years. I am a Charter Member of OSGEO and the NIWA representative in OGC. I have attended and presented at most FOSS4G conferences in the last 10 years, as well as at the Wellington Postgres Users Group and, more recently, WOSSAT.  in 2016 I won the People's Choice NZOSA for services to Geospatial Open Source in New Zealand. I am passionate about Open Source, Open Data and Open Standards and am fortunate to have an employer who also values these and supports my efforts in this area.",
+      "shortBio": "I have worked at NIWA (or its predecessors) for over 40 years. I have been an enthusiastic user of open source and supporter of open standards and open data since the 1980's. Starting computing with CPM/80 on 4Mhz Z80 cpu's, I have seen a few changes over the years! I was a founder of the Wellington Amstrad User Group and WellyLUG, ran a public FIDOnet & USEnet BBS before the internet came along, and was an NZOSS council member for several years. I am a Charter Member of OSGEO and the NIWA representative in OGC. I have attended and presented at most FOSS4G conferences in the last 10 years, as well as at the Wellington Postgres Users Group and, more recently, WOSSAT.  in 2016 I won the People's Choice NZOSA for services to Geospatial Open Source in New Zealand. I am passionate about Open Source, Open Data and Open Standards and am fortunate to have an employer who also values these and supports my efforts in this area.",
+      "title": "Programme leader for information delivery",
+      "company": "NIWA",
       "country": "Wellington"
     },
     "CV9GN9": {
