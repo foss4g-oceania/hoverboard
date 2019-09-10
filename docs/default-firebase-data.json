@@ -180,6 +180,12 @@
 					"logoUrl": "/images/partners/vuw.png",
 					"name": "Victoria University of Wellington",
 					"url": "https://www.victoria.ac.nz/explore/study-areas/geography/study?subject=geographical-information-systems-and-science&subject=geographical-information-science"
+				},
+        				{
+					"order": 1,
+					"logoUrl": "images/partners/kaart_logo_2019.jpeg",
+					"name": "Kaart Group",
+					"url": "https://kaartgroup.com"
 				}
 			],
 			"order": 3,
