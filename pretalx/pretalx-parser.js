@@ -19,13 +19,31 @@ const headers = {
 const targetData = require('../docs/default-firebase-data.json')
 const targetDataFile = './docs/firebase-data.json'
 
+const ticketLinks = {
+  "EMXAWM": "lcllcmcqtvw",
+  "7AHC8Q": "e4vkqtoabxe",
+  "RKAAHQ": "w7a67u5nrgm",
+  "CZVKRS": "ntv9niwjaia",
+  "SPGUQV": "ljtj5yzzmtc",
+  "W8Y7UU": "clgg6dso-dw",
+  "S7PXRA": "bvd6prz1qns",
+  "J79QZN": "ftsalhtfnkk",
+  "SQYRSK": "rr3gfbghfxo",
+  "NNWXKL": "q-nmjkr-mog",
+  "SNN83F": "qzwhw8-9-r8",
+  "JX7NNK": "lp6gxg78ygk",
+  "WB99J8": "knk-0qvo4z0",
+  "QSBVAQ": "3jxrfl1l3ne"
+}
+const getTicketLink = (sessionID) => ticketLinks[sessionID] ? `https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/${ticketLinks[sessionID]}` : undefined
+
 // In theory, this should be true for "final" use. But there's a bug in the
 // response at the /talks endpoint in that it only returns talks that have been
 // confirmed PRIOR to the most recent release of the schedule.
 // This script can instead just use the /submissions?state=confirmed data
 // to work around this and will be just fine.
 const confirmedTalksOnly = false
-const includeStatuses = ['confirmed']
+const includeStatuses = ['confirmed', 'accepted']
 
 const talksUriWorkshops = `${host}/api/events/${eventWorkshop}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
 const talksUriMain = `${host}/api/events/${eventMain}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
@@ -68,6 +86,7 @@ const transformTalk = (talk) => {
     speakers: talk.speakers.map(speaker => speaker.code),
     complexity: skillLevel || null,
     image: (talk.image || "").replace("http://", "https://") || null, // Avoid mixed content
+    ticketUrl: (talk.state == 'confirmed') ? getTicketLink(talk.code) : undefined
   }}
 }
 

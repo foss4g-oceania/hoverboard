@@ -297,6 +297,26 @@
               "items": [
                 "W8Y7UU"
               ]
+            },
+            {
+              "items": [
+                "CZVKRS"
+              ]
+            },
+            {
+              "items": [
+                "JX7NNK"
+              ]
+            },
+            {
+              "items": [
+                "SQYRSK"
+              ]
+            },
+            {
+              "items": [
+                "J79QZN"
+              ]
             }
           ]
         },
@@ -338,17 +358,22 @@
             },
             {
               "items": [
+                "SNN83F"
+              ]
+            },
+            {
+              "items": [
                 "RKAAHQ"
               ]
             },
             {
               "items": [
-                "QSBVAQ"
+                "7AHC8Q"
               ]
             },
             {
               "items": [
-                "7AHC8Q"
+                "QSBVAQ"
               ]
             }
           ]
@@ -385,13 +410,16 @@
           "title": "RH107"
         },
         {
+          "title": "RH104"
+        },
+        {
           "title": "RH102"
         },
         {
-          "title": "RH206"
+          "title": "RH103"
         },
         {
-          "title": "RH103"
+          "title": "RH206"
         }
       ]
     },
@@ -1091,7 +1119,8 @@
         "ZMYEN8"
       ],
       "complexity": "Beginner/Introductory",
-      "image": "https://pretalx.com/media/fso2019w/images/EMXAWM/TerriaJS_NCkNgig.png"
+      "image": "https://pretalx.com/media/fso2019w/images/EMXAWM/TerriaJS_NCkNgig.png",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/lcllcmcqtvw"
     },
     "NNWXKL": {
       "description": "The workshop will include a brief overview of SOS (the OGC's Sensor Observation Service), and NIWA's Sensor Observation Services, to provide context, followed by the hands on workshop.\r\n\r\nThe workshop will take you through accessing a SOS service (using NIWA's as an example) using R on your own laptop to request specified data from the service, and how you can develop a simple R Shiny web application based on this.\n\n## Details\n\nSOS is becoming the global standard API for sensor (time series) data sharing. NIWA has deployed SOS services providing free public access to monthly climate data summaries, hydrometric and water quality data. The 52 North open source SOS Server application has been used for this. Custom NIWA middleware sits between our underlying databases and the 52 North software, so the system sits alongside our existing databases, simply adding a new mechanism for accessing the data.\r\n\r\nNIWA has also developed client tools which users can use to access these services (yes, you can still use CURL if you choose). One is a custom QGIS plugin, which allows users to connect to a SOS service much as they can a WMS or WFS service. The sites of stations providing observations can be shown on the map, and available sensor data graphed and downloaded as required.\r\n\r\nThe second SOS client is a new SOS4R package, for the R statistical software program. This package provides two sets of capabilities: It can issue SOS requests and return data into local dataframes, but, and more usefully, it also supports a set of abstracted queries, built on top of the native SOS requests, which provides additional requests much more suited to how a user would want to interact with the service - a much more user friendly workflow. \r\n\r\nAn R user can use this package to access a SOS service to request data to analyse locally, or as the data access tool for an R Shiny web application allowing others to interact with the service.\r\n\r\nIn R you will learn how to:\r\n\r\nGet a list of sites (stations) which provide data (and which sites provide a specifies reading)\r\nGet a list of what datasets (instrument readings) are available (and filtered by site)\r\nFilter data requests by date/time\r\nRequest a dataset for a selected instrument from a site within a specified time period\r\nPlot these data  \r\n\r\nIn Shiny, you will build a simple web site allowing users to view stations on a map, select a station, a reading , a time extent and download/plot the data.\n\n### Skill level\n\n**Intermediate**\n\nYou will need to be very comfortable writing R scripts for all parts of the workshop. Ideally, use R Studio as the IDE, as this works well with R & Shiny and allows you to easily publish your Shiny application on the web on their Shiny server. \r\n\r\nFamiliarity with developing Shiny applications and using Leaflet for embedded maps will be useful for the Shiny part of the workshop.\n\n### Things to bring and stuff to do beforehand\n\nYour own laptop with R & RStudio set up for use.",
@@ -1105,7 +1134,8 @@
         "XPVGDM"
       ],
       "complexity": "Intermediate",
-      "image": null
+      "image": null,
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/q-nmjkr-mog"
     },
     "W8Y7UU": {
       "description": "Pattern matters! What is the most efficient way of allocating a limited amount of water or fertiliser across several paddocks? What is the best spatial land-use configuration to minimise environmental impact in a catchment? More generally, what is the best way of allocating a set of potentially limited resources to a set of locations or areas to get the best bang for your buck? If you are grappling with these types of questions, this workshop is for you! We will guide you step by step through the process of structuring, solving, and mapping spatial optimisation problems using the free and open source spatial modelling and optimisation framework [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home). Apart from basic GIS skills, we only expect your enthusiasm! Note: Linux or Windows laptop required!\n\n## Details\n\n#### Workshop Content\r\nIn this half-day workshop (WS), we provide a practical introduction to spatial optimisation (SO). At the beginning (30 mins.), we will provide a short overview of \r\n\r\n* the types of SO problems you can solve with [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home)\r\n\r\n* what data you need to solve SO problems \r\n\r\n* and how to prepare and structure your data for solving SO problems with [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home).\r\n\r\nIn the remainder of the WS (3h), you will be working through the [LUMASS](https://bitbucket.org/landcareresearch/lumass/wiki/Home) [OptimisationHowTo](https://bitbucket.org/landcareresearch/lumass/downloads/OptimisationHowTo_1.2.zip) to replicate the SO scenarios as published in [Herzig et al. (2018)](http://dx.doi.org/10.1016/j.envsoft.2018.05.005). You can either work completely by yourself and follow the document step by step and ask for assistance if required; or you can follow short demonstrations showing the next set of steps on the screen and then reproduce them on your laptop and then follow the demo of the next set of steps etc. There will be extra tasks for those who complete the [HowTo](https://bitbucket.org/landcareresearch/lumass/downloads/OptimisationHowTo_1.2.zip) before the end of the WS. \r\nIf you are a Linux user, please make sure to download the [source code](https://bitbucket.org/landcareresearch/lumass/src/master/) and [compile](https://bitbucket.org/landcareresearch/lumass/src/master/INSTALL) LUMASS on your machine prior to the workshop (don’t leave it to the last minute)! Please do [get in touch](https://groups.google.com/forum/#!forum/lumass-users), if you’re hitting trouble! \r\n\r\n#### Material and Links\r\n**Software & Data**\r\n\r\nLUMASS: [https://bitbucket.org/landcareresearch/lumass/wiki/Home](https://bitbucket.org/landcareresearch/lumass/wiki/Home) \r\n\r\nOptimistionHowTo: [https://bitbucket.org/landcareresearch/lumass/downloads/OptimisationHowTo_1.2.zip](https://bitbucket.org/landcareresearch/lumass/downloads/OptimisationHowTo_1.2.zip) \r\n\r\n**Background Literature** \r\n\r\nHerzig A, Ausseil A-GE, Dymond JR 2013a. Spatial optimisation of ecosystem services. In: Dymond JR ed. Ecosystem services in New Zealand - conditions and trends. Manaaki Whenua Press, Lincoln, New Zealand. Pp. 511–523. [http://goo.gl/koaEhR](http://goo.gl/koaEhR) \r\n\r\nHerzig A, Nguyen TT, Ausseil A-GE, Maharjan GR, Dymond JR, Arnhold S, Koellner T, Rutledge D, Tenhunen J 2018. Assessing Resource-Use Efficiency of Land Use. Environmental Modelling and Software 107: 34–49. [http://dx.doi.org/10.1016/j.envsoft.2018.05.005](http://dx.doi.org/10.1016/j.envsoft.2018.05.005) \r\n\r\nThere is more literature referenced in the OptimistionHowTo.\n\n### Skill level\n\n**Beginner/Introductory**\n\nBasic GIS skills required.\n\n### Things to bring and stuff to do beforehand\n\n- bring a 64bit Windows laptop (windows binaries available for download)\r\n- bring Linux laptop with LUMASS pre-installed, i.e. download and compilation by attendee required",
@@ -1118,7 +1148,21 @@
         "7CBZC8"
       ],
       "complexity": "Beginner/Introductory",
-      "image": "https://pretalx.com/media/fso2019w/images/W8Y7UU/landuse_opt_zB29rNj.png"
+      "image": "https://pretalx.com/media/fso2019w/images/W8Y7UU/landuse_opt_zB29rNj.png",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/clgg6dso-dw"
+    },
+    "SNN83F": {
+      "description": "Do you want to create minimal nice looking maps without all the overhead of a typical mapping library? Are you bothered of all the extra stuff that obstructs the display of your geospatial data?\r\nUsing d3 is a great way to create minimal nice looking maps and this workshop will teach you the essentials you need to know.\n\n## Details\n\nThe revised workshop is a hands-on, bring your device type of workshop where I teach participants with projects and exercises on how to create maps with d3.\r\nThe workshop showcases the essential features of d3 for quickly creating geospatial data visualizations, and the result is a choropleth map that every participant creates on their own and takes home.\r\n\r\nMapping in the browser is a hot topic, and there are plenty of tools and ways to visualize data. The power of d3 is the interactivity and closeness to the data.\r\nCreating minimal looking maps with or without basemaps and still have interactivity is a great asset of d3.\r\n\r\nThe goal of the session is to provide the participants with the tools and the knowledge to create interactive choropleth maps from geo- and topojson files. Along the way, the base concepts of d3 will be covered as well.\r\n\r\nParticipants should know Javascript and should have worked with a mapping library such as OpenLayers, Mapbox GL, or Leaflet before.\r\n\r\nLearnings: When is d3 the right tool for creating a map and the best approach to create a map with d3.\r\n\r\nThe topics include:\r\n\r\n- Creating a simple map from both geojson and topojson\r\n- Changing the projection of the map\r\n- Creating a choropleth map\r\n- Updating the map\r\n- Adding interaction to the map\r\n- Creating a tooltip\r\n- Create a bubble map\r\n\r\n\r\n\r\n**Learnings**: When is d3 the right tool for creating a map and the best approach to create a map with d3.\r\n\r\n**What to take home**: Basic d3 Map with your data or an open dataset. \r\n\r\n**Required facilitations**: Local network, participants laptops, web browser\r\n\r\n**Knowledge required**: medium-level Javascript knowledge, basic HTML, basic CSS\n\n### Skill level\n\n**Intermediate**\n\nmedium-level Javascript knowledge, basic HTML, basic CSS\n\n### Things to bring and stuff to do beforehand\n\nLaptop",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "Geospatial data visualization with d3",
+      "speakers": [
+        "TJ3SDB"
+      ],
+      "complexity": "Intermediate",
+      "image": "https://pretalx.com/media/fso2019w/images/SNN83F/Learn_how_to_create_maps_with_d3_llZa1a9.png"
     },
     "WB99J8": {
       "description": "A series of OGC Interoperability Experiments (IEs) have been working on techniques and technologies for the problem of linking multi-disciplinary and multi-organisation environmental data _without_ transferring data custody or maintenance responsibilities. These IEs, such as the [Second Environmental Linked Features Interoperability Experiment](https://www.opengeospatial.org/projects/initiatives/selfie) (SELFIE), are firmly grounded in W3C and OGC [best practices for spatial data on the web](https://www.w3.org/TR/sdw-bp/). They involve organisations from New Zealand and around the world, trying to find solutions to problems such as: sharing data for transnational groundwater monitoring; linking descriptions of things to related things (e.g. boreholes to aquifers); using [popular vocabularies](https://schema.org/) to semantically describe the properties of things while avoiding misinterpretation; describing links between distributed records for things that change in nature over time and space; for data publishers to associate related information maintained by third parties to their own data; and maybe even the [HTTPRange-14 problem](https://en.wikipedia.org/wiki/HTTPRange-14). This workshop will first give an overview of **distributed and linked data** concepts: focusing on: why it matters for those responsible for publishing geospatial data; the advantages for those consuming geospatial data; and how search engines get involved. The SELF Interoperability Experiment will be discussed as an example. Then (and for most of the available time) we will work collaboratively to draft the publication of some spatial data using our laptops, taking advantage of these concepts in a way that will not alienate modern web developers or GIS practictioners, i.e. by using JSON-LD, semantic HTML, Web Components, and an implementation of the OGC WFS 3.0 specification for features.\n\n## Details\n\n## Learning outcomes\r\n\r\n1. I understand what structured and linked data are.\r\n2. I understand some benefits of structured/linked data.\r\n3. I am aware of the OGC/W3C Best Practices for Spatial Data on the Web.\r\n4. I know how to implement some of the Best Practices.\r\n5. I understand, can re-state, and (perhaps) respond to some of the challenges, limitations, and c\r\n\r\n### Note\r\n\r\nParticipants will be asked to optionally provide some sample data that may be suitable for publication using linked data concepts. Data from two domains that have a topological relationship are good candidates. If some interesting data are made available with sufficient time, the practical part of the workshop will be geared towards exploring that data. If not, some sample data will be used, at my (the presenter's) discretion.\r\n\r\nI do expect you to do some \"course reading\" to gain a some conceptual understanding. Reading is food for the brain. Here are some foundational documents, in priority order.\r\n\r\n- [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/), W3C Working Group Note\r\n- [Linked Data](https://www.w3.org/DesignIssues/LinkedData), Tim Berners-Lee\r\n- [Background to the (first) Environmental Linked Features Interoperability Experiment (ELFIE)](https://www.opengeospatial.org/projects/initiatives/elfie)\r\n- [Creating semantic sites with Web Components and JSON-LD](https://developers.google.com/web/updates/2015/03/creating-semantic-sites-with-web-components-and-jsonld)\r\n- [Building JSON-LD APIs: Best Practices](https://json-ld.org/spec/latest/json-ld-api-best-practices/), W3C Draft Community Group Report\r\n- [GraphDB: Introduction to the Semantic Web](http://graphdb.ontotext.com/documentation/standard/introduction-to-semantic-web.html) (Note: this is more advanced, and largely beyond the scope of the workshop. The intention is to get you thinking wide as well as narrow.)\r\n\r\nHowever, don't stress! There will be no test. If, after doing some reading, you still don't understand the point of any of it, that's fine. There will be plenty of opportunities for discussion.\r\n\r\nThere *was* (and, to some extent, *still is*) a lot of misplaced hype about Linked Data out there in the untamed wildernesses of the Internet. Don't worry, I haven't drunk of the Semantic Kool Aid. This workshop will be reined in to practical applications rather than pure aspiration. You will come away thinking critically about these Linked Data ideas, perhaps seeded by some contrary opinions and writings by people who have/had their heads firmly screwed on:\r\n\r\n- [Two Bit History: Semantic Web](https://twobithistory.org/2018/05/27/semantic-web.html)\r\n- [Cory Doctorow: Metacrap](https://people.well.com/user/doctorow/metacrap.htm)\r\n- [Aaron Swartz: A Programmable Web](https://upload.wikimedia.org/wikipedia/commons/3/3f/) (Note: this is a longer read than the others, but lighter and very interesting.)\n\n### Skill level\n\n**Intermediate**\n\nParticipants need to understand web development principles and various technologies and standards underpinning the web. If you've done some web development, or if some of these terms are vaguely registering, then we're good to go:\r\n\r\n- Semantic HTML\r\n- Linked data, RDF\r\n- JSON (perhaps JSON-LD)\r\n- HTTP REST\r\n- OGC WFS 2 and/or 3\r\n- Vocabularies/ontologies\r\n- SEO\r\n- Web Components\n\n### Things to bring and stuff to do beforehand\n\nDetails will be sent out closer to the time, but the basics are:\r\n- A well oiled brain (i.e. please do some reading)\r\n- A laptop with a web browser (Chrome or Firefox preferred)\r\n- Ideally a running instance of https://github.com/geopython/pygeoapi (I'm willing to help you set this up in the days and weeks leading up to the workshop if necessary)",
@@ -1131,7 +1175,50 @@
         "CV9GN9"
       ],
       "complexity": "Intermediate",
-      "image": "https://pretalx.com/media/fso2019w/images/WB99J8/5-star_deployment_scheme_for_Open_Data_rUGK330.png"
+      "image": "https://pretalx.com/media/fso2019w/images/WB99J8/5-star_deployment_scheme_for_Open_Data_rUGK330.png",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/knk-0qvo4z0"
+    },
+    "JX7NNK": {
+      "description": "Digital Earth Australia have been working with FrontierSI to prepare a sandbox environment where you can use the Open Data Cube to explore over thirty years of Earth observation data covering the Australian continent. This workshop will introduce you to the Open Data Cube, the Jupyter data science environment, and analysis ready data in a live coding environment, the DEA Sandbox.\n\n## Details\n\nThe Open Data Cube (ODC) is a collaborative effort to develop software and a community of users around a common goal of increasing the ease of access to Earth observation data. The increase in the number of Earth observing satellites over the past few years, coupled with new open data policies and new storage formats like Cloud Optimised GeoTIFF, means that there is a need for a standard way to plug in to this data and enable analysis processes. The ODC provides this way. \r\n\r\nThis workshop will introduce you to Digital Earth Australia’s (DEA) implementation of the ODC, the DEA Sandbox, and through the use of the Sandbox, you’ll work through a suite of examples that show you what the ODC can do and what data DEA make available for Australia. This workshop will cover the following topics:\r\n* What is analysis ready data\r\n* What is Jupyter and how can I use it \r\n* Using simple Jupyter apps to explore data \r\n* Do-it-yourself example implementing NDVI from scratch\r\n* Advanced example using Landsat 8 optical data to identify coastlines over time \r\n* Advanced example using Sentinel 1 radar data to identify water.\n\n### Skill level\n\n**Intermediate**\n\nSome Python programming experience is required as this workshop involves some hands-on coding.\n\n### Things to bring and stuff to do beforehand\n\nAttendees are required to bring a laptop with a modern web browser, preferably Google Chrome.\r\n\r\nWe require Internet access for the workshop participants.",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "The Open Data Cube Masterclass",
+      "speakers": [
+        "STEC7C"
+      ],
+      "complexity": "Intermediate",
+      "image": "https://pretalx.com/media/fso2019w/images/JX7NNK/Screen_Shot_2019-08-12_at_10.59.30_am_5HiBRXr.png",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/lp6gxg78ygk"
+    },
+    "SQYRSK": {
+      "description": "Everyone loves pretty maps! Regardless of your field, background, or software application of choice, we're all striving to make the most beautiful maps we can (as quickly as we can!). During this workshop I'll be showcasing a ton of cartographic tips and tricks to help make your maps prettier.\r\n\r\nWe’ll be leveraging QGIS’ rich cartographic features to explore how you can improve your maps through refined color choices, data-driven symbology, taming the labeling engine, and crafting automated print layouts. We'll also be exploring cartographic best-practice and how to follow this using FOSS4G software. No coding or development experience is required, and we'll be teaching techniques of value to both new and experienced users alike!\r\n\r\n(Note that while we'll be using QGIS as the cartographic application of choice, many of the techniques demonstrated during this workshop can be transposed to other desktop GIS applications or web mapping platforms.)\n\n## Details\n\nEveryone loves pretty maps! Regardless of your field, background, or software application of choice, we're all striving to make the most beautiful maps we can (as quickly as we can!). During this workshop I'll be showcasing a ton of cartographic tips and tricks to help make your maps prettier.\r\n\r\nWe’ll be leveraging QGIS’ rich cartographic features to explore how you can improve your maps through refined color choices, data-driven symbology, taming the labeling engine, and crafting automated print layouts. We'll also be exploring cartographic best-practice and how to follow this using FOSS4G software. No coding or development experience is required, and we'll be teaching techniques of value to both new and experienced users alike!\r\n\r\n(Note that while we'll be using QGIS as the cartographic application of choice, many of the techniques demonstrated during this workshop can be transposed to other desktop GIS applications or web mapping platforms.)\r\n\r\nThis workshop is being run by Nyall Dawson (from North Road Consulting), who is a frequent contributor to the QGIS desktop application and has been crafting maps for the last 10 years.\n\n### Skill level\n\n**Intermediate**\n\nNo prerequisite skills required! But don't misinterpret this as a \"beginner\" workshop -- even advanced users will gain new insights and skills...\n\n### Things to bring and stuff to do beforehand\n\nPlease bring your own laptop with the latest QGIS release installed. Also bring any example maps you think are great, and would love to learn how to reconstruct!",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "Creating beautiful maps quickly!",
+      "speakers": [
+        "GHSHKM"
+      ],
+      "complexity": "Intermediate",
+      "image": null,
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/rr3gfbghfxo"
+    },
+    "J79QZN": {
+      "description": "3geonames.org aggregates a lot of open data from a variety of sources to provide a fast, free reverse geocoder for every location on the globe using a data structure based on the Hilbert curve. Also, due to its design, api.3geonames.org runs on a server with only 1GB of RAM and 1 Cpu with a theoretical throughput of over 500 requests per second. This talk expands on the use case and the techniques used to solve the problem.\n\n## Details\n\n3geonames.org started out as a project to provide an alternative open location code. It currently does so, mapping latitude, longitude, elevation into three geonames compiled from geonames.org - using techniques based on the Hilbert curve.\r\nThe project has lately pivoted into other practical applications of location encoding, such as reverse geocoding - the process of obtaining location information such as city names, timezone, elevation, admin polygons, etc from an input point. A space fitting curve such as the Hilbert curve is quite suitable for indexing multidimensional data for fast access - as I will show by indexing millions of open-source data points for reverse geocoding.\n\n### Skill level\n\n**Beginner/Introductory**\n\nBasic scripting knowledge is a plus but not required.\n\n### Things to bring and stuff to do beforehand\n\nA laptop with their favorite scripting language interpreter for building some sample real-world apps based on this API.",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "3geonames.org - A very fast reverse geocoder for any location on land and water.",
+      "speakers": [
+        "D8HTJL"
+      ],
+      "complexity": "Beginner/Introductory",
+      "image": "https://pretalx.com/media/fso2019w/images/J79QZN/ggg_wKc4faw.png",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/ftsalhtfnkk"
     },
     "S7PXRA": {
       "description": "Mapbox GL JS is a free and open source JavaScript library for interactive, customisable vector maps on the web.\n\n## Details\n\nThis workshop will teach you how to build your own interactive and customisable vector maps for the web.\r\n\r\nCovering core concepts of modern vector maps and building with Mapbox GL JS including:\r\n- Layers\r\n- Sources\r\n- Mapbox GL Style Spec\r\n- Controls\r\n- Markers\r\n- Popups\r\n- Expressions\r\n- Feature States\r\n- Custom Layers\r\n\r\nBeyond the core concepts you'll learn some useful tips and tricks to deal with common scenarios.\r\n\r\nIdeally participants would have at least basic JavaScript knowledge, but no prior mapping knowledge required.\n\n### Skill level\n\n**Intermediate**\n\nBasic or higher JavaScript knowledge is strongly recommended. If you know what variables, functions, JSON and HTML are you should be fine.\r\n\r\nNo prior Mapbox GL JS experience required, but even if you've done a little bit with Mapbox before you'll hopefully still get value from the depth of topics which we'll cover.\n\n### Things to bring and stuff to do beforehand\n\nA laptop",
@@ -1144,7 +1231,22 @@
         "8A7KCW"
       ],
       "complexity": "Intermediate",
-      "image": "https://pretalx.com/media/fso2019w/images/S7PXRA/logo_nl0NdlB.png"
+      "image": "https://pretalx.com/media/fso2019w/images/S7PXRA/logo_nl0NdlB.png",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/bvd6prz1qns"
+    },
+    "CZVKRS": {
+      "description": "Do you want to make a beautiful map that you can publish on your own website? All without having to worry about all that techie hosting/databases/cloud stuff that can just be overwhelming?\r\n\r\nYes? Then this workshop is for you! You’ll find out what’s involved in creating your own self-hosted web map. (Without needing years of experience in software development to understand the process.)\n\n## Details\n\nYou may have heard about new technologies like vector tiles, that let you make huge and complex data available as a web map, or those cloud services run by Amazon, or looked at the amazing services from Mapbox, but been nervous about what it would cost if your map suddenly got a lot of attention. Well, you don’t need any of those!\r\n\r\nWe’ll be using vector tiles to build a web map that you can upload to any web hosting service – from the cheapest shared web host to a WordPress site. No complex pay-per-month cloud services, no spatial web servers, and no databases - just a simple map that’s yours to own.\r\n\r\nThis workshop isn’t about learning to code, learning QGIS, or learning about data – it’s about putting those components together to achieve something bigger. We'll be walking you through the whole process of making the technology work for you step-by-step.\r\n\r\nFirst, we'll take open data published by the New Zealand government and use it to create vector tiles. (Vector tiles are a neat new way to package up data in a way that’s ideally suited to web maps.) Then we’ll use Mapbox Studio to design a snazzy looking map with our data. Finally, we'll upload it to your very own website and share it with the world.\r\n\r\nThe maps we’ll be creating are ideal for those times you want to make a map that you can just upload and forget about. They're perfect for student projects, company websites, or for cartographers and designers who want to craft beautiful customised maps that are easy to hand over to clients.\r\n\r\nThe workshop will provide you with the knowledge you need to get started, but you're free to deviate from the examples that we provide as you grow more confident and start to explore the tools available to you.\r\n\r\nLooking forward to seeing your creations!\r\n\r\nImage: NZ Topo50 Map series from LINZ. Creative Commons Attribution 4.0 International license.\n\n### Skill level\n\n**Beginner/Introductory**\n\nAudience: Beginner to intermediate-level.\r\n\r\nSome basic programming knowledge may be advantageous, but not essential.\n\n### Things to bring and stuff to do beforehand\n\nPlease bring a laptop. Sorry, but tablets won't do :)\r\n\r\nThe software we'll be using will run on Windows, macOS, or Linux.\r\n\r\nFurther information on the software you'll need to have installed before the workshop will be circulated before the conference.",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "Keeping it simple: Building a web map you can host virtually anywhere",
+      "speakers": [
+        "9S7T9U"
+      ],
+      "complexity": "Beginner/Introductory",
+      "image": "https://pretalx.com/media/fso2019w/images/CZVKRS/nz-topo50-maps_IPebRfx.jpg",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/ntv9niwjaia"
     },
     "RKAAHQ": {
       "description": "Static or interactive maps can reveal useful patterns and insights. For example, layering accident locations on a basemap can highlight hotspots of poor road safety. These simple data overlays can be extended to an integrated analysis with the road network for deeper insight - like accident hotspots on road segments that bottleneck commuter flows. As denizens of a city we primarily interact with the built urban environment via its streets, roads and paths. Hence, intuitive questions of the 'Urban Experience' must involve the geospatial road network.\n\n## Details\n\nIn this workshop, we'll use Python and the packages, osmnx and pandana, to characterise Wellington: the cool little capital of New Zealand with a unique topography. Using omsnx, pandana and data of the built environment (from OpenStreetMap and Wellington City Council open data), we can quantify how Wellington functions as a city.\r\n\r\nFoundational topics include:\r\n\r\n- Handling geospatial data with geopandas\r\n- Getting street networks with osmnx\r\n- Routing with network algorithms\r\n- Calculating flows from routes\r\n\r\nUrban analysis topics include:\r\n\r\n- Analysing street morphology and topography with osmnx\r\n- Accessibility analysis with pandana\r\n- Catchment areas of amenities with pandana\n\n### Skill level\n\n**Intermediate**\n\nParticipants will need to have some experience with Python programming to finish the exercises. An early intermediate level will be sufficient as the analysis will not involve heavy programming.\n\n### Things to bring and stuff to do beforehand\n\nAttendees must bring their own laptops with Python 3, geopandas, osmnx and pandana installed. They will also need matlplotlib and basemap. A full list of packages will be provided closer to the workshop date. Attendees will also need a Google Elevation API key. Again, further details will be sent out later.",
@@ -1157,7 +1259,8 @@
         "BANWRY"
       ],
       "complexity": "Intermediate",
-      "image": null
+      "image": null,
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/w7a67u5nrgm"
     },
     "QSBVAQ": {
       "description": "The graphical modeller is a powerful component that we can use to define a workflow and run a chain of algorithms (a processing model).\r\n\r\nA normal session with the processing framework tools includes more than running a single algorithm. Usually several of them are run to obtain a result, and the outputs of some of those algorithms are used as input for some of the other ones.\r\n\r\nUsing the graphical modeller, that workflow can be put into a processing model, which will run all the necessary algorithms in a single run, thus simplifying the whole process and automating it.\n\n## Details\n\nIn this workshop we will create a processing model in the graphical modeller that displays buildings affected by some event within a distance from an event location.  \r\n\r\nThe affected buildings are determined by \r\n* Clicking a point on the map canvas to define an event location,\r\n* travelling a distance along the road network from the event location, \r\n* buffering the travel distance to intersect land parcels, \r\n* extracting building footprints that that intersect the land parcels.\r\n\r\nThe Inputs\r\n* Event location point chosen on the Map Canvas\r\n* Road network layer\r\n* Travel distance value\r\n* Travel distance buffer value\r\n* Land parcel layer\r\n* Building footprints layer\r\n\r\nThe outputs\r\n* Event location point layer\r\n* Affected road network line layer\r\n* Travel distance buffer polygon layer\r\n* Affected buildings polygon layer\n\n### Skill level\n\n**Advanced**\n\nIntermediate level QGIS minimum\n\n### Things to bring and stuff to do beforehand\n\nLaptop loaded with latest QGIS release.",
@@ -1170,7 +1273,8 @@
         "RE3QB8"
       ],
       "complexity": "Advanced",
-      "image": "https://pretalx.com/media/fso2019w/images/QSBVAQ/FOSS4G2019_QGIS_Processing_Models_GwZ1CJD.png"
+      "image": "https://pretalx.com/media/fso2019w/images/QSBVAQ/FOSS4G2019_QGIS_Processing_Models_GwZ1CJD.png",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/3jxrfl1l3ne"
     },
     "SPGUQV": {
       "description": "This hands-on workshop covers the use of [PyGMT](https://github.com/GenericMappingTools/pygmt) to analyze geospatial data and produce publication quality figures and animations in an interactive [Jupyter](https://jupyter.org/) lab environment. After a quick guide to launching up PyGMT on your computer, we will start with the basics of making your first map with PyGMT and explore some different customizations such as fancy projection systems and colormaps. Next we will teach you how to load in CSV point and GeoTIFF/NetCDF grid datasets using [pandas](https://github.com/pandas-dev/pandas) and [xarray](https://github.com/pydata/xarray), and have PyGMT perform more advanced geoprocessing workflows such as sampling, filtering and interpolation on them. Finally, we will step you through making 3D perspective plots and animations of your final results!\n\n## Details\n\nFrom processing raster grids and vector data (points, lines, polygons) to creating visually appealing maps in different projection systems, the [Generic Mapping Tools (GMT)](https://github.com/GenericMappingTools/gmt/) is a swiss army knife collection of open source tools used by Earth, Ocean and Planetary scientists worldwide. [PyGMT](https://github.com/GenericMappingTools/pygmt) is a more user-friendly, Pythonic interface to GMT 6's modern execution mode that integrates well with the [PyData](https://pydata.org/) stack. This includes reading [numpy](https://github.com/numpy/numpy) arrays, [pandas](https://github.com/pandas-dev/pandas) tables and [xarray](https://github.com/pydata/xarray) grids, plus support for rich display in interactive [Jupyter](https://jupyter.org/) notebook environments. It is also a powerful library used for processing geospatial and geophysical datasets, including operations like sampling, filtering, interpolation and so on.\n\n### Skill level\n\n**Intermediate**\n\nThis workshop is intended for people with some previous Python programming/GMT experience. We invite students and geoscientists working on any geo related fields (e.g. Earth Observation, Geophysical, Marine, Magnetic, Gravity, Planetary, etc) to join. We also welcome seasoned GMT veterans who would like to find out how the Python interface works with GMT 6's modern execution mode and people from the geospatial industry with some Python programming experience that would like to get to know what PyGMT can do for parts of their geoprocessing workflow.\n\n### Things to bring and stuff to do beforehand\n\nA github repository containing jupyter notebooks for the workshop will be set up prior to the workshop. Users should only need to have a laptop with a modern browser that can launch an online [Pangeo Binder](https://binder.pangeo.io/) link/[Google Colaboratory](https://colab.research.google.com/) Jupyter computing environment. This should give everyone a relatively consistent experience.",
@@ -1183,7 +1287,8 @@
         "KB7F3Z"
       ],
       "complexity": "Intermediate",
-      "image": null
+      "image": null,
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/ljtj5yzzmtc"
     },
     "7AHC8Q": {
       "description": "What does it look like to work in the core C++ _(and Python, and Perl, and even a little bit of raw C)_ logic of QGIS?  \r\nThis workshop will cover an intro into building, understanding, and navigating the core QGIS codebase.   \r\n\r\nThis workshop will be an attempt to help demystify the QGIS core codebase in order to help ease you into QGIS core development.   There is no requirement to leave the workshop understanding every bit of the QGIS codebase as there is a lot and even some of the current core developers don't understand it all :)\n\n## Details\n\nWhat does it look like to work in the core C++ _(and Python, and Perl, and even a little bit of raw C)_ logic of QGIS?  \r\nThis workshop will cover an intro into building, understanding, and navigating the core QGIS codebase.   \r\n\r\nThis workshop will be an attempt to help demystify the QGIS core codebase in order to help ease you into QGIS core development.   There is no requirement to leave the workshop understanding every bit of the QGIS codebase as there is a lot and even some of the current core developers don't understand it all :) \r\n\r\nThe main takeaways from this workshop is understanding the workflows core developers normally take in order to land a bug or feature into the next release.  Simply understanding where things are and how to navigate the code can lead to openings in fixing bugs or adding new features.  Starting simple and working your way up very much applies to QGIS.\r\n\r\nTopics we will try to cover in the workshop are:\r\n\r\n- Build setup\r\n- Qt Creator\r\n- Understanding where the code lives\r\n- Navigate the code\r\n- How the Python bindings are made (SIP - Here be dragons)\r\n- Unit tests\r\n- PR/Merge process (for features and bugs)\r\n- \r\nKnowing C++ will help you in advance but it's not a requirement of this workshop so don't be put off by that.  There is more to the QGIS code base then a pile of C++ and this workshop will give you exposer to those other areas as well.\n\n### Skill level\n\n**Intermediate**\n\nNo skill level is required however as this will deep dive into some of the core C++ code logic attendees should be at least be comfortable with knowing that is going to happen and not being able to understand what is going on 100% of the time.\r\n\r\nPast C++ experience will help but is not a requirement.\n\n### Things to bring and stuff to do beforehand\n\nLaptop",
@@ -1196,7 +1301,8 @@
         "RUKHTS"
       ],
       "complexity": "Intermediate",
-      "image": null
+      "image": null,
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/e4vkqtoabxe"
     }
   },
   "speakers": {
@@ -1311,6 +1417,14 @@
       "company": "Ministry of Transport",
       "country": "Wellington"
     },
+    "9S7T9U": {
+      "name": "Keith Moss",
+      "bio": "I’m a data geek, occasional software engineer, and a bit of geospatial tragic. I’ve built more web mapping applications than I care to remember - for everything from delivering satellite data in support of bushfires and floods to mapping sausage sizzles and orangutans.\r\n\r\nFor a living, I work for the Western Australian government where I run the state’s open data team and work to convince public servants of the benefits of making data open, machine-readable, and API-enabled. I’m passionate about applying the user experience principles from our digital world to the broader work of government – building better public services by understanding needs through user research, data-driven insights, and co-design of services.\r\n\r\nBut most of all, I love helping people to learn, understand, and use data and technology and seeing those “Ah-ha!” moments when they get it.",
+      "shortBio": "I’m a data geek, occasional software engineer, and a bit of geospatial tragic. I’ve built more web mapping applications than I care to remember - for everything from delivering satellite data in support of bushfires and floods to mapping sausage sizzles and orangutans.\r\n\r\nFor a living, I work for the Western Australian government where I run the state’s open data team and work to convince public servants of the benefits of making data open, machine-readable, and API-enabled. I’m passionate about applying the user experience principles from our digital world to the broader work of government – building better public services by understanding needs through user research, data-driven insights, and co-design of services.\r\n\r\nBut most of all, I love helping people to learn, understand, and use data and technology and seeing those “Ah-ha!” moments when they get it.",
+      "photoUrl": "https://pretalx.com/media/Screen_Shot_2015-07-09_at_15.57.46.png",
+      "title": "-",
+      "country": "Noongar land, Perth, Western Australia"
+    },
     "KB7F3Z": {
       "name": "Wei Ji Leong",
       "bio": "Geospatial Data Scientist, PhD Student in Glaciology. Interested in earth observation data and deep learning.",
@@ -1336,6 +1450,21 @@
       "company": "Alantgeo",
       "country": "Sydney"
     },
+    "D8HTJL": {
+      "name": "Ervin Ruci",
+      "bio": "I've been solving problems for my own enjoyment and profit since 2005 when I quit my last day job (as a software developer)\r\nThe main areas I like to work on are Computational Geometry and NLP. Some of the problems I've tackled over the years in these application domains have become successful companies with exactly one employee - me.",
+      "shortBio": "I've been solving problems for my own enjoyment and profit since 2005 when I quit my last day job (as a software developer)\r\nThe main areas I like to work on are Computational Geometry and NLP. Some of the problems I've tackled over the years in these application domains have become successful companies with exactly one employee - me.",
+      "photoUrl": "https://pretalx.com/media/Screen_Shot_2018-11-11_at_12.17.02_PM.png",
+      "title": "None"
+    },
+    "GHSHKM": {
+      "name": "Nyall Dawson",
+      "bio": "Nyall has been a core developer with the QGIS project since 2013. During this time he has contributed over 5000 commits to the project, and today is one of the most active developers on the project. Nyall’s contributions to QGIS cover a wide range of areas – from improvements to the map rendering and symbology engines, enhancements to labeling and print layout functionality, right through to optimisations of the underlying spatial processing algorithms utilised by QGIS.\r\n\r\nNyall is the proprietor and lead developer at North Road Consulting, an Australian based spatial development consultancy which predominantly utilises international co-funding and crowd funding campaigns to finance development into open source GIS applications.",
+      "shortBio": "Nyall has been a core developer with the QGIS project since 2013. During this time he has contributed over 5000 commits to the project, and today is one of the most active developers on the project. Nyall’s contributions to QGIS cover a wide range of areas – from improvements to the map rendering and symbology engines, enhancements to labeling and print layout functionality, right through to optimisations of the underlying spatial processing algorithms utilised by QGIS.\r\n\r\nNyall is the proprietor and lead developer at North Road Consulting, an Australian based spatial development consultancy which predominantly utilises international co-funding and crowd funding campaigns to finance development into open source GIS applications.",
+      "title": "QGIS Core Developer, Proprietor",
+      "company": "North Road Consulting",
+      "country": "Sunshine Coast, Australia"
+    },
     "XPVGDM": {
       "name": "Andy McKenzie",
       "bio": "I work in the Population Modelling Group at NIWA (Wellington). In our work we use the R programming language extensively, and at the NIWA Wellington site I run the R users group.",
@@ -1348,6 +1477,23 @@
       "title": "Programme leader for information delivery",
       "company": "NIWA",
       "country": "Wellington"
+    },
+    "TJ3SDB": {
+      "name": "Mila Frerichs",
+      "bio": "I'm a Data Visualization consultant working with civic advocacy groups and social organizations.",
+      "shortBio": "I'm a Data Visualization consultant working with civic advocacy groups and social organizations.",
+      "title": "Founder/CEO",
+      "company": "Civic Vision",
+      "country": "Berlin, Germany"
+    },
+    "STEC7C": {
+      "name": "Alex Leith",
+      "bio": "Alex is a certified spatial professional with extensive experience in software development, DevOps and project management. Alex has spent time volunteering for GovHack and GeoRabble and is one of a handful of GeoHipster interviewers, which means he is in touch with a broad community of hip geo-folk. When not writing code, or at least talking to people about writing code, he likes a great craft beer (currently seeking out the best XPA) or whisky (with a preference for those from Islay). Alex is a technical leader at Geoscience Australia, working with a team of developers on software that enables people to work with Earth observation data.",
+      "shortBio": "Alex is a certified spatial professional with extensive experience in software development, DevOps and project management. Alex has spent time volunteering for GovHack and GeoRabble and is one of a handful of GeoHipster interviewers, which means he is in touch with a broad community of hip geo-folk. When not writing code, or at least talking to people about writing code, he likes a great craft beer (currently seeking out the best XPA) or whisky (with a preference for those from Islay). Alex is a technical leader at Geoscience Australia, working with a team of developers on software that enables people to work with Earth observation data.",
+      "photoUrl": "https://pretalx.com/media/Profile_CURRENT.jpg",
+      "title": "Assistant Director, DEA Technologies",
+      "company": "Geoscience Australia",
+      "country": "Hobart, Tasmania"
     },
     "CV9GN9": {
       "name": "Richard Law",
