@@ -287,17 +287,12 @@
 					"startTime": "18:00",
 					"endTime": "20:00",
 					"sessions": [{
-						"items": []
-					}, {
 						"items": [109]
 					}]
 				}
 			],
 			"tracks": [{
 					"title": "Rutherford House, Victoria University of Wellington"
-				},
-				{
-					"title": "Foxglove Bar & Kitchen"
 				}
 			]
 		},
