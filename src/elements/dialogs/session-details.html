@@ -25,6 +25,30 @@
       .section {
         cursor: pointer;
       }
+
+      button {
+        -moz-box-shadow: inset 0px 0px 0px 0px #bee2f9;
+        -webkit-box-shadow: inset 0px 0px 0px 0px #bee2f9;
+        box-shadow: inset 0px 0px 0px 0px #bee2f9;
+        background-color: #63b8ee;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        border-radius: 15px;
+        border: 1px solid #3866a3;
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-family: Arial;
+        font-size: 19px;
+        font-weight: bold;
+        padding: 8px 24px;
+        text-decoration: none;
+        text-shadow: 0px 0px 0px #7cacde;
+      }
+
+      .actions {
+        margin-top: 20px;
+      }
     </style>
 
     <polymer-helmet
@@ -77,6 +101,19 @@
         <h3 class="meta-info" hidden$="[[disabledSchedule]]">[[session.track.title]]</h3>
         <h3 class="meta-info" hidden$="[[!session.complexity]]">{$ sessionDetails.contentLevel $}:
           [[session.complexity]]</h3>
+
+        <div class="actions" layout horizontal>
+          <a
+            class="action"
+            href$="[[session.ticketUrl]]"
+            hidden$="[[!session.ticketUrl]]"
+            target="_blank"
+            rel="noopener noreferrer"
+            layout horizontal center
+          >
+            <button>Purchase a ticket to this session</button>
+          </a>
+        </div>
 
         <marked-element class="description" markdown="[[session.description]]">
           <div slot="markdown-html"></div>

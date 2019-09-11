@@ -242,8 +242,11 @@
             <div class="origin">[[speaker.country]]</div>
 
             <text-truncate lines="5">
-              <div class="bio">[[speaker.shortBio]]</div>
+              <marked-element class="description" markdown="[[speaker.shortBio]]">
+                <div slot="markdown-html"></div>
+              </marked-element>
             </text-truncate>
+
           </div>
 
           <div class="contacts">
@@ -369,4 +372,3 @@
 
   </script>
 </dom-module>
-

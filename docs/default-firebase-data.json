@@ -283,13 +283,6 @@
 					}]
 				},
 				{
-					"startTime": "09:00",
-					"endTime": "12:30",
-					"sessions": [{
-						"items": [102]
-					}]
-				},
-				{
 					"startTime": "12:30",
 					"endTime": "13:30",
 					"sessions": [{
@@ -297,27 +290,15 @@
 					}]
 				},
 				{
-					"startTime": "13:30",
-					"endTime": "17:00",
-					"sessions": [{
-						"items": [106]
-					}]
-				},
-				{
 					"startTime": "18:00",
 					"endTime": "20:00",
 					"sessions": [{
-						"items": []
-					}, {
 						"items": [109]
 					}]
 				}
 			],
 			"tracks": [{
 					"title": "Rutherford House, Victoria University of Wellington"
-				},
-				{
-					"title": "Venue TBA"
 				}
 			]
 		},
@@ -335,7 +316,7 @@
 						{
 							"items": []
 						},
-						{	
+						{
 							"items": []
 						},
 						{
@@ -633,41 +614,27 @@
 			"tags": [
 				"Registration"
 			],
-			"title": "Registration"
-		},
-		"102": {
-			"description": "Details to come.",
-			"tags": [
-				"Workshop"
-			],
-			"speakers": [
-				"Mystery Person"
-			],
-			"title": "Morning Workshops"
+			"title": "Registration",
+			"icon": "registration",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/EduWiki_Conference_2013_registration_table.JPG/800px-EduWiki_Conference_2013_registration_table.JPG"
 		},
 		"105": {
 			"title": "Lunch",
 			"tags": [
 				"Social"
 			],
-			"description": "Break for lunch"
-		},
-		"106": {
-			"description": "Details to come.",
-			"tags": [
-				"Workshop"
-			],
-			"speakers": [
-				"Mystery Person"
-			],
-			"title": "Afternoon Workshops"
+			"description": "Break for lunch",
+			"icon": "lunch",
+			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
 		},
 		"109": {
-			"description": "Come and meet your fellow attendees before the conference kicks off.",
+			"description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Foxglove Bar and Kitchen](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780).",
 			"tags": [
 				"Social"
 			],
-			"title": "Conference icebreaker"
+			"title": "Conference icebreaker",
+			"icon": "party",
+			"image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
 		},
 		"201": {
 			"description": "Breakfast(s)",
@@ -899,8 +866,8 @@
 		"Edwin Liava'a": {
 			"bio": "Edwin has a personal philosophy - \"I innovate and provide solutions, not problems\".<br><br>With over 20 years of experience working in the Pacific Islands region providing contextualized solutions and capacity building in ICT, his passion is driven by harnessing inter-cultural competencies. These competencies go well beyond technical knowledge and leadership qualities, because each Pacific Island has its own unique local context. Also important is the ability to possess a high level of cultural flexibility and tolerance to be neutral when it comes to discussions that might overlap from being politically correct to being in-correct.<br><br>Edwin believes that \"The best idea should always win and we hire smart people to tell us what to do, not for us to tell them what to do.\"",
 			"company": "Tonga Cable",
-			"companyLogo": null,
-			"companyLogoUrl": null,
+			"companyLogo": "/images/partners/speakers/tonga-cable.jpg",
+			"companyLogoUrl": "http://www.tongacable.to/",
 			"country": "Tonga",
 			"featured": true,
 			"name": "Edwin Liava'a",
@@ -920,8 +887,8 @@
 		"Dr. Kate Crawford": {
 			"bio": "After successful careers as a pharmacist, a teacher (K-12), an academic, international researcher and software developer, Kate is now the director of a consultancy company Eviva Pty Ltd, an Honorary Principle Research Fellow at the University of Wollongong and an advisor to the Spatial Industry Business Association in Australia. She has experience in cross cultural settings including as a founder of the ANTEP program at Ernabella, South Australia and in Indigenous business development and program development in collaboration with communities.<br><br>Major projects include national programs to engage students and their parents in emerging Citizen Science projects, Community programs to connect older people with their community via digital technologies (Living Connect) in Illawarra region, Research with the University of Wollongong and Defence Science and Technology Organisation  to enable more independent self-directed collaboration in the field (ARC Discovery Program).  After much experience in early IT design and development, networked interactive communication technologies and related social innovation and problem solving, her current interest is the use of spatial technologies as tools in different cultures and to enable more sustainable practices for land and water management.",
 			"company": "Eviva",
-			"companyLogo": null,
-			"companyLogoUrl": null,
+			"companyLogo": "/images/partners/speakers/eviva.png",
+			"companyLogoUrl": "http://www.eviva.com.au/",
 			"country": "Australia",
 			"featured": true,
 			"name": "Dr. Kate Crawford",
