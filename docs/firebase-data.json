@@ -160,6 +160,12 @@
           "logoUrl": "/images/partners/geosolutions.png",
           "name": "GeoSolutions",
           "url": "https://www.geo-solutions.it/"
+        }, 
+        {
+          "order": 1,
+          "logoUrl": "images/partners/kaart.jpeg",
+          "name": "Kaart Group",
+          "url": "https://kaartgroup.com"
         }
       ],
       "order": 2,
