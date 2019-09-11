@@ -282,7 +282,7 @@
             },
             {
               "items": [
-                "SPGUQV"
+                "EMXAWM"
               ]
             },
             {
@@ -337,7 +337,7 @@
             },
             {
               "items": [
-                "EMXAWM"
+                "SPGUQV"
               ]
             },
             {
@@ -1800,13 +1800,13 @@
   ],
   "tickets": [
     {
-      "available": false,
+      "available": true,
       "currency": "$",
       "info": "Half Day Workshops",
       "name": "Workshops",
       "price": 100,
       "soldOut": false,
-      "starts": "Sep 8",
+      "starts": "Sep 11",
       "ends": "Oct 29",
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops"
     },
