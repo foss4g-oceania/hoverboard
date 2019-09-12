@@ -148,7 +148,13 @@
           "logoUrl": "/images/partners/dea.svg",
           "name": "Digital Earth Australia",
           "url": "https://www.ga.gov.au/dea"
-        }
+        },
+				{
+					"order": 8,
+					"logoUrl": "/images/partners/orbica.png",
+					"name": "Orbica",
+					"url": "https://orbica.world"
+				}
       ],
       "order": 1,
       "title": "Gold Sponsors"

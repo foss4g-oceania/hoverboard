@@ -156,6 +156,12 @@
 					"logoUrl": "/images/partners/dea.svg",
 					"name": "Digital Earth Australia",
 					"url": "https://www.ga.gov.au/dea"
+				},
+				{
+					"order": 8,
+					"logoUrl": "/images/partners/orbica.png",
+					"name": "Orbica",
+					"url": "https://orbica.world"
 				}
 			],
 			"order": 1,
@@ -1246,15 +1252,15 @@
 	}],
 	"tickets": [
 		{
-			"available": false,
+			"available": true,
 			"currency": "$",
 			"info": "Half Day Workshops",
 			"name": "Workshops",
 			"price": 100,
 			"soldOut": false,
-			"starts": "Sep 8",
+			"starts": "Sep 11",
 			"ends": "Oct 29",
-			"url": "http://workshops.foss4g-oceania.org"
+			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops"
 		},
 		{
 			"available": true,
