@@ -92,6 +92,10 @@ const transformTalk = (talk) => {
 
 const talkInSchedule = (talk) => {
   const slot = talk.slot
+  if (!slot) {
+    // Not included in schedule
+    return {timeslot: null, track: null}
+  }
   const startTime = moment(slot.start)
   // Assumes a session starts and ends on the same day...
   const day = startTime.format('YYYY-MM-DD')
@@ -128,6 +132,10 @@ const transformSpeaker = (speaker) => {
 const transformTalkForSchedule = ({timeslot, track}) => {
   // Note: forgive me Father for I have sinned...
   // The Hoverboard schedule data structure is... unpleasant.
+  if (!timeslot || !track) {
+    // Not scheduled
+    return
+  }
   const scheduleDay = targetData.schedule[timeslot.day]
   let tracks = scheduleDay['tracks']
   const preDefinedTracks = tracks.length
@@ -159,18 +167,27 @@ const transformTalkForSchedule = ({timeslot, track}) => {
   targetData.schedule[timeslot.day].timeslots = _.sortBy([...existingTimeslots], 'startTime')
 }
 
-const requestForTalks = (url) => {
+const requestForTalksResolver = (data) => {
+  const filteredTalks = data.filter(t => includeStatuses.includes(t.state))
+  const presentations = Object.assign(...filteredTalks.map(transformTalk))
+  targetData.sessions = {...targetData.sessions, ...presentations}
+
+  const scheduleData = filteredTalks.map(talkInSchedule)
+  scheduleData.forEach(transformTalkForSchedule)
+}
+
+const requestForTalks = ({ url, collection, resolve, reject }) => {
   console.log({url})
-  return requestP({url, headers})
+  return requestP({ url, headers })
   .then(res => res.body)
   .then(JSON.parse)
   .then(data => {
-    const filteredTalks = data.results.filter(t => includeStatuses.includes(t.state))
-    const presentations = Object.assign(...filteredTalks.map(transformTalk))
-    targetData.sessions = {...targetData.sessions, ...presentations}
-
-    const scheduleData = filteredTalks.map(talkInSchedule)
-    scheduleData.forEach(transformTalkForSchedule)
+    collection.push(...data.results);
+    if (data.next !== null) {
+      return requestForTalks({ url: data.next, collection, resolve, reject })
+    } else {
+      resolve(collection)
+    }
   })
   .catch(error => {
     console.error(error)
@@ -220,10 +237,20 @@ const filterOutSpeakersWithoutConfirmedSession = () => {
 
 const main = () => {
   // Mutates "targetData"
+  let workShopCollection = []
+  let presentationCollection = []
   Promise.all([
-    requestForTalks(talksUriWorkshops),
-    // requestForTalks(talksUriMain),
-    requestForSpeakers(speakersUriWorkshops),
+    requestForTalks({
+      url: talksUriWorkshops,
+      collection: workShopCollection,
+      resolve: requestForTalksResolver
+    }),
+    requestForTalks({
+      url:talksUriMain,
+      collection: presentationCollection,
+      resolve: requestForTalksResolver
+    }),
+    // requestForSpeakers(speakersUriWorkshops),
     // requestForSpeakers(speakersUriMain)
   ]).then(filterOutSpeakersWithoutConfirmedSession)
   .then(() => {
