@@ -149,12 +149,12 @@
           "name": "Digital Earth Australia",
           "url": "https://www.ga.gov.au/dea"
         },
-				{
-					"order": 8,
-					"logoUrl": "/images/partners/orbica.png",
-					"name": "Orbica",
-					"url": "https://orbica.world"
-				}
+        {
+          "order": 8,
+          "logoUrl": "/images/partners/orbica.png",
+          "name": "Orbica",
+          "url": "https://orbica.world"
+        }
       ],
       "order": 1,
       "title": "Gold Sponsors"
@@ -166,7 +166,7 @@
           "logoUrl": "/images/partners/geosolutions.png",
           "name": "GeoSolutions",
           "url": "https://www.geo-solutions.it/"
-        }, 
+        },
         {
           "order": 1,
           "logoUrl": "images/partners/kaart.jpeg",
@@ -294,17 +294,17 @@
             },
             {
               "items": [
+                "W8Y7UU"
+              ]
+            },
+            {
+              "items": [
                 "EMXAWM"
               ]
             },
             {
               "items": [
                 "NNWXKL"
-              ]
-            },
-            {
-              "items": [
-                "W8Y7UU"
               ]
             },
             {
@@ -349,17 +349,17 @@
             },
             {
               "items": [
+                "WB99J8"
+              ]
+            },
+            {
+              "items": [
                 "SPGUQV"
               ]
             },
             {
               "items": [
                 "S7PXRA"
-              ]
-            },
-            {
-              "items": [
-                "WB99J8"
               ]
             },
             {
@@ -401,13 +401,13 @@
           "title": "Rutherford House, Victoria University of Wellington"
         },
         {
+          "title": "RH107"
+        },
+        {
           "title": "RH205"
         },
         {
           "title": "RH202"
-        },
-        {
-          "title": "RH107"
         },
         {
           "title": "RH104"
@@ -1107,6 +1107,20 @@
       ],
       "title": "Stream Talks"
     },
+    "WB99J8": {
+      "description": "A series of OGC Interoperability Experiments (IEs) have been working on techniques and technologies for the problem of linking multi-disciplinary and multi-organisation environmental data _without_ transferring data custody or maintenance responsibilities. These IEs, such as the [Second Environmental Linked Features Interoperability Experiment](https://www.opengeospatial.org/projects/initiatives/selfie) (SELFIE), are firmly grounded in W3C and OGC [best practices for spatial data on the web](https://www.w3.org/TR/sdw-bp/). They involve organisations from New Zealand and around the world, trying to find solutions to problems such as: sharing data for transnational groundwater monitoring; linking descriptions of things to related things (e.g. boreholes to aquifers); using [popular vocabularies](https://schema.org/) to semantically describe the properties of things while avoiding misinterpretation; describing links between distributed records for things that change in nature over time and space; for data publishers to associate related information maintained by third parties to their own data; and maybe even the [HTTPRange-14 problem](https://en.wikipedia.org/wiki/HTTPRange-14). This workshop will first give an overview of **distributed and linked data** concepts: focusing on: why it matters for those responsible for publishing geospatial data; the advantages for those consuming geospatial data; and how search engines get involved. The SELF Interoperability Experiment will be discussed as an example. Then (and for most of the available time) we will work collaboratively to draft the publication of some spatial data using our laptops, taking advantage of these concepts in a way that will not alienate modern web developers or GIS practictioners, i.e. by using JSON-LD, semantic HTML, Web Components, and an implementation of the OGC WFS 3.0 specification for features.\n\n## Details\n\n## Learning outcomes\r\n\r\n1. I understand what structured and linked data are.\r\n2. I understand some benefits of structured/linked data.\r\n3. I am aware of the OGC/W3C Best Practices for Spatial Data on the Web.\r\n4. I know how to implement some of the Best Practices.\r\n5. I understand, can re-state, and (perhaps) respond to some of the challenges, limitations, and criticisms of structured/linked data\r\n\r\n### Note\r\n\r\nParticipants will be asked to optionally provide some sample data that may be suitable for publication using linked data concepts. Data from two domains that have a topological relationship are good candidates. If some interesting data are made available with sufficient time, the practical part of the workshop will be geared towards exploring that data. If not, some sample data will be used, at my (the presenter's) discretion.\r\n\r\nI do expect you to do some \"course reading\" to gain a some conceptual understanding. Reading is food for the brain. Here are some foundational documents, in priority order.\r\n\r\n- [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/), W3C Working Group Note\r\n- [Linked Data](https://www.w3.org/DesignIssues/LinkedData), Tim Berners-Lee\r\n- [Background to the (first) Environmental Linked Features Interoperability Experiment (ELFIE)](https://www.opengeospatial.org/projects/initiatives/elfie)\r\n- [Creating semantic sites with Web Components and JSON-LD](https://developers.google.com/web/updates/2015/03/creating-semantic-sites-with-web-components-and-jsonld)\r\n- [Building JSON-LD APIs: Best Practices](https://json-ld.org/spec/latest/json-ld-api-best-practices/), W3C Draft Community Group Report\r\n- [GraphDB: Introduction to the Semantic Web](http://graphdb.ontotext.com/documentation/standard/introduction-to-semantic-web.html) (Note: this is more advanced, and largely beyond the scope of the workshop. The intention is to get you thinking wide as well as narrow.)\r\n\r\nHowever, don't stress! There will be no test. If, after doing some reading, you still don't understand the point of any of it, that's fine. There will be plenty of opportunities for discussion.\r\n\r\nThere *was* (and, to some extent, *still is*) a lot of misplaced hype about Linked Data out there in the untamed wildernesses of the Internet. Don't worry, I haven't drunk of the Semantic Kool Aid. This workshop will be reined in to practical applications rather than pure aspiration. You will come away thinking critically about these Linked Data ideas, perhaps seeded by some contrary opinions and writings by people who have/had their heads firmly screwed on:\r\n\r\n- [Two Bit History: Semantic Web](https://twobithistory.org/2018/05/27/semantic-web.html)\r\n- [Cory Doctorow: Metacrap](https://people.well.com/user/doctorow/metacrap.htm)\r\n- [Aaron Swartz: A Programmable Web](https://upload.wikimedia.org/wikipedia/commons/3/3f/) (Note: this is a longer read than the others, but lighter and very interesting.)\n\n### Skill level\n\n**Intermediate**\n\nParticipants need to understand web development principles and various technologies and standards underpinning the web. If you've done some web development, or if some of these terms are vaguely registering, then we're good to go:\r\n\r\n- Semantic HTML\r\n- Linked data, RDF\r\n- JSON (perhaps JSON-LD)\r\n- HTTP REST\r\n- OGC WFS 2 and/or 3\r\n- Vocabularies/ontologies\r\n- SEO\r\n- Web Components\n\n### Things to bring and stuff to do beforehand\n\nDetails will be sent out closer to the time, but the basics are:\r\n- A well oiled brain (i.e. please do some reading)\r\n- A laptop with a web browser (Chrome or Firefox preferred)\r\n- Ideally a running instance of https://github.com/geopython/pygeoapi (I'm willing to help you set this up in the days and weeks leading up to the workshop if necessary)",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "An open data SELFIE: how we can improve open data for SEO, interoperability, and the web of data",
+      "speakers": [
+        "CV9GN9"
+      ],
+      "complexity": "Intermediate",
+      "image": "https://pretalx.com/media/fso2019w/images/WB99J8/5-star_deployment_scheme_for_Open_Data_rUGK330.png",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/knk-0qvo4z0"
+    },
     "EMXAWM": {
       "description": "CesiumJS is an amazing library for geospatial visualization, but is very bare-metal and you have to build your UI around it. An easier approach is using TerriaJS as your UI to interact with CesiumJS. This workshop will show you how easy that is to do!\n\n## Details\n\nTerriaJS builds upon CesiumJS’ 3D web geospatial visualization, adding a UI for exploring and previewing layers in a catalog, charts and graphs, a “splitter” interactive comparison tool, shareable story building and many other features. In this workshop, you will learn how to build and deploy a rich and compelling TerriaJS application, without writing any code. You will also learn how to extend TerriaJS with custom functionality as your application’s needs grow.\n\n### Skill level\n\n**Beginner/Introductory**\n\nSome experience with JavaScript/NodeJS would be advantageous. Experienced people will not be bored as the sky is the limit.\n\n### Things to bring and stuff to do beforehand\n\nLaptop with a working NodeJS installation and a text editor.",
       "tags": [
@@ -1164,20 +1178,6 @@
       "complexity": "Intermediate",
       "image": "https://pretalx.com/media/fso2019w/images/SNN83F/Learn_how_to_create_maps_with_d3_llZa1a9.png"
     },
-    "WB99J8": {
-      "description": "A series of OGC Interoperability Experiments (IEs) have been working on techniques and technologies for the problem of linking multi-disciplinary and multi-organisation environmental data _without_ transferring data custody or maintenance responsibilities. These IEs, such as the [Second Environmental Linked Features Interoperability Experiment](https://www.opengeospatial.org/projects/initiatives/selfie) (SELFIE), are firmly grounded in W3C and OGC [best practices for spatial data on the web](https://www.w3.org/TR/sdw-bp/). They involve organisations from New Zealand and around the world, trying to find solutions to problems such as: sharing data for transnational groundwater monitoring; linking descriptions of things to related things (e.g. boreholes to aquifers); using [popular vocabularies](https://schema.org/) to semantically describe the properties of things while avoiding misinterpretation; describing links between distributed records for things that change in nature over time and space; for data publishers to associate related information maintained by third parties to their own data; and maybe even the [HTTPRange-14 problem](https://en.wikipedia.org/wiki/HTTPRange-14). This workshop will first give an overview of **distributed and linked data** concepts: focusing on: why it matters for those responsible for publishing geospatial data; the advantages for those consuming geospatial data; and how search engines get involved. The SELF Interoperability Experiment will be discussed as an example. Then (and for most of the available time) we will work collaboratively to draft the publication of some spatial data using our laptops, taking advantage of these concepts in a way that will not alienate modern web developers or GIS practictioners, i.e. by using JSON-LD, semantic HTML, Web Components, and an implementation of the OGC WFS 3.0 specification for features.\n\n## Details\n\n## Learning outcomes\r\n\r\n1. I understand what structured and linked data are.\r\n2. I understand some benefits of structured/linked data.\r\n3. I am aware of the OGC/W3C Best Practices for Spatial Data on the Web.\r\n4. I know how to implement some of the Best Practices.\r\n5. I understand, can re-state, and (perhaps) respond to some of the challenges, limitations, and c\r\n\r\n### Note\r\n\r\nParticipants will be asked to optionally provide some sample data that may be suitable for publication using linked data concepts. Data from two domains that have a topological relationship are good candidates. If some interesting data are made available with sufficient time, the practical part of the workshop will be geared towards exploring that data. If not, some sample data will be used, at my (the presenter's) discretion.\r\n\r\nI do expect you to do some \"course reading\" to gain a some conceptual understanding. Reading is food for the brain. Here are some foundational documents, in priority order.\r\n\r\n- [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/), W3C Working Group Note\r\n- [Linked Data](https://www.w3.org/DesignIssues/LinkedData), Tim Berners-Lee\r\n- [Background to the (first) Environmental Linked Features Interoperability Experiment (ELFIE)](https://www.opengeospatial.org/projects/initiatives/elfie)\r\n- [Creating semantic sites with Web Components and JSON-LD](https://developers.google.com/web/updates/2015/03/creating-semantic-sites-with-web-components-and-jsonld)\r\n- [Building JSON-LD APIs: Best Practices](https://json-ld.org/spec/latest/json-ld-api-best-practices/), W3C Draft Community Group Report\r\n- [GraphDB: Introduction to the Semantic Web](http://graphdb.ontotext.com/documentation/standard/introduction-to-semantic-web.html) (Note: this is more advanced, and largely beyond the scope of the workshop. The intention is to get you thinking wide as well as narrow.)\r\n\r\nHowever, don't stress! There will be no test. If, after doing some reading, you still don't understand the point of any of it, that's fine. There will be plenty of opportunities for discussion.\r\n\r\nThere *was* (and, to some extent, *still is*) a lot of misplaced hype about Linked Data out there in the untamed wildernesses of the Internet. Don't worry, I haven't drunk of the Semantic Kool Aid. This workshop will be reined in to practical applications rather than pure aspiration. You will come away thinking critically about these Linked Data ideas, perhaps seeded by some contrary opinions and writings by people who have/had their heads firmly screwed on:\r\n\r\n- [Two Bit History: Semantic Web](https://twobithistory.org/2018/05/27/semantic-web.html)\r\n- [Cory Doctorow: Metacrap](https://people.well.com/user/doctorow/metacrap.htm)\r\n- [Aaron Swartz: A Programmable Web](https://upload.wikimedia.org/wikipedia/commons/3/3f/) (Note: this is a longer read than the others, but lighter and very interesting.)\n\n### Skill level\n\n**Intermediate**\n\nParticipants need to understand web development principles and various technologies and standards underpinning the web. If you've done some web development, or if some of these terms are vaguely registering, then we're good to go:\r\n\r\n- Semantic HTML\r\n- Linked data, RDF\r\n- JSON (perhaps JSON-LD)\r\n- HTTP REST\r\n- OGC WFS 2 and/or 3\r\n- Vocabularies/ontologies\r\n- SEO\r\n- Web Components\n\n### Things to bring and stuff to do beforehand\n\nDetails will be sent out closer to the time, but the basics are:\r\n- A well oiled brain (i.e. please do some reading)\r\n- A laptop with a web browser (Chrome or Firefox preferred)\r\n- Ideally a running instance of https://github.com/geopython/pygeoapi (I'm willing to help you set this up in the days and weeks leading up to the workshop if necessary)",
-      "tags": [
-        "Workshop"
-      ],
-      "language": "English",
-      "title": "An open data SELFIE: how we can improve open data for SEO, interoperability, and the web of data",
-      "speakers": [
-        "CV9GN9"
-      ],
-      "complexity": "Intermediate",
-      "image": "https://pretalx.com/media/fso2019w/images/WB99J8/5-star_deployment_scheme_for_Open_Data_rUGK330.png",
-      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/knk-0qvo4z0"
-    },
     "JX7NNK": {
       "description": "Digital Earth Australia have been working with FrontierSI to prepare a sandbox environment where you can use the Open Data Cube to explore over thirty years of Earth observation data covering the Australian continent. This workshop will introduce you to the Open Data Cube, the Jupyter data science environment, and analysis ready data in a live coding environment, the DEA Sandbox.\n\n## Details\n\nThe Open Data Cube (ODC) is a collaborative effort to develop software and a community of users around a common goal of increasing the ease of access to Earth observation data. The increase in the number of Earth observing satellites over the past few years, coupled with new open data policies and new storage formats like Cloud Optimised GeoTIFF, means that there is a need for a standard way to plug in to this data and enable analysis processes. The ODC provides this way. \r\n\r\nThis workshop will introduce you to Digital Earth Australia’s (DEA) implementation of the ODC, the DEA Sandbox, and through the use of the Sandbox, you’ll work through a suite of examples that show you what the ODC can do and what data DEA make available for Australia. This workshop will cover the following topics:\r\n* What is analysis ready data\r\n* What is Jupyter and how can I use it \r\n* Using simple Jupyter apps to explore data \r\n* Do-it-yourself example implementing NDVI from scratch\r\n* Advanced example using Landsat 8 optical data to identify coastlines over time \r\n* Advanced example using Sentinel 1 radar data to identify water.\n\n### Skill level\n\n**Intermediate**\n\nSome Python programming experience is required as this workshop involves some hands-on coding.\n\n### Things to bring and stuff to do beforehand\n\nAttendees are required to bring a laptop with a modern web browser, preferably Google Chrome.\r\n\r\nWe require Internet access for the workshop participants.",
       "tags": [
@@ -1207,17 +1207,17 @@
       "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/rr3gfbghfxo"
     },
     "J79QZN": {
-      "description": "3geonames.org aggregates a lot of open data from a variety of sources to provide a fast, free reverse geocoder for every location on the globe using a data structure based on the Hilbert curve. Also, due to its design, api.3geonames.org runs on a server with only 1GB of RAM and 1 Cpu with a theoretical throughput of over 500 requests per second. This talk expands on the use case and the techniques used to solve the problem.\n\n## Details\n\n3geonames.org started out as a project to provide an alternative open location code. It currently does so, mapping latitude, longitude, elevation into three geonames compiled from geonames.org - using techniques based on the Hilbert curve.\r\nThe project has lately pivoted into other practical applications of location encoding, such as reverse geocoding - the process of obtaining location information such as city names, timezone, elevation, admin polygons, etc from an input point. A space fitting curve such as the Hilbert curve is quite suitable for indexing multidimensional data for fast access - as I will show by indexing millions of open-source data points for reverse geocoding.\n\n### Skill level\n\n**Beginner/Introductory**\n\nBasic scripting knowledge is a plus but not required.\n\n### Things to bring and stuff to do beforehand\n\nA laptop with their favorite scripting language interpreter for building some sample real-world apps based on this API.",
+      "description": "3geonames.org aggregates a lot of open data from a variety of sources to provide a fast, free reverse geocoder for every location on the globe using a data structure based on the Hilbert curve. Also, due to its design, api.3geonames.org runs on a server (or any cheap smartphone) with only 1GB of RAM and 1 Cpu with a theoretical throughput of over 500 requests per second. This talk expands on the use case and the techniques used to solve the problem and show participants how to use the 3geonames API as a location context platform to build location-based apps.\n\n## Details\n\n[3geonames.org](https://3geonames.org) started out as a project to provide an alternative open location code. It currently does so, mapping latitude, longitude, elevation into three geonames compiled from geonames.org - using techniques based on the Hilbert curve.\r\n\r\nThe project has lately pivoted into other practical applications of location encoding, such as reverse geocoding - the process of obtaining location information such as city names, timezone, elevation, admin polygons, points of interest, etc from an input point. \r\n\r\nA space fitting curve such as the Hilbert curve is quite suitable for indexing multidimensional data for fast access - as I will show by indexing millions of open-source data points for reverse geocoding. You can also extend the API by adding your own geofences for your location-aware apps. I'll show how you can use the API to quickly build location features for apps by building a quick mockup for a practical location encoding problem.\r\n\r\nI'll also show about how you can test and preview the upcoming features of [3geonames API](https://3geonames.org/api), such as 3D geofences, reverse 3D geocoding, voice geocoding and crowdsourced geo-location encoding.\n\n### Skill level\n\n**Beginner/Introductory**\n\nBasic scripting knowledge is a plus but not required.\n\n### Things to bring and stuff to do beforehand\n\nA laptop with their favorite scripting language interpreter for building some sample real-world apps based on this API.",
       "tags": [
         "Workshop"
       ],
       "language": "English",
-      "title": "3geonames.org - A very fast reverse geocoder for any location on land and water.",
+      "title": "Building location-aware apps with 3geonames.org - A very fast reverse geocoder for any location on land and water.",
       "speakers": [
         "D8HTJL"
       ],
       "complexity": "Beginner/Introductory",
-      "image": "https://pretalx.com/media/fso2019w/images/J79QZN/ggg_wKc4faw.png",
+      "image": "https://pretalx.com/media/fso2019w/images/J79QZN/ggg_dKvAxIw.png",
       "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/ftsalhtfnkk"
     },
     "S7PXRA": {
@@ -1390,6 +1390,15 @@
       "order": 3,
       "title": "Developer Advocate"
     },
+    "KB7F3Z": {
+      "name": "Wei Ji Leong",
+      "bio": "Geospatial Data Scientist/[PhD Student in Glaciology](https://www.victoria.ac.nz/antarctic/study/profiles/wei-ji-leong) at the [Antarctic Research Centre](https://www.victoria.ac.nz/antarctic) in [Victoria University of Wellington](https://www.victoria.ac.nz). Interested in earth observation data and deep learning, currently building Convolutional Neural Network architectures for better mapping the bedrock elevation of Antarctica. Also a demonstrator for the introductory GIS course at VUW, and have worked previously as a Spatial Data Analyst at [e-Spatial](https://www.e-spatial.co.nz/) and [LINZ](https://www.linz.govt.nz/). Check out my profile on [Github](https://github.com/weiji14/) and [LinkedIn](https://www.linkedin.com/in/wjleong14).",
+      "shortBio": "Geospatial Data Scientist/[PhD Student in Glaciology](https://www.victoria.ac.nz/antarctic/study/profiles/wei-ji-leong) at the [Antarctic Research Centre](https://www.victoria.ac.nz/antarctic) in [Victoria University of Wellington](https://www.victoria.ac.nz). Interested in earth observation data and deep learning, currently building Convolutional Neural Network architectures for better mapping the bedrock elevation of Antarctica. Also a demonstrator for the introductory GIS course at VUW, and have worked previously as a Spatial Data Analyst at [e-Spatial](https://www.e-spatial.co.nz/) and [LINZ](https://www.linz.govt.nz/). Check out my profile on [Github](https://github.com/weiji14/) and [LinkedIn](https://www.linkedin.com/in/wjleong14).",
+      "photoUrl": "https://pretalx.com/media/23487320.jpeg",
+      "title": "PhD Student",
+      "company": "Antarctic Research Centre",
+      "country": "Wellington"
+    },
     "ZMYEN8": {
       "name": "Stephen Davies",
       "bio": null,
@@ -1424,14 +1433,6 @@
       "photoUrl": "https://pretalx.com/media/Screen_Shot_2015-07-09_at_15.57.46.png",
       "title": "-",
       "country": "Noongar land, Perth, Western Australia"
-    },
-    "KB7F3Z": {
-      "name": "Wei Ji Leong",
-      "bio": "Geospatial Data Scientist, PhD Student in Glaciology. Interested in earth observation data and deep learning.",
-      "shortBio": "Geospatial Data Scientist, PhD Student in Glaciology. Interested in earth observation data and deep learning.",
-      "title": "PhD Student",
-      "company": "Antarctic Research Centre",
-      "country": "Wellington"
     },
     "7CBZC8": {
       "name": "Alex Herzig",
