@@ -588,42 +588,56 @@
 			"tags": [
 				"Registration"
 			],
-			"title": "Registration"
+			"title": "Registration",
+			"icon": "registration",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/EduWiki_Conference_2013_registration_table.JPG/800px-EduWiki_Conference_2013_registration_table.JPG"
 		},
 		"203": {
 			"description": "Introduction to the conference, including housekeeping and emergency evacuation notes",
 			"tags": [
 				"Conference"
 			],
-			"title": "Welcome and Conference Introduction"
+			"title": "Welcome and Conference Introduction",
+			"icon" : "opening",
+			"image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b"
 		},
 		"204": {
 			"description": "First keynote presentation",
 			"tags": [
 				"Keynote"
 			],
-			"title": "Keynote I"
+			"title": "Keynote I",
+			"speakers": [
+				"Lyzi Diamond"
+			]
 		},
 		"205": {
 			"description": "Second keynote presentation",
 			"tags": [
 				"Keynote"
 			],
-			"title": "Keynote II"
+			"title": "Keynote II",
+			"speakers": [
+				"Dr. Kate Crawford"
+			]
 		},
 		"206": {
 			"description": "Break for some damn fine coffee",
 			"tags": [
 				"Social"
 			],
-			"title": "Coffee break"
+			"title": "Coffee break",
+			"icon" : "coffee-break",
+			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
 		},
 		"208": {
 			"description": "Break for lunch",
 			"tags": [
 				"Social"
 			],
-			"title": "Lunch"
+			"title": "Lunch",
+			"icon": "lunch",
+			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
 		},
 		"209": {
 			"description": "A series of very short talks about lots of things",
@@ -637,14 +651,18 @@
 			"tags": [
 				"Social"
 			],
-			"title": "Coffee break"
+			"title": "Coffee break",
+			"icon" : "coffee-break",
+			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
 		},
 		"212": {
 			"description": "Conference dinner for those who have tickets",
 			"tags": [
 				"Social"
 			],
-			"title": "Conference Dinner"
+			"title": "Conference Dinner",
+			"icon" : "party",
+			"image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
 		},
 		"301": {
 			"description": "Breakfast(s)",
@@ -658,14 +676,19 @@
 			"tags": [
 				"Registration"
 			],
-			"title": "Registration"
+			"title": "Registration",
+			"icon": "registration",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/EduWiki_Conference_2013_registration_table.JPG/800px-EduWiki_Conference_2013_registration_table.JPG"
 		},
 		"3031": {
 			"description": "Third keynote presentation",
 			"tags": [
 				"Keynote"
 			],
-			"title": "Keynote III"
+			"title": "Keynote III",
+			"speakers": [
+				"Edwin Liava'a"
+			]
 		},
 		"3032": {
 			"description": "Watch this space",
@@ -679,35 +702,45 @@
 			"tags": [
 				"Social"
 			],
-			"title": "Coffee break"
+			"title": "Coffee break",
+			"icon" : "coffee-break",
+			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
 		},
 		"306": {
 			"description": "Break for lunch",
 			"tags": [
 				"Social"
 			],
-			"title": "Lunch"
+			"title": "Lunch",
+			"icon": "lunch",
+			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
 		},
 		"308": {
 			"description": "Break for some damn fine coffee",
 			"tags": [
 				"Social"
 			],
-			"title": "Coffee break"
+			"title": "Coffee break",
+			"icon" : "coffee-break",
+			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
 		},
 		"309": {
 			"description": "Fourth keynote presentation",
 			"tags": [
 				"Keynote"
 			],
-			"title": "Keynote IV"
+			"title": "Keynote IV",
+			"speakers": [
+				"Miriam Gonzalez"
+			]
 		},
 		"310": {
 			"description": "Community day pitches and a thank you to all involved",
 			"tags": [
 				"Conference"
 			],
-			"title": "Conference Closing"
+			"title": "Conference Closing",
+			"image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed"
 		},
 		"400": {
 			"description": "Community Day / Code Sprint",
