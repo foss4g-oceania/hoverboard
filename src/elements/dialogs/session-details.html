@@ -161,7 +161,7 @@
 
                 <div class="section-details" flex>
                   <div class="section-primary-text">[[speaker.name]]</div>
-                  <div class="section-secondary-text">[[speaker.company]] / [[speaker.country]]</div>
+                  <div class="section-secondary-text">[[_getSpeakerContext(speaker)]]</div>
                 </div>
               </div>
             </div>
@@ -266,6 +266,10 @@
 
       _getFeaturedSessionIcon(featuredSessions, sessionId) {
         return featuredSessions && featuredSessions[sessionId] ? 'bookmark-check' : 'bookmark-plus';
+      }
+
+      _getSpeakerContext(speaker) {
+        return [speaker.company, speaker.country].filter(Boolean).join(' / ');
       }
     }
 

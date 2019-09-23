@@ -196,7 +196,7 @@
 
               <div class="speaker-details" flex>
                 <div class="speaker-name">[[speaker.name]]</div>
-                <div class="speaker-title">[[speaker.company]] / [[speaker.country]]</div>
+                <div class="speaker-title">[[_getSpeakerContext(speaker)]]</div>
               </div>
             </div>
           </template>
@@ -246,6 +246,10 @@
 
       _getEnding(number) {
         return number > 1 ? 's' : '';
+      }
+
+      _getSpeakerContext(speaker) {
+        return [speaker.company, speaker.country].filter(Boolean).join(' / ');
       }
 
       _hideSessionAbstract(sesionAbstract) {
