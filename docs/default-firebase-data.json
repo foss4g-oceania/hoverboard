@@ -372,31 +372,14 @@
 						"items": [206]
 					}]
 				}, {
-					"startTime": "10:50",
-					"endTime": "12:30",
-					"sessions": [{
-							"items": []
-						},
-						{
-							"items": [2071]
-						},
-						{
-							"items": [2072]
-						},
-						{
-							"items": [2073]
-						}
-					]
-				}, {
 					"startTime": "12:30",
 					"endTime": "13:30",
 					"sessions": [{
 						"items": [208]
 					}]
-				},
-				{
-					"startTime": "13:30",
-					"endTime": "15:10",
+				}, {
+					"startTime": "15:40",
+					"endTime": "17:00",
 					"sessions": [{
 							"items": []
 						},
@@ -411,23 +394,6 @@
 						"items": [210]
 					}]
 				}, {
-					"startTime": "15:30",
-					"endTime": "16:55",
-					"sessions": [{
-							"items": []
-						},
-						{
-							"items": [2111]
-						},
-						{
-							"items": [2112]
-						},
-						{
-							"items": [2113]
-						}
-					]
-				},
-				{
 					"startTime": "18:30",
 					"endTime": "22:00",
 					"sessions": [{
@@ -455,7 +421,7 @@
 					"title": "Auditorium (Taiwhanga Kauhau)"
 				},
 				{
-					"title": "Seminar Rooms (Lower Ground Floor)"
+					"title": "Tiakiwai Seminar Rooms (Lower Ground Floor)"
 				},
 				{
 					"title": "Programme Rooms (Ground Floor)"
@@ -519,43 +485,11 @@
 					"items": [304]
 				}]
 			}, {
-				"startTime": "10:50",
-				"endTime": "12:30",
-				"sessions": [{
-						"items": []
-					},
-					{
-						"items": [3051]
-					},
-					{
-						"items": [3052]
-					},
-					{
-						"items": [3053]
-					}
-				]
-			}, {
 				"startTime": "12:30",
 				"endTime": "13:30",
 				"sessions": [{
 					"items": [306]
 				}]
-			}, {
-				"startTime": "13:30",
-				"endTime": "15:10",
-				"sessions": [{
-						"items": []
-					},
-					{
-						"items": [3071]
-					},
-					{
-						"items": [3072]
-					},
-					{
-						"items": [3073]
-					}
-				]
 			}, {
 				"startTime": "15:10",
 				"endTime": "15:40",
@@ -590,7 +524,7 @@
 					"title": "Auditorium (Taiwhanga Kauhau)"
 				},
 				{
-					"title": "Seminar Rooms (Lower Ground Floor)"
+					"title": "Tiakiwai Seminar Rooms (Lower Ground Floor)"
 				},
 				{
 					"title": "Programme Rooms (Ground Floor)"
@@ -684,27 +618,6 @@
 			],
 			"title": "Coffee break"
 		},
-		"2071": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
-		"2072": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
-		"2073": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
 		"208": {
 			"description": "Break for lunch",
 			"tags": [
@@ -713,7 +626,7 @@
 			"title": "Lunch"
 		},
 		"209": {
-			"description": "Very short talk about lots of things",
+			"description": "A series of very short talks about lots of things",
 			"tags": [
 				"Lightning Talk"
 			],
@@ -725,27 +638,6 @@
 				"Social"
 			],
 			"title": "Coffee break"
-		},
-		"2111": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
-		"2112": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
-		"2113": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
 		},
 		"212": {
 			"description": "Conference dinner for those who have tickets",
@@ -789,54 +681,12 @@
 			],
 			"title": "Coffee break"
 		},
-		"3051": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
-		"3052": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
-		"3053": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
 		"306": {
 			"description": "Break for lunch",
 			"tags": [
 				"Social"
 			],
 			"title": "Lunch"
-		},
-		"3071": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
-		"3072": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
-		},
-		"3073": {
-			"description": "An engaging talk about something",
-			"tags": [
-				"Stream"
-			],
-			"title": "Stream Talks"
 		},
 		"308": {
 			"description": "Break for some damn fine coffee",

@@ -48,8 +48,8 @@ const includeStatuses = ['confirmed', 'accepted']
 const talksUriWorkshops = `${host}/api/events/${eventWorkshop}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
 const talksUriMain = `${host}/api/events/${eventMain}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
 
-const speakersUriWorkshops = `${host}/api/events/${eventWorkshop}/speakers`
-const speakersUriMain = `${host}/api/events/${eventMain}/speakers`
+const speakersUriWorkshops = `${host}/api/events/${eventWorkshop}/speakers?limit=200`
+const speakersUriMain = `${host}/api/events/${eventMain}/speakers?limit=200`
 
 const requestP = util.promisify(request)
 
@@ -196,6 +196,7 @@ const requestForTalks = ({ url, collection, resolve, reject }) => {
 }
 
 const requestForSpeakers = (url) => {
+  console.log({url})
   return requestP({url, headers})
   .then(res => res.body)
   .then(JSON.parse)
@@ -250,8 +251,8 @@ const main = () => {
       collection: presentationCollection,
       resolve: requestForTalksResolver
     }),
-    // requestForSpeakers(speakersUriWorkshops),
-    // requestForSpeakers(speakersUriMain)
+    requestForSpeakers(speakersUriWorkshops),
+    requestForSpeakers(speakersUriMain)
   ]).then(filterOutSpeakersWithoutConfirmedSession)
   .then(() => {
     fs.writeFileSync(targetDataFile, JSON.stringify(targetData, null, 2), 'utf8')
