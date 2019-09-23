@@ -57,9 +57,9 @@ const workshopSkillQuestion = (question) => question.id === 168
 const complexityQuestion = (question) => question.id === 170
 const stuffToBringQuestion = (question) => question.id === 176
 const categorisationQuestion = (question) => question.id === 180
-const homeQuestion = (question) => question.id === 194
-const workplaceQuestion = (question) => question.id === 192
-const jobTitleQuestion = (question) => question.id === 193
+const homeQuestion = (question) => question.id === 195 || question.id === 194
+const workplaceQuestion = (question) => question.id === 191 || question.id === 192
+const jobTitleQuestion = (question) => question.id === 190 || question.id === 193
 
 
 const transformTalk = (talk) => {
@@ -69,9 +69,10 @@ const transformTalk = (talk) => {
     submissionType,
     talk.track
   ].filter(Boolean).map(String)
-  description = `${talk.abstract}\n\n## Details\n\n${talk.description}`
+  description = talk.abstract
   let skillLevel
   if (submissionType === 'Workshop') {
+    description += `\n\n## Details\n\n${talk.description}`
     skillLevel = (_.find(talk.answers, a => workshopSkillQuestion(a.question)) || {}).answer
     const skillsInfo = (_.find(talk.answers, a => complexityQuestion(a.question)) || {}).answer
     description += `\n\n### Skill level\n\n**${skillLevel}**\n\n${skillsInfo}`
