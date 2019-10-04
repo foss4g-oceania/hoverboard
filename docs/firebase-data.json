@@ -294,17 +294,17 @@
             },
             {
               "items": [
-                "W8Y7UU"
-              ]
-            },
-            {
-              "items": [
                 "EMXAWM"
               ]
             },
             {
               "items": [
                 "NNWXKL"
+              ]
+            },
+            {
+              "items": [
+                "W8Y7UU"
               ]
             },
             {
@@ -349,17 +349,17 @@
             },
             {
               "items": [
-                "WB99J8"
-              ]
-            },
-            {
-              "items": [
                 "SPGUQV"
               ]
             },
             {
               "items": [
                 "S7PXRA"
+              ]
+            },
+            {
+              "items": [
+                "WB99J8"
               ]
             },
             {
@@ -401,13 +401,13 @@
           "title": "Rutherford House, Victoria University of Wellington"
         },
         {
-          "title": "RH107"
-        },
-        {
           "title": "RH205"
         },
         {
           "title": "RH202"
+        },
+        {
+          "title": "RH107"
         },
         {
           "title": "RH104"
@@ -652,9 +652,7 @@
               "items": []
             },
             {
-              "items": [
-                "SPYVCN"
-              ]
+              "items": []
             },
             {
               "items": [
@@ -1344,20 +1342,6 @@
       ],
       "title": "Unconfirmed Activity"
     },
-    "WB99J8": {
-      "description": "A series of OGC Interoperability Experiments (IEs) have been working on techniques and technologies for the problem of linking multi-disciplinary and multi-organisation environmental data _without_ transferring data custody or maintenance responsibilities. These IEs, such as the [Second Environmental Linked Features Interoperability Experiment](https://www.opengeospatial.org/projects/initiatives/selfie) (SELFIE), are firmly grounded in W3C and OGC [best practices for spatial data on the web](https://www.w3.org/TR/sdw-bp/). They involve organisations from New Zealand and around the world, trying to find solutions to problems such as: sharing data for transnational groundwater monitoring; linking descriptions of things to related things (e.g. boreholes to aquifers); using [popular vocabularies](https://schema.org/) to semantically describe the properties of things while avoiding misinterpretation; describing links between distributed records for things that change in nature over time and space; for data publishers to associate related information maintained by third parties to their own data; and maybe even the [HTTPRange-14 problem](https://en.wikipedia.org/wiki/HTTPRange-14). This workshop will first give an overview of **distributed and linked data** concepts: focusing on: why it matters for those responsible for publishing geospatial data; the advantages for those consuming geospatial data; and how search engines get involved. The SELF Interoperability Experiment will be discussed as an example. Then (and for most of the available time) we will work collaboratively to draft the publication of some spatial data using our laptops, taking advantage of these concepts in a way that will not alienate modern web developers or GIS practictioners, i.e. by using JSON-LD, semantic HTML, Web Components, and an implementation of the OGC WFS 3.0 specification for features.\n\n## Details\n\n## Learning outcomes\r\n\r\n1. I understand what structured and linked data are.\r\n2. I understand some benefits of structured/linked data.\r\n3. I am aware of the OGC/W3C Best Practices for Spatial Data on the Web.\r\n4. I know how to implement some of the Best Practices.\r\n5. I understand, can re-state, and (perhaps) respond to some of the challenges, limitations, and criticisms of structured/linked data\r\n\r\n### Note\r\n\r\nParticipants will be asked to optionally provide some sample data that may be suitable for publication using linked data concepts. Data from two domains that have a topological relationship are good candidates. If some interesting data are made available with sufficient time, the practical part of the workshop will be geared towards exploring that data. If not, some sample data will be used, at my (the presenter's) discretion.\r\n\r\nI do expect you to do some \"course reading\" to gain a some conceptual understanding. Reading is food for the brain. Here are some foundational documents, in priority order.\r\n\r\n- [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/), W3C Working Group Note\r\n- [Linked Data](https://www.w3.org/DesignIssues/LinkedData), Tim Berners-Lee\r\n- [Background to the (first) Environmental Linked Features Interoperability Experiment (ELFIE)](https://www.opengeospatial.org/projects/initiatives/elfie)\r\n- [Creating semantic sites with Web Components and JSON-LD](https://developers.google.com/web/updates/2015/03/creating-semantic-sites-with-web-components-and-jsonld)\r\n- [Building JSON-LD APIs: Best Practices](https://json-ld.org/spec/latest/json-ld-api-best-practices/), W3C Draft Community Group Report\r\n- [GraphDB: Introduction to the Semantic Web](http://graphdb.ontotext.com/documentation/standard/introduction-to-semantic-web.html) (Note: this is more advanced, and largely beyond the scope of the workshop. The intention is to get you thinking wide as well as narrow.)\r\n\r\nHowever, don't stress! There will be no test. If, after doing some reading, you still don't understand the point of any of it, that's fine. There will be plenty of opportunities for discussion.\r\n\r\nThere *was* (and, to some extent, *still is*) a lot of misplaced hype about Linked Data out there in the untamed wildernesses of the Internet. Don't worry, I haven't drunk of the Semantic Kool Aid. This workshop will be reined in to practical applications rather than pure aspiration. You will come away thinking critically about these Linked Data ideas, perhaps seeded by some contrary opinions and writings by people who have/had their heads firmly screwed on:\r\n\r\n- [Two Bit History: Semantic Web](https://twobithistory.org/2018/05/27/semantic-web.html)\r\n- [Cory Doctorow: Metacrap](https://people.well.com/user/doctorow/metacrap.htm)\r\n- [Aaron Swartz: A Programmable Web](https://upload.wikimedia.org/wikipedia/commons/3/3f/) (Note: this is a longer read than the others, but lighter and very interesting.)\n\n### Skill level\n\n**Intermediate**\n\nParticipants need to understand web development principles and various technologies and standards underpinning the web. If you've done some web development, or if some of these terms are vaguely registering, then we're good to go:\r\n\r\n- Semantic HTML\r\n- Linked data, RDF\r\n- JSON (perhaps JSON-LD)\r\n- HTTP REST\r\n- OGC WFS 2 and/or 3\r\n- Vocabularies/ontologies\r\n- SEO\r\n- Web Components\n\n### Things to bring and stuff to do beforehand\n\nDetails will be sent out closer to the time, but the basics are:\r\n- A well oiled brain (i.e. please do some reading)\r\n- A laptop with a web browser (Chrome or Firefox preferred)\r\n- Ideally a running instance of https://github.com/geopython/pygeoapi (I'm willing to help you set this up in the days and weeks leading up to the workshop if necessary)",
-      "tags": [
-        "Workshop"
-      ],
-      "language": "English",
-      "title": "An open data SELFIE: how we can improve open data for SEO, interoperability, and the web of data",
-      "speakers": [
-        "CV9GN9"
-      ],
-      "complexity": "Intermediate",
-      "image": "https://pretalx.com/media/fso2019w/images/WB99J8/5-star_deployment_scheme_for_Open_Data_rUGK330.png",
-      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/knk-0qvo4z0"
-    },
     "EMXAWM": {
       "description": "CesiumJS is an amazing library for geospatial visualization, but is very bare-metal and you have to build your UI around it. An easier approach is using TerriaJS as your UI to interact with CesiumJS. This workshop will show you how easy that is to do!\n\n## Details\n\nTerriaJS builds upon CesiumJS’ 3D web geospatial visualization, adding a UI for exploring and previewing layers in a catalog, charts and graphs, a “splitter” interactive comparison tool, shareable story building and many other features. In this workshop, you will learn how to build and deploy a rich and compelling TerriaJS application, without writing any code. You will also learn how to extend TerriaJS with custom functionality as your application’s needs grow.\n\n### Skill level\n\n**Beginner/Introductory**\n\nSome experience with JavaScript/NodeJS would be advantageous. Experienced people will not be bored as the sky is the limit.\n\n### Things to bring and stuff to do beforehand\n\nLaptop with a working NodeJS installation and a text editor.",
       "tags": [
@@ -1541,6 +1525,20 @@
       "image": null,
       "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/e4vkqtoabxe"
     },
+    "WB99J8": {
+      "description": "A series of OGC Interoperability Experiments (IEs) have been working on techniques and technologies for the problem of linking multi-disciplinary and multi-organisation environmental data _without_ transferring data custody or maintenance responsibilities. These IEs, such as the [Second Environmental Linked Features Interoperability Experiment](https://www.opengeospatial.org/projects/initiatives/selfie) (SELFIE), are firmly grounded in W3C and OGC [best practices for spatial data on the web](https://www.w3.org/TR/sdw-bp/). They involve organisations from New Zealand and around the world, trying to find solutions to problems such as: sharing data for transnational groundwater monitoring; linking descriptions of things to related things (e.g. boreholes to aquifers); using [popular vocabularies](https://schema.org/) to semantically describe the properties of things while avoiding misinterpretation; describing links between distributed records for things that change in nature over time and space; for data publishers to associate related information maintained by third parties to their own data; and maybe even the [HTTPRange-14 problem](https://en.wikipedia.org/wiki/HTTPRange-14). This workshop will first give an overview of **distributed and linked data** concepts: focusing on: why it matters for those responsible for publishing geospatial data; the advantages for those consuming geospatial data; and how search engines get involved. The SELF Interoperability Experiment will be discussed as an example. Then (and for most of the available time) we will work collaboratively to draft the publication of some spatial data using our laptops, taking advantage of these concepts in a way that will not alienate modern web developers or GIS practictioners, i.e. by using JSON-LD, semantic HTML, Web Components, and an implementation of the OGC WFS 3.0 specification for features.\n\n## Details\n\n## Learning outcomes\r\n\r\n1. I understand what structured and linked data are.\r\n2. I understand some benefits of structured/linked data.\r\n3. I am aware of the OGC/W3C Best Practices for Spatial Data on the Web.\r\n4. I know how to implement some of the Best Practices.\r\n5. I understand, can re-state, and (perhaps) respond to some of the challenges, limitations, and criticisms of structured/linked data\r\n\r\n### Note\r\n\r\nParticipants will be asked to optionally provide some sample data that may be suitable for publication using linked data concepts. Data from two domains that have a topological relationship are good candidates. If some interesting data are made available with sufficient time, the practical part of the workshop will be geared towards exploring that data. If not, some sample data will be used, at my (the presenter's) discretion.\r\n\r\nI do expect you to do some \"course reading\" to gain a some conceptual understanding. Reading is food for the brain. Here are some foundational documents, in priority order.\r\n\r\n- [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/), W3C Working Group Note\r\n- [Linked Data](https://www.w3.org/DesignIssues/LinkedData), Tim Berners-Lee\r\n- [Background to the (first) Environmental Linked Features Interoperability Experiment (ELFIE)](https://www.opengeospatial.org/projects/initiatives/elfie)\r\n- [Creating semantic sites with Web Components and JSON-LD](https://developers.google.com/web/updates/2015/03/creating-semantic-sites-with-web-components-and-jsonld)\r\n- [Building JSON-LD APIs: Best Practices](https://json-ld.org/spec/latest/json-ld-api-best-practices/), W3C Draft Community Group Report\r\n- [GraphDB: Introduction to the Semantic Web](http://graphdb.ontotext.com/documentation/standard/introduction-to-semantic-web.html) (Note: this is more advanced, and largely beyond the scope of the workshop. The intention is to get you thinking wide as well as narrow.)\r\n\r\nHowever, don't stress! There will be no test. If, after doing some reading, you still don't understand the point of any of it, that's fine. There will be plenty of opportunities for discussion.\r\n\r\nThere *was* (and, to some extent, *still is*) a lot of misplaced hype about Linked Data out there in the untamed wildernesses of the Internet. Don't worry, I haven't drunk of the Semantic Kool Aid. This workshop will be reined in to practical applications rather than pure aspiration. You will come away thinking critically about these Linked Data ideas, perhaps seeded by some contrary opinions and writings by people who have/had their heads firmly screwed on:\r\n\r\n- [Two Bit History: Semantic Web](https://twobithistory.org/2018/05/27/semantic-web.html)\r\n- [Cory Doctorow: Metacrap](https://people.well.com/user/doctorow/metacrap.htm)\r\n- [Aaron Swartz: A Programmable Web](https://archive.org/details/AaronSwartzAProgrammableWeb) (Note: this is a longer read than the others, but lighter and very interesting.)\n\n### Skill level\n\n**Intermediate**\n\nParticipants need to understand web development principles and various technologies and standards underpinning the web. If you've done some web development, or if some of these terms are vaguely registering, then we're good to go:\r\n\r\n- Semantic HTML\r\n- Linked data, RDF\r\n- JSON (perhaps JSON-LD)\r\n- HTTP REST\r\n- OGC WFS 2 and/or 3\r\n- Vocabularies/ontologies\r\n- SEO\r\n- Web Components\n\n### Things to bring and stuff to do beforehand\n\nDetails will be sent out closer to the time, but the basics are:\r\n- A well oiled brain (i.e. please do some reading)\r\n- A laptop with a web browser (Chrome or Firefox preferred)\r\n- Ideally a running instance of https://github.com/geopython/pygeoapi (I'm willing to help you set this up in the days and weeks leading up to the workshop if necessary)",
+      "tags": [
+        "Workshop"
+      ],
+      "language": "English",
+      "title": "An open data SELFIE: how we can improve open data for SEO, interoperability, and the web of data",
+      "speakers": [
+        "CV9GN9"
+      ],
+      "complexity": "Intermediate",
+      "image": "https://pretalx.com/media/fso2019w/images/WB99J8/5-star_deployment_scheme_for_Open_Data_rUGK330.png",
+      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/knk-0qvo4z0"
+    },
     "MNVK8Z": {
       "description": "Wikidata is a project of the Wikimedia Foundation (the organisation behind Wikipedia), with the aim of developing a free and open knowledge base of structured data from Wikipedia, as well as WMF’s other projects and beyond.\r\n\r\nWikidata classifies around 60 million items (such as people, places, objects and works) into a highly extensible multilingual ontology, which can then linked to other Wikidata items or external datasets. Powerful query tools allow visualisation of the data as maps, timelines and a variety of charts and tables, or the data can be exported in a variety of structured formats.\r\n\r\nThis talk will be a quick introduction to Wikidata, and how you can construct your own custom open datasets on virtually any topic, and how the results can be used in a geospatial context.",
       "tags": [
@@ -1555,6 +1553,21 @@
       "complexity": null,
       "image": null
     },
+    "QS8ZRF": {
+      "description": "In October 2019 we published *We Are Here: An Atlas of Aotearoa*. The book is a general atlas exploring New Zealand’s physical geography, climate, place, people, politics, economy and culture over 84 maps and data visualisations. With the exception of Adobe Illustrator and InDesign during the publication phase, the graphics were created with 100% open source software.\r\n\r\nIn this talk, we will share our general process from design to publication. Chris will discuss our heavy use of Python, QGIS, D3.js, Mapnik and the R Tidyverse. Tim will share the design goals and principles that guided our efforts. To illustrate these ideas we will go deep on a pair of graphics, stepping through how they were created.\r\nThere will be maps. Lots of maps.",
+      "tags": [
+        "Visualisation",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Creating an Atlas of Aotearoa with open source software",
+      "speakers": [
+        "9QKFR8",
+        "37UPMR"
+      ],
+      "complexity": null,
+      "image": null
+    },
     "BGN3NQ": {
       "description": "Ever imagined a future where the discovery and visualisation of 3D and 4D spatial data might be accessible to all on the web? The Terria team at Data61 have. Would you like a preview?\r\n\r\nToday, Data61 is supporting Australian governments to accelerate collaboratively to a future state where authoritative 3D and 4D spatial data are readily available. Digital Twin prototypes are being developed with TerriaJS and Magda, integrating 3D and 4D datasets such as live transport data, infrastructure (above and below ground), building information models, cadastral data (property data), ‘photo reality mesh’ and more.\r\n\r\nOur cities and communities have never been as data-rich as they are today. However, analysing and making sense of complex datasets can be difficult and time-consuming even for domain experts. Governments are looking to digital twins to enable the conversion of high volumes of data into valuable insights to inform decisions for designing, planning and managing our cities.\r\n\r\nIn this talk we will present on the advantages of using the open source and open standards based TerriaJS and Magda to create Digital Twin prototypes. We will share the challenges of 3D data, and what we have learnt to date. We will define what Digital Twins means to us, and others who we are collaborating with, and our vision for a national digital twin—an ecosystem enabled by collaboration and a federated approach. Oh, and of course we will do a demo!",
       "tags": [
@@ -1565,20 +1578,6 @@
       "title": "Digital Twins with TerriaJS and Magda",
       "speakers": [
         "TR8WX3"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "FKP9T9": {
-      "description": "Changes and treatments to New Zealand’s roads occur daily. However, there is no central register to record changes.\r\n\r\nA New Zealand agency needed to identify curves in roads that had been classified as a danger and determine if they had been adjusted. A novel approach was needed given the lack of data recorded. \r\n\r\nOrbica was supplied with a dataset (oocc – out of context curves) that showed all curves along all New Zealand roads. We narrowed the dataset to “not acceptable” and “not desirable” curves for state highways and used Open Street Map (OSM) to find out if the roads had been modified or treated (i.e. had changed from a curve to straight). The key difficulty was determining whether the changes in OSM were made for aesthetic reasons (i.e. to tidy features) or because an actual road treatment had taken place. There are thousands of OSM edits, and we needed a way to define them. \r\n\r\nTo do this, we used the oocc dataset to extract the segment (or curves) from the 2017 OSM dataset and the 5/2019 OSM dataset. We matched the curves, then calculated attributes to describe the relationship between the old curve and the new curve. We then developed a Deep Neural Network AI model to predict (based on attributes) which were aesthetic changes, and which were due to road changes/treatments. \r\n\r\nThe model produced about 30 curves, of which 20 were real road changes. We also assessed changes in speed, so the total number of treated curves (including speed changes) for the period 2017-2019, was 219.\r\n\r\nWe used PostgreSQL and python to achieve this and mapped the results with GeoServer and Mapbox.\r\n\r\nThis represents a novel and innovative approach, using opensource technology, to identify road treatments.",
-      "tags": [
-        "AI and Machine Learning",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Identifying post-treatment roads using Open Street Map, PostGreSQL, Python, GeoServer and Mapbox",
-      "speakers": [
-        "LGUT83"
       ],
       "complexity": null,
       "image": null
@@ -1653,6 +1652,20 @@
       "complexity": null,
       "image": null
     },
+    "JQLQ8P": {
+      "description": "At Koordinates we've been using [Pytest](https://docs.pytest.org/en/latest/) for all our testing. It's so much better than the other options that I cringe whenever I have to test a project that uses the stdlib.\r\n\r\nWe also make heavy use of [GDAL](https://www.gdal.org/), a broad and mature data-munging tool. Unfortunately, the test suite was 20 years old and homegrown. The test runner was quirky and hard to understand, and the tests were full of boilerplate.\r\n\r\nAt Pycon AU 2018 I happened across John Reese's excellent talk on [Refactoring Using the Standard Library](https://2018.pycon-au.org/talks/45063-refactoring-code-with-the-standard-library/) and realised I could use [Bowler](https://pybowler.io/) to do an automated rewrite of the GDAL test suite.\r\n\r\nThis talk describes my experience, including:\r\n* the GDAL testing experience before and after my refactor\r\n* the basics of automated refactoring\r\n* how to avoid git conflicts when working on a large change like this\r\n* how to actually get a [>100,000 line pull request](https://github.com/OSGeo/gdal/pull/963) merged upstream (!)",
+      "tags": [
+        "FOSS4G",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "How I auto-refactored GDAL's test suite",
+      "speakers": [
+        "SXALVN"
+      ],
+      "complexity": null,
+      "image": null
+    },
     "MLERVW": {
       "description": "Explore the learnings and successes FrontierSI has with embracing the agile principles to deliver complex Geospatial projects.\r\nWe will explore the challenges we where facing in project delivery, how we implemented agile principles and processes to reduce our risk and achieve improved sustainable delivery.\r\nFinally how organisations can explore agile delivery with targeted experiments.",
       "tags": [
@@ -1667,20 +1680,6 @@
       "complexity": null,
       "image": null
     },
-    "7CERXH": {
-      "description": "New Zealand Transport Agency’s (NZTA) Crash Analysis System (CAS) contains almost 1.5 million crash records with hundreds of attributes that describe when, where and how a crash occurs. Orbica and partner company Catalyst were tasked by NZTA to develop a user-friendly web application to live stream the database so that transport planners and engineers (with no prerequisite knowledge of SQL) could easily build complex stacked spatial and aspatial queries with drag-and-drop, ease of use and intuitive controls.\r\n\r\nNZTA, a central government agency, accepted our proposal to design the solution completely using opensource technology.\r\n\r\nThe following components and corresponding APIs were built for CAS: \r\n- A React, Leaflet and WebGL based front-end \r\n- A PostgreSQL/PostGIS and SQL Server spatial-based geospatial database \r\n- PHP, SilverStripe, web socket-based layer for data streaming\r\n\r\nOrbica mixed and tweaked several existing Leaflet plugins to create comprehensive modular components for the GIS aspects of the CAS solution. Main features included:\r\n- A fully “edit geometry” standardised plugin including the following:\r\n  - `Leaflet.FreeDraw` \r\n  - `Leaflet.draw `\r\n  - Specific business editing functionalities\r\n\r\nThis works in conjunction with:\r\n- Map data visualisation: crash feature results from queries are displayed as heatmaps, cluster view and PIXI/WebGl specific visualisations capable of handling millions of features (business requirement functionality).\r\n- Schematic/mapping data visualisation: collision diagram. We created a dedicated 2D graphic system based on an opensource web data visualisation framework (PIXI.js WebGl framework).\r\n\r\nRelevant features/components will be shared with the open-source community soon.\r\n\r\nCAS has been successfully deployed and the road safety community is using it to output complex collision diagrams and reports to help them target and advocate for road safety improvements, as well as store and share queries with other road safety practitioners.\r\n\r\nNZTA is now investing in opensource technologies for new projects. This adoption represents a significant growing confidence in the robustness of opensource technologies from the government sector.",
-      "tags": [
-        "Visualisation",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Crash Analysis System: a crash data analytics and visualisation platform",
-      "speakers": [
-        "QFA9XF"
-      ],
-      "complexity": null,
-      "image": null
-    },
     "BQNQZK": {
       "description": "More than 4000 Earth observation satellites are presently in orbit, collecting Petabytes of data relating to changes on the Earth’s surface. While many of these commercial data sets are heavily monetised, the European Space Agency’s Copernicus programme has released a variety of products under open source licensing. The ability for users to harness such powerful data has been a key driver in the democratisation of satellite data and has allowed grassroots organisations to analyse and disseminate observed changes at the planetary and local scale.\r\n\r\nOne such product is Orbica Explorer: a web service where temporal change of land use is the focus. Using Sentinel-2 multispectral imagery, a region of interest over different time periods can be simply visualised. Additionally, a range of derived products can also be visualised in the same manner such as vegetation and water indices.  Based on FOSS Leaftlet and Postgresql stacks, it is envisaged that Orbica Explorer will put the most up-to-date imagery in the hands of interested users, in an easy-to-use way that will facilitate the answering of questions relating to our changing planet.",
       "tags": [
@@ -1691,6 +1690,20 @@
       "title": "Orbica Explorer – A temporally rich web-tool for viewing Sentinel-2 satellite data",
       "speakers": [
         "XBJMHU"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "SCVQ9C": {
+      "description": "The New Zealand Transport Agency (NZTA) is working towards providing more accessible, frequent and affordable transport choices, particularly in high-growth areas.  This was part of a wider scheme of developing some national transport access measures with a focus on improving access to the transport system. MRCagney worked collaboratively with NZTA to develop and implement a methodology to measure access to public transport in the major cities of Auckland, Wellington and Christchurch.\r\n\r\nThe measure we computed for NZTA was based on walking catchments to stops and stations that meet a certain threshold relating to ‘frequent’ services across the full public transport networks in Auckland, Wellington and Christchurch. This is a way of quantifying access to public transport that goes beyond simple proximity to bus stops. To do this task, we used entirely open source tools, including Python, Open Street Map, General Transit Feed Specification and GeoPandas. In my talk, I will explain our approach, tools and results. In particular, I want to share our experiences of:\r\n\r\n- General Transit Feed Specification data\r\n- Pros and cons of using an API to compute walking catchments\r\n- Communicating with our client as we came across challenges with the approach\r\n\r\nBy working closely with our client at NZTA, we were able to develop a methodology using FOSS4G to measure access to public transport across the full Auckland, Wellington and Christchurch regions. The key metric we provided to NZTA was, for each city, the proportion of the population within walking distance of frequent public transport. Using Folium, we created interactive maps to enable NZTA to review the catchments for each region, to identify which areas have walking access to frequent public transport. For stops or stations that did not meet the frequency threshold, we created maps that NZTA could use to understand why they were excluded.\r\n\r\nThe outputs were well received by NZTA and have been included in their reporting of national transport access measures. We are excited to explore the potential to further develop this measure to better understand issues around equity of access to public transport for different user groups.",
+      "tags": [
+        "Government/Policy",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Access to Public Transport",
+      "speakers": [
+        "TWE9U9"
       ],
       "complexity": null,
       "image": null
@@ -1881,20 +1894,6 @@
       "complexity": null,
       "image": null
     },
-    "TTUMBS": {
-      "description": "The Commonwealth of the Northern Mariana Islands (CNMI) is an archipelago located in the Pacific Ocean that is home to several globally endangered wildlife species.  In order to provide the best management and conservation of these species, CNMI Division of Fish and Wildlife (DFW) biologists regularly collect population data through various field surveys.  In the past, these surveys were conducted using paper field forms that would be manually entered into databases while spatial data was collected using handheld GPS units.  Recently, DFW has moved towards automating data collection and management using free and open source solutions in order to reduce paper buildup, minimise data entry error, and generally streamline operations.  This presentation will outline the workflow and process that the CNMI DFW has implemented for near-seamless integration of field data into spatial and tabular databases.  Rugged field tablets are fitted with custom-built Python applications (using PyQT GUI) that are used to document wildlife surveys while open source GIS software (Intramaps Roam) is used for field navigation and mapping needs. Output are then synchronised to a local server where they are programmatically subset and shuttled to appropriate directories for future analysis and summarisation. Utilising these open source solutions provides a fast and efficient flow of data collection and management with the flexibility of specialised functionality required to survey species within the CNMI.",
-      "tags": [
-        "Science",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Using open source software to map and survey wildlife populations in the Northern Mariana Islands",
-      "speakers": [
-        "WKCGLW"
-      ],
-      "complexity": null,
-      "image": null
-    },
     "TV88WL": {
       "description": "In 2019 there are a host of JavaScript libraries which make it possible to work with GeoTIFFs directly in the browser. In this talk we’ll look at how people can go about loading, visualising and even analysing GeoTIFFs with 0 server-side technology. \r\n\r\nWe’ll talk about some of the benefits of this approach, as well as some of the challenges and limitations that are encountered.\r\n\r\nWith GeoTIFF being the *de facto* raster format and a web-browser being an ever-available platform the opportunity to combine these technologies in a light-weight way to explore raster data is bound to open up opportunities.",
       "tags": [
@@ -1905,6 +1904,20 @@
       "title": "Wrangling GeoTIFFs in the browser",
       "speakers": [
         "WEUHGW"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "AXRSVG": {
+      "description": "Under the Sendai Framework for Disaster Risk Reduction, the Fijian National Disaster Management Office (NDMO) identified a significant role that SBT and ICT can play to reduce vulnerability and improve resilience. By integrating SBT and ICT tools, with national disaster risk management architecture, timely and accurate information can be delivered to relevant communities, individuals, rescuers and decision makers to save lives and properties at risk. The project was funded by the Japanese Fund for Poverty Reduction, with technical assistance from the Japanese Aerospace Exploration Agency, Asia Institute of Technology Geomatics Centre, Asian Disaster Reduction Centre, Remote Sensing Technology Centre and Geothings. \r\n\r\nWork carried out was divided into 5 sections:\r\n1. Local communities digitised building and infrastructure in Open Street Map\r\n2. Local communities with assistance from mobile app developers designed a base map to fit the purpose of the project. These include building attributes, conditions, height and materials. \r\n3. Recording capacities: using a geobinning app, disaster capacities and vulnerability are identified and mapped out in real time. Community hazard maps were generated out of this work. \r\n4. Recording: during a disaster, users can record information including disaster situation, building damage, and needs assessments. This information is sent to the operation centre for assistance, all in real time. \r\n5. Emergency Observation: using satellite data, and the community base map, it was possible to estimate damage extents.\r\n\r\nLocal communities were trained to use the tools to record flood- and cyclone-related vulnerabilities and capacities in villages. All these tools and reports are updated on the website monitored by the NDMO Operations Centre. Two critical maps came out of this work: 1. Community-based hazard map, and; 2. Evacuation map. These are the base map used for the village to seek shelter and identify hazard areas and planning.",
+      "tags": [
+        "Web Mapping",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Applying Space-Based Technology and Information and Communication Technology to Strengthen Disaster Resilience in Nadi, Fiji",
+      "speakers": [
+        "ETJ8VW"
       ],
       "complexity": null,
       "image": null
@@ -1965,16 +1978,16 @@
       "complexity": null,
       "image": null
     },
-    "VTYQNS": {
-      "description": "Manaaki Whenua – Landcare Research makes extensive use of map caches for its online mapping services such as [Our Environment](https://ourenvironment.scinfo.org.nz/), [S-Map Online](https://smap.landcareresearch.co.nz), and [Antarctic Environments Portal](https://environments.aq). For a single service, the caches comprise ~920M tiles (3.4Tb in size).  \r\n\r\nGenerating map caches used by MapServer / Mapcache traditionally has been a very compute resource and time expensive exercise.  Our presentation explores vertical and horizontal scaling to reduce the total time of creating caches for our operational services.  Amazon Web Services (AWS) was used to trial the vertical scaling component and New Zealand eScience Infrastructure (NeSI) was used to trial horizontal scaling.  We will provide an analysis of the testing results and discuss the development challenges on each system.",
+    "GKNJXD": {
+      "description": "A good map both functions well and is designed well. Sometimes it's easy to leave the design phase out, especially when time is precious or when the focus is on functionality. So how do you work with a designer to produce the best outcome? Or even do the design yourself? A GIS specialist who can do amazing things with geospatial data and create rich interfaces doesn't necessarily have all the user-centred or visual design skills to create a complete experience.\r\n\r\nThis talk will go through a framework for designing really amazing maps and go through case studies of how the framework can be applied to mapping projects. Examples shown will cover tools such as QGIS and OpenStreetMaps via Mapbox. I hope to leave you with a better sense of the endless possibilities of how maps are designed and how they complement the deep functionality you can create. Together, your strong technical skills can and newly honed design skills can shape people's wonderful map experiences.\r\n\r\nThis is a companion talk for technicians/developers that reflects an original presented for designers in [April 2019 in Melbourne](https://smallmultiples.com.au/articles/what-to-think-about-when-designing-maps/).",
       "tags": [
-        "Web Mapping",
-        "Lightning Talk"
+        "FOSS4G",
+        "Talk"
       ],
       "language": "English",
-      "title": "High Performance Map Cache Generation",
+      "title": "How to put on your designer's hat when crafting map experiences",
       "speakers": [
-        "PPSDUU"
+        "CLGR3M"
       ],
       "complexity": null,
       "image": null
@@ -2002,7 +2015,7 @@
       "language": "English",
       "title": "Running Geospatial Workloads on AWS",
       "speakers": [
-        "CG8GRE"
+        "WPWQKM"
       ],
       "complexity": null,
       "image": null
@@ -2035,20 +2048,6 @@
       "complexity": null,
       "image": null
     },
-    "9US7CS": {
-      "description": "This presentation will provide examples of what the present-day geologist/mineral explorer is doing with QGIS. I have been running QGIS workshops for geologists in association with the Australian Institute of Geoscientists since 2016 and I will highlight the QGIS features most valued by geologists. Geologists require the ability to assess multiple data sets and QGIS gives them the ability to do this. Being able to bring satellite imagery directly into your map window has been a major advance in the interpretation of geological data. Plugins allow for remote sensing data to be sourced, processed and presented as required by the user. Other plugins allow drill holes to be plotted in plan and in cross-section. The use of free open source symbols and patterns has extended the capabilities of geologist to produce presentation quality maps. Many geologists work as individual consultants or contractors and the open source world is a fantastic resource of software to allow them to do their work without the constricting licensing conditions or software costs.",
-      "tags": [
-        "QGIS",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Geoscience applications of QGIS: a bold new world in mineral exploration",
-      "speakers": [
-        "RU9YHK"
-      ],
-      "complexity": null,
-      "image": null
-    },
     "JBZJFX": {
       "description": "A short overview of different ways to contribute to OpenStreetMap",
       "tags": [
@@ -2063,6 +2062,21 @@
       "complexity": null,
       "image": null
     },
+    "EMEZEP": {
+      "description": "This project focuses on two cases, located in Waimakariri and Rotorua districts, in which new spatial tools are being co-created with rūnanga to improve collaborative town planning processes for Māori and address specific community planning needs. In order to collaboratively define how map-based tools can address specific community perspectives, the Geospatial Research Institute (University of Canterbury) engaged key community representatives of the two case studies, establishing partnership frameworks for the implementation of the research project. The map-based tools intend to support better integration of mātauranga Māori in town planning and aim at enabling whanau to document and share their traditional narratives and lived experiences to engage the communities in the creation of a shared vision for the regeneration of their villages. The pilot is being co-designed to promote the development of cultural mapping by the whanau, the primary end-users of the tools, connecting the stories and cultural layers to whenua. During the development of the map-based tools, it is imperative to maintain an iterative and active communication with the community partners to continue integrating their views at all levels, to ensure that the user experience reflects their tikanga and ways of knowing. The two map-based tools are being developed in Django, orchestrating the open-source database system extended with spatial capabilities PostgreSQL/PostGIS, the spatial data server GeoServer, the mapping API OpenLayers for interactive maps, and the JavaScript framework Vue.js for reactive user interfaces. Given the public nature of the project, the rationale for using open source technology is primarily to minimise the costs of implementation of the map-based tools, envisioning the free ongoing use of the applications by rūnanga and other small to medium-sized communities. The map-based tools are being developed with Māori for Māori communities, fostering ownership, belonging and self-determination.",
+      "tags": [
+        "Web Mapping",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Map-based tools for Māori communities",
+      "speakers": [
+        "ZTFTF3",
+        "93BRAX"
+      ],
+      "complexity": null,
+      "image": null
+    },
     "U3LEYU": {
       "description": "As one of the world’s most ecologically diverse countries, Australia has experienced rapid changes as a result of human pressures and is particularly vulnerable to climate change.  With a land area of over 7,000,000 km<sup>2</sup>, understanding the state and condition of this ever-changing environment and identifying options for future management remains a significant challenge. \r\n\r\nHow can we monitor the health of our environment and how it’s changing over time? What action can or should we take? How do we tell if measures to improve our environment are working as expected? These are some of the problems we are addressing with our new land cover classification and change detection system. Based on open Earth Observation (EO) satellite imagery, and building on existing open source software, this system will enable us to understand how our environment has changed over the past 30 years and guide in our decision making going into the future. \r\n\r\nDigital Earth Australia (DEA), powered by the Open Data Cube (ODC), offers a framework for continuous land monitoring using earth observation data to produce a range of open access land products targeted to decision-makers, practitioners and scientists. At Geoscience Australia we are collaborating with partners to build on this innovative framework and create an open source library which generates consistent land cover classification and change maps based on the Food and Agriculture Organisation’s (FAO) Land Cover Classification System (LCCS). The system builds on, contributes to and feeds back to other projects and research undertaken in Europe. Its development within the ODC environment will facilitate its use in countries or regions that are adopting this technology.\r\n\r\nThis presentation will cover how we’re bringing all this together, and what makes our approach stand out from the crowd. It will also go into some of the challenges we’ve had with implementing land cover classification at scale, and how Open Street Maps came to our rescue! And finally, where to next? Why we’re excited to integrate this into Sustainable Development Goal (SDG) reporting, and other future applications.",
       "tags": [
@@ -2072,21 +2086,7 @@
       "language": "English",
       "title": "Environmental Monitoring with Large-Scale Land Cover Classification",
       "speakers": [
-        "3TAVWA"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "9UUSTQ": {
-      "description": "In 1835, the HMS Beagle arrived at the Galapagos Islands, igniting a new era of science and history. This voyage was the dawn of island biogeography, the study of the spatial distribution of species and ecosystems across time. This voyage also harboured unintended consequences: a virgin ecosystem on an originally unpopulated archipelago only a few hundred years ago, the Galapagos Islands in 2019 are home to a growing population of 35,000 people and host 275,000 tourists a year.  Just as this area is a hotspot for studying biodiversity and biogeography, there is also a unique chance to map and analyze human and urban geography. 184 years after Charles Darwin, students from the University of Chicago joined a project led by the Mansueto Institute for Urban Innovation to map the urban landscape with Mapillary, using 360-degree cameras. \r\n\r\nMachine learning, computer vision, and geospatial analysis allow imagery to become data about levels of urbanization. While the Galapagos Islands offer one insight, many other islands across the world demonstrate the potential to study their unique patterns of urban development, including the vast array of populated islands in the Pacific region and beyond. What kind of urban challenges can street-level imagery solve in isolated island environments? What kind of data can OpenStreetMap derive from island imagery? What do automated detections in the images tell us about growth and change?\r\n\r\nIn this presentation, we’ll take a visual journey using Mapillary imagery across many islands of the world: from the Galapagos and Santa Catalina Island to the Faroe and Canary Islands; from Réunion and Zanzibar in the Indian Ocean to Singapore and Tasmania; from Cuba and Guadalupe to Hawaii and Iceland.",
-      "tags": [
-        "AI and Machine Learning",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Island Mapping: Measuring Urban Footprints with Mapillary & Open Source Tools",
-      "speakers": [
-        "LGTUDY"
+        "CEYK3D"
       ],
       "complexity": null,
       "image": null
@@ -2119,34 +2119,6 @@
       "complexity": null,
       "image": null
     },
-    "SCVQ9C": {
-      "description": "The New Zealand Transport Agency (NZTA) is working towards providing more accessible, frequent and affordable transport choices, particularly in high-growth areas.  This was part of a wider scheme of developing some national transport access measures with a focus on improving access to the transport system. MRCagney worked collaboratively with NZTA to develop and implement a methodology to measure access to public transport in the major cities of Auckland, Wellington and Christchurch.\r\n\r\nThe measure we computed for NZTA was based on walking catchments to stops and stations that meet a certain threshold relating to ‘frequent’ services across the full public transport networks in Auckland, Wellington and Christchurch. This is a way of quantifying access to public transport that goes beyond simple proximity to bus stops. To do this task, we used entirely open source tools, including Python, Open Street Map, General Transit Feed Specification and GeoPandas. In my talk, I will explain our approach, tools and results. In particular, I want to share our experiences of:\r\n\r\n- General Transit Feed Specification data\r\n- Pros and cons of using an API to compute walking catchments\r\n- Communicating with our client as we came across challenges with the approach\r\n\r\nBy working closely with our client at NZTA, we were able to develop a methodology using FOSS4G to measure access to public transport across the full Auckland, Wellington and Christchurch regions. The key metric we provided to NZTA was, for each city, the proportion of the population within walking distance of frequent public transport. Using Folium, we created interactive maps to enable NZTA to review the catchments for each region, to identify which areas have walking access to frequent public transport. For stops or stations that did not meet the frequency threshold, we created maps that NZTA could use to understand why they were excluded.\r\n\r\nThe outputs were well received by NZTA and have been included in their reporting of national transport access measures. We are excited to explore the potential to further develop this measure to better understand issues around equity of access to public transport for different user groups.",
-      "tags": [
-        "Government/Policy",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Access to Public Transport",
-      "speakers": [
-        "TWE9U9"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "SPYVCN": {
-      "description": "Topographic maps are great.  Fact.\r\n\r\nAs a tramper and a mountaineer, the details contained within the points, lines, polygons, and text of a LINZ Topo50 map can tell me *almost* everything I need to know about anywhere in the country before I've even set foot out the door.\r\n\r\n*Almost.*  They're still quite flat though, aren't they?\r\n\r\nUsing open data elevation models and Blender, I create 3D views of LINZ Topo50 maps that detail every peak, ridge, and valley and give new perspectives to the maps that seem so real you could touch them.",
-      "tags": [
-        "Visualisation",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Blending new perspectives with the LINZ Topo50 maps",
-      "speakers": [
-        "QGXVQT"
-      ],
-      "complexity": null,
-      "image": null
-    },
     "HGNRXX": {
       "description": "LINZ has a long history of using Open Source software dating back to the first open database systems we published on the web in the mid-'90s. As LINZ's role in managing and publishing geospatial information for the wider NZ community has grown, Open Source software and the implementation of open standards have been a powerful enabler to meet our customer's needs. This journey hasn't come without its challenges within the government environment. In this presentation, I will cover LINZ open source journey, why we use Open Source, and how we use it within the department today.",
       "tags": [
@@ -2175,16 +2147,16 @@
       "complexity": null,
       "image": null
     },
-    "G7DV3Y": {
-      "description": "Successfully using and maintaining an open source GIS infrastructure requires time and extensive technical capabilities. Tasks such as creating and maintaining virtual machines and servers, understanding, installing and configuring open source applications, building data exchange pipelines, backup processes and security hardening, are daunting and often beyond the everyday realities of working inside smaller institutions and organisations.\r\n\r\nAt the same time, an open source GIS deployment unlocks an innovation potential usually inaccessible when dealing with licensing fees and a lack of control over proprietary technology. As a globally recognised leader in open source technologies, Catalyst is committed to helping organisations in their transition to open source GIS. We have created a managed GIS platform to simplify FOSS adoption while keeping in full control over your GIS back-end applications.\r\n\r\nThis talk focusses on how embracing open source technology has given two New Zealand Territorial Authorities the freedom to innovate delivery and improvement of their geospatial data and services. Using examples from production systems across New Zealand we look at how both authorities have created public data portals, dashboards, web mapping applications, and achieved direct integration with external data sources. All while improving reliability and scalability of their underlying GIS systems and data stores. We explore how, by removing the barriers of proprietary licensing, open source fosters local and global collaboration, enables local communities, and allows local government to reinvest licensing cost in research, development and their communities.",
+    "9US7CS": {
+      "description": "This presentation will provide examples of what the present-day geologist/mineral explorer is doing with QGIS. I have been running QGIS workshops for geologists in association with the Australian Institute of Geoscientists since 2016 and I will highlight the QGIS features most valued by geologists. Geologists require the ability to assess multiple data sets and QGIS gives them the ability to do this. Being able to bring satellite imagery directly into your map window has been a major advance in the interpretation of geological data. Plugins allow for remote sensing data to be sourced, processed and presented as required by the user. Other plugins allow drill holes to be plotted in plan and in cross-section. The use of free open source symbols and patterns has extended the capabilities of geologist to produce presentation quality maps. Many geologists work as individual consultants or contractors and the open source world is a fantastic resource of software to allow them to do their work without the constricting licensing conditions or software costs.",
       "tags": [
-        "FOSS4G",
+        "QGIS",
         "Talk"
       ],
       "language": "English",
-      "title": "Enabling Local Government Innovation with Open Source Software",
+      "title": "Geoscience applications of QGIS: a bold new world in mineral exploration",
       "speakers": [
-        "PBLCMS"
+        "RU9YHK"
       ],
       "complexity": null,
       "image": null
@@ -2199,20 +2171,6 @@
       "title": "Urban mobility across Oceania: How citizens are using imagery and OpenStreetMap to influence government policy",
       "speakers": [
         "8TSH3M"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "JQLQ8P": {
-      "description": "At Koordinates we've been using [Pytest](https://docs.pytest.org/en/latest/) for all our testing. It's so much better than the other options that I cringe whenever I have to test a project that uses the stdlib.\r\n\r\nWe also make heavy use of [GDAL](https://www.gdal.org/), a broad and mature data-munging tool. Unfortunately, the test suite was 20 years old and homegrown. The test runner was quirky and hard to understand, and the tests were full of boilerplate.\r\n\r\nAt Pycon AU 2018 I happened across John Reese's excellent talk on [Refactoring Using the Standard Library](https://2018.pycon-au.org/talks/45063-refactoring-code-with-the-standard-library/) and realised I could use [Bowler](https://pybowler.io/) to do an automated rewrite of the GDAL test suite.\r\n\r\nThis talk describes my experience, including:\r\n* the GDAL testing experience before and after my refactor\r\n* the basics of automated refactoring\r\n* how to avoid git conflicts when working on a large change like this\r\n* how to actually get a [>100,000 line pull request](https://github.com/OSGeo/gdal/pull/963) merged upstream (!)",
-      "tags": [
-        "FOSS4G",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "How I auto-refactored GDAL's test suite",
-      "speakers": [
-        "SXALVN"
       ],
       "complexity": null,
       "image": null
@@ -2245,35 +2203,6 @@
       "complexity": null,
       "image": null
     },
-    "TXMLJF": {
-      "description": "Maps often show a simplified view of the world in order to highlight a single issue. Real-life, on the other hand, is messy, contradictory and multifaceted. This means there are always alternative ways to visualise geospatial data, and our choice of which facets to highlight within the data has political implications. Sometimes showing diversity means embracing complexity, and oversimplification leads to an illusion of homogeneity.\r\n\r\nIn real life, I’m a first-generation immigrant to Australia. Like all immigrants, I’m constantly haunted by anxieties and self-doubts about media portrayal, public perception, cultural identity and issues of belonging. Luckily I do data visualisation for a living, and I believe that facts can be the best therapist. Naturally, I’ve made maps to answer some of my very personal questions, make sense of the world around me, and bring to light data which is obscured by other maps that I see.\r\nIn this talk, I’d like to cover:\r\n\r\n- Mapping techniques that convey the richness of human data: dot-density maps ([where do people come from](https://smallmultiples.com.au/articles/the-languages-we-speak-in-sydney--melbourne/), [who did they vote for](https://smallmultiples.com.au/projects/australian-election-results-one-dot-for-every-vote/)), and using edible media for maps ([chocolate](https://notasingleorigin.com/))\r\n- A number of mapping projects that provide unique perspectives on multicultural Australia\r\n- Using open access data to answer very personal questions and raise public awareness\r\n\r\nThe goal of my talk is to encourage people to appreciate the beauty of complexity, and its importance in the field of cartography. Maps can help us see the unpredictability of the individual and the permeability of the group at local and national scales.",
-      "tags": [
-        "Visualisation",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Messy maps to make sense of a complex world",
-      "speakers": [
-        "9B8LHA"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "EMEZEP": {
-      "description": "This project focuses on two cases, located in Waimakariri and Rotorua districts, in which new spatial tools are being co-created with rūnanga to improve collaborative town planning processes for Māori and address specific community planning needs. In order to collaboratively define how map-based tools can address specific community perspectives, the Geospatial Research Institute (University of Canterbury) engaged key community representatives of the two case studies, establishing partnership frameworks for the implementation of the research project. The map-based tools intend to support better integration of mātauranga Māori in town planning and aim at enabling whanau to document and share their traditional narratives and lived experiences to engage the communities in the creation of a shared vision for the regeneration of their villages. The pilot is being co-designed to promote the development of cultural mapping by the whanau, the primary end-users of the tools, connecting the stories and cultural layers to whenua. During the development of the map-based tools, it is imperative to maintain an iterative and active communication with the community partners to continue integrating their views at all levels, to ensure that the user experience reflects their tikanga and ways of knowing. The two map-based tools are being developed in Django, orchestrating the open-source database system extended with spatial capabilities PostgreSQL/PostGIS, the spatial data server GeoServer, the mapping API OpenLayers for interactive maps, and the JavaScript framework Vue.js for reactive user interfaces. Given the public nature of the project, the rationale for using open source technology is primarily to minimise the costs of implementation of the map-based tools, envisioning the free ongoing use of the applications by rūnanga and other small to medium-sized communities. The map-based tools are being developed with Māori for Māori communities, fostering ownership, belonging and self-determination.",
-      "tags": [
-        "Web Mapping",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Map-based tools for Māori communities",
-      "speakers": [
-        "ZTFTF3",
-        "93BRAX"
-      ],
-      "complexity": null,
-      "image": null
-    },
     "MW3RDJ": {
       "description": "NIWA manages national databases for NZ climate, hydrometric and water quality data. It is critical that these data are accessible by clients, stakeholders, NIWA staff and relevant managers and decision makers as well as the public. NIWA has developed web services to provide access to summaries of these data, based on the international OGC Sensor Observation Service, served by Open Source software from 52 North. To make these data genuinely accessible to users, NIWA has developed Open Source clients tools that anyone can use to connect to NIWA (and other) SOS services: a QGIS plugin and an R package (SOS4R). NIWA has also provided a demonstration Shiny application, with source on Github package to help those wanting to use this approach to access sensor data.\r\n\r\nThis presentation discusses NIWA's approach, the tools involved and some of the lessons learned.",
       "tags": [
@@ -2288,31 +2217,16 @@
       "complexity": null,
       "image": null
     },
-    "7NHAFF": {
-      "description": "QGIS started back in 2002 as a simple hobby project with only a handful of developers and a small user base. Since then, it has grown into one of the most popular cross-platform open source spatial desktop tools available, with an ever-growing developer and user base, widely used in many sectors, even as a full replacement for commercial offerings.  This growth has not come without cost or growing pains to the project and community. A growing user base and an ongoing effort to be taken as a serious alternative to commercial offerings have led to a shift in developer and user expectations for the project. \r\n\r\nAs QGIS has grown into areas and user bases the early developers never dreamed of, some of the feelings the project had have changed, and this might have zapped some of the fun.  Was this inevitable, as we pushed the project with more and more features and promotion in the spatial community?  How do you maintain the same feel for the project, while at the same time becoming more serious?\r\n\r\nWhat about the users and the community?  Have their expectations now changed for the project? At what point did we notice a change in the community and the levels of service we were required to live up to?\r\n\r\nLong-term-release, better build process, better documentation, UI translations into many languages; these all make great software, but at a cost for a mostly volunteer-run project. When does the project switch from pure volunteer to a more commercial entity?",
+    "VTYQNS": {
+      "description": "Manaaki Whenua – Landcare Research makes extensive use of map caches for its online mapping services such as [Our Environment](https://ourenvironment.scinfo.org.nz/), [S-Map Online](https://smap.landcareresearch.co.nz), and [Antarctic Environments Portal](https://environments.aq). For a single service, the caches comprise ~920M tiles (3.4Tb in size).  \r\n\r\nGenerating map caches used by MapServer / Mapcache traditionally has been a very compute resource and time expensive exercise.  Our presentation explores vertical and horizontal scaling to reduce the total time of creating caches for our operational services.  Amazon Web Services (AWS) was used to trial the vertical scaling component and New Zealand eScience Infrastructure (NeSI) was used to trial horizontal scaling.  We will provide an analysis of the testing results and discuss the development challenges on each system.",
       "tags": [
-        "QGIS",
-        "Talk"
+        "Web Mapping",
+        "Lightning Talk"
       ],
       "language": "English",
-      "title": "The life of open source spatial with QGIS:  From hobby to grown up, with bonus growing pains",
+      "title": "High Performance Map Cache Generation",
       "speakers": [
-        "RUKHTS"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "QS8ZRF": {
-      "description": "In October 2019 we published *We Are Here: An Atlas of Aotearoa*. The book is a general atlas exploring New Zealand’s physical geography, climate, place, people, politics, economy and culture over 84 maps and data visualisations. With the exception of Adobe Illustrator and InDesign during the publication phase, the graphics were created with 100% open source software.\r\n\r\nIn this talk, we will share our general process from design to publication. Chris will discuss our heavy use of Python, QGIS, D3.js, Mapnik and the R Tidyverse. Tim will share the design goals and principles that guided our efforts. To illustrate these ideas we will go deep on a pair of graphics, stepping through how they were created.\r\nThere will be maps. Lots of maps.",
-      "tags": [
-        "Visualisation",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Creating an Atlas of Aotearoa with open source software",
-      "speakers": [
-        "9QKFR8",
-        "37UPMR"
+        "PPSDUU"
       ],
       "complexity": null,
       "image": null
@@ -2341,20 +2255,6 @@
       "title": "The Open Data Cube and working towards a Digital Earth",
       "speakers": [
         "EEDBTF"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "GKNJXD": {
-      "description": "A good map both functions well and is designed well. Sometimes it's easy to leave the design phase out, especially when time is precious or when the focus is on functionality. So how do you work with a designer to produce the best outcome? Or even do the design yourself? A GIS specialist who can do amazing things with geospatial data and create rich interfaces doesn't necessarily have all the user-centred or visual design skills to create a complete experience.\r\n\r\nThis talk will go through a framework for designing really amazing maps and go through case studies of how the framework can be applied to mapping projects. Examples shown will cover tools such as QGIS and OpenStreetMaps via Mapbox. I hope to leave you with a better sense of the endless possibilities of how maps are designed and how they complement the deep functionality you can create. Together, your strong technical skills can and newly honed design skills can shape people's wonderful map experiences.\r\n\r\nThis is a companion talk for technicians/developers that reflects an original presented for designers in [April 2019 in Melbourne](https://smallmultiples.com.au/articles/what-to-think-about-when-designing-maps/).",
-      "tags": [
-        "FOSS4G",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "How to put on your designer's hat when crafting map experiences",
-      "speakers": [
-        "CLGR3M"
       ],
       "complexity": null,
       "image": null
@@ -2401,20 +2301,6 @@
       "complexity": null,
       "image": null
     },
-    "AXRSVG": {
-      "description": "Under the Sendai Framework for Disaster Risk Reduction, the Fijian National Disaster Management Office (NDMO) identified a significant role that SBT and ICT can play to reduce vulnerability and improve resilience. By integrating SBT and ICT tools, with national disaster risk management architecture, timely and accurate information can be delivered to relevant communities, individuals, rescuers and decision makers to save lives and properties at risk. The project was funded by the Japanese Fund for Poverty Reduction, with technical assistance from the Japanese Aerospace Exploration Agency, Asia Institute of Technology Geomatics Centre, Asian Disaster Reduction Centre, Remote Sensing Technology Centre and Geothings. \r\n\r\nWork carried out was divided into 5 sections:\r\n1. Local communities digitised building and infrastructure in Open Street Map\r\n2. Local communities with assistance from mobile app developers designed a base map to fit the purpose of the project. These include building attributes, conditions, height and materials. \r\n3. Recording capacities: using a geobinning app, disaster capacities and vulnerability are identified and mapped out in real time. Community hazard maps were generated out of this work. \r\n4. Recording: during a disaster, users can record information including disaster situation, building damage, and needs assessments. This information is sent to the operation centre for assistance, all in real time. \r\n5. Emergency Observation: using satellite data, and the community base map, it was possible to estimate damage extents.\r\n\r\nLocal communities were trained to use the tools to record flood- and cyclone-related vulnerabilities and capacities in villages. All these tools and reports are updated on the website monitored by the NDMO Operations Centre. Two critical maps came out of this work: 1. Community-based hazard map, and; 2. Evacuation map. These are the base map used for the village to seek shelter and identify hazard areas and planning.",
-      "tags": [
-        "Web Mapping",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Applying Space-Based Technology and Information and Communication Technology to Strengthen Disaster Resilience in Nadi, Fiji",
-      "speakers": [
-        "ETJ8VW"
-      ],
-      "complexity": null,
-      "image": null
-    },
     "AYSFPH": {
       "description": "Despite Cloud Native technologies and containerisation becoming the *de facto* standard for developing and deploying web applications over the last half-decade, our server-side GIS applications are still often deployed on carefully crafted, long-lived and individually managed virtual machines or physical servers.\r\n\r\nOver the last year, we have successfully transitioned our GIS deployments from a traditional service architecture to a fully containerised deployment and integrated tightly with Cloud Native technologies such as Object Storage and Load Balancers. By taking advantage of Kubernetes and its philosophy of rapid development iteration, high availability and scalability, our team can now focus on application development and maintenance, while the platform and servers are fully managed by our cloud vendor. We have managed to decrease ongoing server cost, increase deployment stability and most importantly – greatly increase development velocity.\r\n\r\nIn this talk, we will share our experience exploring the trials, challenges and benefits we experienced in migrating and running free and open source GIS applications outside of a traditional server infrastructure. We will discuss how to split and containerise previously tightly integrated applications, how to create new microservices to enable these applications to scale, and how to integrate with available cloud technologies.\r\n\r\nMore specifically, we will explore:\r\n\r\n* What is Kubernetes and \"Cloud-Native\"?\r\n* What Kubernetes does and doesn’t do well\r\n* Challenges of adapting FOSS GIS applications to Cloud-Native technologies.\r\n* How Open Source software helped us in our journey.\r\n* Our experience using a cloud-native approach.",
       "tags": [
@@ -2439,6 +2325,104 @@
       "title": "Learning rules and detecting errors in OpenStreetMap data: PhD research",
       "speakers": [
         "JUSHQP"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "FKP9T9": {
+      "description": "Changes and treatments to New Zealand’s roads occur daily. However, there is no central register to record changes.\r\n\r\nA New Zealand agency needed to identify curves in roads that had been classified as a danger and determine if they had been adjusted. A novel approach was needed given the lack of data recorded. \r\n\r\nOrbica was supplied with a dataset (oocc – out of context curves) that showed all curves along all New Zealand roads. We narrowed the dataset to “not acceptable” and “not desirable” curves for state highways and used Open Street Map (OSM) to find out if the roads had been modified or treated (i.e. had changed from a curve to straight). The key difficulty was determining whether the changes in OSM were made for aesthetic reasons (i.e. to tidy features) or because an actual road treatment had taken place. There are thousands of OSM edits, and we needed a way to define them. \r\n\r\nTo do this, we used the oocc dataset to extract the segment (or curves) from the 2017 OSM dataset and the 5/2019 OSM dataset. We matched the curves, then calculated attributes to describe the relationship between the old curve and the new curve. We then developed a Deep Neural Network AI model to predict (based on attributes) which were aesthetic changes, and which were due to road changes/treatments. \r\n\r\nThe model produced about 30 curves, of which 20 were real road changes. We also assessed changes in speed, so the total number of treated curves (including speed changes) for the period 2017-2019, was 219.\r\n\r\nWe used PostgreSQL and python to achieve this and mapped the results with GeoServer and Mapbox.\r\n\r\nThis represents a novel and innovative approach, using opensource technology, to identify road treatments.",
+      "tags": [
+        "AI and Machine Learning",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Identifying post-treatment roads using Open Street Map, PostGreSQL and Python",
+      "speakers": [
+        "LGUT83"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "7CERXH": {
+      "description": "New Zealand Transport Agency’s (NZTA) Crash Analysis System (CAS) contains almost 1.5 million crash records with hundreds of attributes that describe when, where and how a crash occurs. Orbica and partner company Catalyst were tasked by NZTA to develop a user-friendly web application to live stream the database so that transport planners and engineers (with no prerequisite knowledge of SQL) could easily build complex stacked spatial and aspatial queries with drag-and-drop, ease of use and intuitive controls.\r\n\r\nNZTA, a central government agency, accepted our proposal to design the solution completely using opensource technology.\r\n\r\nThe following components and corresponding APIs were built for CAS: \r\n- A React, Leaflet and WebGL based front-end \r\n- A PostgreSQL/PostGIS and SQL Server spatial-based geospatial database \r\n- PHP, SilverStripe, web socket-based layer for data streaming\r\n\r\nOrbica mixed and tweaked several existing Leaflet plugins to create comprehensive modular components for the GIS aspects of the CAS solution. Main features included:\r\n- A fully “edit geometry” standardised plugin including the following:\r\n  - `Leaflet.FreeDraw` \r\n  - `Leaflet.draw `\r\n  - Specific business editing functionalities\r\n\r\nThis works in conjunction with:\r\n- Map data visualisation: crash feature results from queries are displayed as heatmaps, cluster view and PIXI/WebGl specific visualisations capable of handling millions of features (business requirement functionality).\r\n- Schematic/mapping data visualisation: collision diagram. We created a dedicated 2D graphic system based on an opensource web data visualisation framework (PIXI.js WebGl framework).\r\n\r\nRelevant features/components will be shared with the open-source community soon.\r\n\r\nCAS has been successfully deployed and the road safety community is using it to output complex collision diagrams and reports to help them target and advocate for road safety improvements, as well as store and share queries with other road safety practitioners.\r\n\r\nNZTA is now investing in opensource technologies for new projects. This adoption represents a significant growing confidence in the robustness of opensource technologies from the government sector.",
+      "tags": [
+        "Visualisation",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Crash Analysis System: a crash data analytics and visualisation platform",
+      "speakers": [
+        "QFA9XF"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "TXMLJF": {
+      "description": "Maps often show a simplified view of the world in order to highlight a single issue. Real-life, on the other hand, is messy, contradictory and multifaceted. This means there are always alternative ways to visualise geospatial data, and our choice of which facets to highlight within the data has political implications. Sometimes showing diversity means embracing complexity, and oversimplification leads to an illusion of homogeneity.\r\n\r\nIn real life, I’m a first-generation immigrant to Australia. Like all immigrants, I’m constantly haunted by anxieties and self-doubts about media portrayal, public perception, cultural identity and issues of belonging. Luckily I do data visualisation for a living, and I believe that facts can be the best therapist. Naturally, I’ve made maps to answer some of my very personal questions, make sense of the world around me, and bring to light data which is obscured by other maps that I see.\r\nIn this talk, I’d like to cover:\r\n\r\n- Mapping techniques that convey the richness of human data: dot-density maps ([where do people come from](https://smallmultiples.com.au/articles/the-languages-we-speak-in-sydney--melbourne/), [who did they vote for](https://smallmultiples.com.au/projects/australian-election-results-one-dot-for-every-vote/)), and using edible media for maps ([chocolate](https://notasingleorigin.com/))\r\n- A number of mapping projects that provide unique perspectives on multicultural Australia\r\n- Using open access data to answer very personal questions and raise public awareness\r\n\r\nThe goal of my talk is to encourage people to appreciate the beauty of complexity, and its importance in the field of cartography. Maps can help us see the unpredictability of the individual and the permeability of the group at local and national scales.",
+      "tags": [
+        "Visualisation",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Messy maps to make sense of a complex world",
+      "speakers": [
+        "9B8LHA"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "7NHAFF": {
+      "description": "QGIS started back in 2002 as a simple hobby project with only a handful of developers and a small user base. Since then, it has grown into one of the most popular cross-platform open source spatial desktop tools available, with an ever-growing developer and user base, widely used in many sectors, even as a full replacement for commercial offerings.  This growth has not come without cost or growing pains to the project and community. A growing user base and an ongoing effort to be taken as a serious alternative to commercial offerings have led to a shift in developer and user expectations for the project. \r\n\r\nAs QGIS has grown into areas and user bases the early developers never dreamed of, some of the feelings the project had have changed, and this might have zapped some of the fun.  Was this inevitable, as we pushed the project with more and more features and promotion in the spatial community?  How do you maintain the same feel for the project, while at the same time becoming more serious?\r\n\r\nWhat about the users and the community?  Have their expectations now changed for the project? At what point did we notice a change in the community and the levels of service we were required to live up to?\r\n\r\nLong-term-release, better build process, better documentation, UI translations into many languages; these all make great software, but at a cost for a mostly volunteer-run project. When does the project switch from pure volunteer to a more commercial entity?",
+      "tags": [
+        "QGIS",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "The life of open source spatial with QGIS:  From hobby to grown up, with bonus growing pains",
+      "speakers": [
+        "RUKHTS"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "TTUMBS": {
+      "description": "The Commonwealth of the Northern Mariana Islands (CNMI) is an archipelago located in the Pacific Ocean that is home to several globally endangered wildlife species.  In order to provide the best management and conservation of these species, CNMI Division of Fish and Wildlife (DFW) biologists regularly collect population data through various field surveys.  In the past, these surveys were conducted using paper field forms that would be manually entered into databases while spatial data was collected using handheld GPS units.  Recently, DFW has moved towards automating data collection and management using free and open source solutions in order to reduce paper buildup, minimise data entry error, and generally streamline operations.  This presentation will outline the workflow and process that the CNMI DFW has implemented for near-seamless integration of field data into spatial and tabular databases.  Rugged field tablets are fitted with custom-built Python applications (using PyQT GUI) that are used to document wildlife surveys while open source GIS software (Intramaps Roam) is used for field navigation and mapping needs. Output are then synchronised to a local server where they are programmatically subset and shuttled to appropriate directories for future analysis and summarisation. Utilising these open source solutions provides a fast and efficient flow of data collection and management with the flexibility of specialised functionality required to survey species within the CNMI.",
+      "tags": [
+        "Science",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Using open source software to map and survey wildlife populations in the Northern Mariana Islands",
+      "speakers": [
+        "WKCGLW"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "9UUSTQ": {
+      "description": "In 1835, the HMS Beagle arrived at the Galapagos Islands, igniting a new era of science and history. This voyage was the dawn of island biogeography, the study of the spatial distribution of species and ecosystems across time. This voyage also harboured unintended consequences: a virgin ecosystem on an originally unpopulated archipelago only a few hundred years ago, the Galapagos Islands in 2019 are home to a growing population of 35,000 people and host 275,000 tourists a year.  Just as this area is a hotspot for studying biodiversity and biogeography, there is also a unique chance to map and analyze human and urban geography. 184 years after Charles Darwin, students from the University of Chicago joined a project led by the Mansueto Institute for Urban Innovation to map the urban landscape with Mapillary, using 360-degree cameras. \r\n\r\nMachine learning, computer vision, and geospatial analysis allow imagery to become data about levels of urbanization. While the Galapagos Islands offer one insight, many other islands across the world demonstrate the potential to study their unique patterns of urban development, including the vast array of populated islands in the Pacific region and beyond. What kind of urban challenges can street-level imagery solve in isolated island environments? What kind of data can OpenStreetMap derive from island imagery? What do automated detections in the images tell us about growth and change?\r\n\r\nIn this presentation, we’ll take a visual journey using Mapillary imagery across many islands of the world: from the Galapagos and Santa Catalina Island to the Faroe and Canary Islands; from Réunion and Zanzibar in the Indian Ocean to Singapore and Tasmania; from Cuba and Guadalupe to Hawaii and Iceland.",
+      "tags": [
+        "AI and Machine Learning",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Island Mapping: Measuring Urban Footprints with Mapillary & Open Source Tools",
+      "speakers": [
+        "LGTUDY"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "G7DV3Y": {
+      "description": "Successfully using and maintaining an open source GIS infrastructure requires time and extensive technical capabilities. Tasks such as creating and maintaining virtual machines and servers, understanding, installing and configuring open source applications, building data exchange pipelines, backup processes and security hardening, are daunting and often beyond the everyday realities of working inside smaller institutions and organisations.\r\n\r\nAt the same time, an open source GIS deployment unlocks an innovation potential usually inaccessible when dealing with licensing fees and a lack of control over proprietary technology. As a globally recognised leader in open source technologies, Catalyst is committed to helping organisations in their transition to open source GIS. We have created a managed GIS platform to simplify FOSS adoption while keeping in full control over your GIS back-end applications.\r\n\r\nThis talk focusses on how embracing open source technology has given two New Zealand Territorial Authorities the freedom to innovate delivery and improvement of their geospatial data and services. Using examples from production systems across New Zealand we look at how both authorities have created public data portals, dashboards, web mapping applications, and achieved direct integration with external data sources. All while improving reliability and scalability of their underlying GIS systems and data stores. We explore how, by removing the barriers of proprietary licensing, open source fosters local and global collaboration, enables local communities, and allows local government to reinvest licensing cost in research, development and their communities.",
+      "tags": [
+        "FOSS4G",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Enabling Local Government Innovation with Open Source Software",
+      "speakers": [
+        "PBLCMS"
       ],
       "complexity": null,
       "image": null
@@ -2655,6 +2639,25 @@
       "company": "Pinpoint Geospatial Solutions",
       "country": "Napier, New Zealand"
     },
+    "ZTFTF3": {
+      "name": "Ines Falcao",
+      "bio": "Ines is a Portuguese certified geomatics engineer. Ines has been involved in information technology projects as a researcher and developer, in the private and public sectors. In the last few years, Ines had the opportunity to participate in projects with a special focus on geographical information. Ines has a particular interest in programming and web GIS development, especially using open source technologies. Ines is currently working at the Geospatial Research Institute as Web GIS developer.",
+      "shortBio": "Ines is a Portuguese certified geomatics engineer. Ines has been involved in information technology projects as a researcher and developer, in the private and public sectors. In the last few years, Ines had the opportunity to participate in projects with a special focus on geographical information. Ines has a particular interest in programming and web GIS development, especially using open source technologies. Ines is currently working at the Geospatial Research Institute as Web GIS developer.",
+      "photoUrl": "https://pretalx.com/media/IMG_6485.JPG",
+      "title": "Web GIS developer",
+      "company": "Geospatial Research Institute",
+      "country": "Portugal, New Zealand"
+    },
+    "CEYK3D": {
+      "name": "Sean Chua",
+      "bio": null,
+      "shortBio": null
+    },
+    "WPWQKM": {
+      "name": "Craig Roach",
+      "bio": null,
+      "shortBio": null
+    },
     "Y7DUVW": {
       "name": "Violaine Doutreleau",
       "bio": "I am French and initially a land surveying engineer (2011). I am located in Tahiti, French Polynesia. After a few years of professional experience between Madagascar and France, I discovered OSM in 2014 during a job in a design office doing accessibility surveys (I needed data). Since then I haven't stopped trying to share how powerful this ecosystem is. I initiated the OSM Madagascar community in July 2015 through a training event in the capital as a volunteer for CartONG. I also took part in the Missing Maps project (mapping the most vulnerable places before disaster occurs) with CartONG, as a coordinator. Lately, I have moved abroad and then created *A Vos Cartes* in May 2018. *A Vos Cartes* offers OSM expertise and SIG (GIS) training in Tahiti and environs. With *A Vos Cartes*, I carry out a project called « Cartomobil'ite » about mapping accessibility and I accompany the local national geography institute with OSM.",
@@ -2723,14 +2726,6 @@
       "title": "Independent web consultant",
       "country": "Melbourne, Australia"
     },
-    "3TAVWA": {
-      "name": "Belle Tissott",
-      "bio": "Belle Tissott is an Assistant Director in one of the Digital Earth Australia product development teams at Geoscience Australia. She has a background in mathematics and software engineering, and a strong passion for the environment and bringing people together to make a difference.",
-      "shortBio": "Belle Tissott is an Assistant Director in one of the Digital Earth Australia product development teams at Geoscience Australia. She has a background in mathematics and software engineering, and a strong passion for the environment and bringing people together to make a difference.",
-      "title": "Assisstant Director, Product Development",
-      "company": "Geoscience Australia",
-      "country": "Australia"
-    },
     "8TSH3M": {
       "name": "Edoardo Neerhut",
       "bio": "TBA",
@@ -2774,14 +2769,6 @@
       "title": "Head of GIS",
       "company": "Catalyst",
       "country": "Ōtautahi"
-    },
-    "QGXVQT": {
-      "name": "Andrew Tyrrell",
-      "bio": "I am a cartographer and GIS specialist living in Auckland, New Zealand.",
-      "shortBio": "I am a cartographer and GIS specialist living in Auckland, New Zealand.",
-      "title": "Cartographer and GIS Specialist",
-      "company": "South Arrow Maps",
-      "country": "Auckland"
     },
     "ZRZLGJ": {
       "name": "Rose Phillips",
@@ -2942,8 +2929,9 @@
     },
     "9QKFR8": {
       "name": "Chris McDowall",
-      "bio": "Geographer",
-      "shortBio": "Geographer",
+      "bio": "Geographer. Quite keen on maps.",
+      "shortBio": "Geographer. Quite keen on maps.",
+      "photoUrl": "https://pretalx.com/media/chris_nztlib.jpg",
       "title": "Geographer",
       "country": "Tāmaki Makaurau / Auckland"
     },
@@ -2951,6 +2939,7 @@
       "name": "Kamsin Raju",
       "bio": "Kamsin Raju is a fresh graduate from the University of the South Pacific with a background in Geospatial Science, Land Management and Climate Change. She works for UN-Habitat Fiji and is currently based within Nadi Town Council working with informal settlements. When she isn't obsessing over how to get everything right, she's a dotting aunt trying hard to charm people with her culinary skills.",
       "shortBio": "Kamsin Raju is a fresh graduate from the University of the South Pacific with a background in Geospatial Science, Land Management and Climate Change. She works for UN-Habitat Fiji and is currently based within Nadi Town Council working with informal settlements. When she isn't obsessing over how to get everything right, she's a dotting aunt trying hard to charm people with her culinary skills.",
+      "photoUrl": "https://pretalx.com/media/IMG_1412.PNG",
       "title": "Local Resilience Officier",
       "company": "UN-Habitat",
       "country": "Fiji"
@@ -3052,20 +3041,12 @@
     },
     "93BRAX": {
       "name": "Sharmila Savarimuthu",
-      "bio": "Sharmila holds a PhD in Information Science (Otago) and a master’s degree in Computer Science. In her career spanning several years in two countries (New Zealand and India), she has undertaken several roles – lab tutor, researcher and software developer. She works at Geospatial Research Institute as a software developer.",
-      "shortBio": "Sharmila holds a PhD in Information Science (Otago) and a master’s degree in Computer Science. In her career spanning several years in two countries (New Zealand and India), she has undertaken several roles – lab tutor, researcher and software developer. She works at Geospatial Research Institute as a software developer.",
+      "bio": "Sharmila works at Geospatial Research Institute as a software developer.She holds a PhD in Information Science (Otago) and a master’s degree in Computer Science. In her career spanning several years in two countries (New Zealand and India), she has undertaken several roles – lab tutor, researcher and software engineer.",
+      "shortBio": "Sharmila works at Geospatial Research Institute as a software developer.She holds a PhD in Information Science (Otago) and a master’s degree in Computer Science. In her career spanning several years in two countries (New Zealand and India), she has undertaken several roles – lab tutor, researcher and software engineer.",
+      "photoUrl": "https://pretalx.com/media/sharmila.jpg",
       "title": "Software Developer",
       "company": "Geospatial Research Institute",
       "country": "New Zealand"
-    },
-    "ZTFTF3": {
-      "name": "Ines Falcao",
-      "bio": "Ines is a Portuguese living in New Zealand. She is a certified geomatics engineer, which MSc certificate was obtained from the Faculty of Sciences of the University of Lisbon, Portugal. Ines has been involved in information technology projects as a researcher and developer, in the private and public sectors. In the last few years, Ines had the opportunity to participate in projects publicly funded with special focus on geographical information. Ines has a particular interest in programming and web GIS development, especially using open source technologies. Ines is currently working at the Geospatial Research Institute as Web GIS developer.",
-      "shortBio": "Ines is a Portuguese living in New Zealand. She is a certified geomatics engineer, which MSc certificate was obtained from the Faculty of Sciences of the University of Lisbon, Portugal. Ines has been involved in information technology projects as a researcher and developer, in the private and public sectors. In the last few years, Ines had the opportunity to participate in projects publicly funded with special focus on geographical information. Ines has a particular interest in programming and web GIS development, especially using open source technologies. Ines is currently working at the Geospatial Research Institute as Web GIS developer.",
-      "photoUrl": "https://pretalx.com/media/IMG_6485.JPG",
-      "title": "Web GIS developer",
-      "company": "Geospatial Research Institute",
-      "country": "Portugal, New Zealand"
     },
     "3SRT3L": {
       "name": "Hugh Saalmans",
@@ -3092,12 +3073,6 @@
       "bio": "Vasiti’s industry experience spans ten plus years in the highly technical field of geospatial science and surveying. She has assisted a number of significant projects while working for the Fijian Government including developing a disaster-integrated system for the Commissioner Western’s Office, the Asian Institute of Technology in Thailand, Fiji’s Native Land Trust Board, and the Department of Town and Country Planning.\r\nIn addition, during her stint with the Sugar Industry Tribunal as its GIS Manager Vasiti played a vital role in creating the first GIS web portal that not only linked Fiji’s four main sugarcane mills but also published live harvesting data during the crushing season.\r\nHer completed research will contribute to Fiji’s datum update where she focused on the impact of the new datum to local geospatial users and updated the transformation parameters for the country’s maritime boundary which was initially done by GeoScience Australia.\r\nRecognizing the unsung talent that women in the Pacific possess in the GIS industry, she developed an initiative to recognize these. She is currently working on publishing the first Pacific Women in GeoSpatial magazine (online). The magazine will focus on a total of 10 vibrant women in the Pacific who have been shortlisted from the abstract call. The magazine is in its final stages of production and is scheduled to be published by October 2019. Through this initiative, she champions the course of women in this Industry and this is one way of prompting the skills they have within the Pacific region.",
       "shortBio": "Vasiti’s industry experience spans ten plus years in the highly technical field of geospatial science and surveying. She has assisted a number of significant projects while working for the Fijian Government including developing a disaster-integrated system for the Commissioner Western’s Office, the Asian Institute of Technology in Thailand, Fiji’s Native Land Trust Board, and the Department of Town and Country Planning.\r\nIn addition, during her stint with the Sugar Industry Tribunal as its GIS Manager Vasiti played a vital role in creating the first GIS web portal that not only linked Fiji’s four main sugarcane mills but also published live harvesting data during the crushing season.\r\nHer completed research will contribute to Fiji’s datum update where she focused on the impact of the new datum to local geospatial users and updated the transformation parameters for the country’s maritime boundary which was initially done by GeoScience Australia.\r\nRecognizing the unsung talent that women in the Pacific possess in the GIS industry, she developed an initiative to recognize these. She is currently working on publishing the first Pacific Women in GeoSpatial magazine (online). The magazine will focus on a total of 10 vibrant women in the Pacific who have been shortlisted from the abstract call. The magazine is in its final stages of production and is scheduled to be published by October 2019. Through this initiative, she champions the course of women in this Industry and this is one way of prompting the skills they have within the Pacific region.",
       "photoUrl": "https://pretalx.com/media/VASITI.jpg"
-    },
-    "CG8GRE": {
-      "name": "John Hildebrandt",
-      "bio": "John has over 30 years’ experience in Information Technology and Research areas across a broad range of areas. John has extensive Public Sector, Defence and Intelligence experience including postings into Australian and US Intelligence agencies in integrated Military and Civilian teams.\r\nJohn worked in the Defence Science and Technology Organisation (DSTO) as a Senior Research Scientist leading teams undertaking cutting edge Image Analysis and Distributed Systems research.\r\nBefore joining AWS he had senior roles at Microsoft and IBM providing Architectural advice to Federal Government customers.\r\nJohn is currently employed as a Principal Solutions Architect with Amazon Web Services (AWS). He was the first employee for the ANZ Public Sector team and has been active in growing the team. John assists Public Sector customers and partners envisage and architect Cloud solutions using the AWS platform.",
-      "shortBio": "John has over 30 years’ experience in Information Technology and Research areas across a broad range of areas. John has extensive Public Sector, Defence and Intelligence experience including postings into Australian and US Intelligence agencies in integrated Military and Civilian teams.\r\nJohn worked in the Defence Science and Technology Organisation (DSTO) as a Senior Research Scientist leading teams undertaking cutting edge Image Analysis and Distributed Systems research.\r\nBefore joining AWS he had senior roles at Microsoft and IBM providing Architectural advice to Federal Government customers.\r\nJohn is currently employed as a Principal Solutions Architect with Amazon Web Services (AWS). He was the first employee for the ANZ Public Sector team and has been active in growing the team. John assists Public Sector customers and partners envisage and architect Cloud solutions using the AWS platform.",
-      "photoUrl": "https://pretalx.com/media/johnhild-200.jpg"
     }
   },
   "team": [
