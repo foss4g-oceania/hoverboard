@@ -321,11 +321,6 @@
               "items": [
                 "SQYRSK"
               ]
-            },
-            {
-              "items": [
-                "J79QZN"
-              ]
             }
           ]
         },
@@ -1427,20 +1422,6 @@
       "image": null,
       "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/rr3gfbghfxo"
     },
-    "J79QZN": {
-      "description": "3geonames.org aggregates a lot of open data from a variety of sources to provide a fast, free reverse geocoder for every location on the globe using a data structure based on the Hilbert curve. Also, due to its design, api.3geonames.org runs on a server (or any cheap smartphone) with only 1GB of RAM and 1 Cpu with a theoretical throughput of over 500 requests per second. This talk expands on the use case and the techniques used to solve the problem and show participants how to use the 3geonames API as a location context platform to build location-based apps.\n\n## Details\n\n[3geonames.org](https://3geonames.org) started out as a project to provide an alternative open location code. It currently does so, mapping latitude, longitude, elevation into three geonames compiled from geonames.org - using techniques based on the Hilbert curve.\r\n\r\nThe project has lately pivoted into other practical applications of location encoding, such as reverse geocoding - the process of obtaining location information such as city names, timezone, elevation, admin polygons, points of interest, etc from an input point. \r\n\r\nA space fitting curve such as the Hilbert curve is quite suitable for indexing multidimensional data for fast access - as I will show by indexing millions of open-source data points for reverse geocoding. You can also extend the API by adding your own geofences for your location-aware apps. I'll show how you can use the API to quickly build location features for apps by building a quick mockup for a practical location encoding problem.\r\n\r\nI'll also show about how you can test and preview the upcoming features of [3geonames API](https://3geonames.org/api), such as 3D geofences, reverse 3D geocoding, voice geocoding and crowdsourced geo-location encoding.\n\n### Skill level\n\n**Beginner/Introductory**\n\nBasic scripting knowledge is a plus but not required.\n\n### Things to bring and stuff to do beforehand\n\nA laptop with their favorite scripting language interpreter for building some sample real-world apps based on this API.",
-      "tags": [
-        "Workshop"
-      ],
-      "language": "English",
-      "title": "Building location-aware apps with 3geonames.org - A very fast reverse geocoder for any location on land and water.",
-      "speakers": [
-        "D8HTJL"
-      ],
-      "complexity": "Beginner/Introductory",
-      "image": "https://pretalx.com/media/fso2019w/images/J79QZN/ggg_dKvAxIw.png",
-      "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/ftsalhtfnkk"
-    },
     "S7PXRA": {
       "description": "Mapbox GL JS is a free and open source JavaScript library for interactive, customisable vector maps on the web.\n\n## Details\n\nThis workshop will teach you how to build your own interactive and customisable vector maps for the web.\r\n\r\nCovering core concepts of modern vector maps and building with Mapbox GL JS including:\r\n- Layers\r\n- Sources\r\n- Mapbox GL Style Spec\r\n- Controls\r\n- Markers\r\n- Popups\r\n- Expressions\r\n- Feature States\r\n- Custom Layers\r\n\r\nBeyond the core concepts you'll learn some useful tips and tricks to deal with common scenarios.\r\n\r\nIdeally participants would have at least basic JavaScript knowledge, but no prior mapping knowledge required.\n\n### Skill level\n\n**Intermediate**\n\nBasic or higher JavaScript knowledge is strongly recommended. If you know what variables, functions, JSON and HTML are you should be fine.\r\n\r\nNo prior Mapbox GL JS experience required, but even if you've done a little bit with Mapbox before you'll hopefully still get value from the depth of topics which we'll cover.\n\n### Things to bring and stuff to do beforehand\n\nA laptop",
       "tags": [
@@ -1903,7 +1884,7 @@
       "language": "English",
       "title": "Wrangling GeoTIFFs in the browser",
       "speakers": [
-        "WEUHGW"
+        "F3ZM8Y"
       ],
       "complexity": null,
       "image": null
@@ -1932,20 +1913,6 @@
       "title": "Mapping in the International Year of Indigenous Languages",
       "speakers": [
         "HCMJLH"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "TLUS7M": {
-      "description": "I first encountered OpenStreetMap in 2013. That was the year when a powerful cyclone, Super Typhoon Haiyan, hit the Philippines. After that, I have continued to participate in the OSM and OSGeo community while working in places hit by disaster or war, whether in reconstruction, disaster preparedness, or urban design. I have also used OSM and QGIS for my hobby of making maps of islands.\r\n\r\nIn this lightning talk, I would like to share a short story on why volunteering with the open mapping community matters to me as a resident of the Pacific. I would also like to share how I have tried to grow with the community, as well as how I intend to continue meaningful relationships in the Pacific side of OSM and OSGeo.",
-      "tags": [
-        "State of the Map/OSM",
-        "Lightning Talk"
-      ],
-      "language": "English",
-      "title": "How to Map an Island in the Pacific",
-      "speakers": [
-        "JNFTCL"
       ],
       "complexity": null,
       "image": null
@@ -2044,6 +2011,20 @@
       "title": "Why are coordinate transformations so confusing?",
       "speakers": [
         "DGRFNU"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "TLUS7M": {
+      "description": "I first encountered OpenStreetMap in 2013. That was the year when a powerful cyclone, Super Typhoon Haiyan, hit the Philippines. After that, I have continued to participate in the OSM and OSGeo community while working in places hit by disaster or war, whether in reconstruction, disaster preparedness, or urban design. I have also used OSM and QGIS for my hobby of making maps of islands.\r\n\r\nIn this lightning talk, I would like to share a short story on why volunteering with the open mapping community matters to me as a resident of the Pacific. I would also like to share how I have tried to grow with the community, as well as how I intend to continue meaningful relationships in the Pacific side of OSM and OSGeo.",
+      "tags": [
+        "State of the Map/OSM",
+        "Lightning Talk"
+      ],
+      "language": "English",
+      "title": "How to Map an Island in the Pacific",
+      "speakers": [
+        "JNFTCL"
       ],
       "complexity": null,
       "image": null
@@ -2585,13 +2566,6 @@
       "company": "Alantgeo",
       "country": "Sydney"
     },
-    "D8HTJL": {
-      "name": "Ervin Ruci",
-      "bio": "I've been solving problems for my own enjoyment and profit since 2005 when I quit my last day job (as a software developer)\r\nThe main areas I like to work on are Computational Geometry and NLP. Some of the problems I've tackled over the years in these application domains have become successful companies with exactly one employee - me.",
-      "shortBio": "I've been solving problems for my own enjoyment and profit since 2005 when I quit my last day job (as a software developer)\r\nThe main areas I like to work on are Computational Geometry and NLP. Some of the problems I've tackled over the years in these application domains have become successful companies with exactly one employee - me.",
-      "photoUrl": "https://pretalx.com/media/Screen_Shot_2018-11-11_at_12.17.02_PM.png",
-      "title": "None"
-    },
     "GHSHKM": {
       "name": "Nyall Dawson",
       "bio": "Nyall has been a core developer with the QGIS project since 2013. During this time he has contributed over 5000 commits to the project, and today is one of the most active developers on the project. Nyall’s contributions to QGIS cover a wide range of areas – from improvements to the map rendering and symbology engines, enhancements to labeling and print layout functionality, right through to optimisations of the underlying spatial processing algorithms utilised by QGIS.\r\n\r\nNyall is the proprietor and lead developer at North Road Consulting, an Australian based spatial development consultancy which predominantly utilises international co-funding and crowd funding campaigns to finance development into open source GIS applications.",
@@ -2638,6 +2612,15 @@
       "title": "DIrector - Principal Consultant",
       "company": "Pinpoint Geospatial Solutions",
       "country": "Napier, New Zealand"
+    },
+    "F3ZM8Y": {
+      "name": "Nick Forbes-Smith",
+      "bio": "Nick is a geospatial web developer working in CSIRO's Data61 Natural Systems Modellers group. He spends his days creating web mapping tools for bushfire, flood, evacuation and climate change modelling!",
+      "shortBio": "Nick is a geospatial web developer working in CSIRO's Data61 Natural Systems Modellers group. He spends his days creating web mapping tools for bushfire, flood, evacuation and climate change modelling!",
+      "photoUrl": "https://pretalx.com/media/face_6YnK3aI.jpg",
+      "title": "Geospatial Web Developer",
+      "company": "CSIRO's Data61",
+      "country": "Hobart, Tasmania, Australia"
     },
     "ZTFTF3": {
       "name": "Ines Falcao",
@@ -2791,15 +2774,6 @@
       "photoUrl": "https://pretalx.com/media/me_geski2.png",
       "title": "Solutions Engineer",
       "company": "Mapillary"
-    },
-    "WEUHGW": {
-      "name": "Rowan Winsemius",
-      "bio": "Rowan has been scarred by floating point errors associated with geospatial vector algorithms so this year he's hoping to take it easier with raster data.\r\nRowan is part of the team working on TerriaJS which provides a visualisation platform for spatial data.",
-      "shortBio": "Rowan has been scarred by floating point errors associated with geospatial vector algorithms so this year he's hoping to take it easier with raster data.\r\nRowan is part of the team working on TerriaJS which provides a visualisation platform for spatial data.",
-      "photoUrl": "https://pretalx.com/media/Avatar.png",
-      "title": "Senior Software Engineer",
-      "company": "Data61",
-      "country": "Canberra"
     },
     "VTSZQX": {
       "name": "Joeli Varo",
@@ -3378,10 +3352,12 @@
     {
       "available": true,
       "currency": "$",
+      "inDemand": true,
       "info": "Half Day Workshops",
       "name": "Workshops",
       "price": 100,
       "soldOut": false,
+      "waitlisted": false,
       "starts": "Sep 11",
       "ends": "Oct 29",
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops"
@@ -3395,12 +3371,13 @@
       "price": 150,
       "regular": false,
       "soldOut": false,
+      "waitlisted": true,
       "starts": false,
       "ends": false,
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/8kry6eblc-a,6re1gfebio8"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "$",
       "inDemand": false,
       "info": "2 Day Conference (limited quantity at a special price)",
@@ -3408,6 +3385,7 @@
       "price": 350,
       "regular": false,
       "soldOut": true,
+      "waitlisted": false,
       "starts": false,
       "ends": false,
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/n7xktld2f68,6re1gfebio8"
@@ -3415,22 +3393,24 @@
     {
       "available": true,
       "currency": "$",
-      "inDemand": true,
+      "inDemand": false,
       "info": "2 Day Conference",
       "name": "Regular",
       "price": 450,
       "soldOut": false,
+      "waitlisted": true,
       "starts": false,
       "ends": false,
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/qmf9qbjqkos,6re1gfebio8"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "$",
-      "info": "2 Day Conference (join the waiting list!)",
+      "info": "2 Day Conference",
       "name": "Student",
       "price": 100,
-      "soldOut": false,
+      "soldOut": true,
+      "waitlisted": false,
       "starts": "Sep 1",
       "ends": "Sep 30",
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/321lxz6kgci"

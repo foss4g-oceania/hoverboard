@@ -153,7 +153,7 @@
             href$="[[ticket.url]]"
             target="_blank"
             rel="noopener noreferrer"
-            sold-out$="[[ticket.soldOut]]"
+            sold-out$="[[ticket.soldOut && !ticket.waitlisted]]"
             in-demand$="[[ticket.inDemand]]"
             on-tap="_onTicketTap"
             ga-on="click"
@@ -176,11 +176,11 @@
               </div>
             </div>
             <div class="actions">
-              <div class="sold-out" block$="[[ticket.soldOut]]">
+              <div class="sold-out" block$="[[ticket.soldOut && !ticket.waitlisted]]">
                 {$ ticketsBlock.soldOut $}
               </div>
-              <paper-button primary hidden$="[[ticket.soldOut]]" disabled$="[[!ticket.available]]">
-                [[_getButtonText(ticket.available)]]
+              <paper-button primary hidden$="[[ticket.soldOut && !ticket.waitlisted]]" disabled$="[[!ticket.available]]">
+                [[_getButtonText(ticket.available, ticket.waitlisted, ticket.soldOut)]]
               </paper-button>
             </div>
           </a>
@@ -244,14 +244,17 @@
       }
 
       _onTicketTap(e) {
-        if (e.model.ticket.soldOut || !e.model.ticket.available) {
+        if ((e.model.ticket.soldOut && !e.model.ticket.waitlisted) || !e.model.ticket.available) {
           e.preventDefault();
           e.stopPropagation();
         }
       }
 
-      _getButtonText(available) {
-        return available ? '{$ buyTicket $}' : '{$ ticketsBlock.notAvailableYet $}';
+      _getButtonText(available, waitlisted, soldout) {
+        return waitlisted ? '{$ ticketsBlock.joinWaitlist $}' :
+        available ? '{$ buyTicket $}' :
+        soldout ? '{$ ticketsBlock.soldOut $}' :
+        '{$ ticketsBlock.notAvailableYet $}';
       }
     }
 
