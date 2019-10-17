@@ -3352,10 +3352,12 @@
     {
       "available": true,
       "currency": "$",
+      "inDemand": true,
       "info": "Half Day Workshops",
       "name": "Workshops",
       "price": 100,
       "soldOut": false,
+      "waitlisted": false,
       "starts": "Sep 11",
       "ends": "Oct 29",
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops"
@@ -3369,12 +3371,13 @@
       "price": 150,
       "regular": false,
       "soldOut": false,
+      "waitlisted": true,
       "starts": false,
       "ends": false,
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/8kry6eblc-a,6re1gfebio8"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "$",
       "inDemand": false,
       "info": "2 Day Conference (limited quantity at a special price)",
@@ -3382,6 +3385,7 @@
       "price": 350,
       "regular": false,
       "soldOut": true,
+      "waitlisted": false,
       "starts": false,
       "ends": false,
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/n7xktld2f68,6re1gfebio8"
@@ -3389,22 +3393,24 @@
     {
       "available": true,
       "currency": "$",
-      "inDemand": true,
+      "inDemand": false,
       "info": "2 Day Conference",
       "name": "Regular",
       "price": 450,
       "soldOut": false,
+      "waitlisted": true,
       "starts": false,
       "ends": false,
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/qmf9qbjqkos,6re1gfebio8"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "$",
-      "info": "2 Day Conference (join the waiting list!)",
+      "info": "2 Day Conference",
       "name": "Student",
       "price": 100,
-      "soldOut": false,
+      "soldOut": true,
+      "waitlisted": false,
       "starts": "Sep 1",
       "ends": "Sep 30",
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/321lxz6kgci"
