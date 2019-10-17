@@ -27,3 +27,5 @@ In practice, and if in doubt, simply run both commands as they are quite harmles
 `STAGE=dev && npm run deploy:$STAGE && npm run firestore:init:$STAGE`
 
 If deployment issues arise, we can further develop our release practices (e.g. versioning, Github releases), but until then: YAGNI.
+
+Note that part of the Firestore process includes storing a cached version of one table that has dynamic data (user-saved sessions), and then restoring the table after it is wiped. This happens automatically when running `npm run firestore:init:$STAGE`. The saved sessions contain a user ID that seems anonymous but I have not confirmed it to be so. Therefore treat this data (stored in `./featuredSessions.$STAGE.json` but git-ignored) as confidential information.
