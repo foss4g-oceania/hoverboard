@@ -102,6 +102,11 @@
 					"logoUrl": "/images/partners/linz.png",
 					"name": "Land Information New Zealand",
 					"url": "https://www.linz.govt.nz/"
+				}, {
+					"order": 1,
+					"logoUrl": "/images/partners/bing.png",
+					"name": "Bing",
+					"url": "https://www.bing.com/"
 				}
 			],
 			"order": 0,
@@ -162,6 +167,18 @@
 					"logoUrl": "/images/partners/orbica.png",
 					"name": "Orbica",
 					"url": "https://orbica.world"
+				},
+				{
+					"order": 9,
+					"logoUrl": "/images/partners/addressfinder.png",
+					"name": "Address Finder",
+					"url": "https://addressfinder.nz/"
+				},
+				{
+					"order": 10,
+					"logoUrl": "/images/partners/niwa.png",
+					"name": "NIWA",
+					"url": "https://niwa.co.nz/"
 				}
 			],
 			"order": 1,
