@@ -94,6 +94,12 @@
           "logoUrl": "/images/partners/linz.png",
           "name": "Land Information New Zealand",
           "url": "https://www.linz.govt.nz/"
+        },
+        {
+          "order": 1,
+          "logoUrl": "/images/partners/bing.png",
+          "name": "Bing",
+          "url": "https://www.bing.com/"
         }
       ],
       "order": 0,
@@ -154,6 +160,18 @@
           "logoUrl": "/images/partners/orbica.png",
           "name": "Orbica",
           "url": "https://orbica.world"
+        },
+        {
+          "order": 9,
+          "logoUrl": "/images/partners/addressfinder.png",
+          "name": "Address Finder",
+          "url": "https://addressfinder.nz/"
+        },
+        {
+          "order": 10,
+          "logoUrl": "/images/partners/niwa.png",
+          "name": "NIWA",
+          "url": "https://niwa.co.nz/"
         }
       ],
       "order": 1,
@@ -2496,10 +2514,10 @@
     },
     "CV9GN9": {
       "name": "Richard Law",
-      "bio": "I currently work for Landcare Research as a hornet-nest-poker and spatial analyst. Current areas of professional interest are structured data and reproducibility, but I also dabble in transportation and economics. I also do freelance web development as [spatialparalysis.xyz](https://spatialparalysis.xyz). I have worked as: a paper-boy for the Evening Post (made redundant age 12); a GIS tutor at Victoria University of Wellington (VUW); a Research Assistant for an economic/public policy think-tank; and, for a few years and until recently I was living in Raglan, working for MetOcean Solutions (now a MetService subsidiary) as a GIS & Web Developer. Now I'm a father and husband before all else. I have a Masters degree in GIS from VUW, and after having written all this I realise you can probably just [find me on LinkedIn](https://www.linkedin.com/in/richardmlaw/). What LinkedIn won't tell you is that I *really* love [a cup of good, hot, black coffee](https://www.youtube.com/watch?v=XjkVgc6gIqk).",
-      "shortBio": "I currently work for Landcare Research as a hornet-nest-poker and spatial analyst. Current areas of professional interest are structured data and reproducibility, but I also dabble in transportation and economics. I also do freelance web development as [spatialparalysis.xyz](https://spatialparalysis.xyz). I have worked as: a paper-boy for the Evening Post (made redundant age 12); a GIS tutor at Victoria University of Wellington (VUW); a Research Assistant for an economic/public policy think-tank; and, for a few years and until recently I was living in Raglan, working for MetOcean Solutions (now a MetService subsidiary) as a GIS & Web Developer. Now I'm a father and husband before all else. I have a Masters degree in GIS from VUW, and after having written all this I realise you can probably just [find me on LinkedIn](https://www.linkedin.com/in/richardmlaw/). What LinkedIn won't tell you is that I *really* love [a cup of good, hot, black coffee](https://www.youtube.com/watch?v=XjkVgc6gIqk).",
+      "bio": "I currently work for [Landcare Research as a geospatial analyst](http://www.landcareresearch.co.nz/about/people/staff-details?id=bGF3cg==). Current areas of professional interest are structured data and reproducibility, but I've also dabbled in transportation and economics. I also do some freelance web development as [spatialparalysis.xyz](https://spatialparalysis.xyz). My professional experience includes working for MetOcean Solutions (now a MetService subsidiary) as a GIS & Web Developer. These days I'm a husband and father before all else. I have [a Masters degree in GIS](http://researcharchive.vuw.ac.nz/handle/10063/8256) from VUW, and after having written all this I realise you can probably just [find me on LinkedIn](https://www.linkedin.com/in/richardmlaw/). What LinkedIn won't tell you is that I *really* love [a cup of good, hot, black coffee](https://www.youtube.com/watch?v=XjkVgc6gIqk).",
+      "shortBio": "I currently work for [Landcare Research as a geospatial analyst](http://www.landcareresearch.co.nz/about/people/staff-details?id=bGF3cg==). Current areas of professional interest are structured data and reproducibility, but I've also dabbled in transportation and economics. I also do some freelance web development as [spatialparalysis.xyz](https://spatialparalysis.xyz). My professional experience includes working for MetOcean Solutions (now a MetService subsidiary) as a GIS & Web Developer. These days I'm a husband and father before all else. I have [a Masters degree in GIS](http://researcharchive.vuw.ac.nz/handle/10063/8256) from VUW, and after having written all this I realise you can probably just [find me on LinkedIn](https://www.linkedin.com/in/richardmlaw/). What LinkedIn won't tell you is that I *really* love [a cup of good, hot, black coffee](https://www.youtube.com/watch?v=XjkVgc6gIqk).",
       "photoUrl": "https://pretalx.com/media/profile-632e3775ffa3d7f89e6b7e1fba57ebed.jpg",
-      "title": "Spatial Analyst / Web Developer",
+      "title": "Spatial Analyst & Freelance Web Developer",
       "company": "Landcare Research",
       "country": "Palmerston North, NZ"
     },
@@ -2640,7 +2658,10 @@
       "name": "Craig Roach",
       "bio": "Craig is a Principal Solution Architect in the AWS Public Sector team, with a focus on helping NZ public sector agencies and utilities build secure and reliable solutions. Prior to joining AWS, he architected, developed and operated enterprise solutions for MetService and Vector.",
       "shortBio": "Craig is a Principal Solution Architect in the AWS Public Sector team, with a focus on helping NZ public sector agencies and utilities build secure and reliable solutions. Prior to joining AWS, he architected, developed and operated enterprise solutions for MetService and Vector.",
-      "photoUrl": "https://pretalx.com/media/CraigR.biopic0.jpg"
+      "photoUrl": "https://pretalx.com/media/CraigR.biopic0.jpg",
+      "title": "Principal Solution Architect",
+      "company": "Amazon Web Services",
+      "country": "Wellington"
     },
     "Y7DUVW": {
       "name": "Violaine Doutreleau",
