@@ -190,6 +190,12 @@
           "logoUrl": "images/partners/kaart.jpeg",
           "name": "Kaart Group",
           "url": "https://kaartgroup.com"
+        },
+        {
+          "order": 2,
+          "logoUrl": "images/partners/spatialised.png",
+          "name": "Spatialised",
+          "url": "https://www.spatialised.net"
         }
       ],
       "order": 2,
@@ -327,17 +333,17 @@
             },
             {
               "items": [
-                "CZVKRS"
-              ]
-            },
-            {
-              "items": [
                 "JX7NNK"
               ]
             },
             {
               "items": [
                 "SQYRSK"
+              ]
+            },
+            {
+              "items": [
+                "CZVKRS"
               ]
             }
           ]
@@ -367,17 +373,12 @@
             },
             {
               "items": [
-                "S7PXRA"
+                "QSBVAQ"
               ]
             },
             {
               "items": [
                 "WB99J8"
-              ]
-            },
-            {
-              "items": [
-                "SNN83F"
               ]
             },
             {
@@ -392,14 +393,25 @@
             },
             {
               "items": [
-                "QSBVAQ"
+                "S7PXRA"
               ]
             }
           ]
         },
         {
-          "startTime": "18:00",
-          "endTime": "20:00",
+          "startTime": "17:30",
+          "endTime": "19:00",
+          "sessions": [
+            {
+              "items": [
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "19:00",
+          "endTime": "21:00",
           "sessions": [
             {
               "items": [
@@ -417,13 +429,10 @@
           "title": "RH205"
         },
         {
+          "title": "RH206"
+        },
+        {
           "title": "RH202"
-        },
-        {
-          "title": "RH107"
-        },
-        {
-          "title": "RH104"
         },
         {
           "title": "RH102"
@@ -432,7 +441,7 @@
           "title": "RH103"
         },
         {
-          "title": "RH206"
+          "title": "RH104"
         }
       ]
     },
@@ -440,12 +449,9 @@
       "dateReadable": "Wed Nov 13",
       "timeslots": [
         {
-          "startTime": "07:00",
+          "startTime": "07:15",
           "endTime": "08:30",
           "sessions": [
-            {
-              "items": []
-            },
             {
               "items": []
             },
@@ -459,6 +465,9 @@
               "items": [
                 201
               ]
+            },
+            {
+              "items": []
             }
           ]
         },
@@ -784,42 +793,19 @@
           "title": "Auditorium (Taiwhanga Kauhau)"
         },
         {
-          "title": "Tiakiwai Seminar Rooms (Lower Ground Floor)"
+          "title": "Thorndon Seminar Room"
         },
         {
           "title": "Programme Rooms (Ground Floor)"
         },
         {
-          "title": "Venue TBA"
+          "title": "The Thistle Inn"
         }
       ]
     },
     "2019-11-14": {
       "dateReadable": "Thurs Nov 14",
       "timeslots": [
-        {
-          "startTime": "07:00",
-          "endTime": "08:30",
-          "sessions": [
-            {
-              "items": []
-            },
-            {
-              "items": []
-            },
-            {
-              "items": []
-            },
-            {
-              "items": []
-            },
-            {
-              "items": [
-                301
-              ]
-            }
-          ]
-        },
         {
           "startTime": "08:30",
           "endTime": "09:00",
@@ -990,9 +976,7 @@
               ]
             },
             {
-              "items": [
-                "KGDBJL"
-              ]
+              "items": []
             },
             {
               "items": [
@@ -1121,13 +1105,10 @@
           "title": "Auditorium (Taiwhanga Kauhau)"
         },
         {
-          "title": "Tiakiwai Seminar Rooms (Lower Ground Floor)"
+          "title": "Thorndon Seminar Room"
         },
         {
           "title": "Programme Rooms (Ground Floor)"
-        },
-        {
-          "title": "Venue TBA"
         }
       ]
     },
@@ -1168,12 +1149,21 @@
       "tags": [
         "Social"
       ],
-      "description": "Break for lunch",
+      "description": "On the menu:\n\n· Teriyaki salmon, sushi rice, red cabbage slaw, edamame, carrot, miso mayo\n\n· Coconut, plum and lemon cake (gf)",
       "icon": "lunch",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
     },
+    "108": {
+      "description": "",
+      "tags": [
+        "Social"
+      ],
+      "title": "Geochicas take Wellington!",
+      "icon": "party",
+      "image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
+    },
     "109": {
-      "description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Foxglove Bar and Kitchen](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780).",
+      "description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Queens Wharf Ballroom](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780).",
       "tags": [
         "Social"
       ],
@@ -1182,14 +1172,14 @@
       "image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
     },
     "201": {
-      "description": "Breakfast(s)",
+      "description": "Join guest speaker Dawn Hendrick for a networking breakfast organised in associated with Women in Spatial.",
       "tags": [
         "Social"
       ],
-      "title": "Conference Breakfast"
+      "title": "Women in Spatial Breakfast"
     },
     "202": {
-      "description": "Registration opens when the doors do",
+      "description": "Grab a registration pack from the friendly volunteers at the registration desk.",
       "tags": [
         "Registration"
       ],
@@ -1198,7 +1188,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/EduWiki_Conference_2013_registration_table.JPG/800px-EduWiki_Conference_2013_registration_table.JPG"
     },
     "203": {
-      "description": "Introduction to the conference, including housekeeping and emergency evacuation notes",
+      "description": "Introduction to the conference, including housekeeping and emergency evacuation notes.",
       "tags": [
         "Conference"
       ],
@@ -1213,7 +1203,7 @@
       ],
       "title": "Keynote I",
       "speakers": [
-        "Lyzi Diamond"
+        "Miriam Gonzalez"
       ]
     },
     "205": {
@@ -1223,11 +1213,11 @@
       ],
       "title": "Keynote II",
       "speakers": [
-        "Dr. Kate Crawford"
+        "Edwin Liava'a"
       ]
     },
     "206": {
-      "description": "Break for some damn fine coffee",
+      "description": "On the menu:\n\n· Raspberry and lemon curd muffin\n\n· Whole fruit bowl",
       "tags": [
         "Social"
       ],
@@ -1236,7 +1226,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
     },
     "208": {
-      "description": "Break for lunch",
+      "description": "On the menu:\n\n· Moroccan chicken, spiced chickpeas, green peas, carrot, pickled sultanas, cherry tomato, salad greens and smoky aubergine yoghurt (gf)\n\n· Salted dark chocolate chip cookies",
       "tags": [
         "Social"
       ],
@@ -1252,7 +1242,7 @@
       "title": "Lightning Talks"
     },
     "210": {
-      "description": "Break for some damn fine coffee",
+      "description": "On the menu:\n\n· Cheese platter with crackers, chutneys and fruit",
       "tags": [
         "Social"
       ],
@@ -1277,16 +1267,16 @@
       "title": "Conference Breakfast"
     },
     "302": {
-      "description": "Registration opens when the doors do",
+      "description": "",
       "tags": [
         "Registration"
       ],
-      "title": "Registration",
+      "title": "Doors Open",
       "icon": "registration",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/EduWiki_Conference_2013_registration_table.JPG/800px-EduWiki_Conference_2013_registration_table.JPG"
     },
     "304": {
-      "description": "Break for some damn fine coffee",
+      "description": "On the menu:\n\n· Cheese scones with butter on the side\n\n· Whole fruit bowl",
       "tags": [
         "Social"
       ],
@@ -1295,7 +1285,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
     },
     "306": {
-      "description": "Break for lunch",
+      "description": "On the menu:\n\n· Grilled beef steaks, wedges of iceberg lettuce, red onion, cherry tomato, celery, ranch dressing\n· Sloppy dog slice - Peanut and coconut slice with lemon icing (gf)",
       "tags": [
         "Social"
       ],
@@ -1304,7 +1294,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
     },
     "308": {
-      "description": "Break for some damn fine coffee",
+      "description": "On the menu:\n\n· A selection of mini Danish pastries\n\n· Whole fruit bowl",
       "tags": [
         "Social"
       ],
@@ -1319,7 +1309,7 @@
       ],
       "title": "Keynote IV",
       "speakers": [
-        "Miriam Gonzalez"
+        "Dr. Kate Crawford"
       ]
     },
     "310": {
@@ -1345,15 +1335,15 @@
       ],
       "title": "Keynote III",
       "speakers": [
-        "Edwin Liava'a"
+        "Lyzi Diamond"
       ]
     },
     "3032": {
-      "description": "Watch this space",
+      "description": "In putting together the first FOSS4G SotM Conference last year, there weren’t any specific goals around building a community, but we created something of a focal point. A light on the verandah that attracted a diverse group of open creatures together, and that gathering has been consistent only in how it continues to exceed expectations.\n\nWe want a lasting community, and that takes thought and effort. What works fine as ad-hoc chaos in the early stages, needs to be managed more systematically over time. It should ensure continuity and growth while embracing change and innovation. It needs to ensure that there is turnover so that there isn’t burnout, while encouraging lessons learnt to be passed along.\n\nAnd so what we have in this panel session is a diverse group of individuals who, in their own ways, have been integral in the building of communities, and we’d like to discuss the building of this community and others with the audience here at FOSS4G SotM Oceania 2019.\n\nJoin moderator Alex Leith and panellists Lyzi Diamond, Bart Delathouwer, Anne Harper and John Bryant.",
       "tags": [
         "Conference"
       ],
-      "title": "Unconfirmed Activity"
+      "title": "Panel: Building Communities"
     },
     "EMXAWM": {
       "description": "CesiumJS is an amazing library for geospatial visualization, but is very bare-metal and you have to build your UI around it. An easier approach is using TerriaJS as your UI to interact with CesiumJS. This workshop will show you how easy that is to do!\n\n## Details\n\nTerriaJS builds upon CesiumJS’ 3D web geospatial visualization, adding a UI for exploring and previewing layers in a catalog, charts and graphs, a “splitter” interactive comparison tool, shareable story building and many other features. In this workshop, you will learn how to build and deploy a rich and compelling TerriaJS application, without writing any code. You will also learn how to extend TerriaJS with custom functionality as your application’s needs grow.\n\n### Skill level\n\n**Beginner/Introductory**\n\nSome experience with JavaScript/NodeJS would be advantageous. Experienced people will not be bored as the sky is the limit.\n\n### Things to bring and stuff to do beforehand\n\nLaptop with a working NodeJS installation and a text editor.",
@@ -1398,19 +1388,6 @@
       "complexity": "Beginner/Introductory",
       "image": "https://pretalx.com/media/fso2019w/images/W8Y7UU/landuse_opt_zB29rNj.png",
       "ticketUrl": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/clgg6dso-dw"
-    },
-    "SNN83F": {
-      "description": "Do you want to create minimal nice looking maps without all the overhead of a typical mapping library? Are you bothered of all the extra stuff that obstructs the display of your geospatial data?\r\nUsing d3 is a great way to create minimal nice looking maps and this workshop will teach you the essentials you need to know.\n\n## Details\n\nThe revised workshop is a hands-on, bring your device type of workshop where I teach participants with projects and exercises on how to create maps with d3.\r\nThe workshop showcases the essential features of d3 for quickly creating geospatial data visualizations, and the result is a choropleth map that every participant creates on their own and takes home.\r\n\r\nMapping in the browser is a hot topic, and there are plenty of tools and ways to visualize data. The power of d3 is the interactivity and closeness to the data.\r\nCreating minimal looking maps with or without basemaps and still have interactivity is a great asset of d3.\r\n\r\nThe goal of the session is to provide the participants with the tools and the knowledge to create interactive choropleth maps from geo- and topojson files. Along the way, the base concepts of d3 will be covered as well.\r\n\r\nParticipants should know Javascript and should have worked with a mapping library such as OpenLayers, Mapbox GL, or Leaflet before.\r\n\r\nLearnings: When is d3 the right tool for creating a map and the best approach to create a map with d3.\r\n\r\nThe topics include:\r\n\r\n- Creating a simple map from both geojson and topojson\r\n- Changing the projection of the map\r\n- Creating a choropleth map\r\n- Updating the map\r\n- Adding interaction to the map\r\n- Creating a tooltip\r\n- Create a bubble map\r\n\r\n\r\n\r\n**Learnings**: When is d3 the right tool for creating a map and the best approach to create a map with d3.\r\n\r\n**What to take home**: Basic d3 Map with your data or an open dataset. \r\n\r\n**Required facilitations**: Local network, participants laptops, web browser\r\n\r\n**Knowledge required**: medium-level Javascript knowledge, basic HTML, basic CSS\n\n### Skill level\n\n**Intermediate**\n\nmedium-level Javascript knowledge, basic HTML, basic CSS\n\n### Things to bring and stuff to do beforehand\n\nLaptop",
-      "tags": [
-        "Workshop"
-      ],
-      "language": "English",
-      "title": "Geospatial data visualization with d3",
-      "speakers": [
-        "TJ3SDB"
-      ],
-      "complexity": "Intermediate",
-      "image": "https://pretalx.com/media/fso2019w/images/SNN83F/Learn_how_to_create_maps_with_d3_llZa1a9.png"
     },
     "JX7NNK": {
       "description": "Digital Earth Australia have been working with FrontierSI to prepare a sandbox environment where you can use the Open Data Cube to explore over thirty years of Earth observation data covering the Australian continent. This workshop will introduce you to the Open Data Cube, the Jupyter data science environment, and analysis ready data in a live coding environment, the DEA Sandbox.\n\n## Details\n\nThe Open Data Cube (ODC) is a collaborative effort to develop software and a community of users around a common goal of increasing the ease of access to Earth observation data. The increase in the number of Earth observing satellites over the past few years, coupled with new open data policies and new storage formats like Cloud Optimised GeoTIFF, means that there is a need for a standard way to plug in to this data and enable analysis processes. The ODC provides this way. \r\n\r\nThis workshop will introduce you to Digital Earth Australia’s (DEA) implementation of the ODC, the DEA Sandbox, and through the use of the Sandbox, you’ll work through a suite of examples that show you what the ODC can do and what data DEA make available for Australia. This workshop will cover the following topics:\r\n* What is analysis ready data\r\n* What is Jupyter and how can I use it \r\n* Using simple Jupyter apps to explore data \r\n* Do-it-yourself example implementing NDVI from scratch\r\n* Advanced example using Landsat 8 optical data to identify coastlines over time \r\n* Advanced example using Sentinel 1 radar data to identify water.\n\n### Skill level\n\n**Intermediate**\n\nSome Python programming experience is required as this workshop involves some hands-on coding.\n\n### Things to bring and stuff to do beforehand\n\nAttendees are required to bring a laptop with a modern web browser, preferably Google Chrome.\r\n\r\nWe require Internet access for the workshop participants.",
@@ -2160,6 +2137,20 @@
       "complexity": null,
       "image": null
     },
+    "SKVWE7": {
+      "description": "Much of the real-world data is dirty. The term dirty data can collectively indicate issues such as missing values and incorrect data, non-standard representation and duplicates. OpenStreetMap is not immune from the challenges of dirty data and more so, because of the very nature of the data curation process. The increasing shift towards OSM as the main data source for many substantial map-based services has led to an increased attention to the quality of OSM data. Errors in maps can be varied in nature, therefore requiring nuanced strategies to address them. In order to effectively formulate such strategies, it is important to understand and analyse the different kinds of errors that can occur in OSM.\r\n\r\nMuch research has focussed on assessing the data quality of OSM by comparison with reference data sets, usually through ISO-19157 Data Quality Standard for Spatial Data indicators. However, a valuable intrinsic source of knowledge within the OSM data model that is largely underutilised is the documentation captured by FIXME tags. These come from the OSM contributors themselves, capturing issues encountered during the mapping process.\r\n\r\nBut how can the knowledge captured in unstructured text associated with FIXME tags be transformed into useful, actionable insights about OSM data quality? We hypothesised that the unstructured text can be mined through language topic modelling and thus reveal valuable knowledge about OSM issues. We approached the task as an extraction of knowledge from unstructured text corpora through an Abstract Topic Discovery exercise. This is based on the assumption that document semantics are primarily governed by latent variables that shape the meaning of documents, and these can be revealed by analysing the distribution of word co-occurrences. Each FIXME tag is assumed to be highlighting one or more category of issues. Key topics that are indicators of spatial data quality can then be revealed using latent topic models.\r\n\r\nFrom an analysis of the distribution of errors for the OSM North America data set, we find that a significant percentage of the documented issues are related to OSM attributes. These issues are mapped to Non-Quantitative Attribute Completeness or Qualitative Attribute Accuracy in ISO-19157. These kinds of issues can be illustrated by missing street names, missing house numbers, missing addresses, and others. In this talk, we will document interesting differences in the distribution of kinds of data quality issues in OSM across different regions of the world -- OSM certainly is far from homogeneous in its problems.",
+      "tags": [
+        "AI and Machine Learning",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "FIXME: Documenting the Uneven Distribution of OSM Data Quality Issues.",
+      "speakers": [
+        "CGHJUV"
+      ],
+      "complexity": null,
+      "image": null
+    },
     "QN8SYY": {
       "description": "A city's urban mobility characteristics have a significant impact on the quality of life, economic potential, and safety of citizens.\r\n\r\nIn Oceania, these characteristics vary wildly. From Port Moresby to Melbourne, we'll look at the different ways citizens move through their cities and the state of roads, public transport, cycling, pedestrian mobility, and accessibility for the mobility impaired.\r\n\r\nAn exciting development we'll cover is the increased involvement of citizens in shaping the way governments approach mobility. We'll look at how tools like OpenStreetMap, street-level imagery and computer vision are being used by citizens to understand mobility trends and advocate for change.",
       "tags": [
@@ -2170,20 +2161,6 @@
       "title": "Urban mobility across Oceania: How citizens are using imagery and OpenStreetMap to influence government policy",
       "speakers": [
         "8TSH3M"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "KGDBJL": {
-      "description": "Our world is full of distractions and we as creators of (online) maps add to it.\r\n\r\nWe create maps that overload our audience with information and hide important details in our maps.\r\n\r\nPeople can only retain a limited amount of information and we should be mindful of that.\r\n\r\nLet's be cautious if we need that basemap and if we need all the extra information on the map. Or if we can use colour sparingly and use annotations to help our audience to retain more information.\r\n\r\nLet your data shine.\r\n\r\nThis talk will show the audience how to declutter your maps and create distraction-free maps. It will show plenty of examples of maps that can become distraction-free maps.",
-      "tags": [
-        "Web Mapping",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Distraction-free (Online) maps",
-      "speakers": [
-        "TJ3SDB"
       ],
       "complexity": null,
       "image": null
@@ -2605,14 +2582,6 @@
       "company": "NIWA",
       "country": "Wellington"
     },
-    "TJ3SDB": {
-      "name": "Mila Frerichs",
-      "bio": "Mila loves teaching and traveling to conferences to share his work.\r\nHe founded civic vision to work on his passion full-time. Using his tech skills to do good.",
-      "shortBio": "Mila loves teaching and traveling to conferences to share his work.\r\nHe founded civic vision to work on his passion full-time. Using his tech skills to do good.",
-      "title": "Founder",
-      "company": "Civic Vision",
-      "country": "Berlin, Germany"
-    },
     "STEC7C": {
       "name": "Alex Leith",
       "bio": "Alex is a certified spatial professional with extensive experience in software development, DevOps and project management. Alex has spent time volunteering for GovHack and GeoRabble and is one of a handful of GeoHipster interviewers, which means he is in touch with a broad community of hip geo-folk. When not writing code, or at least talking to people about writing code, he likes a great craft beer (currently seeking out the best XPA) or whisky (with a preference for those from Islay). Alex is a technical leader at Geoscience Australia, working with a team of developers on software that enables people to work with Earth observation data.",
@@ -2630,6 +2599,11 @@
       "title": "DIrector - Principal Consultant",
       "company": "Pinpoint Geospatial Solutions",
       "country": "Napier, New Zealand"
+    },
+    "CGHJUV": {
+      "name": "Martin Tomko",
+      "bio": null,
+      "shortBio": null
     },
     "F3ZM8Y": {
       "name": "Nick Forbes-Smith",

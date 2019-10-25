@@ -102,7 +102,8 @@
 					"logoUrl": "/images/partners/linz.png",
 					"name": "Land Information New Zealand",
 					"url": "https://www.linz.govt.nz/"
-				}, {
+				},
+				{
 					"order": 1,
 					"logoUrl": "/images/partners/bing.png",
 					"name": "Bing",
@@ -197,6 +198,12 @@
 					"logoUrl": "images/partners/kaart.jpeg",
 					"name": "Kaart Group",
 					"url": "https://kaartgroup.com"
+				},
+				{
+					"order": 2,
+					"logoUrl": "images/partners/spatialised.png",
+					"name": "Spatialised",
+					"url": "https://www.spatialised.net"
 				}
 			],
 			"order": 2,
@@ -313,8 +320,15 @@
 					}]
 				},
 				{
-					"startTime": "18:00",
-					"endTime": "20:00",
+					"startTime": "17:30",
+					"endTime": "19:00",
+					"sessions": [{
+						"items": [108]
+					}]
+				},
+				{
+					"startTime": "19:00",
+					"endTime": "21:00",
 					"sessions": [{
 						"items": [109]
 					}]
@@ -328,7 +342,7 @@
 		"2019-11-13": {
 			"dateReadable": "Wed Nov 13",
 			"timeslots": [{
-					"startTime": "07:00",
+					"startTime": "07:15",
 					"endTime": "08:30",
 					"sessions": [{
 							"items": []
@@ -340,10 +354,10 @@
 							"items": []
 						},
 						{
-							"items": []
+							"items": [201]
 						},
 						{
-							"items": [201]
+							"items": []
 						}
 					]
 				}, {
@@ -438,38 +452,19 @@
 					"title": "Auditorium (Taiwhanga Kauhau)"
 				},
 				{
-					"title": "Tiakiwai Seminar Rooms (Lower Ground Floor)"
+					"title": "Thorndon Seminar Room"
 				},
 				{
 					"title": "Programme Rooms (Ground Floor)"
 				},
 				{
-					"title": "Venue TBA"
+					"title": "The Thistle Inn"
 				}
 			]
 		},
 		"2019-11-14": {
 			"dateReadable": "Thurs Nov 14",
 			"timeslots": [{
-				"startTime": "07:00",
-				"endTime": "08:30",
-				"sessions": [{
-						"items": []
-					},
-					{
-						"items": []
-					},
-					{
-						"items": []
-					},
-					{
-						"items": []
-					},
-					{
-						"items": [301]
-					}
-				]
-			}, {
 				"startTime": "08:30",
 				"endTime": "09:00",
 				"sessions": [{
@@ -541,13 +536,10 @@
 					"title": "Auditorium (Taiwhanga Kauhau)"
 				},
 				{
-					"title": "Tiakiwai Seminar Rooms (Lower Ground Floor)"
+					"title": "Thorndon Seminar Room"
 				},
 				{
 					"title": "Programme Rooms (Ground Floor)"
-				},
-				{
-					"title": "Venue TBA"
 				}
 			]
 		},
@@ -580,12 +572,21 @@
 			"tags": [
 				"Social"
 			],
-			"description": "Break for lunch",
+			"description": "On the menu:\n\n· Teriyaki salmon, sushi rice, red cabbage slaw, edamame, carrot, miso mayo\n\n· Coconut, plum and lemon cake (gf)",
 			"icon": "lunch",
 			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
 		},
+		"108": {
+			"description": "",
+			"tags": [
+				"Social"
+			],
+			"title": "Geochicas take Wellington!",
+			"icon": "party",
+			"image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
+		},
 		"109": {
-			"description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Foxglove Bar and Kitchen](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780).",
+			"description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Queens Wharf Ballroom](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780).",
 			"tags": [
 				"Social"
 			],
@@ -594,15 +595,15 @@
 			"image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
 		},
 		"201": {
-			"description": "Breakfast(s)",
+			"description": "Join guest speaker Dawn Hendrick for a networking breakfast organised in associated with Women in Spatial.",
 			"tags": [
 				"Social"
 			],
-			"title": "Conference Breakfast"
+			"title": "Women in Spatial Breakfast"
 		},
 		"202": {
-			"description": "Registration opens when the doors do",
-			"tags": [
+			"description": "Grab a registration pack from the friendly volunteers at the registration desk.",
+			"tags": [	
 				"Registration"
 			],
 			"title": "Registration",
@@ -610,7 +611,7 @@
 			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/EduWiki_Conference_2013_registration_table.JPG/800px-EduWiki_Conference_2013_registration_table.JPG"
 		},
 		"203": {
-			"description": "Introduction to the conference, including housekeeping and emergency evacuation notes",
+			"description": "Introduction to the conference, including housekeeping and emergency evacuation notes.",
 			"tags": [
 				"Conference"
 			],
@@ -625,7 +626,7 @@
 			],
 			"title": "Keynote I",
 			"speakers": [
-				"Lyzi Diamond"
+				"Miriam Gonzalez"
 			]
 		},
 		"205": {
@@ -635,11 +636,11 @@
 			],
 			"title": "Keynote II",
 			"speakers": [
-				"Dr. Kate Crawford"
+				"Edwin Liava'a"
 			]
 		},
 		"206": {
-			"description": "Break for some damn fine coffee",
+			"description": "On the menu:\n\n· Raspberry and lemon curd muffin\n\n· Whole fruit bowl",
 			"tags": [
 				"Social"
 			],
@@ -648,7 +649,7 @@
 			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
 		},
 		"208": {
-			"description": "Break for lunch",
+			"description": "On the menu:\n\n· Moroccan chicken, spiced chickpeas, green peas, carrot, pickled sultanas, cherry tomato, salad greens and smoky aubergine yoghurt (gf)\n\n· Salted dark chocolate chip cookies",
 			"tags": [
 				"Social"
 			],
@@ -664,7 +665,7 @@
 			"title": "Lightning Talks"
 		},
 		"210": {
-			"description": "Break for some damn fine coffee",
+			"description": "On the menu:\n\n· Cheese platter with crackers, chutneys and fruit",
 			"tags": [
 				"Social"
 			],
@@ -689,33 +690,33 @@
 			"title": "Conference Breakfast"
 		},
 		"302": {
-			"description": "Registration opens when the doors do",
+			"description": "",
 			"tags": [
 				"Registration"
 			],
-			"title": "Registration",
+			"title": "Doors Open",
 			"icon": "registration",
 			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/EduWiki_Conference_2013_registration_table.JPG/800px-EduWiki_Conference_2013_registration_table.JPG"
 		},
 		"3031": {
 			"description": "Third keynote presentation",
 			"tags": [
-				"Keynote"
+			  "Keynote"
 			],
 			"title": "Keynote III",
 			"speakers": [
-				"Edwin Liava'a"
+			  "Lyzi Diamond"
 			]
-		},
-		"3032": {
-			"description": "Watch this space",
+		  },
+		  "3032": {
+			"description": "In putting together the first FOSS4G SotM Conference last year, there weren’t any specific goals around building a community, but we created something of a focal point. A light on the verandah that attracted a diverse group of open creatures together, and that gathering has been consistent only in how it continues to exceed expectations.\n\nWe want a lasting community, and that takes thought and effort. What works fine as ad-hoc chaos in the early stages, needs to be managed more systematically over time. It should ensure continuity and growth while embracing change and innovation. It needs to ensure that there is turnover so that there isn’t burnout, while encouraging lessons learnt to be passed along.\n\nAnd so what we have in this panel session is a diverse group of individuals who, in their own ways, have been integral in the building of communities, and we’d like to discuss the building of this community and others with the audience here at FOSS4G SotM Oceania 2019.\n\nJoin moderator Alex Leith and panellists Lyzi Diamond, Bart Delathouwer, Anne Harper and John Bryant.",
 			"tags": [
-				"Conference"
+			  "Conference"
 			],
-			"title": "Unconfirmed Activity"
-		},
+			"title": "Panel: Building Communities"
+		  },
 		"304": {
-			"description": "Break for some damn fine coffee",
+			"description": "On the menu:\n\n· Cheese scones with butter on the side\n\n· Whole fruit bowl",
 			"tags": [
 				"Social"
 			],
@@ -724,7 +725,7 @@
 			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
 		},
 		"306": {
-			"description": "Break for lunch",
+			"description": "On the menu:\n\n· Grilled beef steaks, wedges of iceberg lettuce, red onion, cherry tomato, celery, ranch dressing\n· Sloppy dog slice - Peanut and coconut slice with lemon icing (gf)",
 			"tags": [
 				"Social"
 			],
@@ -733,7 +734,7 @@
 			"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
 		},
 		"308": {
-			"description": "Break for some damn fine coffee",
+			"description": "On the menu:\n\n· A selection of mini Danish pastries\n\n· Whole fruit bowl",
 			"tags": [
 				"Social"
 			],
@@ -748,7 +749,7 @@
 			],
 			"title": "Keynote IV",
 			"speakers": [
-				"Miriam Gonzalez"
+				"Dr. Kate Crawford"
 			]
 		},
 		"310": {
