@@ -181,6 +181,18 @@
       "logos": [
         {
           "order": 0,
+          "logoUrl": "/images/partners/mapbox.png",
+          "name": "Mapbox",
+          "url": "https://www.mapbox.com/"
+        }
+      ],
+      "order": 2,
+      "title": "Silver Sponsors"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
           "logoUrl": "/images/partners/geosolutions.png",
           "name": "GeoSolutions",
           "url": "https://www.geo-solutions.it/"
@@ -196,9 +208,15 @@
           "logoUrl": "images/partners/spatialised.png",
           "name": "Spatialised",
           "url": "https://www.spatialised.net"
+        },
+        {
+          "order": 2,
+          "logoUrl": "images/partners/riegl.png",
+          "name": "Riegl",
+          "url": "http://www.riegl.com/"
         }
       ],
-      "order": 2,
+      "order": 3,
       "title": "Bronze Sponsors"
     },
     {
@@ -210,7 +228,7 @@
           "url": "https://www.victoria.ac.nz/explore/study-areas/geography/study?subject=geographical-information-systems-and-science&subject=geographical-information-science"
         }
       ],
-      "order": 3,
+      "order": 4,
       "title": "Workshop and Community Day Host"
     },
     {
@@ -222,7 +240,7 @@
           "url": "https://www.surveyspatialnz.org/about/our_groups/spatial_stream"
         }
       ],
-      "order": 4,
+      "order": 5,
       "title": "Industry Partner"
     }
   ],
@@ -549,7 +567,7 @@
             },
             {
               "items": [
-                "3BPEP8"
+                "SKVWE7"
               ]
             },
             {
@@ -674,7 +692,9 @@
               "items": []
             },
             {
-              "items": []
+              "items": [
+                "Y3TNSJ"
+              ]
             },
             {
               "items": [
@@ -976,7 +996,9 @@
               ]
             },
             {
-              "items": []
+              "items": [
+                "EDU9XD"
+              ]
             },
             {
               "items": [
@@ -1727,6 +1749,20 @@
       "complexity": null,
       "image": null
     },
+    "EDU9XD": {
+      "description": "Aerometrex is a premium provider of high definition Aerial Photography across Australia and pride ourselves on our ability to produce clear accurate data. To also provide an easily accessible delivery platform for our aerial photography services we created Metromap, a Software as a Service (SAAS) and Data Service based application with a web interface and WMS and WMTS API.\r\n\r\nBecause our software is used by GIS Specialists in many different industries across the country, we wanted to provide a simple solution for our users to reproject coordinates in the user interface that would persist across multiple user workflows. This would allow for an improved user experience for our customers and demonstrate the accuracy of our data. \r\n\r\nTo accomplish this we used a combination of two open source projects, the Mapbox GL JS  (https://docs.mapbox.com/mapbox-gl-js/api/) and Proj4js (http://proj4js.org/). We used Mapbox for displaying the data and updating the coordinates based on the location of a polygon, line or geographic point and then we used a combination of Proj4js and projection strings to reproject the given coordinate or coordinate sets.\r\n\r\nIn my presentation I would like to demonstrate how we accomplished this feat and give a demonstration of our completed working reprojection system that updates in real time based on the position of the mouse cursor position. I would then like to talk about our road map and what implications it’ll have for our community.",
+      "tags": [
+        "Web Mapping",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Reprojecting Metromap on the fly - A tale of open source integrations",
+      "speakers": [
+        "BSENTR"
+      ],
+      "complexity": null,
+      "image": null
+    },
     "UZPNDF": {
       "description": "It's the absolute truth of workplaces today that we crave efficiency. QGIS has an amazing talent for delivering beautiful maps in a uniform way that makes us look good as well as saving time, money and thinking space. In this presentation, I'll cover client input, workflows, using variables, symbology tools, project structure, template design, current useful plugins and the possibilities a personal plugin will deliver.",
       "tags": [
@@ -2147,6 +2183,21 @@
       "title": "FIXME: Documenting the Uneven Distribution of OSM Data Quality Issues.",
       "speakers": [
         "CGHJUV"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "Y3TNSJ": {
+      "description": "NIWA in Wellington maintains the NIWA Invertebrate Collection (NIC), over 125,000 marine invertebrate specimens from around New Zealand, the Ross Sea (Antarctica), and the wider south-west Pacific Ocean. The data about these are managed in an Open Source tool called Specify - using an underlying MySQL database. Specify has no built in spatial data or mapping capability, with coordinates simply stored as numbers. We have integrated very effective spatial query and mapping capabilities to our Specify database using QGIS. We create a GDAL virtual data source, containing the information QGIS needs to connect to the underlying MySQL database as if it was genuinely spatially enabled, so QGIS can run spatial and non-spatial queries and produce publication quality maps, directly from the underlying Specify database. The data can also be visualised spatially, looking at and comparing species' distributions, and new data can have the locations validated on a map, which is much quicker and easier than any other method.\r\nThis presentation will show how QGIS, connected to a non-spatially enabled database like Specify, can be a very useful tool for checking, analysing, querying and mapping the underlying data, with all the functionality of a GIS and fully spatial database.",
+      "tags": [
+        "QGIS",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Mapping Marine Diversity: using QGIS to visualise and extract biodiversity data",
+      "speakers": [
+        "SYCPXT",
+        "3UWSRE"
       ],
       "complexity": null,
       "image": null
@@ -2707,8 +2758,8 @@
     },
     "8TSH3M": {
       "name": "Edoardo Neerhut",
-      "bio": "TBA",
-      "shortBio": "TBA",
+      "bio": "Edoardo Neerhut is the Strategic Partnerships Manager at Mapillary. In this role he works with companies, individuals, NGOs, and government, understanding the geospatial problems they are trying to solve and the role of street-level imagery and machine generated data in solving them.\r\n\r\nA childhood love of maps means that he is also heavily involved with the open source geo community. Working with others he launched the Melbourne and Copenhagen chapters of Maptime to foster hands on mapping activities such as OpenStreetMap and QGIS. He has been on both the 2018 & 2019 conference committees for FOSS4G SotM Oceania and is also a founding director of OSGeo Oceania.",
+      "shortBio": "Edoardo Neerhut is the Strategic Partnerships Manager at Mapillary. In this role he works with companies, individuals, NGOs, and government, understanding the geospatial problems they are trying to solve and the role of street-level imagery and machine generated data in solving them.\r\n\r\nA childhood love of maps means that he is also heavily involved with the open source geo community. Working with others he launched the Melbourne and Copenhagen chapters of Maptime to foster hands on mapping activities such as OpenStreetMap and QGIS. He has been on both the 2018 & 2019 conference committees for FOSS4G SotM Oceania and is also a founding director of OSGeo Oceania.",
       "photoUrl": "https://pretalx.com/media/Hiking_Kepler.png",
       "title": "Strategic Partnerships Manager",
       "company": "Mapillary",
@@ -2770,6 +2821,15 @@
       "photoUrl": "https://pretalx.com/media/me_geski2.png",
       "title": "Solutions Engineer",
       "company": "Mapillary"
+    },
+    "BSENTR": {
+      "name": "Oliver Holmes",
+      "bio": "I studied computer science and James Cook University before starting a 15 year career in Software Development.\r\n\r\nI am currently working as the Software Development Manager for Aerometrex and have a drive and a passion for geospatial application development and specialize in geospatial programming and system architecture.",
+      "shortBio": "I studied computer science and James Cook University before starting a 15 year career in Software Development.\r\n\r\nI am currently working as the Software Development Manager for Aerometrex and have a drive and a passion for geospatial application development and specialize in geospatial programming and system architecture.",
+      "photoUrl": "https://pretalx.com/media/download_KKDqV6E.png",
+      "title": "Software Development Manager",
+      "company": "Aerometrex",
+      "country": "Adelaide"
     },
     "VTSZQX": {
       "name": "Joeli Varo",
@@ -3017,6 +3077,15 @@
       "title": "Software Developer",
       "company": "Geospatial Research Institute",
       "country": "New Zealand"
+    },
+    "3UWSRE": {
+      "name": "Sadie Mills",
+      "bio": "Sadie is the Collection Manager of the NIWA Invertebrate Collection (NIC), a Nationally Significant Collection and Database holding over 300,000 jars of preserved marine invertebrates from around New Zealand, Antarctica and the wider South West Pacific. Sadie is responsible for the NIC staff and volunteers and manages the MBIE SSIF funded project that supports the long-term care and enhancement of the Collection.",
+      "shortBio": "Sadie is the Collection Manager of the NIWA Invertebrate Collection (NIC), a Nationally Significant Collection and Database holding over 300,000 jars of preserved marine invertebrates from around New Zealand, Antarctica and the wider South West Pacific. Sadie is responsible for the NIC staff and volunteers and manages the MBIE SSIF funded project that supports the long-term care and enhancement of the Collection.",
+      "photoUrl": "https://pretalx.com/media/sadie_DSC_9489.jpg",
+      "title": "Collection Manager",
+      "company": "NIWA",
+      "country": "Wellington, New Zealand"
     },
     "3SRT3L": {
       "name": "Hugh Saalmans",
