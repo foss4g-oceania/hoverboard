@@ -189,6 +189,18 @@
 			"logos": [
 				{
 					"order": 0,
+					"logoUrl": "/images/partners/mapbox.png",
+					"name": "Mapbox",
+					"url": "https://www.mapbox.com/"
+				}
+			],
+			"order": 2,
+			"title": "Silver Sponsors"
+		},
+		{
+			"logos": [
+				{
+					"order": 0,
 					"logoUrl": "/images/partners/geosolutions.png",
 					"name": "GeoSolutions",
 					"url": "https://www.geo-solutions.it/"
@@ -204,9 +216,15 @@
 					"logoUrl": "images/partners/spatialised.png",
 					"name": "Spatialised",
 					"url": "https://www.spatialised.net"
+				},
+				{
+					"order": 2,
+					"logoUrl": "images/partners/riegl.png",
+					"name": "Riegl",
+					"url": "http://www.riegl.com/"
 				}
 			],
-			"order": 2,
+			"order": 3,
 			"title": "Bronze Sponsors"
 		},
 		{
@@ -218,7 +236,7 @@
 					"url": "https://www.victoria.ac.nz/explore/study-areas/geography/study?subject=geographical-information-systems-and-science&subject=geographical-information-science"
 				}
 			],
-			"order": 3,
+			"order": 4,
 			"title": "Workshop and Community Day Host"
 		},
 		{
@@ -230,7 +248,7 @@
 					"url": "https://www.surveyspatialnz.org/about/our_groups/spatial_stream"
 				}
 			],
-			"order": 4,
+			"order": 5,
 			"title": "Industry Partner"
 		}
 	],
