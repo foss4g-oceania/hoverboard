@@ -166,7 +166,7 @@
   "ticketsBlock": {
     "title": "Tickets",
     "ticketsDetails": "Add-ons: Conference Dinner ($80), FOSS4G SotM Oceania 2019 T-shirt ($30). All '2 Day Conference' tickets include our Icebreaker event as well as morning tea, lunch and afternoon tea during the conference, but do not include attendance at workshops. Workshop tickets must be purchased separately. Prices are in NZD.",
-    "soldOut": "We've sold out!",
+    "soldOut": "Sold out!",
     "notAvailableYet": "Not yet available",
     "joinWaitlist": "Join waiting list",
     "save": "Save ${discount}% today"
