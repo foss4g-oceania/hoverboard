@@ -172,7 +172,7 @@
             >
               {$ addToHomeScreen.cta $}
             </a>
-            
+
             <!-- Button removed until general tickets are available -->
             <!-- <a
               class="bottom-drawer-link"
@@ -391,6 +391,12 @@
         ];
       }
 
+      _aliases() {
+        return {
+          'code': 'cod',
+        };
+      }
+
       constructor() {
         super();
         Polymer.setPassiveTouchGestures(true);
@@ -443,6 +449,7 @@
       }
 
       _routeDataChanged(page, subroutePath) {
+        page = this._aliases()[page] || page;
         if (!page && page !== '') {
           return;
         }
