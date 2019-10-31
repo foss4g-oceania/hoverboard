@@ -335,6 +335,9 @@
               "items": []
             },
             {
+              "items": []
+            },
+            {
               "items": [
                 "EMXAWM"
               ]
@@ -385,6 +388,9 @@
               "items": []
             },
             {
+              "items": []
+            },
+            {
               "items": [
                 "SPGUQV"
               ]
@@ -421,6 +427,9 @@
           "endTime": "19:00",
           "sessions": [
             {
+              "items": []
+            },
+            {
               "items": [
                 108
               ]
@@ -432,6 +441,9 @@
           "endTime": "21:00",
           "sessions": [
             {
+              "items": []
+            },
+            {
               "items": [
                 109
               ]
@@ -442,6 +454,9 @@
       "tracks": [
         {
           "title": "Rutherford House, Victoria University of Wellington"
+        },
+        {
+          "title": "Queens Wharf Ballroom, 57 Customhouse Quay"
         },
         {
           "title": "RH205"
@@ -679,7 +694,7 @@
             },
             {
               "items": [
-                "AXRSVG"
+                "9UUSTQ"
               ]
             }
           ]
@@ -703,7 +718,7 @@
             },
             {
               "items": [
-                "9UUSTQ"
+                "J7STRW"
               ]
             }
           ]
@@ -727,7 +742,7 @@
             },
             {
               "items": [
-                "J7STRW"
+                "EMEZEP"
               ]
             }
           ]
@@ -751,7 +766,7 @@
             },
             {
               "items": [
-                "EMEZEP"
+                "AXRSVG"
               ]
             }
           ]
@@ -768,7 +783,7 @@
           ]
         },
         {
-          "startTime": "15:40",
+          "startTime": "15:30",
           "endTime": "17:00",
           "sessions": [
             {
@@ -782,7 +797,30 @@
           ]
         },
         {
-          "startTime": "18:30",
+          "startTime": "17:00",
+          "endTime": "17:30",
+          "sessions": [
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": []
+            },
+            {
+              "items": [
+                211
+              ]
+            },
+            {
+              "items": []
+            }
+          ]
+        },
+        {
+          "startTime": "18:00",
           "endTime": "22:00",
           "sessions": [
             {
@@ -1176,7 +1214,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
     },
     "108": {
-      "description": "",
+      "description": "Women* are welcome to join the 9th international Geochicas pre-conference event as a lead in to the conference icebreaker. Miriam Gonzalez, one of our esteemed keynote speakers, will be your host. Geochicas is a fantastic initiative - [find out more here](https://blog.mapillary.com/update/2019/05/28/putting-women-on-the-map-with-geochicas.html) and [follow on Twitter](https://twitter.com/geochicasosm). Two free drinks tickets at the door.\n\n*anyone who perceives herself to be a woman",
       "tags": [
         "Social"
       ],
@@ -1185,7 +1223,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
     },
     "109": {
-      "description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Queens Wharf Ballroom](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780).",
+      "description": "Come and meet your fellow attendees before the conference kicks off. We will be at the [Queens Wharf Ballroom](https://www.openstreetmap.org/directions?engine=graphhopper_foot&route=%3B-41.28365%2C174.778724#map=16/-41.2831/174.7780). Nibbles provided, two free drinks tickets at the door.",
       "tags": [
         "Social"
       ],
@@ -1194,7 +1232,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
     },
     "201": {
-      "description": "Join guest speaker Dawn Hendrick for a networking breakfast organised in associated with Women in Spatial.",
+      "description": "Join guest speaker *Dawn Hendrick* for a catered networking breakfast organised in conjunction with [Women in Spatial](https://www.surveyspatialnz.org/about/our_groups/women_in_spatial_surveying).\n\nAbout Dawn:\nDawn started her career in the UK seismic exploration industry before emigrating to Australia in 1985. In 1991 she started her own mapping consultancy based in Brisbane and moved to Tasmania in 2010. Dawn’s clients have included local and state government departments and private and listed companies, mostly in the mining, environmental and engineering sectors. She now marks assignments for Spatial Science online courses at TafeNSW.\n\nDawn was awarded GISP-AP Certification in 2007 and again in 2013. She has also completed 33 years as a Topographic Engineer in the Army Reserve. She has presented papers at several conferences and regularly conducts training courses in geospatial software (MapInfo and QGIS). Dawn has previously held roles in the Surveying and Spatial Sciences Institute (SSSI) as a Queensland Regional Committee member & CPD Committee Chair; representative for the Spatial Information and Cartography Commission (SICC) and Women in Spatial and completed a four year stint as a member of the GISP-AP Certification Panel. Dawn is currently a member of the Geological Society of Australia; Australia and New Zealand Maps Society and the Mapping Sciences Institute of Australia.\n\nSpaces are limited, [please reserve a ticket](https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/lsd79l4eeli).",
       "tags": [
         "Social"
       ],
@@ -1257,7 +1295,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
     },
     "209": {
-      "description": "A series of very short talks about lots of things",
+      "description": "A series of very short talks on a wide variety of topics. Here's a peak at what we've got lined up for you:\n\n· Alex Lum - The World of Wikidata\n\n· Andrew Harvey - Practical Mapping Tips\n\n· Brent Wood - A new paradigm in web visualiation of species data\n\n· Caitlin Adams - Lessons from a first brush with user experience design\n\n· Chris Morgan - Agile Delivery in the Geospatial Industry at FrontierSI\n\n· David Garcia - How to Map an Island in the Pacific\n\n· Ewen Hill - Mapping in the International Year of Indigenous Languages\n\n· Hamish Campbell - QGIS Geometry Generators\n\n· Jessica Leiria Schattschneider - An open-source geospatial framework for beach litter monitoring\n\n· Joeli Varo - A great giant of isolation in Papua New Guinea!\n\n· Kamsin Raju - Challenges of Mapping Informal Settlements\n\n· Michael Speth - High Performance Map Cache Generation\n\n· ~~Merry Christmas~~ QGIS! - Nyall Dawson\n\n· Richard Law - How I use Docker and Make for reproducible workflows\n\n· Rose Phillips - Point Clouds, Pixels and Open Source Awesomeness – Investigating LiDAR Data\n\n· Wing Ho - Offline Maps in the browser!",
       "tags": [
         "Lightning Talk"
       ],
@@ -1272,6 +1310,13 @@
       "icon": "coffee-break",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
     },
+    "211": {
+      "description": "The inaugural OSGeo Oceania AGM. Come along for an update on the non-profit organisation set up to manage this conference series, plus a short Q&A session with the current directors.",
+      "tags": [
+        "Conference"
+      ],
+      "title": "OSGeo Oceania AGM"
+    },
     "212": {
       "description": "Conference dinner for those who have tickets",
       "tags": [
@@ -1280,13 +1325,6 @@
       "title": "Conference Dinner",
       "icon": "party",
       "image": "https://images.squarespace-cdn.com/content/v1/561dfd42e4b09810cb62007b/1533874232155-GPJ027W85TCLT9984AK9/ke17ZwdGBToddI8pDm48kBE-eSAkIGGLNk458g8mQeB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jAoOkRmPE63FUjiJOEKAz7TePH6TEEZ__SJOtKU1UtTCufZLmHV_2zp8gZA3_NwPw/243A0681.jpg?format=1000w"
-    },
-    "301": {
-      "description": "Breakfast(s)",
-      "tags": [
-        "Social"
-      ],
-      "title": "Conference Breakfast"
     },
     "302": {
       "description": "",
@@ -1307,7 +1345,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
     },
     "306": {
-      "description": "On the menu:\n\n· Grilled beef steaks, wedges of iceberg lettuce, red onion, cherry tomato, celery, ranch dressing\n· Sloppy dog slice - Peanut and coconut slice with lemon icing (gf)",
+      "description": "On the menu:\n\n· Grilled beef steaks, wedges of iceberg lettuce, red onion, cherry tomato, celery, ranch dressing\n\n· Sloppy dog slice - Peanut and coconut slice with lemon icing (gf)",
       "tags": [
         "Social"
       ],
@@ -1343,7 +1381,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed"
     },
     "400": {
-      "description": "Community Day / Code Sprint",
+      "description": "For more info see the [Community Day](https://2019.foss4g-oceania.org/community-day) page.\n\n\nOn the menu:\n\n· Sage and cheddar palmier\n\n· Sandwich platters\n\n· Sweet treat platters\n\n· Whole fruit bowl",
       "tags": [
         "Social",
         "Code Sprint"
@@ -1361,7 +1399,7 @@
       ]
     },
     "3032": {
-      "description": "In putting together the first FOSS4G SotM Conference last year, there weren’t any specific goals around building a community, but we created something of a focal point. A light on the verandah that attracted a diverse group of open creatures together, and that gathering has been consistent only in how it continues to exceed expectations.\n\nWe want a lasting community, and that takes thought and effort. What works fine as ad-hoc chaos in the early stages, needs to be managed more systematically over time. It should ensure continuity and growth while embracing change and innovation. It needs to ensure that there is turnover so that there isn’t burnout, while encouraging lessons learnt to be passed along.\n\nAnd so what we have in this panel session is a diverse group of individuals who, in their own ways, have been integral in the building of communities, and we’d like to discuss the building of this community and others with the audience here at FOSS4G SotM Oceania 2019.\n\nJoin moderator Alex Leith and panellists Lyzi Diamond, Bart Delathouwer, Anne Harper and John Bryant.",
+      "description": "In putting together the first FOSS4G SotM Conference last year, there weren’t any specific goals around building a community, but we created something of a focal point. A light on the verandah that attracted a diverse group of open creatures together, and that gathering has been consistent only in how it continues to exceed expectations.\n\nWe want a lasting community, and that takes thought and effort. What works fine as ad-hoc chaos in the early stages, needs to be managed more systematically over time. It should ensure continuity and growth while embracing change and innovation. It needs to ensure that there is turnover so that there isn’t burnout, while encouraging lessons learnt to be passed along.\n\nAnd so what we have in this panel session is a diverse group of individuals who, in their own ways, have been integral in the building of communities, and we’d like to discuss the building of this community and others with the audience here at FOSS4G SotM Oceania 2019.\n\nJoin moderator Alex Leith and panellists Lyzi Diamond, Bart De Lathouwer, Anne Harper and John Bryant.",
       "tags": [
         "Conference"
       ],
