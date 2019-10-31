@@ -93,7 +93,7 @@ const transformTalk = (talk) => {
 
 const talkInSchedule = (talk) => {
   const slot = talk.slot
-  if (!slot) {
+  if (!slot.room) {
     // Not included in schedule
     return {timeslot: null, track: null}
   }
