@@ -766,7 +766,7 @@
             },
             {
               "items": [
-                "AXRSVG"
+                "7FFU3N"
               ]
             }
           ]
@@ -1716,20 +1716,6 @@
       "complexity": null,
       "image": null
     },
-    "BQNQZK": {
-      "description": "More than 4000 Earth observation satellites are presently in orbit, collecting Petabytes of data relating to changes on the Earth’s surface. While many of these commercial data sets are heavily monetised, the European Space Agency’s Copernicus programme has released a variety of products under open source licensing. The ability for users to harness such powerful data has been a key driver in the democratisation of satellite data and has allowed grassroots organisations to analyse and disseminate observed changes at the planetary and local scale.\r\n\r\nOne such product is Orbica Explorer: a web service where temporal change of land use is the focus. Using Sentinel-2 multispectral imagery, a region of interest over different time periods can be simply visualised. Additionally, a range of derived products can also be visualised in the same manner such as vegetation and water indices.  Based on FOSS Leaftlet and Postgresql stacks, it is envisaged that Orbica Explorer will put the most up-to-date imagery in the hands of interested users, in an easy-to-use way that will facilitate the answering of questions relating to our changing planet.",
-      "tags": [
-        "Open Data",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Orbica Explorer – A temporally rich web-tool for viewing Sentinel-2 satellite data",
-      "speakers": [
-        "XBJMHU"
-      ],
-      "complexity": null,
-      "image": null
-    },
     "SCVQ9C": {
       "description": "The New Zealand Transport Agency (NZTA) is working towards providing more accessible, frequent and affordable transport choices, particularly in high-growth areas.  This was part of a wider scheme of developing some national transport access measures with a focus on improving access to the transport system. MRCagney worked collaboratively with NZTA to develop and implement a methodology to measure access to public transport in the major cities of Auckland, Wellington and Christchurch.\r\n\r\nThe measure we computed for NZTA was based on walking catchments to stops and stations that meet a certain threshold relating to ‘frequent’ services across the full public transport networks in Auckland, Wellington and Christchurch. This is a way of quantifying access to public transport that goes beyond simple proximity to bus stops. To do this task, we used entirely open source tools, including Python, Open Street Map, General Transit Feed Specification and GeoPandas. In my talk, I will explain our approach, tools and results. In particular, I want to share our experiences of:\r\n\r\n- General Transit Feed Specification data\r\n- Pros and cons of using an API to compute walking catchments\r\n- Communicating with our client as we came across challenges with the approach\r\n\r\nBy working closely with our client at NZTA, we were able to develop a methodology using FOSS4G to measure access to public transport across the full Auckland, Wellington and Christchurch regions. The key metric we provided to NZTA was, for each city, the proportion of the population within walking distance of frequent public transport. Using Folium, we created interactive maps to enable NZTA to review the catchments for each region, to identify which areas have walking access to frequent public transport. For stops or stations that did not meet the frequency threshold, we created maps that NZTA could use to understand why they were excluded.\r\n\r\nThe outputs were well received by NZTA and have been included in their reporting of national transport access measures. We are excited to explore the potential to further develop this measure to better understand issues around equity of access to public transport for different user groups.",
       "tags": [
@@ -1900,6 +1886,34 @@
       "complexity": null,
       "image": null
     },
+    "BQNQZK": {
+      "description": "More than 4000 Earth observation satellites are presently in orbit, collecting Petabytes of data relating to changes on the Earth’s surface. While many of these commercial data sets are heavily monetised, the European Space Agency’s Copernicus programme has released a variety of products under open source licensing. The ability for users to harness such powerful data has been a key driver in the democratisation of satellite data and has allowed grassroots organisations to analyse and disseminate observed changes at the planetary and local scale.\r\n\r\nOne such product is Orbica Explorer: a web service where temporal change of land use is the focus. Using Sentinel-2 multispectral imagery, a region of interest over different time periods can be simply visualised. Additionally, a range of derived products can also be visualised in the same manner such as vegetation and water indices.  Based on FOSS Leaftlet and Postgresql stacks, it is envisaged that Orbica Explorer will put the most up-to-date imagery in the hands of interested users, in an easy-to-use way that will facilitate the answering of questions relating to our changing planet.",
+      "tags": [
+        "Open Data",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Orbica Explorer – A temporally rich web-tool for viewing Sentinel-2 satellite data",
+      "speakers": [
+        "XBJMHU"
+      ],
+      "complexity": null,
+      "image": null
+    },
+    "7FFU3N": {
+      "description": "With a recent pricing shift in a commonly used free mapping site, we have lost one of the easiest ways to make a map-based website whose content is maintained by minimally technical people. These needs are common: a map of local hubs of a community network, doctors serving a particular need - small datasets of locations that are meaningful so some community who wants to maintain them, but has no real need to develop mapping expertise.\r\n\r\nHere I present the solution I have been using to meet this need, with several examples: a static HTML site hosted on Github Pages, built from a template with VueJS and Mapbox-GL-JS, whose content is maintained in Google Sheets. This gives the flexibility for completely custom styling and interactions, but with minimal ongoing involvement from the developer once the site has been launched.\r\n\r\nStoring point-geometry content in a non-spatial platform such as Google Sheets has a big advantage in familiarity for the end user, and allows easy integration with other tools. And of course, all the tools are free-as-in-beer, and mostly free-as-in-speech.",
+      "tags": [
+        "Web Mapping",
+        "Talk"
+      ],
+      "language": "English",
+      "title": "Lightweight community mapping sites, powered by spreadsheets",
+      "speakers": [
+        "BYB7XF"
+      ],
+      "complexity": null,
+      "image": null
+    },
     "VUSMP7": {
       "description": "### Overview\r\n\r\nProviding the Antarctic policy community, the tools and knowledge to support environmental management is critical for both the health of the Antarctic environment but also the Antarctic Treaty itself. Using OSS, Manaaki Whenua has developed the Antarctic Data Analysis (ADA) tool to provide context to, and assist, the Antarctic Policy community in the planning, permitting, and implementation of Antarctic activities. ADA eliminates the need for desktop geographic information system software or advanced technical expertise, by processing and presenting data in an easy to use way. This results in a site that allows users to discover, query and visualise spatial and temporal data relating to how Antarctica is changing. \r\n\r\n### Users\r\n\r\nThe tool was primarily built for environmental managers, and parties to the Antarctic Treaty and the Committee for Environmental Protection. The tool has been developed with input from the Antarctic Policy community and we expect that the tool will be utilised to support the conservation and management of the Antarctic continent. The site provides the users with maps and data illustrating various aspects of the continent, including facilities, environmental management, biogeography, human activity, climate, and geology.  \r\n\r\n### Interaction and design\r\n\r\nThe map (OpenLayers 4/Mapserver/Mapcache) is supplemented by controls that enable querying at a single location, comparison between two locations, or along a transect line. These queries are based on a server-side API service, using NodeJS, that allows the user to query of all the terrestrial data within the tool. Non-spatial data is visualised using D3JS, which provide a range of charts and graphs that are built dynamically.\r\nThe technical approach used to visualise spatial data within the tool varies with the type of data being visualised. For example, a series of hexbin maps display human activity data. They are created dynamically (per zoom scale and per year) in the application using OpenLayers as the user interacts with the map with a time slider. \r\nTo support the primary users (Antarctic environmental managers) to discover information about a location and how it is changing over time, a \"Query Builder\" was built which poses a series of queries which the user may be interested in. These queries create a “path” through the website as a series of steps, supporting the users to enable them to discover the answer to their question but at the same time helping them to learn how to use the application.\r\n\r\n### Future\r\n\r\nThe ADA tool was presented at the recent Antarctic Treaty Consultative Meeting and will continue to be developed to support new knowledge on how the continent will change. The site builds upon a range of existing web sites such as the Antarctic Environments Portal, Our Environment, S-map Online, and the New Zealand Soils Portal. These sites were designed, created and are maintained by the Informatics Team at Manaaki Whenua.",
       "tags": [
@@ -1938,8 +1952,8 @@
       "title": "Why is it so hard?",
       "speakers": [
         "WHHPSU",
-        "GHSHKM",
-        "RUKHTS"
+        "RUKHTS",
+        "GHSHKM"
       ],
       "complexity": null,
       "image": null
@@ -1954,20 +1968,6 @@
       "title": "Wrangling GeoTIFFs in the browser",
       "speakers": [
         "F3ZM8Y"
-      ],
-      "complexity": null,
-      "image": null
-    },
-    "AXRSVG": {
-      "description": "Under the Sendai Framework for Disaster Risk Reduction, the Fijian National Disaster Management Office (NDMO) identified a significant role that SBT and ICT can play to reduce vulnerability and improve resilience. By integrating SBT and ICT tools, with national disaster risk management architecture, timely and accurate information can be delivered to relevant communities, individuals, rescuers and decision makers to save lives and properties at risk. The project was funded by the Japanese Fund for Poverty Reduction, with technical assistance from the Japanese Aerospace Exploration Agency, Asia Institute of Technology Geomatics Centre, Asian Disaster Reduction Centre, Remote Sensing Technology Centre and Geothings. \r\n\r\nWork carried out was divided into 5 sections:\r\n1. Local communities digitised building and infrastructure in Open Street Map\r\n2. Local communities with assistance from mobile app developers designed a base map to fit the purpose of the project. These include building attributes, conditions, height and materials. \r\n3. Recording capacities: using a geobinning app, disaster capacities and vulnerability are identified and mapped out in real time. Community hazard maps were generated out of this work. \r\n4. Recording: during a disaster, users can record information including disaster situation, building damage, and needs assessments. This information is sent to the operation centre for assistance, all in real time. \r\n5. Emergency Observation: using satellite data, and the community base map, it was possible to estimate damage extents.\r\n\r\nLocal communities were trained to use the tools to record flood- and cyclone-related vulnerabilities and capacities in villages. All these tools and reports are updated on the website monitored by the NDMO Operations Centre. Two critical maps came out of this work: 1. Community-based hazard map, and; 2. Evacuation map. These are the base map used for the village to seek shelter and identify hazard areas and planning.",
-      "tags": [
-        "Web Mapping",
-        "Talk"
-      ],
-      "language": "English",
-      "title": "Applying Space-Based Technology and Information and Communication Technology to Strengthen Disaster Resilience in Nadi, Fiji",
-      "speakers": [
-        "ETJ8VW"
       ],
       "complexity": null,
       "image": null
@@ -2339,7 +2339,7 @@
       "image": null
     },
     "J7STRW": {
-      "description": "Geographic proximity to the locations of different community resources (e.g. GPs, supermarkets, and schools) affects public health and welfare in both positive and negative ways, for example reducing social isolation or increasing the risk of obesity. Close proximity to community resources provides easier and more direct opportunities to perform daily tasks, such as shop, meet friends, or see a GP. Time and financial costs of access are also reduced, freeing them up for other uses. When linked to socioeconomic status, population density, and urban status, community resource accessibility analysis can support health policy and improve outcomes for individuals living in deprived areas.\r\n\r\nNeighbourhoods are the most commonly used unit of scale in community resource accessibility research, often taking the form of existing, outdated census units. But how representative of the people living within them are they? Issues arise when trying to generalise results to different groups of people living nearby each other, such as the Modifiable Area Unit Problem (MAUP) or the \"Local Trap\".\r\n\r\nRoad network analysis is used to perform community resource accessibility analysis with the assumption that individuals always use cars as their transport method, but what about people that don’t have access to a car, can’t drive, or prefer other modes of transport? By understanding transport choices of individuals, community resource accessibility can be assessed through a different lens by including pedestrian or public transport routes, or limiting maximum search distance to a reasonable walking distance.\r\n\r\nCrowdsourcing neighbourhood data from people living in them can create more representative areas and allow for neighbourhood delineation to be explored based on personal characteristics of individuals. To crowdsource neighbourhood data, open source code and tools were used to create a user-friendly website to crowdsource neighbourhood data from the general public in Wellington.\r\n\r\nA range of repositories of open source data were used to collect locations of different types of community resources, such as schools, primary healthcare facilities, and food retailers. Using these, analysis was performed using a range of Python packages (including geopandas and pandana) to compare community defined neighbourhoods to existing spatial units in terms of spatial properties and access to different community resources.\r\n\r\nThis presentation will cover current progress of this master’s project and our next steps.",
+      "description": "How would you define your neighbourhood boundary? Neighbourhoods are areas we all have a personal attachment to, but boundaries vary greatly from person to person, even within the same neighbourhood. We experience and navigate our neighbourhood everyday, and they provide opportunities for a range of day-to-day tasks, including shopping, eating out, transport, and socialisation. Neighbourhoods also have numerous operational purposes, such as addressing, emergency response, and dissemination of geographic outcomes.\r\n\r\nPrior collections of neighbourhood boundaries have often suffered from small sample sizes and used paper maps to collect data. Crowdsourcing neighbourhoods allows collection of neighbourhood boundaries from a wide sample of people, removes the need for sampling methods, and (sometimes!) produces high quality data. To achieve this, open source code and tools were used to create a user-friendly website where Wellingtonians could have a say on their neighbourhood.\r\n\r\nFollowing data collection, the crowdsourced neighbourhood data was used to answer different questions, including how personal characteristics impact neighbourhood delineation and how crowdsourced neighbourhoods compare to official boundaries. Analysis was performed using a range of open-source Python and R packages, such as geopandas, osmnx, and tidyverse.\r\n\r\nThis presentation will cover current progress of this master’s project and our next steps.",
       "tags": [
         "Science",
         "Talk"
@@ -2689,6 +2689,13 @@
       "company": "Pinpoint Geospatial Solutions",
       "country": "Napier, New Zealand"
     },
+    "XBJMHU": {
+      "name": "Kurt Joy",
+      "bio": "Kurt Joy has a PHD in geology from the University of Canterbury. He’s a geological and geospatial innovator skilled in spatial solutions architecture. His strengths include the collection and analysis of 3D point cloud data, spatial geoprocessing techniques, and the use of UAV’s for field data collection.\r\n \r\nKurt has led research teams and developed a UAV hyper-spectral mapping platform for a multi-million dollar Government project in Antarctica’s Dry Valley. He has developed a cutting edge technique for quantifying human impacts in sensitive soils using Structure from Motion (SfM). His specialisms extend to computational fluid dynamics and 3D modelling. He has initiated and implemented new geospatial technologies as a lecturer in Geographic Information Systems for the University of Canterbury and mentored post-graduate students with geospatial problem solving.",
+      "shortBio": "Kurt Joy has a PHD in geology from the University of Canterbury. He’s a geological and geospatial innovator skilled in spatial solutions architecture. His strengths include the collection and analysis of 3D point cloud data, spatial geoprocessing techniques, and the use of UAV’s for field data collection.\r\n \r\nKurt has led research teams and developed a UAV hyper-spectral mapping platform for a multi-million dollar Government project in Antarctica’s Dry Valley. He has developed a cutting edge technique for quantifying human impacts in sensitive soils using Structure from Motion (SfM). His specialisms extend to computational fluid dynamics and 3D modelling. He has initiated and implemented new geospatial technologies as a lecturer in Geographic Information Systems for the University of Canterbury and mentored post-graduate students with geospatial problem solving.",
+      "title": "Remote senser",
+      "company": "Orbica"
+    },
     "CGHJUV": {
       "name": "Martin Tomko",
       "bio": null,
@@ -2910,13 +2917,6 @@
       "company": "Orbica Ltd",
       "country": "New Zealand"
     },
-    "XBJMHU": {
-      "name": "Dr Kurt Joy",
-      "bio": "Dr Kurt Joy has a PHD in geology from the University of Canterbury. He’s a geological and geospatial innovator skilled in spatial solutions architecture. His strengths include the collection and analysis of 3D point cloud data, spatial geoprocessing techniques, and the use of UAV’s for field data collection.\r\n \r\nKurt has led research teams and developed a UAV hyper-spectral mapping platform for a multi-million dollar Government project in Antarctica’s Dry Valley. He has developed a cutting edge technique for quantifying human impacts in sensitive soils using Structure from Motion (SfM). His specialisms extend to computational fluid dynamics and 3D modelling. He has initiated and implemented new geospatial technologies as a lecturer in Geographic Information Systems for the University of Canterbury and mentored post-graduate students with geospatial problem solving.",
-      "shortBio": "Dr Kurt Joy has a PHD in geology from the University of Canterbury. He’s a geological and geospatial innovator skilled in spatial solutions architecture. His strengths include the collection and analysis of 3D point cloud data, spatial geoprocessing techniques, and the use of UAV’s for field data collection.\r\n \r\nKurt has led research teams and developed a UAV hyper-spectral mapping platform for a multi-million dollar Government project in Antarctica’s Dry Valley. He has developed a cutting edge technique for quantifying human impacts in sensitive soils using Structure from Motion (SfM). His specialisms extend to computational fluid dynamics and 3D modelling. He has initiated and implemented new geospatial technologies as a lecturer in Geographic Information Systems for the University of Canterbury and mentored post-graduate students with geospatial problem solving.",
-      "title": "Remote senser",
-      "company": "Orbica"
-    },
     "JUSHQP": {
       "name": "Ivan Majic",
       "bio": "Ivan is a geomatics PhD student from the University of Melbourne, where he researches topological relations patterns in map data. With both bachelor and master degrees in land surveying and geoinformatics, he has been learning about all things spatial for a long time, but has built a particular interest in spatial databases. His tools of choice are Linux, Python, PostgreSQL/PostGIS, and QGIS. He enjoys developing QGIS plugins, and playing with Linux servers.",
@@ -2982,6 +2982,7 @@
       "name": "Fraser Morgan",
       "bio": "Fraser Morgan is a Science Team Leader at Landcare Research based in Auckland, New Zealand. Fraser’s background is in GIS and spatial modelling. His interestes focus on human-landscape interactions and the science-policy interface. He was the Science Lead on a MBIE Endevour Fund programme of research to explore and analyse the environmental pressures on the Ross Sea region of Antarctica. This tool is one of the outputs of the research programme.",
       "shortBio": "Fraser Morgan is a Science Team Leader at Landcare Research based in Auckland, New Zealand. Fraser’s background is in GIS and spatial modelling. His interestes focus on human-landscape interactions and the science-policy interface. He was the Science Lead on a MBIE Endevour Fund programme of research to explore and analyse the environmental pressures on the Ross Sea region of Antarctica. This tool is one of the outputs of the research programme.",
+      "photoUrl": "https://pretalx.com/media/FJM_TPM_Headshot.jpg",
       "title": "Science Team Leader",
       "company": "Manaaki Whenua Landcare Research",
       "country": "Auckland"
@@ -3101,8 +3102,9 @@
     },
     "TRGZBP": {
       "name": "Hayden Rickard",
-      "bio": "GIS Master's student at Victoria University of Wellington, supervised by the ever-lovely Dr Mairéad de Róiste and Prof David O'Sullivan. Lover of open source tools, technology, and data that have made my GIS and research career much more enjoyable.",
-      "shortBio": "GIS Master's student at Victoria University of Wellington, supervised by the ever-lovely Dr Mairéad de Róiste and Prof David O'Sullivan. Lover of open source tools, technology, and data that have made my GIS and research career much more enjoyable.",
+      "bio": "I am a GIS Master's student at Victoria University of Wellington, supervised by Dr Mairéad de Róiste and Prof David O'Sullivan. Lover of open source tools and data that have made my GIS and research career much more enjoyable and easy. Hater of sideways rain and writing my thesis.",
+      "shortBio": "I am a GIS Master's student at Victoria University of Wellington, supervised by Dr Mairéad de Róiste and Prof David O'Sullivan. Lover of open source tools and data that have made my GIS and research career much more enjoyable and easy. Hater of sideways rain and writing my thesis.",
+      "photoUrl": "https://pretalx.com/media/pic_7H248ge.jpg",
       "title": "Master's Student",
       "company": "Victoria University of Wellington",
       "country": "Wellington"
@@ -3144,12 +3146,6 @@
       "name": "Grant Boxer",
       "bio": "Grant Boxer (RPGeo, FAIG, MGSA) is a consultant geologist with over 40 years’ experience in exploration and mining geology. He was employed by CRA Exploration, Argyle Diamonds and Rio Tinto Exploration from 1978 until 1997 undertaking diamond exploration and evaluation activities. Ten years were spent at the Argyle diamond mine carrying out exploration and evaluation programs, feasibility studies and mine development studies for the Argyle and Ellendale diamond deposits and Argyle’s associated alluvial diamond deposits. \r\nFrom 1998 until 2008, Grant carried out project reviews, field visits, project management, drilling and sampling program supervision and project generation, primarily for diamonds in Australia, Brazil, China, India and Tanzania. Since 2008, he has been doing GIS data compilation and mineral exploration project generation work for a small exploration company in Perth, as well as a variety of diamond consulting assignments.\r\nGrant has a keen interest in GIS and remote sensing and was a user of MapInfo and Discover since the mid-1990’s. Grant discovered QGIS about 4 years ago and has been running QGIS courses for geologists for the past 3 years in association with the Australian Institute of Geoscientists.",
       "shortBio": "Grant Boxer (RPGeo, FAIG, MGSA) is a consultant geologist with over 40 years’ experience in exploration and mining geology. He was employed by CRA Exploration, Argyle Diamonds and Rio Tinto Exploration from 1978 until 1997 undertaking diamond exploration and evaluation activities. Ten years were spent at the Argyle diamond mine carrying out exploration and evaluation programs, feasibility studies and mine development studies for the Argyle and Ellendale diamond deposits and Argyle’s associated alluvial diamond deposits. \r\nFrom 1998 until 2008, Grant carried out project reviews, field visits, project management, drilling and sampling program supervision and project generation, primarily for diamonds in Australia, Brazil, China, India and Tanzania. Since 2008, he has been doing GIS data compilation and mineral exploration project generation work for a small exploration company in Perth, as well as a variety of diamond consulting assignments.\r\nGrant has a keen interest in GIS and remote sensing and was a user of MapInfo and Discover since the mid-1990’s. Grant discovered QGIS about 4 years ago and has been running QGIS courses for geologists for the past 3 years in association with the Australian Institute of Geoscientists."
-    },
-    "ETJ8VW": {
-      "name": "Adi Vasiti Radinivuna Soko",
-      "bio": "Vasiti’s industry experience spans ten plus years in the highly technical field of geospatial science and surveying. She has assisted a number of significant projects while working for the Fijian Government including developing a disaster-integrated system for the Commissioner Western’s Office, the Asian Institute of Technology in Thailand, Fiji’s Native Land Trust Board, and the Department of Town and Country Planning.\r\nIn addition, during her stint with the Sugar Industry Tribunal as its GIS Manager Vasiti played a vital role in creating the first GIS web portal that not only linked Fiji’s four main sugarcane mills but also published live harvesting data during the crushing season.\r\nHer completed research will contribute to Fiji’s datum update where she focused on the impact of the new datum to local geospatial users and updated the transformation parameters for the country’s maritime boundary which was initially done by GeoScience Australia.\r\nRecognizing the unsung talent that women in the Pacific possess in the GIS industry, she developed an initiative to recognize these. She is currently working on publishing the first Pacific Women in GeoSpatial magazine (online). The magazine will focus on a total of 10 vibrant women in the Pacific who have been shortlisted from the abstract call. The magazine is in its final stages of production and is scheduled to be published by October 2019. Through this initiative, she champions the course of women in this Industry and this is one way of prompting the skills they have within the Pacific region.",
-      "shortBio": "Vasiti’s industry experience spans ten plus years in the highly technical field of geospatial science and surveying. She has assisted a number of significant projects while working for the Fijian Government including developing a disaster-integrated system for the Commissioner Western’s Office, the Asian Institute of Technology in Thailand, Fiji’s Native Land Trust Board, and the Department of Town and Country Planning.\r\nIn addition, during her stint with the Sugar Industry Tribunal as its GIS Manager Vasiti played a vital role in creating the first GIS web portal that not only linked Fiji’s four main sugarcane mills but also published live harvesting data during the crushing season.\r\nHer completed research will contribute to Fiji’s datum update where she focused on the impact of the new datum to local geospatial users and updated the transformation parameters for the country’s maritime boundary which was initially done by GeoScience Australia.\r\nRecognizing the unsung talent that women in the Pacific possess in the GIS industry, she developed an initiative to recognize these. She is currently working on publishing the first Pacific Women in GeoSpatial magazine (online). The magazine will focus on a total of 10 vibrant women in the Pacific who have been shortlisted from the abstract call. The magazine is in its final stages of production and is scheduled to be published by October 2019. Through this initiative, she champions the course of women in this Industry and this is one way of prompting the skills they have within the Pacific region.",
-      "photoUrl": "https://pretalx.com/media/VASITI.jpg"
     }
   },
   "team": [
