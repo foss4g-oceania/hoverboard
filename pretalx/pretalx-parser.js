@@ -37,12 +37,12 @@ const ticketLinks = {
 }
 const getTicketLink = (sessionID) => ticketLinks[sessionID] ? `https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops/with/${ticketLinks[sessionID]}` : undefined
 
-// In theory, this should be true for "final" use. But there's a bug in the
-// response at the /talks endpoint in that it only returns talks that have been
+// Note: the /talks endpoint only returns talks that have been
 // confirmed PRIOR to the most recent release of the schedule.
 // This script can instead just use the /submissions?state=confirmed data
-// to work around this and will be just fine.
-const confirmedTalksOnly = false
+// to work around this. Otherwise, make a schedule release when talks'
+// status changes to "confirmed"
+const confirmedTalksOnly = true
 const includeStatuses = ['confirmed', 'accepted']
 
 const talksUriWorkshops = `${host}/api/events/${eventWorkshop}/${confirmedTalksOnly ? 'talks' : 'submissions'}`
