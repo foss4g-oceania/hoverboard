@@ -97,9 +97,9 @@
         },
         {
           "order": 1,
-          "logoUrl": "/images/partners/bing.png",
-          "name": "Bing",
-          "url": "https://www.bing.com/"
+          "logoUrl": "/images/partners/microsoft.png",
+          "name": "Microsoft",
+          "url": "https://blogs.bing.com/maps"
         }
       ],
       "order": 0,
@@ -3118,28 +3118,28 @@
   ],
   "tickets": [
     {
-      "available": true,
+      "available": false,
       "currency": "$",
-      "inDemand": true,
+      "inDemand": false,
       "info": "Half Day Workshops",
       "name": "Workshops",
       "price": 100,
-      "soldOut": false,
+      "soldOut": true,
       "waitlisted": false,
       "starts": "Sep 11",
       "ends": "Oct 29",
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "$",
       "inDemand": false,
       "info": "2 Day Conference (recognising your OSM / OSGeo contributions)",
       "name": "Community Contributor",
       "price": 150,
       "regular": false,
-      "soldOut": false,
-      "waitlisted": true,
+      "soldOut": true,
+      "waitlisted": false,
       "starts": false,
       "ends": false,
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/8kry6eblc-a,6re1gfebio8"
@@ -3159,14 +3159,14 @@
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/n7xktld2f68,6re1gfebio8"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "$",
       "inDemand": false,
       "info": "2 Day Conference",
       "name": "Regular",
       "price": 450,
-      "soldOut": false,
-      "waitlisted": true,
+      "soldOut": true,
+      "waitlisted": false,
       "starts": false,
       "ends": false,
       "url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/qmf9qbjqkos,6re1gfebio8"

@@ -1199,7 +1199,7 @@
 	}],
 	"tickets": [
 		{
-			"available": true,
+			"available": false,
 			"currency": "$",
 			"inDemand": false,
 			"info": "Half Day Workshops",
@@ -1212,7 +1212,7 @@
 			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-2019-workshops"
 		},
 		{
-			"available": true,
+			"available": false,
 			"currency": "$",
 			"inDemand": false,
 			"info": "2 Day Conference (recognising your OSM / OSGeo contributions)",
@@ -1240,7 +1240,7 @@
 			"url": "https://ti.to/foss4g-oceania/foss4g-sotm-oceania-2019-conference/with/n7xktld2f68,6re1gfebio8"
 		},
 		{
-			"available": true,
+			"available": false,
 			"currency": "$",
 			"inDemand": false,
 			"info": "2 Day Conference",
