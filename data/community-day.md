@@ -46,11 +46,15 @@ This session might be a good opportunity for all developers, who are working on 
 
 ---
 
-### Microsoft
+### An on-going journey to power Bing on Open Maps in Australia
 
 **Harsh Govind**
 
-This is a show-case of Microsoft's road to getting open maps to production for powering BING's geospatial needs in Australia. The journey is not complete and Microsoft is still in process but there are lessons, updates and basically a whole bunch of exciting things to share.
+The Microsoft Open Maps team has been focused to empower Bing, Microsoft's search engine, for all its geospatial requirements in AU on OSM. We take signals from imagery, government data and other openly available datasets with compatible licensing and in-collaboration with OSM and its local communities make necessary add/edits/updates to OSM.
+
+There is an evident gap between OSM and other competitors when it comes to different geospatial features e.g. roads. Although we have government ground truth data which can be a good starting point and then combine that with other signals, still, sometimes it is hard to identify the problematic areas and to set up the environment where one can easily add things that are missing on the map.
+
+In our discussion with the community, we want to share what we have learnt, our wins and challenges as we continue on this journey. Get input on best practices around keeping data fresh/updated and the steps we want to take together to keep the OSM community vibrant and engaging. This will be an opportunity to talk about tools and we will be ready to demonstrate how we recognize gaps using QGIS, how we use Tasking Manager and MapRoulette to fill these differences, and why we use GeoServer — some of the questions we have been asked. Bring in your ideas for an open discussion.
 
 ---
 
