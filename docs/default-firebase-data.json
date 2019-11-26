@@ -649,7 +649,7 @@
 		},
 		"202": {
 			"description": "Grab a registration pack from the friendly volunteers at the registration desk.",
-			"tags": [	
+			"tags": [
 				"Registration"
 			],
 			"title": "Registration",
@@ -706,7 +706,7 @@
 		"209": {
 			"description": "A series of very short talks on a wide variety of topics. Here's a peak at what we've got lined up for you:\n\n· Alex Lum - The World of Wikidata\n\n· Andrew Harvey - Practical Mapping Tips\n\n· Brent Wood - A new paradigm in web visualiation of species data\n\n· Caitlin Adams - Lessons from a first brush with user experience design\n\n· Chris Morgan - Agile Delivery in the Geospatial Industry at FrontierSI\n\n· David Garcia - How to Map an Island in the Pacific\n\n· Ewen Hill - Mapping in the International Year of Indigenous Languages\n\n· Hamish Campbell - QGIS Geometry Generators\n\n· Jessica Leiria Schattschneider - An open-source geospatial framework for beach litter monitoring\n\n· Joeli Varo - A great giant of isolation in Papua New Guinea!\n\n· Kamsin Raju - Challenges of Mapping Informal Settlements\n\n· Michael Speth - High Performance Map Cache Generation\n\n· ~~Merry Christmas~~ QGIS! - Nyall Dawson\n\n· Richard Law - How I use Docker and Make for reproducible workflows\n\n· Rose Phillips - Point Clouds, Pixels and Open Source Awesomeness – Investigating LiDAR Data\n\n· Wing Ho - Offline Maps in the browser!",
 			"tags": [
-				"Lightning Talk"	
+				"Lightning Talk"
 			],
 			"title": "Lightning Talks"
 		},
@@ -1269,28 +1269,174 @@
 		"images": false
 	},
 	"videos": [{
-			"speakers": "Stephen Lead",
-			"thumbnail": "https://i.ytimg.com/vi/ubGyf1_aDdc/hqdefault.jpg",
-			"title": "Bootleaf, an open-source web-map",
-			"youtubeId": "ubGyf1_aDdc"
+			"speakers": "Miriam González",
+			"title": "Keynote: Towards developing the best (and most diverse!) map in the world!",
+			"youtubeId": "QJVHXKg4U7o"
 		},
 		{
-			"speakers": "Various",
-			"thumbnail": "https://i.ytimg.com/vi/WPJC0VDceMk/hqdefault.jpg",
-			"title": "Lightning talks",
-			"youtubeId": "WPJC0VDceMk"
+			"speakers": "Edwin Liava'a",
+			"title": "Keynote: FOSS4G Pasifika Roadmap: Then/Now/Beyond",
+			"youtubeId": "JurahRVbjVQ"
 		},
 		{
-			"speakers": "Hamish Campbell",
-			"thumbnail": "https://i.ytimg.com/vi/hcTPGE8dJ_k/hqdefault.jpg",
-			"title": "Who actually uses geospatial",
-			"youtubeId": "hcTPGE8dJ_k"
+			"speakers": "Kate Crawford",
+			"title": "Keynote: Mapping and Society",
+			"youtubeId": "bLL1PGBumRg"
+		},
+		{
+			"speakers": "Lyzi Diamond",
+			"title": "This talk is about maptime",
+			"youtubeId": "L3qdU9ucMgo"
+		},
+		{
+			"speakers": "Em Hain, Nyall Dawson and Nathan Woodrow",
+			"title": "Why is it so hard?",
+			"youtubeId": "EMIm-KCwPhQ"
+		},
+		{
+			"speakers": "Kurt Joy",
+			"title": "Orbica Explorer",
+			"youtubeId": "tL-66jwAcR0"
+		},
+		{
+			"speakers": "Tobias Schulmann",
+			"title": "Enabling Local Government Innovation with Open Source Software",
+			"youtubeId": "kHGGT_eoRPg"
+		},
+		{
+			"speakers": "David Gavin",
+			"title": "The Open Data Cube and working towards a Digital Earth",
+			"youtubeId": "MwTA3chWPSw"
+		},
+		{
+			"speakers": "Paul Haesler",
+			"title": "Opening a treasure trove: The Historical Aerial Photography project",
+			"youtubeId": "Yc2Kii1wQ4U"
+		},
+		{
+			"speakers": "Sean Chua",
+			"title": "Environmental Monitoring with Large-Scale Land Cover Classification",
+			"youtubeId": "vFhcNLMaKZA"
+		},
+		{
+			"speakers": "Christopher Beddow",
+			"title": "Island Mapping: Measuring Urban Footprints with Mapillary & Open Source Tools",
+			"youtubeId": "M5DW7_1DqjE"
+		},
+		{
+			"speakers": "Hayden Rickard",
+			"title": "Where's your hood at? Crowdsourcing Neighbourhoods using Open Source Tools",
+			"youtubeId": "dZQwyQfmXSM"
+		},
+		{
+			"speakers": "Inês Falcão and Sharmila Savarimuthu",
+			"title": "Map-based tools for Māori communities",
+			"youtubeId": "kWN2RIXBbNo"
+		},
+		{
+			"speakers": "Steve Bennett",
+			"title": "Lightweight community mapping sites, powered by spreadsheets",
+			"youtubeId": "pzFtp3U96qI"
+		},
+		{
+			"speakers": "Banika Sirohi",
+			"title": "Crash data visualisation platform using Pixi, WebGL and Leaflet",
+			"youtubeId": "T1Ys1aiXTDA"
+		},
+		{
+			"speakers": "Danielle Gatland",
+			"title": "Access to Public Transport",
+			"youtubeId": "o9vBMeU2Tgs"
+		},
+		{
+			"speakers": "Hugh Saalmans",
+			"title": "Building a movement data and analytics platform to de-stress customers & save lives",
+			"youtubeId": "MCYpJJOKwAw"
+		},
+		{
+			"speakers": "Edoardo Neerhut",
+			"title": "Urban mobility across Oceania",
+			"youtubeId": "_Rf6wWzXbgY"
+		},
+		{
+			"speakers": "Craig Roach",
+			"title": "Running Geospatial Workloads on AWS",
+			"youtubeId": "a0ZqyPnjYq8"
+		},
+		{
+			"speakers": "Alistair McIntyre",
+			"title": "Cloud Native GIS: The value of development velocity in GIS",
+			"youtubeId": "o_1hZODj258"
+		},
+		{
+			"speakers": "Nick Forbes-Smith",
+			"title": "Wrangling GeoTIFFs in the browser",
+			"youtubeId": "5-EOYUx2lgY"
+		},
+		{
+			"speakers": "Craig de Stigter",
+			"title": "How I auto-refactored GDAL's test suite",
+			"youtubeId": "Y_opOoDrYyM"
+		},
+		{
+			"speakers": "Chris McDowall and Tim Denee",
+			"title": "Creating an Atlas of Aotearoa with open source software",
+			"youtubeId": "46vvc7dVkHg"
+		},
+		{
+			"speakers": "Sadie Mills",
+			"title": "Mapping Marine Diversity: using QGIS to visualise and extract biodiversity data",
+			"youtubeId": "IIupyV_H5T4"
+		},
+		{
+			"speakers": "Martin Tomko",
+			"title": "FIXME: Documenting the Uneven Distribution of OSM Data Quality Issues",
+			"youtubeId": "DpFqKq6PnYg"
+		},
+		{
+			"speakers": "Violaine Doutreleau",
+			"title": "Feedback on a new OSM movement in French Polynesia",
+			"youtubeId": "6WSMsaNKm8Y"
+		},
+		{
+			"speakers": "Ivan Majic",
+			"title": "Learning rules and detecting errors in OpenStreetMap data",
+			"youtubeId": "SIH2_ZfQrX8"
+		},
+		{
+			"speakers": "Wing Ho",
+			"title": "Open Source Discoverability: the journey of unearthing an abundance of hidden data",
+			"youtubeId": "n-S6pohkBZ8"
+		},
+		{
+			"speakers": "Phil Scadden",
+			"title": "jsMapservice: leveraging the open source stack for rapid publishing of spatial data",
+			"youtubeId": "eMLTwQ2Aqyo"
 		},
 		{
 			"speakers": "Anne Harper",
-			"thumbnail": "https://i.ytimg.com/vi/GFFdRgGvoIY/hqdefault.jpg",
-			"title": "The future of open data",
-			"youtubeId": "GFFdRgGvoIY"
+			"title": "Why is open data publishing (still) broken?",
+			"youtubeId": "AcKb2BcrL5s"
+		},
+		{
+			"speakers": "Keith Moss",
+			"title": "Delicious Democracy: snagging and mapping citizen data",
+			"youtubeId": "-IWbtR7tfOs"
+		},
+		{
+			"speakers": "Bradley Eichelberger",
+			"title": "Using open source software to map and survey wildlife populations in the Northern Mariana Islands",
+			"youtubeId": "ikE3j155KKk"
+		},
+		{
+			"speakers": "Fraser Morgan",
+			"title": "Antarctic Data Analysis",
+			"youtubeId": "PW_NEiIpy8g"
+		},
+		{
+			"speakers": "Iosefa Percival",
+			"title": "Fishing for routes: exploring an application of pgRouting",
+			"youtubeId": "qJClYtebt_E"
 		}
 	],
 	"previousSpeakers": {}
