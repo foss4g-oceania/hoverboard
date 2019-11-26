@@ -123,13 +123,13 @@
       "featuredSessions": {
         "description": "In 2019, Oceania's open-source geospatial enthusiasts gathered in Wellington for two days of presentations, a Community Day, and social events.",
         "label": "Explore the presentations",
-        "link": "http://localhost:3000/schedule/2019-11-13",
+        "link": "https://2019.foss4g-oceania.org/schedule/2019-11-13",
         "newTab": false
       },
       "howItWas": {
         "description": "We also had great half day workshops on a variety of topics.",
         "label": "See the workshops",
-        "link": "http://localhost:3000/schedule/2019-11-12",
+        "link": "https://2019.foss4g-oceania.org/schedule/2019-11-12",
         "newTab": false
       }
     },
