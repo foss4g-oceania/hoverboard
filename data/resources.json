@@ -14,7 +14,7 @@
   "buyTicket": "Buy ticket",
   "signIn": "Sign in",
   "signOut": "Sign out",
-  "viewHighlights": "View Last Year's Highlights",
+  "viewHighlights": "View the highlights",
   "offlineMessage": "You can still work offline.",
   "cachingComplete": "Caching complete! Future visits will work offline.",
   "newVersionAvailable": "A new version of this app is available.",
@@ -118,25 +118,25 @@
   "subscribeNote": "No spam, only the latest news and updates!",
   "codeOfConduct": "Code of Conduct",
   "aboutBlock": {
-    "title": "Curious? Here's how it was last time...",
+    "title": "Here's how it went down...",
     "callToAction": {
       "featuredSessions": {
-        "description": "In 2018, Oceania's open-source geospatial experts gathered in Melbourne for four days of workshops, presentations, a Community Day, and social events.",
+        "description": "In 2019, Oceania's open-source geospatial enthusiasts gathered in Wellington for two days of presentations, a Community Day, and social events.",
         "label": "Explore the presentations",
-        "link": "https://2018.foss4g-oceania.org/program/presentations.html",
-        "newTab": true
+        "link": "https://2019.foss4g-oceania.org/schedule/2019-11-13",
+        "newTab": false
       },
       "howItWas": {
-        "description": "We had great half day workshops on a variety of topics.",
-        "label": "See last years workshops",
-        "link": "https://2018.foss4g-oceania.org/program/workshops.html",
-        "newTab": true
+        "description": "We also had great half day workshops on a variety of topics.",
+        "label": "See the workshops",
+        "link": "https://2019.foss4g-oceania.org/schedule/2019-11-12",
+        "newTab": false
       }
     },
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "250+"
+        "number": "210"
       },
       "days": {
         "label": "Days",
@@ -144,11 +144,11 @@
       },
       "sessions": {
         "label": "Presentations",
-        "number": "60+"
+        "number": "67"
       },
       "tracks": {
         "label": "Workshops",
-        "number": "14"
+        "number": "12"
       }
     }
   },
@@ -156,10 +156,10 @@
     "title": "Here's the latest...",
     "callToAction": {
       "newsItemOne": {
-        "description": "Workshops are now on sale! Spaces are limited, so get in quick.",
-        "label": "See the schedule",
-        "link": "https://2019.foss4g-oceania.org/schedule/2019-11-12",
-        "newTab": false
+        "description": "That's a wrap! The conference was a great success. Videos are now available.",
+        "label": "See the videos",
+        "link": "https://www.youtube.com/playlist?list=PLlZzWSPAR5GYiPKPVqaRsLjsT6ohuzWLj",
+        "newTab": true
       }
     }
   },
@@ -187,10 +187,10 @@
     "title": "Innovative geospatial technologies"
   },
   "featuredVideos": {
-    "title": "FOSS4G SotM Oceania 2018 videos",
+    "title": "FOSS4G SotM Oceania 2019 videos",
     "callToAction": {
       "label": "Go to the channel",
-      "link": "https://www.youtube.com/channel/UCbqmnF77HxLCmO9d7LrEbpg/videos",
+      "link": "https://www.youtube.com/playlist?list=PLlZzWSPAR5GYiPKPVqaRsLjsT6ohuzWLj",
       "newTab": true
     }
   },
@@ -226,11 +226,11 @@
     }
   },
   "galleryBlock": {
-    "title": "FOSS4G SotM 2018 highlights",
-    "description": "Last year's gathering built lots of excitement. Check out photos from featured talks, our Community Day, and socialising.",
+    "title": "FOSS4G SotM Oceania 2019 highlights",
+    "description": "Our conference in Wellington continued to grow and build our local open geospatial community. Check out photos from our workshops, conference and community day.",
     "callToAction": {
       "label": "See submitted photos",
-      "link": "https://2018.foss4g-oceania.org/photos.html",
+      "link": "https://photos.google.com/share/AF1QipP3OExxCFCLY6GmmqZg0WNQKsn95A9SvS52-mwrVD8ZlnpILBUqkZ3NG8e8au7Ffw?key=QUZJWmxTVDEtU29VNjhWODM0SU8tRFh3OU1heXpn",
       "newTab": true
     }
   },
